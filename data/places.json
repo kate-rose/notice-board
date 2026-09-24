@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "about": "Where a reader lives -> the governments that make decisions binding on that place. M0 hand-map from the Ferric dossiers; every entry is boundary_verified:false until M5 rebuilds it from county tax-code-area data.",
+    "updated": "2026-09-24"
+  },
+  "jurisdictions": {
+    "skamania-county": {"label": "Skamania County", "covers": "County commissioners, planning, permits and land-use notices"},
+    "stevenson": {"label": "City of Stevenson"},
+    "skamania-pud": {"label": "Skamania County PUD"},
+    "port-of-skamania": {"label": "Port of Skamania County"},
+    "klickitat-county": {"label": "Klickitat County", "covers": "County commissioners, planning commission, board of adjustment, permits and land-use notices"},
+    "white-salmon": {"label": "City of White Salmon"},
+    "goldendale": {"label": "City of Goldendale"},
+    "trout-lake-sd": {"label": "Trout Lake School District"},
+    "crgc": {"label": "Columbia River Gorge Commission", "covers": "The National Scenic Area"}
+  },
+  "places": [
+    {"id": "stevenson", "label": "Stevenson", "county": "Skamania", "jurisdictions": ["skamania-county", "stevenson", "skamania-pud", "port-of-skamania", "crgc"], "boundary_verified": false},
+    {"id": "carson", "label": "Carson", "county": "Skamania", "jurisdictions": ["skamania-county", "skamania-pud", "port-of-skamania", "crgc"], "boundary_verified": false},
+    {"id": "underwood", "label": "Underwood", "county": "Skamania", "jurisdictions": ["skamania-county", "skamania-pud", "port-of-skamania", "crgc"], "boundary_verified": false},
+    {"id": "west-end", "label": "West end (Skamania, Prindle, Cape Horn)", "county": "Skamania", "jurisdictions": ["skamania-county", "skamania-pud", "port-of-skamania", "crgc"], "boundary_verified": false},
+    {"id": "cougar", "label": "Cougar / Swift", "county": "Skamania", "jurisdictions": ["skamania-county", "skamania-pud", "port-of-skamania"], "boundary_verified": false},
+    {"id": "white-salmon", "label": "White Salmon", "county": "Klickitat", "jurisdictions": ["klickitat-county", "white-salmon", "crgc"], "boundary_verified": false},
+    {"id": "husum", "label": "Husum / BZ Corner", "county": "Klickitat", "jurisdictions": ["klickitat-county", "crgc"], "boundary_verified": false},
+    {"id": "trout-lake", "label": "Trout Lake", "county": "Klickitat", "jurisdictions": ["klickitat-county", "trout-lake-sd"], "boundary_verified": false},
+    {"id": "lyle", "label": "Lyle", "county": "Klickitat", "jurisdictions": ["klickitat-county", "crgc"], "boundary_verified": false},
+    {"id": "goldendale", "label": "Goldendale", "county": "Klickitat", "jurisdictions": ["klickitat-county", "goldendale"], "boundary_verified": false}
+  ]
+}

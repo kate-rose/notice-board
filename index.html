@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notice Board</title>
+<meta name="description" content="What is coming up for a decision where you live in Skamania and Klickitat counties, and when you can still speak up.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #4a4a4a;
+    --line: #d9d9d9;
+    --card: #ffffff;
+    --soft: #f5f7f8;
+    --link: #1f5f7f;
+    --accent: #6bafd1;
+    --focus: #0b57d0;
+    --open-bg: #e3f2e8;   --open-fg: #14532d;
+    --hear-bg: #e2eef6;   --hear-fg: #123f5a;
+    --soon-bg: #fde7e4;   --soon-fg: #8a1c10;
+    --exp-bg:  #fff3d1;   --exp-fg:  #6b4800;
+    --past-bg: #eeeeee;   --past-fg: #3d3d3d;
+    --new-bg:  #1a1a1a;   --new-fg:  #ffffff;
+    --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  :root[data-theme="amber"] {
+    --bg: #0c0906; --text: #ffcf8a; --muted: #d9a866; --line: #4a3418; --card: #140f09; --soft: #1b140b;
+    --link: #ffd9a3; --accent: #ffb347; --focus: #ffe08a;
+    --open-bg: #22301a; --open-fg: #c8f0a8;
+    --hear-bg: #16283a; --hear-fg: #bfe0ff;
+    --soon-bg: #3a1610; --soon-fg: #ffb1a3;
+    --exp-bg:  #33260c; --exp-fg:  #ffd98a;
+    --past-bg: #221c14; --past-fg: #cdb89a;
+    --new-bg:  #ffb347; --new-fg:  #0c0906;
+    --font: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: var(--font); font-size: 18px; line-height: 1.55;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 48px; }
+  a { color: var(--link); text-underline-offset: 3px; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 6px; }
+  .tagline { margin: 0 0 20px; color: var(--muted); font-size: 1.05rem; }
+  .embed header.site { display: none; }
+
+  .picker { background: var(--soft); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-bottom: 18px; }
+  .picker label.big { display: block; font-weight: 700; font-size: 1.1rem; margin-bottom: 8px; }
+  select {
+    font: inherit; font-size: 1.05rem; width: 100%; max-width: 420px; padding: 10px 12px;
+    border: 2px solid var(--muted); border-radius: 8px; background: var(--card); color: var(--text);
+  }
+  .check { display: flex; gap: 10px; align-items: flex-start; margin-top: 12px; font-size: 1rem; }
+  .check input { width: 22px; height: 22px; margin-top: 3px; flex: none; }
+  .summary { margin: 0 0 8px; font-size: 1.1rem; font-weight: 600; }
+
+  section { margin-top: 28px; }
+  h2 { font-size: 1.4rem; margin: 0 0 4px; }
+  .section-note { margin: 0 0 14px; color: var(--muted); font-size: 1rem; }
+  .empty { background: var(--soft); border: 1px dashed var(--line); border-radius: 12px; padding: 14px 16px; color: var(--muted); }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin: 0 0 16px; }
+  .card.soon { border-left: 6px solid var(--soon-fg); }
+  .when { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 8px; }
+  .when strong { font-size: 1.3rem; line-height: 1.3; }
+  .chip { display: inline-block; font-size: .9rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; white-space: nowrap; }
+  .chip.open { background: var(--open-bg); color: var(--open-fg); }
+  .chip.hear { background: var(--hear-bg); color: var(--hear-fg); }
+  .chip.soon { background: var(--soon-bg); color: var(--soon-fg); }
+  .chip.exp  { background: var(--exp-bg);  color: var(--exp-fg); }
+  .chip.past { background: var(--past-bg); color: var(--past-fg); }
+  .chip.new  { background: var(--new-bg);  color: var(--new-fg); }
+  .chip.near { background: var(--soft); color: var(--text); border: 1px solid var(--line); }
+  .card h3 { font-size: 1.2rem; line-height: 1.35; margin: 4px 0 6px; }
+  .meta { color: var(--muted); font-size: .98rem; margin: 0 0 10px; }
+  .card p.sum { margin: 0 0 10px; }
+  .note { font-size: .95rem; background: var(--soft); border-radius: 8px; padding: 8px 12px; margin: 0 0 12px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
+  .btn {
+    font: inherit; font-size: 1rem; font-weight: 600; cursor: pointer; text-decoration: none;
+    display: inline-flex; align-items: center; min-height: 44px; padding: 8px 14px;
+    border-radius: 8px; border: 2px solid var(--text); background: var(--card); color: var(--text);
+  }
+  .btn.primary { background: var(--text); color: var(--bg); }
+  details { margin-top: 10px; }
+  details > summary {
+    cursor: pointer; font-weight: 600; min-height: 44px; display: flex; align-items: center; gap: 10px;
+    list-style: none; color: var(--link); text-decoration: underline; text-underline-offset: 3px;
+  }
+  details > summary::-webkit-details-marker { display: none; }
+  details > summary::before {
+    content: "+"; flex: none; display: inline-flex; align-items: center; justify-content: center;
+    width: 26px; height: 26px; border: 2px solid currentColor; border-radius: 6px;
+    font-weight: 700; text-decoration: none; line-height: 1;
+  }
+  details[open] > summary::before { content: "−"; }
+  details.past-group > summary { color: var(--text); text-decoration: none; }
+  details .inner { padding: 4px 0 4px 4px; font-size: .98rem; }
+  details .inner ol, details .inner ul { margin: 6px 0; padding-left: 22px; }
+  details .inner li { margin-bottom: 6px; }
+  dl.words { margin: 6px 0; }
+  dl.words dt { font-weight: 700; }
+  dl.words dd { margin: 0 0 8px; }
+  .facts { margin: 6px 0; padding-left: 20px; }
+  .facts li { margin-bottom: 4px; }
+
+  details.past-group > summary { font-size: 1.2rem; }
+  footer.honest { margin-top: 36px; border-top: 2px solid var(--line); padding-top: 18px; font-size: .98rem; }
+  footer.honest h2 { font-size: 1.15rem; }
+  footer.honest ul { padding-left: 20px; }
+  .status { position: absolute; left: -9999px; }
+  @media (max-width: 420px) { body { font-size: 17px; } .when strong { font-size: 1.2rem; } }
+  @media print {
+    .picker, .actions, footer .noprint, .check { display: none !important; }
+    details { display: block; } details > summary { display: none; }
+    details .inner, details[open] .inner { display: block !important; }
+    body { background: #fff; color: #000; font-size: 12pt; }
+    .card { break-inside: avoid; border: 1px solid #999; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="site">
+    <h1>Notice Board</h1>
+    <p class="tagline">What is coming up for a decision where you live, and when you can still speak up.</p>
+  </header>
+
+  <div class="picker" role="region" aria-label="Choose where you live">
+    <label class="big" for="place">Where do you live?</label>
+    <select id="place"></select>
+    <div class="check">
+      <input type="checkbox" id="nearonly">
+      <label for="nearonly">Only show things planned for my area (hide the rest of the county)</label>
+    </div>
+  </div>
+
+  <p class="summary" id="summary" aria-live="polite"></p>
+
+  <main id="board">
+    <p>Loading notices…</p>
+  </main>
+
+  <footer class="honest" id="honest"></footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ---------- small helpers ----------
+  const $ = (sel, el = document) => el.querySelector(sel);
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const store = {
+    get(k) { try { return window.localStorage.getItem(k); } catch (e) { return null; } },
+    set(k, v) { try { window.localStorage.setItem(k, v); } catch (e) {} },
+    sget(k) { try { return window.sessionStorage.getItem(k); } catch (e) { return null; } },
+    sset(k, v) { try { window.sessionStorage.setItem(k, v); } catch (e) {} }
+  };
+  const params = new URLSearchParams(location.search);
+  if (params.get("theme") === "amber") document.documentElement.setAttribute("data-theme", "amber");
+  if (params.get("embed") === "1") document.body.classList.add("embed");
+
+  // Dates: data are plain YYYY-MM-DD in Pacific local time. Compare as calendar days.
+  function parseDay(s) { if (!s) return null; const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); }
+  function today() { const n = new Date(); return new Date(n.getFullYear(), n.getMonth(), n.getDate()); }
+  function daysUntil(s) { const d = parseDay(s); return d ? Math.round((d - today()) / 86400000) : null; }
+  const DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  function longDate(s) { const d = parseDay(s); return d ? `${DAYS[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}` : ""; }
+  function shortDate(s) { const d = parseDay(s); return d ? `${MONTHS[d.getMonth()]} ${d.getDate()}${d.getFullYear() !== today().getFullYear() ? ", " + d.getFullYear() : ""}` : ""; }
+  function inWords(n) {
+    if (n === 0) return "today";
+    if (n === 1) return "tomorrow";
+    if (n > 1) return `in ${n} days`;
+    if (n === -1) return "yesterday";
+    return `${-n} days ago`;
+  }
+
+  // ---------- plain-language glossary ----------
+  const GLOSSARY = [
+    { re: /\bSEPA\b|environmental review/i, term: "SEPA (environmental review)", def: "Washington's State Environmental Policy Act. Before approving many projects, the county checks whether they could seriously harm the environment and publishes what it decided. The public can comment on that decision." },
+    { re: /\bMDNS\b|Mitigated Determination/i, term: "MDNS", def: "\"Mitigated Determination of Non-Significance\": the county found the project would not cause significant environmental harm as long as it follows the listed conditions." },
+    { re: /\bDNS\b|Determination of Non-?Significance/i, term: "DNS", def: "\"Determination of Non-Significance\": the county found no significant environmental harm, so no full environmental impact statement is needed." },
+    { re: /\bNSA\b|Scenic Area/i, term: "National Scenic Area", def: "The Columbia River Gorge National Scenic Area. New building here gets an extra review under Scenic Area rules about views, farms, forests and cultural sites." },
+    { re: /short plat/i, term: "Short plat", def: "Splitting one lot into a few smaller lots (in these counties, usually up to four)." },
+    { re: /\bADUs?\b|accessory dwelling/i, term: "ADU", def: "Accessory dwelling unit: a second, smaller home on the same lot, like a backyard cottage or an apartment over a garage." },
+    { re: /conditional use/i, term: "Conditional use permit", def: "Permission for a use the zone allows only case by case, with conditions, after a hearing." },
+    { re: /hearing examiner/i, term: "Hearing examiner", def: "A land-use lawyer the county hires to hold the hearing and decide some permits, instead of an elected board." },
+    { re: /overlay zone/i, term: "Overlay zone", def: "An extra layer on the zoning map that adds or removes what's allowed in an area. Here, it marks where large solar projects may be built." },
+    { re: /moratorium/i, term: "Moratorium", def: "A temporary pause on accepting or approving a type of project while the rules are written." },
+    { re: /\blev(y|ies)\b/i, term: "Levy", def: "The property tax a government collects each year." },
+    { re: /administrative review use|\bARU\b/i, term: "Administrative review use", def: "A use staff can approve without a hearing, after neighbors get a chance to comment." },
+    { re: /\bappeal/i, term: "Appeal", def: "Asking a higher body to overturn a decision. Usually you can only appeal if you commented in time." },
+    { re: /re-?notice/i, term: "Re-notice", def: "Posting and mailing a fresh notice with a new date. It usually opens a new chance to comment." }
+  ];
+  function wordsFor(n) {
+    const hay = [n.title, n.summary, n.subject && n.subject.text, n.subject && n.subject.file_no, n.body].join(" ");
+    return GLOSSARY.filter(g => g.re.test(hay));
+  }
+
+  // ---------- classify each notice for the reader ----------
+  // returns {group: 'now'|'horizon'|'past', sortKey, headline, chips[], soon}
+  function view(n) {
+    const w = n.window, e = n.event;
+    const deadline = w && (w.send_by || w.closes);
+    const dDays = deadline ? daysUntil(deadline) : null;
+    const eDays = e && e.date ? daysUntil(e.date) : null;
+
+    if (n.status === "cancelled") {
+      return { group: "past", sortKey: -(parseDay(e && e.date) || 0), headline: `Cancelled: ${longDate(e && e.date)}`, chips: [["past", "■ Cancelled"]] };
+    }
+    if (n.status === "expected" || n.status === "continued") {
+      const label = n.status === "continued" ? "▲ Postponed, new date coming" : "▲ Expected, not scheduled yet";
+      return { group: "horizon", sortKey: 0, headline: (e && e.expected_text) || "Not scheduled yet", chips: [["exp", label]] };
+    }
+    // Open comment window
+    if (dDays != null && dDays >= 0) {
+      const soon = dDays <= 3;
+      const head = w.send_by && w.send_by !== w.closes
+        ? `Comment by ${longDate(w.send_by)} to be safe`
+        : `Comment by ${longDate(w.closes)}${w.closes_time ? ", " + w.closes_time : ""}`;
+      return { group: "now", sortKey: dDays, soon, headline: head,
+        chips: [[soon ? "soon" : "open", (soon ? "! " : "● ") + (dDays === 0 ? "Last day today" : dDays + (dDays === 1 ? " day left" : " days left"))]] };
+    }
+    // Upcoming hearing or meeting
+    if (eDays != null && eDays >= 0) {
+      const soon = eDays <= 3;
+      return { group: "now", sortKey: eDays, soon, headline: `${n.kind === "hearing" || n.kind === "budget-hearing" ? "Hearing" : "Meeting"} ${longDate(e.date)}${e.time ? ", " + e.time : ""}`,
+        chips: [[soon ? "soon" : "hear", (soon ? "! " : "◆ ") + inWords(eDays).replace(/^in /, "In ")]] };
+    }
+    // Past
+    const pastDate = (e && e.date) || deadline;
+    let head = "";
+    if (e && e.date) head = `${n.kind === "hearing" || n.kind === "budget-hearing" ? "Hearing held" : "Held"} ${shortDate(e.date)}`;
+    else if (deadline) head = `Comments closed ${shortDate(w.closes)}`;
+    return { group: "past", sortKey: -(parseDay(pastDate) || 0), headline: head, chips: [["past", "■ " + (e && e.date ? "Already happened" : "Closed")]] };
+  }
+
+  // ---------- calendar file for one notice ----------
+  function icsFor(n) {
+    const pad = x => String(x).padStart(2, "0");
+    const ymd = s => s.replace(/-/g, "");
+    function timeTo24(t) {
+      const m = /(\d{1,2}):(\d{2})\s*(am|pm)/i.exec(t || ""); if (!m) return null;
+      let h = +m[1] % 12; if (/pm/i.test(m[3])) h += 12; return pad(h) + m[2] + "00";
+    }
+    const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Notice Board//EN", "CALSCALE:GREGORIAN"];
+    const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+Z$/, "Z");
+    const url = location.origin + location.pathname + "#" + n.id;
+    const w0 = n.window || {};
+    const extra = [w0.basis !== "stated on the notice" ? w0.basis : null, w0.send_by_note].filter(Boolean).join(" ");
+    const desc = [n.summary, extra, n.official ? "Official notice: " + n.official.url : null, url]
+      .filter(Boolean).join("\n\n").replace(/[\\,;]/g, m => "\\" + m).replace(/\n/g, "\\n");
+    function ev(uid, date, time, title) {
+      lines.push("BEGIN:VEVENT", "UID:" + uid + "@notice-board", "DTSTAMP:" + stamp);
+      const t = timeTo24(time);
+      if (t) { lines.push("DTSTART:" + ymd(date) + "T" + t); const h = (+t.slice(0, 2) + 1) % 24; lines.push("DTEND:" + ymd(date) + "T" + pad(h) + t.slice(2)); }
+      else { const d = parseDay(date); d.setDate(d.getDate() + 1); lines.push("DTSTART;VALUE=DATE:" + ymd(date), "DTEND;VALUE=DATE:" + d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate())); }
+      lines.push("SUMMARY:" + title.replace(/[,;]/g, m => "\\" + m), "DESCRIPTION:" + desc, "URL:" + url);
+      if (n.event && n.event.place && time) lines.push("LOCATION:" + n.event.place.replace(/[,;]/g, m => "\\" + m));
+      lines.push("END:VEVENT");
+    }
+    const w = n.window, e = n.event;
+    if (w && (w.send_by || w.closes) && daysUntil(w.send_by || w.closes) >= 0) ev(n.id + "-deadline", w.send_by || w.closes, null, (w.send_by && w.send_by !== w.closes ? "Send comment (to be safe): " : "Comment deadline: ") + n.title);
+    if (e && e.date && daysUntil(e.date) >= 0) ev(n.id + "-event", e.date, e.time, "Hearing: " + n.title);
+    lines.push("END:VCALENDAR");
+    // RFC 5545: fold lines longer than 75 octets.
+    const fold = l => { const out = []; while (new TextEncoder().encode(l).length > 75) { let i = 74; while (new TextEncoder().encode(l.slice(0, i)).length > 74) i--; out.push(l.slice(0, i)); l = " " + l.slice(i); } out.push(l); return out.join("\r\n"); };
+    return lines.map(fold).join("\r\n");
+  }
+  function download(name, text) {
+    const blob = new Blob([text], { type: "text/calendar" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob); a.download = name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+  }
+
+  // ---------- rendering ----------
+  let DATA = null, PLACES = null, SOURCES = null, prevVisit = null;
+
+  function placeById(id) { return PLACES.places.find(p => p.id === id) || null; }
+  function isNear(n, place) { return !!(place && n.subject && (n.subject.places || []).includes(place.id)); }
+  function matches(n, place, nearOnly) {
+    if (!place) return true;
+    if (!place.jurisdictions.includes(n.jurisdiction)) return false;
+    if (!nearOnly) return true;
+    return isNear(n, place) || (n.subject && n.subject.countywide);
+  }
+  function isNew(n) {
+    if (!n.first_seen) return false;
+    if (prevVisit) return n.first_seen > prevVisit;
+    return daysUntil(n.first_seen) >= -14;
+  }
+
+  function card(n, place) {
+    const v = view(n);
+    const chips = v.chips.map(([cls, t]) => `<span class="chip ${cls}">${esc(t)}</span>`);
+    if (isNew(n) && v.group !== "past") chips.push(`<span class="chip new">New</span>`);
+    if (isNear(n, place)) chips.push(`<span class="chip near">In ${esc(place.label.split(" (")[0])}</span>`);
+    const jl = PLACES.jurisdictions[n.jurisdiction];
+    const where = n.subject && n.subject.location ? ` · ${esc(n.subject.location)}` : "";
+    const w = n.window;
+    const notes = [];
+    if (v.group !== "past" && w && w.basis && w.basis !== "stated on the notice") notes.push(esc(w.basis));
+    if (v.group !== "past" && w && w.send_by_note) notes.push(esc(w.send_by_note));
+    if (v.group !== "past" && w && w.appeal_closes) notes.push(`Appeals are accepted until ${esc(longDate(w.appeal_closes))}${w.appeal_time ? ", " + esc(w.appeal_time) : ""}. ${esc(w.appeal_note || "")}`);
+    if (v.group === "horizon" && n.provenance && n.provenance.note) notes.push(esc(n.provenance.note));
+
+    const how = n.how && n.how.steps && v.group !== "past"
+      ? `<details><summary>How to weigh in</summary><div class="inner"><ol>${n.how.steps.map(s => `<li>${esc(s).replace(/([\w.+-]+@[\w-]+\.[\w.]+)/g, '<a href="mailto:$1">$1</a>')}</li>`).join("")}</ol>${
+          n.event && n.event.remote ? `<p><a href="${esc(n.event.remote)}">Join on Zoom</a>${n.event.remote_note ? ". " + esc(n.event.remote_note) : ""}</p>` : ""}</div></details>` : "";
+
+    const words = wordsFor(n);
+    const wordsHtml = words.length ? `<details><summary>What do these words mean?</summary><div class="inner"><dl class="words">${words.map(g => `<dt>${esc(g.term)}</dt><dd>${esc(g.def)}</dd>`).join("")}</dl></div></details>` : "";
+
+    const facts = [];
+    if (n.subject && n.subject.file_no) facts.push(`File number: ${esc(n.subject.file_no)}${n.subject.file_no_note ? ". " + esc(n.subject.file_no_note) : ""}`);
+    if (n.notice && n.notice.dated) facts.push(`Notice dated ${esc(longDate(n.notice.dated))}, ${esc(parseDay(n.notice.dated).getFullYear())}.`);
+    (n.notice && n.notice.published || []).forEach(p => facts.push(`Posted: ${esc(p.where)}${p.date ? ", " + esc(shortDate(p.date)) : ""}.`));
+    if (n.notice && n.notice.note) facts.push(esc(n.notice.note));
+    if (n.subject && n.subject.place_note) facts.push(esc(n.subject.place_note));
+    if (n.provenance && n.provenance.note && v.group !== "horizon") facts.push(esc(n.provenance.note));
+    if (n.event && n.event.place && v.group !== "horizon") facts.push(`Where: ${esc(n.event.place)}.`);
+    const factsHtml = facts.length ? `<details><summary>About this notice</summary><div class="inner"><ul class="facts">${facts.map(f => `<li>${f}</li>`).join("")}</ul></div></details>` : "";
+
+    const canCal = v.group === "now";
+    const actions = `<div class="actions">
+      ${canCal ? `<button type="button" class="btn primary" data-ics="${esc(n.id)}">Add to my calendar</button>` : ""}
+      ${n.official ? `<a class="btn" href="${esc(n.official.url)}" target="_blank" rel="noopener">${esc(n.official.label)}</a>` : ""}
+      <button type="button" class="btn" data-share="${esc(n.id)}">Copy link</button>
+    </div>`;
+
+    return `<article class="card${v.soon ? " soon" : ""}" id="${esc(n.id)}" aria-labelledby="t-${esc(n.id)}">
+      <div class="when"><strong>${esc(v.headline)}</strong> ${chips.join(" ")}</div>
+      <h3 id="t-${esc(n.id)}">${esc(n.title)}</h3>
+      <p class="meta">${esc(n.body)}${jl ? "" : ""}${where}</p>
+      <p class="sum">${esc(n.summary)}</p>
+      ${notes.map(t => `<p class="note">${t}</p>`).join("")}
+      ${how}${wordsHtml}${factsHtml}
+      ${actions}
+    </article>`;
+  }
+
+  function render() {
+    const placeId = $("#place").value;
+    const place = placeById(placeId);
+    const nearOnly = $("#nearonly").checked;
+    $("#nearonly").closest(".check").hidden = !place;
+
+    const items = DATA.notices.filter(n => matches(n, place, nearOnly)).map(n => ({ n, v: view(n) }));
+    const now = items.filter(x => x.v.group === "now").sort((a, b) => a.v.sortKey - b.v.sortKey);
+    const horizon = items.filter(x => x.v.group === "horizon");
+    const past = items.filter(x => x.v.group === "past").sort((a, b) => a.v.sortKey - b.v.sortKey);
+    const newCount = items.filter(x => x.v.group !== "past" && isNew(x.n)).length;
+
+    const who = place ? `For ${place.label.split(" (")[0]}` : "Across both counties";
+    const parts = [`${now.length} ${now.length === 1 ? "thing" : "things"} you can speak up on now`];
+    if (newCount) parts.push(prevVisit ? `${newCount} new since your last visit` : `${newCount} new in the last two weeks`);
+    $("#summary").textContent = `${who}: ${parts.join(", ")}.`;
+
+    const lastChecked = SOURCES.sources.map(s => s.last_checked).sort().pop();
+    const emptyNow = `<p class="empty">Nothing is open for comment ${place ? "for " + esc(place.label.split(" (")[0]) + " " : ""}right now in the sources we check (last checked ${esc(longDate(lastChecked))}). That is not the same as nothing planned. See "Where this comes from" below.</p>`;
+
+    $("#board").innerHTML = `
+      <section aria-labelledby="h-now">
+        <h2 id="h-now">Speak up now</h2>
+        <p class="section-note">Open comment periods and upcoming hearings, soonest deadline first.</p>
+        ${now.length ? now.map(x => card(x.n, place)).join("") : emptyNow}
+      </section>
+      <section aria-labelledby="h-hz">
+        <h2 id="h-hz">On the horizon</h2>
+        <p class="section-note">Talked about in public meetings but not officially scheduled yet. These move up when a notice is posted.</p>
+        ${horizon.length ? horizon.map(x => card(x.n, place)).join("") : `<p class="empty">Nothing on the horizon here in the records we hold.</p>`}
+      </section>
+      <section aria-labelledby="h-past">
+        <details class="past-group">
+          <summary><h2 id="h-past" style="display:inline;font-size:inherit">Already happened or closed (${past.length})</h2></summary>
+          <div class="inner">${past.map(x => card(x.n, place)).join("") || '<p class="empty">Nothing here yet.</p>'}</div>
+        </details>
+      </section>`;
+    postHeight();
+  }
+
+  function renderFooter() {
+    const s = SOURCES;
+    $("#honest").innerHTML = `
+      <h2>This is not the official notice</h2>
+      <p>The Notice Board is a plain-language guide to notices posted by local governments. It is not a legal notice. Always check the official notice linked on each card.</p>
+      <p>Legal notices are printed in each county's official newspaper: ${s.newspapers.map(p => `<strong>${esc(p.name)}</strong> for ${esc(p.county)} County (${esc(p.note)})`).join("; ")}. Copies of printed notices are free to search at <a href="${esc(s.statewide.url)}">${esc(s.statewide.label)}</a>.</p>
+      <h2>Where this comes from</h2>
+      <ul>${s.sources.map(x => `<li>${x.url ? `<a href="${esc(x.url)}">${esc(x.label)}</a>` : esc(x.label)}: ${esc(x.how)}. Last checked ${esc(longDate(x.last_checked))}.</li>`).join("")}</ul>
+      <p>If a place has no cards, it means we found no notice in these sources. It does not mean nothing is planned. Boundaries between places are approximate for now.</p>
+      <p class="noprint"><button type="button" class="btn" onclick="window.print()">Print this list</button></p>
+      <p>From <a href="https://skamania-dispatch.ghost.io/">The Skamania Dispatch</a>.</p>`;
+  }
+
+  // Tell a parent page (the Ghost embed) how tall we are.
+  function postHeight() {
+    if (window.parent === window) return;
+    try { window.parent.postMessage({ noticeBoardHeight: document.documentElement.scrollHeight }, "*"); } catch (e) {}
+  }
+  window.addEventListener("resize", postHeight);
+  document.addEventListener("toggle", postHeight, true);
+
+  function setupPicker() {
+    const sel = $("#place");
+    const byCounty = {};
+    PLACES.places.forEach(p => (byCounty[p.county] = byCounty[p.county] || []).push(p));
+    sel.innerHTML = `<option value="">Show both counties</option>` +
+      Object.keys(byCounty).map(c => `<optgroup label="${esc(c)} County">${byCounty[c].map(p => `<option value="${esc(p.id)}">${esc(p.label)}</option>`).join("")}</optgroup>`).join("");
+    const wanted = params.get("place") || store.get("nb_place") || "";
+    sel.value = placeById(wanted) ? wanted : "";
+    $("#nearonly").checked = store.get("nb_nearonly") === "1";
+    sel.addEventListener("change", () => {
+      store.set("nb_place", sel.value);
+      const u = new URL(location.href);
+      if (sel.value) u.searchParams.set("place", sel.value); else u.searchParams.delete("place");
+      history.replaceState(null, "", u);
+      render();
+    });
+    $("#nearonly").addEventListener("change", e => { store.set("nb_nearonly", e.target.checked ? "1" : "0"); render(); });
+  }
+
+  document.addEventListener("click", e => {
+    const ics = e.target.closest("[data-ics]");
+    if (ics) { const n = DATA.notices.find(x => x.id === ics.dataset.ics); if (n) download(n.id + ".ics", icsFor(n)); return; }
+    const sh = e.target.closest("[data-share]");
+    if (sh) {
+      const u = new URL(location.href); u.hash = sh.dataset.share;
+      const done = () => { const old = sh.textContent; sh.textContent = "Link copied"; setTimeout(() => (sh.textContent = old), 1800); };
+      if (navigator.clipboard) navigator.clipboard.writeText(u.toString()).then(done, () => prompt("Copy this link:", u.toString()));
+      else prompt("Copy this link:", u.toString());
+    }
+  });
+
+  // "New since your last visit": remember the previous visit for this whole session.
+  function setupVisit() {
+    const todayStr = (() => { const d = today(); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); })();
+    let prev = store.sget("nb_prev");
+    if (prev === null) {            // first page load this session
+      prev = store.get("nb_visit") || "";
+      store.sset("nb_prev", prev);
+      store.set("nb_visit", todayStr);
+    }
+    prevVisit = prev || null;       // null = first visit ever: "new" means the last 14 days
+  }
+
+  Promise.all(["data/notices.json", "data/places.json", "data/sources.json"].map(u => fetch(u, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(u); return r.json(); })))
+    .then(([n, p, s]) => {
+      DATA = n; PLACES = p; SOURCES = s;
+      setupVisit(); setupPicker(); renderFooter(); render();
+      if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) { const d = el.closest("details.past-group"); if (d) d.open = true; el.scrollIntoView(); } }
+    })
+    .catch(() => { $("#board").innerHTML = `<p class="empty">The notices could not be loaded. Please try again in a minute.</p>`; });
+})();
+</script>
+</body>
+</html>

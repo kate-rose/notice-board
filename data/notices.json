@@ -1,0 +1,673 @@
+{
+  "_meta": {
+    "about": "Notice Board seed data (M0). Every item was checked against the source named in its 'official' or 'provenance' field on 2026-09-24. Dates are Pacific local. A 'computed' deadline is worked out from the notice's own rule (e.g. '20 days from the date of this notice') and says so.",
+    "updated": "2026-09-24"
+  },
+  "notices": [
+    {
+      "id": "2026-09-28_klickitat-pc_energy-overlay-zone",
+      "jurisdiction": "klickitat-county",
+      "body": "Klickitat County Planning Commission",
+      "kind": "hearing",
+      "title": "Should the county shrink the zone where big solar projects are allowed?",
+      "summary": "The Planning Commission holds a public hearing on a proposed reduction to the Energy Overlay Zone for solar projects. Anyone can speak for or against it, in person or on Zoom.",
+      "event": {
+        "date": "2026-09-28",
+        "time": "6:00 pm",
+        "place": "Klickitat County Services Building, 115 West Court St, Room 200, Goldendale",
+        "remote": "https://us06web.zoom.us/j/85782372047?pwd=WcV8P4l5C1aTxaO71ZIpRJW7NaCsNb.1",
+        "remote_note": "Zoom meeting ID 857 8237 2047, passcode 152082. By phone: 253-215-8782."
+      },
+      "window": null,
+      "how": {
+        "steps": [
+          "Speak at the hearing, in person or on Zoom.",
+          "Questions before then: Klickitat County Planning, 509-773-5703, 115 West Court St, Room 301, Goldendale."
+        ],
+        "email": null
+      },
+      "subject": {
+        "text": "Energy Overlay Zone (where the county allows large solar projects)",
+        "file_no": null,
+        "location": "County-wide zoning map",
+        "places": [],
+        "countywide": true
+      },
+      "official": {
+        "url": "https://www.klickitatcounty.gov/DocumentCenter/View/23922/PC-September-28-2026-Public-Hearing-Notice---EOZ-Reduction-",
+        "label": "Official hearing notice (PDF)"
+      },
+      "notice": {
+        "dated": "2026-09-11",
+        "published": [
+          {
+            "where": "Klickitat County Planning website",
+            "date": null
+          }
+        ],
+        "note": "The notice is signed September 11. The county says planning hearing notices also run in the Goldendale Sentinel and The Enterprise."
+      },
+      "status": "scheduled",
+      "provenance": {
+        "tier": "official",
+        "note": null
+      },
+      "first_seen": "2026-09-16"
+    },
+    {
+      "id": "2026-10-01_klickitat-sepa-2026-14_bucher",
+      "jurisdiction": "klickitat-county",
+      "body": "Klickitat County Planning",
+      "kind": "sepa",
+      "title": "A 1.92-acre lot near White Salmon split into two lots",
+      "summary": "The county reviewed the environmental effects of a two-lot short plat and found no significant harm, with conditions (a \"Mitigated Determination of Non-Significance\"). You can comment on that finding, and appeal it after.",
+      "event": null,
+      "window": {
+        "closes": "2026-10-01",
+        "closes_time": "5:00 pm",
+        "basis": "stated on the notice",
+        "appeal_closes": "2026-10-08",
+        "appeal_time": "5:00 pm",
+        "appeal_note": "Appeals go to the Board of County Commissioners, filed with the County Auditor, and carry a fee."
+      },
+      "how": {
+        "steps": [
+          "Send a written comment to Klickitat County Planning, 115 West Court St, Room 301, Goldendale, WA 98620.",
+          "Call 509-773-5703 to ask how to submit, or to review the file."
+        ],
+        "email": null
+      },
+      "subject": {
+        "text": "Short plat for Sean & Kenneth Bucher",
+        "file_no": "SEPA 2026-14",
+        "location": "NENW of Section 23, T3N R10E (White Salmon vicinity), parcel 03-10-2354-0003/00",
+        "places": [
+          "white-salmon"
+        ],
+        "countywide": false
+      },
+      "official": {
+        "url": "https://www.klickitatcounty.gov/DocumentCenter/View/23920/SEPA-2026-14-Bucher-MDNS-Notice",
+        "label": "Official notice (PDF)"
+      },
+      "notice": {
+        "dated": "2026-09-10",
+        "published": [
+          {
+            "where": "Klickitat County Planning website",
+            "date": null
+          }
+        ],
+        "note": "The determination was issued September 10."
+      },
+      "status": "open",
+      "provenance": {
+        "tier": "official",
+        "note": null
+      },
+      "first_seen": "2026-09-16"
+    },
+    {
+      "id": "2026-10-11_skamania-nsa-26-20_cell-tower",
+      "jurisdiction": "skamania-county",
+      "body": "Skamania County Community Development",
+      "kind": "application",
+      "title": "A 125-foot cell tower on Miller Road",
+      "summary": "Public Safety Towers LLC applied to build a multi-carrier wireless tower disguised as a fir tree (a \"monofir\"), inside a 35-by-50-foot fenced compound with a backup generator, a gravel access road and some tree removal. It is in the National Scenic Area, so it gets a Scenic Area review.",
+      "event": null,
+      "window": {
+        "closes": "2026-10-11",
+        "closes_time": null,
+        "basis": "The notice says comments are due 20 days from its date, September 21. That works out to Sunday, October 11.",
+        "send_by": "2026-10-08",
+        "send_by_note": "The county office is open Monday to Thursday, 7:30 am to 5:30 pm. To be safe, get a mailed or hand-delivered comment there by Thursday, October 8."
+      },
+      "how": {
+        "steps": [
+          "Write to Skamania County Community Development, 170 NW Vancouver Ave, PO Box 1009, Stevenson, WA 98648.",
+          "The county's notices page also links an email address for comments: permitcenter@co.skamania.wa.us.",
+          "Comments must address the review criteria. If you don't comment in time, you can't appeal the decision later."
+        ],
+        "email": "permitcenter@co.skamania.wa.us"
+      },
+      "subject": {
+        "text": "Wireless telecommunications facility, Public Safety Towers LLC",
+        "file_no": "NSA-26-20",
+        "location": "262 Miller Rd, parcel 01-05-11-2-0-1302-00 (zoned GMA Small Woodland F-3)",
+        "places": [
+          "west-end"
+        ],
+        "countywide": false,
+        "place_note": "Placed on the west end from the parcel's township and range (T1N R5E). Not yet checked against the county map."
+      },
+      "official": {
+        "url": "https://www.skamaniacounty.gov/home/showpublisheddocument/19602/639255844917600000",
+        "label": "Official notice and application (PDF, 77 pages)"
+      },
+      "notice": {
+        "dated": "2026-09-21",
+        "published": [
+          {
+            "where": "Skamania County Community Development website",
+            "date": null
+          }
+        ],
+        "note": null
+      },
+      "status": "open",
+      "provenance": {
+        "tier": "official",
+        "note": "Deadline computed from the notice's own rule."
+      },
+      "first_seen": "2026-09-24"
+    },
+    {
+      "id": "2026-10-07_skamania-nsa-26-26_dewolfe",
+      "jurisdiction": "skamania-county",
+      "body": "Skamania County Community Development",
+      "kind": "application",
+      "title": "A new house on an empty lot in the Scenic Area",
+      "summary": "James and Eva DeWolfe applied to build a 2,142-square-foot house with an attached garage and covered deck, plus septic and utilities, on an undeveloped parcel zoned for small-scale agriculture.",
+      "event": null,
+      "window": {
+        "closes": "2026-10-07",
+        "closes_time": null,
+        "basis": "The notice says comments are due 20 days from its date, September 17. That works out to Wednesday, October 7.",
+        "send_by": "2026-10-07",
+        "send_by_note": "The county office is open Monday to Thursday, 7:30 am to 5:30 pm."
+      },
+      "how": {
+        "steps": [
+          "Write to Skamania County Community Development, 170 NW Vancouver Ave, PO Box 1009, Stevenson, WA 98648.",
+          "The county's notices page also links an email address for comments: permitcenter@co.skamania.wa.us.",
+          "Comments must address the review criteria. If you don't comment in time, you can't appeal the decision later."
+        ],
+        "email": "permitcenter@co.skamania.wa.us"
+      },
+      "subject": {
+        "text": "Single-family house, James & Eva DeWolfe",
+        "file_no": "NSA-26-26",
+        "location": "No street address assigned yet; parcel 03-10-21-2-0-0200-00 (zoned GMA Small-Scale Agriculture A-2(40))",
+        "places": [
+          "underwood"
+        ],
+        "countywide": false,
+        "place_note": "Placed near Underwood from the parcel's township and range (T3N R10E). Not yet checked against the county map."
+      },
+      "official": {
+        "url": "https://www.skamaniacounty.gov/home/showpublisheddocument/19560/639252354752600000",
+        "label": "Official notice and application (PDF, 35 pages)"
+      },
+      "notice": {
+        "dated": "2026-09-17",
+        "published": [
+          {
+            "where": "Skamania County Community Development website",
+            "date": null
+          }
+        ],
+        "note": null
+      },
+      "status": "open",
+      "provenance": {
+        "tier": "official",
+        "note": "Deadline computed from the notice's own rule."
+      },
+      "first_seen": "2026-09-24"
+    },
+    {
+      "id": "expected_skamania-bocc_data-center-moratorium-hearing",
+      "jurisdiction": "skamania-county",
+      "body": "Skamania County Commissioners",
+      "kind": "hearing",
+      "title": "A hearing on the county's data-center moratorium",
+      "summary": "On August 18 the commissioners adopted a moratorium on data centers (Resolution 2026-22). A speaker at that meeting said a public hearing has to follow within 60 days and guessed it would be October 13. As of September 22 no hearing has been put on an agenda.",
+      "event": {
+        "date": null,
+        "time": null,
+        "place": null,
+        "remote": null,
+        "expected_text": "Possibly October 13, per a speaker at the August 18 meeting"
+      },
+      "window": null,
+      "how": {
+        "steps": [
+          "Watch for the hearing on a commissioners' agenda.",
+          "Commissioners' office: 240 NW Vancouver Ave, Stevenson."
+        ],
+        "email": null
+      },
+      "subject": {
+        "text": "Data-center moratorium, Resolution 2026-22",
+        "file_no": "Res. 2026-22",
+        "location": "County-wide",
+        "places": [],
+        "countywide": true
+      },
+      "official": {
+        "url": "https://www.skamaniacounty.gov/departments-offices/commissioners/agendas-minutes-meeting-audio",
+        "label": "Commissioners' agendas page"
+      },
+      "notice": {
+        "dated": null,
+        "published": [],
+        "note": "Not yet noticed. The typed agendas for September 15 and 22 carry no hearing."
+      },
+      "status": "expected",
+      "provenance": {
+        "tier": "spoken",
+        "note": "The date and the 60-day rule come from a recording of the August 18 meeting, not from a typed record. The resolution text is not yet in the archive."
+      },
+      "first_seen": "2026-08-18"
+    },
+    {
+      "id": "continued_white-salmon-pc_211-n-main",
+      "jurisdiction": "white-salmon",
+      "body": "White Salmon Planning Commission",
+      "kind": "hearing",
+      "title": "The Center Market application at 211 N Main, waiting for a new hearing",
+      "summary": "The July 8 hearing on this commercial application was postponed before it opened, at the applicant's request, so they could revise the plans. The city said it will re-notice the hearing with a new date. The city counted 69 people in written comments before July 8.",
+      "event": {
+        "date": null,
+        "time": null,
+        "place": null,
+        "remote": null,
+        "expected_text": "A new date will be set and noticed"
+      },
+      "window": null,
+      "how": {
+        "steps": [
+          "When the hearing is re-noticed, a new comment period opens. Watch the city's meetings page."
+        ],
+        "email": null
+      },
+      "subject": {
+        "text": "Site plan review, 211 N Main Ave",
+        "file_no": "WS-SPR-2026.003",
+        "location": "211 N Main Ave, White Salmon",
+        "places": [
+          "white-salmon"
+        ],
+        "countywide": false
+      },
+      "official": {
+        "url": "https://www.whitesalmonwa.gov/meetings",
+        "label": "City of White Salmon meetings page"
+      },
+      "notice": {
+        "dated": null,
+        "published": [],
+        "note": "During the first comment period the posted site notice went missing; staff acknowledged it on the record July 8."
+      },
+      "status": "continued",
+      "provenance": {
+        "tier": "typed",
+        "note": "From the city's typed July 8 minutes. The archive's newest Planning Commission record is August 26 and it gives no new date."
+      },
+      "first_seen": "2026-07-08"
+    },
+    {
+      "id": "expected_klickitat-bocc_2027-budget-levy",
+      "jurisdiction": "klickitat-county",
+      "body": "Klickitat County Commissioners",
+      "kind": "budget-hearing",
+      "title": "The county budget and property-tax levies for 2027",
+      "summary": "At a September 10 budget workshop, a county speaker said the budget and levy notice goes to the newspaper around November 13, with budget hearings in December. The speaker was unsure of the exact date.",
+      "event": {
+        "date": null,
+        "time": null,
+        "place": null,
+        "remote": null,
+        "expected_text": "Hearings in December; newspaper notice around November 13"
+      },
+      "window": null,
+      "how": {
+        "steps": [
+          "Watch the Goldendale Sentinel legal notices and the commissioners' agendas."
+        ],
+        "email": null
+      },
+      "subject": {
+        "text": "2027 county budget and levies",
+        "file_no": null,
+        "location": "County-wide",
+        "places": [],
+        "countywide": true
+      },
+      "official": {
+        "url": "https://www.goldendalesentinel.com/legals/",
+        "label": "Goldendale Sentinel legal notices"
+      },
+      "notice": {
+        "dated": null,
+        "published": [],
+        "note": null
+      },
+      "status": "expected",
+      "provenance": {
+        "tier": "spoken",
+        "note": "From a recording of the September 10 workshop. The speaker said, \"I may not have the right date.\""
+      },
+      "first_seen": "2026-09-10"
+    },
+    {
+      "id": "2026-09-22_klickitat-bocc_adu-amendments",
+      "jurisdiction": "klickitat-county",
+      "body": "Klickitat County Commissioners",
+      "kind": "hearing",
+      "title": "Looser rules for backyard cottages (ADUs), including short-term rentals",
+      "summary": "The commissioners held a hearing on Planning Commission changes to the accessory dwelling unit rules: dropping the rule that the owner live on site six months a year, allowing either unit to be a short-term rental, measuring the 200-foot distance to the nearest wall, and adding rental income as a stated purpose.",
+      "event": {
+        "date": "2026-09-22",
+        "time": "1:30 pm",
+        "place": "Klickitat County Services Building, Room 200, Goldendale",
+        "remote": null
+      },
+      "window": null,
+      "how": null,
+      "subject": {
+        "text": "ADU review and development standards, zoning ordinance section 3.10 (Title 19.54.110)",
+        "file_no": null,
+        "location": "County-wide",
+        "places": [],
+        "countywide": true
+      },
+      "official": {
+        "url": "https://www.klickitatcounty.gov/DocumentCenter/View/23958/ADU2---BOCC-September-22-2026-Public-Hearing-Notice",
+        "label": "Official hearing notice (PDF)"
+      },
+      "notice": {
+        "dated": "2026-09-01",
+        "published": [
+          {
+            "where": "Klickitat County Planning website",
+            "date": null
+          }
+        ],
+        "note": null
+      },
+      "status": "held",
+      "provenance": {
+        "tier": "official",
+        "note": "The outcome is not yet in the archive; Klickitat publishes its minutes inside a later meeting's packet."
+      },
+      "first_seen": "2026-09-16"
+    },
+    {
+      "id": "2026-09-22_klickitat-bocc_bell-appeal",
+      "jurisdiction": "klickitat-county",
+      "body": "Klickitat County Commissioners",
+      "kind": "hearing",
+      "title": "An appeal of a two-lot short plat off Tomahawk Road, Husum",
+      "summary": "The commissioners heard an appeal of the Planning Department's preliminary approval to split a 1.25-acre property into two lots.",
+      "event": {
+        "date": "2026-09-22",
+        "time": "1:30 pm",
+        "place": "Klickitat County Services Building, Room 200, Goldendale",
+        "remote": null
+      },
+      "window": null,
+      "how": null,
+      "subject": {
+        "text": "Appeal of SPL2026-01 (Bell)",
+        "file_no": "SPL2026-01",
+        "location": "Off Tomahawk Rd, parcel 041131140203/00, Husum vicinity",
+        "places": [
+          "husum"
+        ],
+        "countywide": false
+      },
+      "official": {
+        "url": "https://www.klickitatcounty.gov/DocumentCenter/View/23957/BOCC-September-22-2026-Public-Hearing-Notice",
+        "label": "Official hearing notice (PDF)"
+      },
+      "notice": {
+        "dated": "2026-09-01",
+        "published": [
+          {
+            "where": "Klickitat County Planning website",
+            "date": null
+          }
+        ],
+        "note": null
+      },
+      "status": "held",
+      "provenance": {
+        "tier": "official",
+        "note": "The outcome is not yet in the archive."
+      },
+      "first_seen": "2026-09-16"
+    },
+    {
+      "id": "2026-08-26_skamania-hearing-examiner_pine-creek-cabin",
+      "jurisdiction": "skamania-county",
+      "body": "Skamania County Hearing Examiner",
+      "kind": "hearing",
+      "title": "A wedding and event venue on ten acres near Cougar",
+      "summary": "Pine Creek Cabin LLC asked for a conditional use permit for a rural event center: a 2,700-square-foot cabin hosting four to six events a month of about 45 to 150 people, with amplified sound ending by 10 pm. The county's environmental review (comments closed August 19) found no significant harm, with conditions on water, parking, dust, erosion and stream buffers.",
+      "event": {
+        "date": "2026-08-26",
+        "time": "1:30 pm",
+        "place": "By Zoom and phone",
+        "remote": null
+      },
+      "window": {
+        "closes": "2026-08-19",
+        "closes_time": "5:30 pm",
+        "basis": "Environmental review comments were due 14 days from the August 5 determination."
+      },
+      "how": null,
+      "subject": {
+        "text": "Rural event center, Pine Creek Cabin LLC",
+        "file_no": "CU-26-005",
+        "file_no_note": "The county's notices page lists these as SUB-26-005 and SEP-26-007; the notices themselves print CU-26-005 and SEP-26-003.",
+        "location": "591 Sasquatch Way, Cougar, parcel 07-06-23-1-0-1003-00",
+        "places": [
+          "cougar"
+        ],
+        "countywide": false
+      },
+      "official": {
+        "url": "https://www.skamaniacounty.gov/home/showpublisheddocument/19340/639216272407170000",
+        "label": "Hearing notice (PDF)"
+      },
+      "notice": {
+        "dated": null,
+        "published": [
+          {
+            "where": "Skamania County Community Development website",
+            "date": null
+          }
+        ],
+        "note": "The hearing notice is undated on its face."
+      },
+      "status": "held",
+      "provenance": {
+        "tier": "official",
+        "note": "The decision is not yet in the archive."
+      },
+      "first_seen": "2026-09-24"
+    },
+    {
+      "id": "2026-09-08_skamania-aru-26-02_carson-duplex",
+      "jurisdiction": "skamania-county",
+      "body": "Skamania County Community Development",
+      "kind": "application",
+      "title": "A duplex on one acre in Carson",
+      "summary": "Andre Northrup applied to place a duplex, two three-bedroom units with off-street parking, on a one-acre lot zoned High Density Residential.",
+      "event": null,
+      "window": {
+        "closes": "2026-09-08",
+        "closes_time": null,
+        "basis": "The notice says comments were due 20 days from its date, August 19."
+      },
+      "how": null,
+      "subject": {
+        "text": "Administrative review use, duplex",
+        "file_no": "ARU-26-02",
+        "file_no_note": "The notice's body calls this \"a short plat application\"; its title and file number say administrative review use.",
+        "location": "Vivian Ct, Carson, parcel 03-08-29-1-1-3815-00",
+        "places": [
+          "carson"
+        ],
+        "countywide": false
+      },
+      "official": {
+        "url": "https://www.skamaniacounty.gov/home/showpublisheddocument/19400/639227308675300000",
+        "label": "Official notice (PDF)"
+      },
+      "notice": {
+        "dated": "2026-08-19",
+        "published": [
+          {
+            "where": "Skamania County Community Development website",
+            "date": null
+          }
+        ],
+        "note": null
+      },
+      "status": "closed",
+      "provenance": {
+        "tier": "official",
+        "note": null
+      },
+      "first_seen": "2026-09-24"
+    },
+    {
+      "id": "2026-08-05_skamania-sep-26-009_critical-areas",
+      "jurisdiction": "skamania-county",
+      "body": "Skamania County Community Development",
+      "kind": "sepa",
+      "title": "New rules for streams, wetlands, steep slopes and other sensitive land",
+      "summary": "The county and the City of Stevenson are replacing the county's critical areas rules, first adopted in 1996. The environmental review found no significant harm. It covers unincorporated Skamania County and Stevenson, but not shorelines or the National Scenic Area.",
+      "event": null,
+      "window": {
+        "closes": "2026-08-05",
+        "closes_time": "5:30 pm",
+        "basis": "Comments were due 14 days from the July 22 determination."
+      },
+      "how": null,
+      "subject": {
+        "text": "Critical Areas Ordinance update, 2026 periodic review",
+        "file_no": "SEP-26-009",
+        "location": "Unincorporated Skamania County and Stevenson, outside shorelines and the Scenic Area",
+        "places": [
+          "stevenson",
+          "carson",
+          "cougar",
+          "west-end"
+        ],
+        "countywide": false
+      },
+      "official": {
+        "url": "https://www.skamaniacounty.gov/home/showpublisheddocument/19278/639203189062930000",
+        "label": "Official determination (PDF)"
+      },
+      "notice": {
+        "dated": "2026-07-22",
+        "published": [
+          {
+            "where": "Skamania County Community Development website",
+            "date": null
+          }
+        ],
+        "note": "The environmental comment window has closed. The ordinance itself still has to be adopted, and that step should bring its own hearing."
+      },
+      "status": "closed",
+      "provenance": {
+        "tier": "official",
+        "note": null
+      },
+      "first_seen": "2026-09-24"
+    },
+    {
+      "id": "2026-06-24_trout-lake-sd_budget-hearing",
+      "jurisdiction": "trout-lake-sd",
+      "body": "Trout Lake School District Board",
+      "kind": "budget-hearing",
+      "title": "The school district's 2026–27 budget",
+      "summary": "The board held a public hearing on the proposed budget and four-year plan, then adopted it at the regular meeting that followed. No one commented.",
+      "event": {
+        "date": "2026-06-24",
+        "time": "6:00 pm",
+        "place": "Trout Lake School, 2310 Hwy 141",
+        "remote": null
+      },
+      "window": null,
+      "how": null,
+      "subject": {
+        "text": "2026–27 budget",
+        "file_no": null,
+        "location": "District-wide",
+        "places": [
+          "trout-lake"
+        ],
+        "countywide": false
+      },
+      "official": null,
+      "notice": {
+        "dated": null,
+        "published": [
+          {
+            "where": "Newspaper legal notice",
+            "date": "2026-06-10"
+          },
+          {
+            "where": "Newspaper legal notice, second week",
+            "date": "2026-06-17"
+          }
+        ],
+        "note": "The legal notice ran June 10 and June 17, 14 days before the hearing."
+      },
+      "status": "held",
+      "provenance": {
+        "tier": "typed",
+        "note": "From the district's notice, the published legal notice and the typed minutes, all in the archive."
+      },
+      "first_seen": "2026-06-10"
+    },
+    {
+      "id": "2026-07-09_port-of-skamania_cancelled",
+      "jurisdiction": "port-of-skamania",
+      "body": "Port of Skamania County Commissioners",
+      "kind": "cancellation",
+      "title": "The July port commission meeting was cancelled",
+      "summary": "The July 9 meeting was cancelled. The next regular meeting was set for August 13.",
+      "event": {
+        "date": "2026-07-09",
+        "time": "1:00 pm",
+        "place": null,
+        "remote": null
+      },
+      "window": null,
+      "how": null,
+      "subject": {
+        "text": "Regular meeting cancelled",
+        "file_no": null,
+        "location": null,
+        "places": [],
+        "countywide": true
+      },
+      "official": {
+        "url": "https://portofskamania.org/",
+        "label": "Port of Skamania website"
+      },
+      "notice": {
+        "dated": "2026-07-02",
+        "published": [
+          {
+            "where": "Port of Skamania website",
+            "date": "2026-07-02"
+          }
+        ],
+        "note": null
+      },
+      "status": "cancelled",
+      "provenance": {
+        "tier": "official",
+        "note": "The port's posted notice, in the archive."
+      },
+      "first_seen": "2026-07-02"
+    }
+  ]
+}
