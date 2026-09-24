@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "about": "Minimum notice periods from state law. The page shows a timing line ONLY for entries whose state is 'vouched': a person has read the statute text on app.leg.wa.gov and Kate has approved the wording. 'proposed' entries never render.",
+    "updated": "2026-09-24"
+  },
+  "statutes": [
+    {
+      "id": "rcw-36.70.590",
+      "cite": "RCW 36.70.590",
+      "applies_to": ["hearing"],
+      "bodies": ["county planning commission hearings under the Planning Enabling Act"],
+      "minimum": {"days": 10, "text": "one publication in a newspaper of general circulation at least ten days before the hearing"},
+      "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=36.70.590",
+      "state": "proposed",
+      "vouched_by": null,
+      "vouched_on": null,
+      "note": "Applicability to the Klickitat Energy Overlay Zone amendment not yet confirmed; the county may notice under its own code."
+    }
+  ]
+}

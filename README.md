@@ -17,6 +17,7 @@ in Klickitat). The page says so in its footer, on every view.
 - `data/places.json`: "where do you live" → the governments whose notices apply there.
   Hand-mapped for now; every place is `boundary_verified: false` until it is
   rebuilt from county tax-code-area data (plan milestone M5).
+- `data/statutes.json`: minimum notice periods from state law. A timing line appears inside "About this notice" only for entries marked `vouched` (read on app.leg.wa.gov and approved by Kate). `proposed` entries never render.
 - `data/sources.json`: what the board checks and when. Rendered as the
   "Where this comes from" block, so an empty list never reads as "nothing planned."
 
@@ -48,6 +49,7 @@ Then open http://localhost:5192/ (try `?place=underwood`, `?theme=amber`).
 - `?place=<id>`: preselect a place (ids in `data/places.json`).
 - `?theme=amber`: the amber CRT look. Light is the default for legibility.
 - `?embed=1`: hides the page's own title (use inside Ghost, which has one).
+- `?view=list`: open in Quick list (one line per notice, tap to open the full card). Full cards are the default.
 
 ## Ghost embed
 

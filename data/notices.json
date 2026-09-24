@@ -45,7 +45,8 @@
             "date": null
           }
         ],
-        "note": "The notice is signed September 11. The county says planning hearing notices also run in the Goldendale Sentinel and The Enterprise."
+        "note": "The notice is signed September 11. The county says planning hearing notices also run in the Goldendale Sentinel and The Enterprise.",
+        "requirement": "rcw-36.70.590"
       },
       "status": "scheduled",
       "provenance": {

@@ -109,11 +109,36 @@
   .facts li { margin-bottom: 4px; }
 
   details.past-group > summary { font-size: 1.2rem; }
+
+  .viewtoggle { display: inline-flex; border: 2px solid var(--text); border-radius: 10px; overflow: hidden; margin: 6px 0 4px; }
+  .viewtoggle button {
+    font: inherit; font-size: 1rem; font-weight: 600; min-height: 44px; padding: 6px 16px;
+    border: 0; background: var(--card); color: var(--text); cursor: pointer;
+  }
+  .viewtoggle button + button { border-left: 2px solid var(--text); }
+  .viewtoggle button[aria-pressed="true"] { background: var(--text); color: var(--bg); }
+
+  ul.rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  ul.rows > li { border-bottom: 1px solid var(--line); }
+  details.row { margin: 0; }
+  details.row > summary {
+    color: var(--text); text-decoration: none; align-items: flex-start; padding: 10px 2px; gap: 12px;
+  }
+  details.row > summary::before { margin-top: 2px; }
+  .row-date { flex: none; width: 5.2em; font-weight: 700; }
+  .row-main { flex: 1; min-width: 0; }
+  .row-title { display: block; font-weight: 600; }
+  .row-sub { display: block; font-weight: 400; font-size: .95rem; color: var(--muted); }
+  details.row .inner { padding: 0 0 12px; }
+  details.row .card { margin-bottom: 4px; }
   footer.honest { margin-top: 36px; border-top: 2px solid var(--line); padding-top: 18px; font-size: .98rem; }
   footer.honest h2 { font-size: 1.15rem; }
   footer.honest ul { padding-left: 20px; }
   .status { position: absolute; left: -9999px; }
-  @media (max-width: 420px) { body { font-size: 17px; } .when strong { font-size: 1.2rem; } }
+  @media (max-width: 420px) {
+    body { font-size: 17px; } .when strong { font-size: 1.2rem; }
+    .row-date { width: 3.6em; } details.row > summary { gap: 8px; }
+  }
   @media print {
     .picker, .actions, footer .noprint, .check { display: none !important; }
     details { display: block; } details > summary { display: none; }
@@ -140,6 +165,10 @@
   </div>
 
   <p class="summary" id="summary" aria-live="polite"></p>
+  <div class="viewtoggle" role="group" aria-label="How to show notices">
+    <button type="button" data-view="cards" aria-pressed="true">Full cards</button>
+    <button type="button" data-view="list" aria-pressed="false">Quick list</button>
+  </div>
 
   <main id="board">
     <p>Loading notices…</p>
@@ -198,6 +227,20 @@
     { re: /\bappeal/i, term: "Appeal", def: "Asking a higher body to overturn a decision. Usually you can only appeal if you commented in time." },
     { re: /re-?notice/i, term: "Re-notice", def: "Posting and mailing a fresh notice with a new date. It usually opens a new chance to comment." }
   ];
+  // The notice-timing line (DQ-NB-03): two numbers and the statute, no verdict.
+  // Renders only for a statute a person has read and vouched, and only when both
+  // dates rest on evidence. Lives inside "About this notice", never on the card face.
+  let STATUTES = { statutes: [] };
+  function lawLine(n) {
+    const req = n.notice && n.notice.requirement;
+    const st = req && STATUTES.statutes.find(s => s.id === req && s.state === "vouched");
+    if (!st || !n.notice.dated || !n.event || !n.event.date) return null;
+    const lead = Math.round((parseDay(n.event.date) - parseDay(n.notice.dated)) / 86400000);
+    if (!(lead >= 0)) return null;
+    return `This notice was dated ${lead} days before the ${n.kind === "hearing" || n.kind === "budget-hearing" ? "hearing" : "meeting"}. ` +
+      `State law asks for at least ${esc(st.minimum.days)} days. (<a href="${esc(st.url)}">${esc(st.cite)}</a>)`;
+  }
+
   function wordsFor(n) {
     const hay = [n.title, n.summary, n.subject && n.subject.text, n.subject && n.subject.file_no, n.body].join(" ");
     return GLOSSARY.filter(g => g.re.test(hay));
@@ -222,8 +265,8 @@
     if (dDays != null && dDays >= 0) {
       const soon = dDays <= 3;
       const head = w.send_by && w.send_by !== w.closes
-        ? `Comment by ${longDate(w.send_by)} to be safe`
-        : `Comment by ${longDate(w.closes)}${w.closes_time ? ", " + w.closes_time : ""}`;
+        ? `Last day to comment, to be safe: ${longDate(w.send_by)}`
+        : `Last day to comment: ${longDate(w.closes)}${w.closes_time ? ", " + w.closes_time : ""}`;
       return { group: "now", sortKey: dDays, soon, headline: head,
         chips: [[soon ? "soon" : "open", (soon ? "! " : "● ") + (dDays === 0 ? "Last day today" : dDays + (dDays === 1 ? " day left" : " days left"))]] };
     }
@@ -263,6 +306,10 @@
       else { const d = parseDay(date); d.setDate(d.getDate() + 1); lines.push("DTSTART;VALUE=DATE:" + ymd(date), "DTEND;VALUE=DATE:" + d.getFullYear() + pad(d.getMonth() + 1) + pad(d.getDate())); }
       lines.push("SUMMARY:" + title.replace(/[,;]/g, m => "\\" + m), "DESCRIPTION:" + desc, "URL:" + url);
       if (n.event && n.event.place && time) lines.push("LOCATION:" + n.event.place.replace(/[,;]/g, m => "\\" + m));
+      // Reminders: a week and two days before a deadline; the day before and two hours before a hearing.
+      (t ? ["-P1D", "-PT2H"] : ["-P7D", "-P2D"]).forEach(tr => lines.push(
+        "BEGIN:VALARM", "ACTION:DISPLAY", "TRIGGER:" + tr,
+        "DESCRIPTION:" + title.replace(/[\\,;]/g, m => "\\" + m), "END:VALARM"));
       lines.push("END:VEVENT");
     }
     const w = n.window, e = n.event;
@@ -320,6 +367,9 @@
     const wordsHtml = words.length ? `<details><summary>What do these words mean?</summary><div class="inner"><dl class="words">${words.map(g => `<dt>${esc(g.term)}</dt><dd>${esc(g.def)}</dd>`).join("")}</dl></div></details>` : "";
 
     const facts = [];
+    if (n.first_seen) facts.push(`We first found this notice on ${esc(longDate(n.first_seen))}, ${esc(parseDay(n.first_seen).getFullYear())}.`);
+    const law = lawLine(n);
+    if (law) facts.push(law);
     if (n.subject && n.subject.file_no) facts.push(`File number: ${esc(n.subject.file_no)}${n.subject.file_no_note ? ". " + esc(n.subject.file_no_note) : ""}`);
     if (n.notice && n.notice.dated) facts.push(`Notice dated ${esc(longDate(n.notice.dated))}, ${esc(parseDay(n.notice.dated).getFullYear())}.`);
     (n.notice && n.notice.published || []).forEach(p => facts.push(`Posted: ${esc(p.where)}${p.date ? ", " + esc(shortDate(p.date)) : ""}.`));
@@ -347,6 +397,29 @@
     </article>`;
   }
 
+  // Quick list: one line per notice; tapping it opens the full card in place.
+  let VIEW = "cards";
+  function shortNoYear(sd) { const d = parseDay(sd); return d ? `${MONTHS[d.getMonth()].slice(0, 3)} ${d.getDate()}` : ""; }
+  function row(n, v, place) {
+    const w = n.window, e = n.event;
+    let date = "", sub = "";
+    if (v.group === "horizon") { date = "Not set"; sub = n.status === "continued" ? "Postponed, new date coming" : "Expected, not scheduled yet"; }
+    else if (v.group === "now" && w && daysUntil(w.send_by || w.closes) >= 0) {
+      const dl = w.send_by || w.closes, dd = daysUntil(dl);
+      date = shortNoYear(dl); sub = `Last day to comment${w.send_by && w.send_by !== w.closes ? " (to be safe)" : ""} · ${dd === 0 ? "today" : dd + (dd === 1 ? " day left" : " days left")}`;
+    } else if (v.group === "now") { date = shortNoYear(e.date); sub = `Hearing · ${inWords(daysUntil(e.date))}`; }
+    else { date = shortNoYear((e && e.date) || (w && w.closes)); sub = v.chips[0][1].replace(/^\S+ /, ""); }
+    const flags = [];
+    if (v.soon) flags.push("soon");
+    if (isNew(n) && v.group !== "past") flags.push("new");
+    if (isNear(n, place)) flags.push("in " + place.label.split(" (")[0]);
+    return `<details class="row" data-row="${esc(n.id)}"><summary>
+        <span class="row-date">${esc(date)}</span>
+        <span class="row-main"><span class="row-title">${esc(n.title)}</span>
+        <span class="row-sub">${esc(sub)}${flags.length ? " · " + esc(flags.join(" · ")) : ""}</span></span>
+      </summary><div class="inner">${card(n, place)}</div></details>`;
+  }
+
   function render() {
     const placeId = $("#place").value;
     const place = placeById(placeId);
@@ -367,21 +440,25 @@
     const lastChecked = SOURCES.sources.map(s => s.last_checked).sort().pop();
     const emptyNow = `<p class="empty">Nothing is open for comment ${place ? "for " + esc(place.label.split(" (")[0]) + " " : ""}right now in the sources we check (last checked ${esc(longDate(lastChecked))}). That is not the same as nothing planned. See "Where this comes from" below.</p>`;
 
+    const list = xs => VIEW === "list"
+      ? `<ul class="rows">${xs.map(x => `<li>${row(x.n, x.v, place)}</li>`).join("")}</ul>`
+      : xs.map(x => card(x.n, place)).join("");
+
     $("#board").innerHTML = `
       <section aria-labelledby="h-now">
         <h2 id="h-now">Speak up now</h2>
         <p class="section-note">Open comment periods and upcoming hearings, soonest deadline first.</p>
-        ${now.length ? now.map(x => card(x.n, place)).join("") : emptyNow}
+        ${now.length ? list(now) : emptyNow}
       </section>
       <section aria-labelledby="h-hz">
         <h2 id="h-hz">On the horizon</h2>
         <p class="section-note">Talked about in public meetings but not officially scheduled yet. These move up when a notice is posted.</p>
-        ${horizon.length ? horizon.map(x => card(x.n, place)).join("") : `<p class="empty">Nothing on the horizon here in the records we hold.</p>`}
+        ${horizon.length ? list(horizon) : `<p class="empty">Nothing on the horizon here in the records we hold.</p>`}
       </section>
       <section aria-labelledby="h-past">
         <details class="past-group">
           <summary><h2 id="h-past" style="display:inline;font-size:inherit">Already happened or closed (${past.length})</h2></summary>
-          <div class="inner">${past.map(x => card(x.n, place)).join("") || '<p class="empty">Nothing here yet.</p>'}</div>
+          <div class="inner">${past.length ? list(past) : '<p class="empty">Nothing here yet.</p>'}</div>
         </details>
       </section>`;
     postHeight();
@@ -407,6 +484,17 @@
   }
   window.addEventListener("resize", postHeight);
   document.addEventListener("toggle", postHeight, true);
+
+  function setupView() {
+    const want = params.get("view") || store.get("nb_view") || "cards";
+    VIEW = want === "list" ? "list" : "cards";
+    const sync = () => document.querySelectorAll(".viewtoggle button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === VIEW)));
+    sync();
+    document.querySelector(".viewtoggle").addEventListener("click", e => {
+      const b = e.target.closest("button[data-view]"); if (!b) return;
+      VIEW = b.dataset.view; store.set("nb_view", VIEW); sync(); render();
+    });
+  }
 
   function setupPicker() {
     const sel = $("#place");
@@ -451,11 +539,12 @@
     prevVisit = prev || null;       // null = first visit ever: "new" means the last 14 days
   }
 
-  Promise.all(["data/notices.json", "data/places.json", "data/sources.json"].map(u => fetch(u, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(u); return r.json(); })))
-    .then(([n, p, s]) => {
-      DATA = n; PLACES = p; SOURCES = s;
-      setupVisit(); setupPicker(); renderFooter(); render();
-      if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) { const d = el.closest("details.past-group"); if (d) d.open = true; el.scrollIntoView(); } }
+  const statutesP = fetch("data/statutes.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : { statutes: [] }).catch(() => ({ statutes: [] }));
+  Promise.all(["data/notices.json", "data/places.json", "data/sources.json"].map(u => fetch(u, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(u); return r.json(); })).concat([statutesP]))
+    .then(([n, p, s, st]) => {
+      DATA = n; PLACES = p; SOURCES = s; STATUTES = st;
+      setupVisit(); setupView(); setupPicker(); renderFooter(); render();
+      if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) { const d = el.closest("details.past-group"); if (d) d.open = true; const r = el.closest("details.row"); if (r) r.open = true; el.scrollIntoView(); } }
     })
     .catch(() => { $("#board").innerHTML = `<p class="empty">The notices could not be loaded. Please try again in a minute.</p>`; });
 })();
