@@ -3,7 +3,7 @@
   "about": "Notice Board seed data (M0). Every item was checked against the source named in its 'official' or 'provenance' field on 2026-09-24. Dates are Pacific local. A 'computed' deadline is worked out from the notice's own rule (e.g. '20 days from the date of this notice') and says so.",
   "updated": "2026-10-11",
   "feed": {
-   "generated": "2026-10-11T12:35:05",
+   "generated": "2026-10-11T12:37:21",
    "cards": 81,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }
@@ -803,7 +803,7 @@
       "date": "2026-04-22"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -859,7 +859,7 @@
       "date": "2026-05-06"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -915,7 +915,7 @@
       "date": "2026-05-06"
      }
     ],
-    "note": "Text as printed in the Skamania County Pioneer and the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in the Skamania County Pioneer and The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -1021,7 +1021,7 @@
       "date": "2026-04-22"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -1137,7 +1137,7 @@
       "date": "2026-05-06"
      }
     ],
-    "note": "Text as printed in the Skamania County Pioneer and the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in the Skamania County Pioneer and The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -1190,7 +1190,7 @@
       "date": "2026-04-29"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -1248,7 +1248,7 @@
       "date": "2026-05-13"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -1304,7 +1304,7 @@
       "date": "2026-05-20"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -1361,7 +1361,7 @@
       "date": "2026-05-13"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -1419,7 +1419,7 @@
       "date": "2026-05-20"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -1476,7 +1476,7 @@
       "date": "2026-05-20"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -1530,7 +1530,7 @@
       "date": "2026-05-06"
      }
     ],
-    "note": "Text as printed in the Skamania County Pioneer and the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in the Skamania County Pioneer and The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -1590,7 +1590,7 @@
       "date": "2026-05-27"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -1644,7 +1644,7 @@
       "date": "2026-05-20"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -1704,7 +1704,7 @@
       "date": "2026-06-10"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -1761,7 +1761,7 @@
       "date": "2026-06-03"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -1820,7 +1820,7 @@
       "date": "2026-06-10"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -1878,7 +1878,7 @@
       "date": "2026-06-10"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -1934,7 +1934,7 @@
       "date": "2026-06-10"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -1995,7 +1995,7 @@
       "date": "2026-06-17"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -2051,7 +2051,7 @@
       "date": "2026-06-24"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -2105,7 +2105,7 @@
       "date": "2026-06-24"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -2156,7 +2156,7 @@
       "date": "2026-07-08"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -2212,7 +2212,7 @@
       "date": "2026-07-01"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -2267,7 +2267,7 @@
       "date": "2026-07-01"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -2657,7 +2657,7 @@
       "date": "2026-07-01"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3005,7 +3005,7 @@
       "date": "2026-07-22"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3055,7 +3055,7 @@
       "date": "2026-07-15"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -3107,7 +3107,7 @@
       "date": "2026-07-08"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -3161,7 +3161,7 @@
       "date": "2026-07-15"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3217,7 +3217,7 @@
       "date": "2026-07-08"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3277,7 +3277,7 @@
       "date": "2026-07-22"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3340,7 +3340,7 @@
       "date": "2026-07-22"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3406,7 +3406,7 @@
       "date": "2026-07-22"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3464,7 +3464,7 @@
       "date": "2026-07-22"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3523,7 +3523,7 @@
       "date": "2026-07-22"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -3579,7 +3579,7 @@
       "date": "2026-07-08"
      }
     ],
-    "note": "Text as printed in the Skamania County Pioneer and the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in the Skamania County Pioneer and The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -3636,7 +3636,7 @@
       "date": "2026-07-15"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3692,7 +3692,7 @@
       "date": "2026-07-22"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3750,7 +3750,7 @@
       "date": "2026-08-19"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3805,7 +3805,7 @@
       "date": "2026-08-05"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3866,7 +3866,7 @@
       "date": "2026-08-12"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -3918,7 +3918,7 @@
       "date": "2026-08-05"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -3970,7 +3970,7 @@
       "date": "2026-08-05"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -4026,7 +4026,7 @@
       "date": "2026-08-12"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -4082,7 +4082,7 @@
       "date": "2026-08-12"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -4134,7 +4134,7 @@
       "date": "2026-08-12"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -4191,7 +4191,7 @@
       "date": "2026-09-02"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -4244,7 +4244,7 @@
       "date": "2026-09-09"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -4298,7 +4298,7 @@
       "date": "2026-08-19"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -4358,7 +4358,7 @@
       "date": "2026-09-16"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -4419,7 +4419,7 @@
       "date": "2026-09-16"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -4477,7 +4477,7 @@
       "date": "2026-09-16"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -4529,7 +4529,7 @@
       "date": "2026-09-16"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -4582,7 +4582,7 @@
       "date": "2026-10-07"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "closed",
@@ -4634,7 +4634,7 @@
       "date": "2026-09-30"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "held",
@@ -4921,7 +4921,7 @@
       "date": "2026-10-07"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "scheduled",
@@ -4977,7 +4977,7 @@
       "date": "2026-10-14"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "open",
@@ -5093,7 +5093,7 @@
       "date": "2026-10-14"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "scheduled",
@@ -5148,7 +5148,7 @@
       "date": "2026-10-07"
      }
     ],
-    "note": "Text as printed in the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "open",
@@ -5228,7 +5228,7 @@
       "date": "2026-10-28"
      }
     ],
-    "note": "Text as printed in the Skamania County Pioneer and the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in the Skamania County Pioneer and The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "open",
@@ -5308,7 +5308,7 @@
       "date": "2026-10-21"
      }
     ],
-    "note": "Text as printed in the Skamania County Pioneer and the The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "note": "Text as printed in the Skamania County Pioneer and The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
    "status": "open",
