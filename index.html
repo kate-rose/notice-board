@@ -75,6 +75,7 @@
   .chip.past { background: var(--past-bg); color: var(--past-fg); }
   .chip.new  { background: var(--new-bg);  color: var(--new-fg); }
   .chip.near { background: var(--soft); color: var(--text); border: 1px solid var(--line); }
+  .chip.printed { background: transparent; color: var(--muted, var(--text)); border: 1px dashed var(--line); font-weight: 600; }
   .card h3 { font-size: 1.2rem; line-height: 1.35; margin: 4px 0 6px; }
   .meta { color: var(--muted); font-size: .98rem; margin: 0 0 10px; }
   .card p.sum { margin: 0 0 10px; }
@@ -350,6 +351,8 @@
     const chips = v.chips.map(([cls, t]) => `<span class="chip ${cls}">${esc(t)}</span>`);
     if (isNew(n) && v.group !== "past") chips.push(`<span class="chip new">New</span>`);
     if (isNear(n, place)) chips.push(`<span class="chip near">In ${esc(place.label.split(" (")[0])}</span>`);
+    const printed = !!(n.provenance && n.provenance.as_printed);
+    if (printed) chips.push(`<span class="chip printed" title="The notice as the newspaper printed it, not rewritten">As printed</span>`);
     const jl = PLACES.jurisdictions[n.jurisdiction];
     const where = n.subject && n.subject.location ? ` · ${esc(n.subject.location)}` : "";
     const w = n.window;
@@ -367,6 +370,7 @@
     const wordsHtml = words.length ? `<details><summary>What do these words mean?</summary><div class="inner"><dl class="words">${words.map(g => `<dt>${esc(g.term)}</dt><dd>${esc(g.def)}</dd>`).join("")}</dl></div></details>` : "";
 
     const facts = [];
+    if (printed) facts.push("This card is the notice as the newspaper printed it. We have not rewritten or checked it; the agency's own posting is the record.");
     if (n.first_seen) facts.push(`We first found this notice on ${esc(longDate(n.first_seen))}, ${esc(parseDay(n.first_seen).getFullYear())}.`);
     const law = lawLine(n);
     if (law) facts.push(law);
@@ -412,6 +416,7 @@
     const flags = [];
     if (v.soon) flags.push("soon");
     if (isNew(n) && v.group !== "past") flags.push("new");
+    if (n.provenance && n.provenance.as_printed) flags.push("as printed");
     if (isNear(n, place)) flags.push("in " + place.label.split(" (")[0]);
     return `<details class="row" data-row="${esc(n.id)}"><summary>
         <span class="row-date">${esc(date)}</span>

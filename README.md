@@ -22,8 +22,21 @@ in Klickitat). The page says so in its footer, on every view.
   "Where this comes from" block, so an empty list never reads as "nothing planned."
 
 The plan, the data rules and the milestones live in Ferric:
-`~/Ferric/drafts/2026-09-24_notice-board-plan.md`. From M2 on, the JSON here is
-written by Ferric's `notice_publish.py`; until then it is edited by hand.
+`~/Ferric/drafts/2026-09-24_notice-board-plan.md`.
+
+## Two kinds of card
+
+- **Curated cards** are written by hand in `data/notices.json`: a plain-language
+  title, how to weigh in, the places a notice concerns. They change only when a
+  person edits them.
+- **"As printed" cards** are the legal notices as the two county newspapers printed
+  them (the Skamania County Pioneer for Skamania County, the Goldendale Sentinel
+  for Klickitat County), with the dates they ran. They carry an "As printed" chip
+  and are not rewritten or checked; the agency's own posting is the record. They
+  are produced by Ferric's `legals.py --board` and merged in by `notice_publish.py`
+  after each twice-weekly sweep, which also attaches "Printed in …" to a curated
+  card when the papers ran the same notice. `notices.ics` (subscribe in a
+  calendar) and `feed.xml` (RSS) are written at the same time.
 
 ## Data rules that matter
 
@@ -35,6 +48,16 @@ written by Ferric's `notice_publish.py`; until then it is edited by hand.
   day before it ("to be safe") and still shows the county's own date.
 - File numbers are shown as printed on the notice. Where the county's web page
   lists a different number, the card says so.
+
+## How it updates
+
+```bash
+cd ~/Ferric && python3 legals.py --write        # capture the papers (scheduled Thu + Mon)
+python3 notice_publish.py                      # dry run: what would change
+python3 notice_publish.py --apply --push        # write data/, notices.ics, feed.xml; commit; push
+```
+
+GitHub Pages redeploys on push. The Ghost page needs no change.
 
 ## Preview
 
