@@ -1,9 +1,9 @@
 {
  "_meta": {
   "about": "Notice Board seed data (M0). Every item was checked against the source named in its 'official' or 'provenance' field on 2026-09-24. Dates are Pacific local. A 'computed' deadline is worked out from the notice's own rule (e.g. '20 days from the date of this notice') and says so.",
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "feed": {
-   "generated": "2026-10-11T12:37:21",
+   "generated": "2026-10-12T07:43:05",
    "cards": 81,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }

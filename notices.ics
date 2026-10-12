@@ -4,23 +4,8 @@ PRODID:-//Notice Board//skamaniadispatch.com//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Notice Board (Skamania and Klickitat public notices)
 BEGIN:VEVENT
-UID:2026-10-11_skamania-nsa-26-20_cell-tower@notice-board
-DTSTAMP:20261011T193721Z
-DTSTART;VALUE=DATE:20261011
-SUMMARY:Last day to comment: A 125-foot cell tower on Miller Road (Skaman
- ia County Community Development)
-DESCRIPTION:Public Safety Towers LLC applied to build a multi-carrier wir
- eless tower disguised as a fir tree (a "monofir")\, inside a 35-by-50-fo
- ot fenced compound with a backup generator\, a gravel access road and so
- me tree removal. It is in the National Scenic Area\, so it gets a Scenic
-  Area review. More: https://kate-rose.github.io/notice-board/#2026-10-11
- _skamania-nsa-26-20_cell-tower
-URL:https://kate-rose.github.io/notice-board/#2026-10-11_skamania-nsa-26-
- 20_cell-tower
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-12_stevenson-planning-commission_263ea86fa269@notice-board
-DTSTAMP:20261011T193721Z
+DTSTAMP:20261012T144305Z
 DTSTART;VALUE=DATE:20261012
 SUMMARY:Stevenson Planning Commission: Workshop And Public Hearing
 DESCRIPTION:NOTICE OF WORKSHOP AND PUBLIC HEARING Notice is hereby given 
@@ -37,7 +22,7 @@ LOCATION:170 NW Vancouver Ave
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-12_stevenson-planning-commission_b5fb937d7d33@notice-board
-DTSTAMP:20261011T193721Z
+DTSTAMP:20261012T144305Z
 DTSTART;TZID=America/Los_Angeles:20261012T170000
 SUMMARY:Stevenson Planning Commission: Joint City Council & Planning Comm
  ission Workshop Monday\, October 12\, 2026 5:00–6:00 p.m.
@@ -55,7 +40,7 @@ LOCATION:7121 E Loop Road The City Council and Planning Commissio
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-12_stevenson-planning-commission_ec9107ba4a4f@notice-board
-DTSTAMP:20261011T193721Z
+DTSTAMP:20261012T144305Z
 DTSTART;TZID=America/Los_Angeles:20261012T180000
 SUMMARY:Stevenson Planning Commission: Review and discussion of critical 
  area ordinance draft Monday\, October 12\, 2026\, 6:00-8:00pm 7121 E Loo
@@ -74,7 +59,7 @@ LOCATION:7121 E Loop Rd
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-14_wishram-school-district_81f1d3303c9f@notice-board
-DTSTAMP:20261011T193721Z
+DTSTAMP:20261012T144305Z
 DTSTART;TZID=America/Los_Angeles:20261014T171500
 SUMMARY:Wishram School District: 2026-2027 Transportation Vehicle Fund Bu
  dget Extension Adoption
@@ -91,7 +76,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-14_wishram-school-d
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-16_goldendale-school-district-404_59a125c44228@notice-board
-DTSTAMP:20261011T193721Z
+DTSTAMP:20261012T144305Z
 DTSTART;VALUE=DATE:20261016
 SUMMARY:Last day to comment: The Goldendale School District #404 is solic
  iting bids to construct a storage shed. (Goldendale School District #404
@@ -109,7 +94,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-16_goldendale-schoo
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-19_port-of-skamania-county-commissioners_952af74398d4@notice-board
-DTSTAMP:20261011T193721Z
+DTSTAMP:20261012T144305Z
 DTSTART;TZID=America/Los_Angeles:20261019T230000
 SUMMARY:Port of Skamania County Commissioners: Budget Planning and Hearin
  g Port of Skamania County Board of Commissioners Preliminary 2027 Genera
@@ -128,7 +113,7 @@ LOCATION:212 SW Cascade Avenue Stevenson
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-19_klickitat-county-planning-commission_27f75c77804f@notice-board
-DTSTAMP:20261011T193721Z
+DTSTAMP:20261012T144305Z
 DTSTART;TZID=America/Los_Angeles:20261019T180000
 SUMMARY:Klickitat County Planning Commission: PUBLIC HEARING PROPOSED AME
  NDMENT TO THE KLICKITAT COUNTY COMPREHENSIVE PLAN AND ZONING ORDINANCE R
@@ -147,7 +132,7 @@ LOCATION:115 West Court St
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22_klickitat-valley-health-board_44bd7ab3d10f@notice-board
-DTSTAMP:20261011T193721Z
+DTSTAMP:20261012T144305Z
 DTSTART;VALUE=DATE:20261022
 SUMMARY:Last day to comment: Board Vacancy (Klickitat Valley Health board
  )
@@ -164,7 +149,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-22_klickitat-valley
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03_county-auditor_e65e345165d1@notice-board
-DTSTAMP:20261011T193721Z
+DTSTAMP:20261012T144305Z
 DTSTART;VALUE=DATE:20261103
 SUMMARY:Last day to comment: The following measures will be submitted to 
  voters on the November 3\, 2026 General Election ballot (County Auditor)
@@ -180,7 +165,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-03_county-auditor_e
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17_wa-department-of-ecology_4c2b57f2a06a@notice-board
-DTSTAMP:20261011T193721Z
+DTSTAMP:20261012T144305Z
 DTSTART;TZID=America/Los_Angeles:20261117T235900
 SUMMARY:WA Department of Ecology: Public Hearings and comment period on s
  tate shoreline rules The Department of Ecology is proposing amendments t
