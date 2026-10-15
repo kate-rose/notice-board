@@ -1,10 +1,10 @@
 {
  "_meta": {
   "about": "Notice Board seed data (M0). Every item was checked against the source named in its 'official' or 'provenance' field on 2026-09-24. Dates are Pacific local. A 'computed' deadline is worked out from the notice's own rule (e.g. '20 days from the date of this notice') and says so.",
-  "updated": "2026-10-12",
+  "updated": "2026-10-15",
   "feed": {
-   "generated": "2026-10-12T07:43:05",
-   "cards": 81,
+   "generated": "2026-10-15T07:43:12",
+   "cards": 91,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }
  },
@@ -4747,7 +4747,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -4806,7 +4806,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -4865,7 +4865,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -4924,7 +4924,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -4935,6 +4935,60 @@
    },
    "first_seen": "2026-09-30",
    "text": "PUBLIC NOTICE 2026-2027 TRANSPORTATION VEHICLE FUND BUDGET EXTENSION ADOPTION The Board of Directors of Wishram School District #94 will meet for the purpose of fixing and adopting the District’s 2026/27 Transportation Vehicle Fund Budget Extension. Any person may appear at the meeting and be heard for or against any part of this budget extension. The budget extension adoption will be conducted during a Special Board meeting on 10/14/26 beginning at 5:15PM at the Wishram School. "
+  },
+  {
+   "id": "2026-10-15_stevenson-city-council_18ee48691a57",
+   "jurisdiction": "stevenson",
+   "body": "Stevenson City Council",
+   "kind": "special-meeting",
+   "title": "Meeting notice for Home Valley Water District for Thursday Oct.",
+   "summary": "Meeting notice for Home Valley Water District for Thursday Oct. 15 at 7:00 PM at the water plant on 92 Jewell Rd",
+   "event": {
+    "date": "2026-10-15",
+    "time": "7:00 pm",
+    "place": "00 PM at the water plant on 92 Jewell Rd",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "Meeting notice for Home Valley Water District for Thursday Oct.",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-14",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-14"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "18ee48691a57",
+    "channels": [
+     "Stevenson-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-14",
+   "text": "Meeting notice for Home Valley Water District for Thursday Oct. 15 at 7:00 PM at the water plant on 92 Jewell Rd"
   },
   {
    "id": "2026-10-16_goldendale-school-district-404_59a125c44228",
@@ -4987,7 +5041,10 @@
     "source": "legals.py",
     "notice_id": "59a125c44228",
     "channels": [],
-    "as_printed": true
+    "as_printed": true,
+    "also_notice_ids": [
+     "6cd1ac30f6b4"
+    ]
    },
    "first_seen": "2026-10-07",
    "text": "PUBLIC NOTICE September 9, 2026 The Goldendale School District #404 is soliciting bids to construct a storage shed. Firms must have experience constructing steel beamed storage facilities including concert work for the foundation. Construction to begin ASAP. Submit qualifications, quote and experience by October 16, 2026 to: Shannon Crocker-Ihrig, Business Manager. Goldendale School District #404, 604 E. Brooks St., Goldendale, WA 98620. Email: Shannon.crockerihrig@gsd404.org Selection will be made October 19, 2026. For further details please contact Shannon. "
@@ -5112,6 +5169,58 @@
    "text": "NOTICE OF PUBLIC HEARING PROPOSED AMENDMENT TO THE KLICKITAT COUNTY COMPREHENSIVE PLAN AND ZONING ORDINANCE RELATED TO INDUSTRIAL SCALE SOLAR PROJECTS NOTICE IS HEREBY GIVEN that the Klickitat County Planning Commission will hold a public hearing at a special meeting on October 19, 2026 at 6:00 p.m. The meeting will be held both in person and virtually: Participation in person: The meeting will be held at the Klickitat County Services Building, 115 West Court St, Room 200, Goldendale, WA. Participation in this meeting will also be offered virtually via Zoom. To join the meeting: https://us06web.zoom.us/j/85782372047?pwd=WcV8P4l5C1aTxaO71ZIpRJW7NaCsNb.1 Or call: 669-900-6833 346-248-7799 929-205-6099 253-215-8782 Meeting ID: 857 8237 2047 Passcode: 152082 THE PURPOSE of said hearing is to hear all interested parties who wish to testify for or against the following proposals: AMENDMENT TO COMPREHENSIVE PLAN – NATURAL RESOURCES/ENERGY ELEMENT AMENDMENT TO TITLE 19, SECTION 19.39, ENERGY OVERLAY ZONE The purpose of both amendments is to ensure consistency with a proposed reduction to the Energy Overlay Zone for industrial scale solar projects. Information on the proposal is available at the Klickitat County Planning Department, 115 West Court St, Room 301, Goldendale, WA, 509 773-5703 or on our website: https://www.klickitatcounty.gov/272/Planning-Department BY ORDER of the Klickitat County Planning Commission dated this 2 nd day of October, 2026. /s/ Dave Barta, Chairman "
   },
   {
+   "id": "2026-10-21_skamania-county-homeless-housing-council_023e4f66309b",
+   "jurisdiction": "skamania-county-homeless-housing-council",
+   "body": "Skamania County Homeless Housing Council",
+   "kind": "special-meeting",
+   "title": "Skamania County Homeless Housing Council Meeting",
+   "summary": "SKAMANIA COUNTY HOMELESS HOUSING COUNCIL MEETING Wednesday, October 21st , 2026 From 1:00 to 2:00 p.m. Participation-Hybrid (in person AND via zoom) Hegewald Center/West Meeting Rm #B142/B144 710 SW Rock Creek Drive, Stevenson, WA 98648 The Council is actively seeking members for the Government & Ministerial positions. Call the office for further details (509) 427-3870",
+   "event": {
+    "date": "2026-10-21",
+    "time": "1:00 pm",
+    "place": "710 SW Rock Creek Drive",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "Skamania County Homeless Housing Council Meeting",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-14",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-14"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "023e4f66309b",
+    "channels": [],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-14",
+   "text": "SKAMANIA COUNTY HOMELESS HOUSING COUNCIL MEETING Wednesday, October 21st , 2026 From 1:00 to 2:00 p.m. Participation-Hybrid (in person AND via zoom) Hegewald Center/West Meeting Rm #B142/B144 710 SW Rock Creek Drive, Stevenson, WA 98648 The Council is actively seeking members for the Government & Ministerial positions. Call the office for further details (509) 427-3870"
+  },
+  {
    "id": "2026-10-22_klickitat-valley-health-board_44bd7ab3d10f",
    "jurisdiction": "klickitat-valley-health",
    "body": "Klickitat Valley Health board",
@@ -5146,6 +5255,10 @@
      {
       "where": "The Goldendale Sentinel",
       "date": "2026-10-07"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-14"
      }
     ],
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
@@ -5160,10 +5273,299 @@
     "channels": [
      "KlickitatValleyHealth-BOC"
     ],
-    "as_printed": true
+    "as_printed": true,
+    "also_notice_ids": [
+     "6ed27730ba65"
+    ]
    },
    "first_seen": "2026-10-07",
    "text": "PUBLIC NOTICE OF BOARD VACANCY Public Hospital District No. 1 of Klickitat County Board of Commissioners, dba Klickitat Valley Health, is notifying the public of an upcoming vacancy for Board Position No. 3. The Board of Commissioners will appoint a qualified candidate to fill the vacant position through the remainder of the current term, which ends December 31, 2027. Board Position No. 3 will appear on the November 2027 general election ballot. The candidate elected at that election will assume office in accordance with applicable election requirements and begin a new six-year term on January 1, 2028. At the September 23, 2026, Board of Commissioners meeting, the Board nominated the following individual for consideration for appointment to the vacant position pursuant to RCW 42.12.080: Connie Pond Additional applications will be accepted for consideration of appointment. Applicants must reside within Public Hospital District No. 1 boundaries and be registered to vote. Applications, description of Commissioner duties and the boundaries can be obtained by emailing dluth@kvhealth.net , calling (509) 773-1043 or via the links below. Completed applications including a current resume, must be submitted to the Board at anwilliams@kvhealth.net or delivered to: KVH, Attn: Board of Commissioners, 310 S. Roosevelt, Goldendale, WA 98620 before 5 p.m. on October 22, 2026 to be considered for appointment. The Board will appoint the chosen candidate at the regular meeting of the Board on November 18, 2026. Public Hospital District No. 1 of Klickitat County Boundaries: https://drive.google.com/file/d/1sIK9NFL-VqG4ULmICIw0cFzKDXiAez5F/view?usp=sharing Application: https://drive.google.com/file/d/1-t7GrUxvmLK5tZp1qB6vXCi-Z7S7cjGJ/view?usp=sharing Board Member Position Description: https://drive.google.com/file/d/1i2cP-oWMNr5yL0UEqK5LnKtgLOup1SX1/view?usp=sharing "
+  },
+  {
+   "id": "2026-10-27_north-bonneville-planning-commission_8017748e8b1d",
+   "jurisdiction": "north-bonneville",
+   "body": "North Bonneville Planning Commission",
+   "kind": "budget-hearing",
+   "title": "City of North Bonneville Planning Commission NOTICE OF PUBLIC HEARING PRELIMINARY BUDGET AND PROPERTY TAX HEARING The City of North Bonnevil",
+   "summary": "City of North Bonneville Planning Commission NOTICE OF PUBLIC HEARING PRELIMINARY BUDGET AND PROPERTY TAX HEARING The City of North Bonneville will hold a public hearing to review the 2027 property tax levy and preliminary 2027 City budget on Tuesday, October 27, 2026, at 7:00 p.m. at City Hall during the City Council’s regularly scheduled meeting. All interested parties are invited to submit comments and attend the …",
+   "event": {
+    "date": "2026-10-27",
+    "time": "7:00 pm",
+    "place": null,
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "City of North Bonneville Planning Commission NOTICE OF PUBLIC HEARING PRELIMINARY BUDGET AND PROPERTY TAX HEARING The City of North Bonnevil",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-14",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-14"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-21"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "8017748e8b1d",
+    "channels": [
+     "NorthBonneville-PlanningCommission"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-14",
+   "text": "City of North Bonneville Planning Commission NOTICE OF PUBLIC HEARING PRELIMINARY BUDGET AND PROPERTY TAX HEARING The City of North Bonneville will hold a public hearing to review the 2027 property tax levy and preliminary 2027 City budget on Tuesday, October 27, 2026, at 7:00 p.m. at City Hall during the City Council’s regularly scheduled meeting. All interested parties are invited to submit comments and attend the hearing. For more information contact Chief Administrative Officer, Taylor Chambers at (509) 427-8182. City Hall is accessible to persons with disabilities"
+  },
+  {
+   "id": "2026-10-27_klickitat-county-commissioners_c2d3f18bd99b",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "hearing",
+   "title": "Public Hearing",
+   "summary": "NOTICE OF PUBLIC HEARING In accordance with Chapter 36.81.121 of the Revised Code of Washington, the Board of County Commissioners are to hold a public hearing prior to the amendment of the Six Year Transportation Improvement Program for Klickitat County. Public hearings will be held on October 27, 2026 at 1:30 p.m. in the Commissioners’ room located in the Klickitat County Services Building, Goldendale, Washington a…",
+   "event": {
+    "date": "2026-10-27",
+    "time": "1:30 pm",
+    "place": null,
+    "remote": "https://us02web.zoom.us/j/586587651"
+   },
+   "window": null,
+   "how": {
+    "steps": [
+     "Email titlevi@klickitatcounty.org."
+    ],
+    "email": "titlevi@klickitatcounty.org"
+   },
+   "subject": {
+    "text": "Public Hearing",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/",
+    "label": "The The Goldendale Sentinel's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-14",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-14"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-21"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "c2d3f18bd99b",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-14",
+   "text": "NOTICE OF PUBLIC HEARING In accordance with Chapter 36.81.121 of the Revised Code of Washington, the Board of County Commissioners are to hold a public hearing prior to the amendment of the Six Year Transportation Improvement Program for Klickitat County. Public hearings will be held on October 27, 2026 at 1:30 p.m. in the Commissioners’ room located in the Klickitat County Services Building, Goldendale, Washington at which time any person may appear and be heard for or against the proposed revisement and extension to be made to the Klickitat County Six Year Transportation Improvement Program for 2026-2031 Zoom meeting is being provided for citizen comment: To join the Zoom meeting: type in https://us02web.zoom.us/j/586587651 in your browser or use one of the call-in numbers below and Meeting ID: 586 587 651. 669-900-6833 346-248-7799 929-205-6099 253-215-8782 301-715-8592 312-626-6799 Americans with Disabilities Act (ADA) Information The Klickitat County Public Works Dept. in accordance with Section 504 of the Rehabilitation Act (Section 504) and the Americans with Disabilities Act (ADA), commits to nondiscrimination on the basis of disability, in all of its programs and activities. This material can be made available in an alternate format by emailing Klickitat County Public Works Dept. at titlevi@klickitatcounty.org or by calling (509) 773 - 4616. Aviso a personas con dominio limitado del idioma inglés: Si usted tiene alguna dificultad en entender el idioma inglés, puede, sin costo alguno, solicitar asistencia lingüística con respecto a esta información llamando al (509) 773-4616, o envíe un mensaje de correo electrónico a: titlevi@klickitatcounty.org Title VI Statement It is Klickitat County’s policy to assure that no person shall, on the grounds of race, color, national origin, as provided by Title VI of the Civil Rights Act of 1964, be excluded from participation in, be denied benefits of, or be otherwise discriminated against under any of its programs and activities. Any person who believes his/her Title VI protection has been violated, may file a complaint with Klickitat County’s Human Resources Department. For additional information regarding Title VI complaint procedures and/or information regarding our non-discrimination obligations, please contact Klickitat County’s Title VI Coordinator at (509) 773-7171 or by email at: titlevi@klickitatcounty.org . Dated this 13th day of October, 2026. Ron Ihrig, Chairman Board of County Commissioners "
+  },
+  {
+   "id": "2026-10-27_klickitat-county-commissioners_d65b10273461",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "budget-hearing",
+   "title": "Public Hearing",
+   "summary": "NOTICE OF PUBLIC HEARING Supplemental Budget The Klickitat County Board of Commissioners will meet on October 27th, 2026, at 1:30 pm. Please join the meeting at the Klickitat County Services Building in the Chambers of the Board of County Commissioners, or virtually via Zoom, meeting ID 586587651. They will hold a Public Hearing and consider amendments to the 2026 budget as summarized below. Information concerning th…",
+   "event": {
+    "date": "2026-10-27",
+    "time": "1:30 pm",
+    "place": "115 W Court St",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [
+     "Email bocc@klickitatcounty.org."
+    ],
+    "email": "bocc@klickitatcounty.org"
+   },
+   "subject": {
+    "text": "Public Hearing",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/",
+    "label": "The The Goldendale Sentinel's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-14",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-14"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-21"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "d65b10273461",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-14",
+   "text": "NOTICE OF PUBLIC HEARING Supplemental Budget The Klickitat County Board of Commissioners will meet on October 27th, 2026, at 1:30 pm. Please join the meeting at the Klickitat County Services Building in the Chambers of the Board of County Commissioners, or virtually via Zoom, meeting ID 586587651. They will hold a Public Hearing and consider amendments to the 2026 budget as summarized below. Information concerning these changes may be obtained at the Commissioners' Office, 115 W Court St. Rm 201, by calling 509.773.2331, or viewing this notice and supporting detail on the Klickitat County website at the Board of County Commissioners Agenda page or the Fiscal Services department page. Written comment will be accepted via email to bocc@klickitatcounty.org or in the Commissioner’s office on or before October 27th, 2026, at 1:30 pm, with the subject line: 202 6-3 BUDGET AMENDMENT . Board of County Commissioners, Ron Ihrig, Chairman FUND, EXPENSE REQUEST 001 General 165,483.00 114 Law Library 3,500.00 125 Cumulative Reserve 666,792.00 140 Solid Waste 40,200.00 306 CAMPIMP, Radio System 566,298.00 307-CAMPIMP, Major Projects 165,245.00 TOTAL 1,607,518.00 "
+  },
+  {
+   "id": "2026-10-28_klickitat-county-commissioners_671b30257901",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "application",
+   "title": "Klickitat County Mitigated Determination Of Non-Significance",
+   "summary": "KLICKITAT COUNTY MITIGATED DETERMINATION OF NON-SIGNIFICANCE Notice is hereby given that Klickitat County issued two Mitigated Determinations of Non-significance (MDNS) on October 9, 2026 under SEPA Rules (Chapter 197-11 WAC) and the Klickitat County Environmental Ordinance Number 121084, as amended, for the following proposals: SEPA 2026-12. Applicant: Bill & Carol Anderson. A Short Plat application requesting to su…",
+   "event": null,
+   "window": {
+    "closes": "2026-10-28",
+    "basis": "stated on the notice"
+   },
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "Klickitat County Mitigated Determination Of Non-Significance",
+    "file_no": "SEPA 2026-12",
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/",
+    "label": "The The Goldendale Sentinel's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-14",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-14"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "671b30257901",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-14",
+   "text": "KLICKITAT COUNTY MITIGATED DETERMINATION OF NON-SIGNIFICANCE Notice is hereby given that Klickitat County issued two Mitigated Determinations of Non-significance (MDNS) on October 9, 2026 under SEPA Rules (Chapter 197-11 WAC) and the Klickitat County Environmental Ordinance Number 121084, as amended, for the following proposals: SEPA 2026-12. Applicant: Bill & Carol Anderson. A Short Plat application requesting to subdivide 1.59 acres into two lots. The proposed short plat is located in a portion of the SWNE of Section 23, T6N, R10E, W.M. Klickitat County, WA (Trout Lake vicinity) on tax parcel 06-10-2313-0003/00. SEPA 2026-17. Applicant: Joshua & Ashley Rahberger. A Short Plat application requesting to subdivide approximately 19.9 acres into three lots. The proposed short plat is located in a portion of NW of Section 25, T5N, R15E, W.M. Klickitat County, WA (Goldendale vicinity) on tax parcel 05-15-2554-0003/00. After review of the completed environmental checklists and other information on file the Klickitat County Responsible Official has determined that these proposals will not have probable significant adverse impacts on the environment. Copies of the MDNS are available at the Klickitat County Planning Department during normal business hours. Comments on the above projects are due by 5:00 pm October 28, 2026. Appeals on the above environmental review will be accepted until 5:00 pm November 5, 2026. Appeals must be made to the Board and filed with the Klickitat County Auditor’s office. Appeals shall not be deemed complete without payment of the applicable appeal fees payable to Klickitat County Planning Department. "
+  },
+  {
+   "id": "2026-11-02_klickitat-county-commissioners_406fd0a32d0c",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "special-meeting",
+   "title": "Election",
+   "summary": "NOTICE OF ELECTION Notice is hereby given that a General Election will be held in Klickitat County, Washington, November 3, 2026, in all precincts within Klickitat County. The election will be conducted by mail ballot. Voter registration forms are available at post offices, libraries, or at the Auditor’s Office. Registrations and updates may also be submitted online at votewa.gov . The last day to register to vote, t…",
+   "event": {
+    "date": "2026-11-02",
+    "time": "8:30 am",
+    "place": "205 S. Columbus Ave",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [
+     "Email voting@klickitatcounty.gov."
+    ],
+    "email": "voting@klickitatcounty.gov"
+   },
+   "subject": {
+    "text": "Election",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/",
+    "label": "The The Goldendale Sentinel's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-14",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-14"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "406fd0a32d0c",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-14",
+   "text": "NOTICE OF ELECTION Notice is hereby given that a General Election will be held in Klickitat County, Washington, November 3, 2026, in all precincts within Klickitat County. The election will be conducted by mail ballot. Voter registration forms are available at post offices, libraries, or at the Auditor’s Office. Registrations and updates may also be submitted online at votewa.gov . The last day to register to vote, transfer or update an existing registration by mail or online is October 26, 2026. The last day to register to vote or update your voter registration in person is November 3, 2026 in the Klickitat County Auditor’s Office, 205 S. Columbus Ave. Room 203. On or before October 14, 2026, the Auditor’s Office will mail, or cause to be mailed, to each qualified voter within the county, a ballot. Ballots returned by mail must be postmarked by November 3, 2026. No postage is required if mailed within the United States. Ballots returned in-person to our office or dropped into a designated drop box must be returned by 8:00 P.M. on November 3, 2026. Replacement ballots may be obtained from the Auditor’s Office or by visiting votewa.gov . The Auditor’s Office shall provide the availability of registration and voting aids, assistance to elderly and disabled persons, and procedures for voting by mail. Contact the Auditor’s Office if you need assistance with a mail ballot. The Accessible Voting Unit is equipped with audio and visual technology which allows voters with limited vision, hearing, or physical disabilities to vote more independently. This unit is available in the Auditor’s Office beginning October 16, 2026, through November 2, 2026, during regular business hours Monday through Friday from 8:30 A.M. to noon. and 1:00 P.M.to 5:00 P.M. On Election Day, November 3, 2026, the Accessible Voting Unit is available from 8:30 A.M. to 8:00 P.M. If you need an accessibility accommodation, please contact the Auditor’s Office at (509) 773-4001 or by emailing voting@klickitatcounty.gov , no later than five working days prior to the date service is needed. Pursuant to RCW 29A.60, the canvassing board will hold a public meeting at 8:30 A.M., on November 17, 2026, to examine returns and at 8:30 A.M., on November 24, 2026, to certify the cumulative results, precinct results and a reconciliation report of the votes cast. These meetings will be held in the Klickitat County Services Building located at 115 W. Court St., Goldendale, WA 98620 in the Mt. St. Helens Conference Room on the third floor. For google meets login information, visit our website at: http://www.klickitatcounty.gov/1136/ElectionsVoter-Registration and select the Current Election tab. Additional information may be obtained by phone (509) 773-4001 and by visiting www.klickitatcounty.gov/1136/ElectionsVoter-Registration . Dated this 7th day of October, 2026. Heather Jobe, Klickitat County Auditor and Ex Officio Supervisor of Elections "
   },
   {
    "id": "2026-11-03_county-auditor_e65e345165d1",
@@ -5247,6 +5649,60 @@
    "text": "PUBLIC NOTICE The following measures will be submitted to voters on the November 3, 2026 General Election ballot: INITIATIVE TO THE PEOPLE IP26-645 - Initiative Measure No. IP26-645 concerns state and local taxes. This measure would repeal a 9.9% tax on annual individual income over $1,000,000; prohibit taxes measured by individual income and taxes on individual income or the receipt of individual income; and define “income.” This measure would decrease funding for public K-12 education, higher education (including universities and community colleges), and human services (primarily healthcare). INITIATIVES TO THE LEGISLATURE IL26-001 - Initiative Measure No. IL26-001 concerns parental rights relating to their children in public school. This measure would repeal amendments to a statute listing certain rights of parents and guardians of public-school children and re-enact the law as it was originally enacted by Initiative to the Legislature 2081. IL26-638 - Initiative Measure No. IL26-638 concerns participation in athletics at K-12 schools. This measure would prohibit students it defines as “biologically male” from competing in certain school athletic activities intended for female students only. It would require verification of biological sex by students’ healthcare providers"
   },
   {
+   "id": "2026-11-10_skamania-county-commissioners_d5113f6d8bd3",
+   "jurisdiction": "skamania-county",
+   "body": "Skamania County Commissioners",
+   "kind": "special-meeting",
+   "title": "General Election Skamania County, Washington November 3, 2026",
+   "summary": "NOTICE OF GENERAL ELECTION SKAMANIA COUNTY, WASHINGTON NOVEMBER 3, 2026 Legal Notice NOTICE IS HEREBY GIVEN THAT on Tuesday, November 3, 2026, in Skamania County, State of Washington, in all precincts thereof, there will be held a General Election. Voter Registration Deadlines: October 26, 2026 – Deadline for mail and online new voter registrations, updates, and transfers. November 3, 2026 – Deadline for in-person ne…",
+   "event": {
+    "date": "2026-11-10",
+    "time": "3:00 pm",
+    "place": "240 NW Vancouver Ave Room 27 Stevenson",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "General Election Skamania County, Washington November 3, 2026",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-14",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-14"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "d5113f6d8bd3",
+    "channels": [
+     "Skamania-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-14",
+   "text": "NOTICE OF GENERAL ELECTION SKAMANIA COUNTY, WASHINGTON NOVEMBER 3, 2026 Legal Notice NOTICE IS HEREBY GIVEN THAT on Tuesday, November 3, 2026, in Skamania County, State of Washington, in all precincts thereof, there will be held a General Election. Voter Registration Deadlines: October 26, 2026 – Deadline for mail and online new voter registrations, updates, and transfers. November 3, 2026 – Deadline for in-person new voter registrations and voter updates. Registering to vote: • By mail – form may be obtained by calling the Skamania County Auditor’s Office at (509) 427-3730. • In person – Skamania County Auditor’s Office 240 NW Vancouver Ave Room 27 Stevenson, WA 98648 – Office hours: Monday - Thursday 7:30 AM – 5:30 PM. • Online – www.votewa.gov Assistance with voter registration and voting is available for elderly and disabled voters at the Skamania County Auditor’s Office. Ballots will be mailed to all active registered voters in participating districts by October 16, 2026. Voters may obtain a replacement ballot by calling the Skamania County Auditor’s Office at (509) 427-3730. The Skamania County Courthouse, 240 NW Vancouver Ave Stevenson, WA 98648 is accessible for voters needing assistance with registration or casting a ballot. The logic and accuracy test of the ballot tabulation system was conducted in the Auditor’s Office on October 1, 2026 at 10:00am. The Skamania County Canvassing Board shall meet in the Commissioners Meeting Room on these dates: • November 10, 2026 – 3:00 PM • November 24, 2026 – 8:00 AM The Auditor’s Office and Commissioner’s Meeting Room are accessible for persons with disabilities. Please let us know if you will need any special accommodations in order to attend the meeting. Call (509) 427-3730. DATED THIS 12th DAY OF OCTOBER, 2026. Robert J. Waymire, Skamania County Auditor and Ex-Officio Supervisor of Elections"
+  },
+  {
    "id": "2026-11-17_wa-department-of-ecology_4c2b57f2a06a",
    "jurisdiction": "washington-state",
    "body": "WA Department of Ecology",
@@ -5325,6 +5781,122 @@
    },
    "first_seen": "2026-10-07",
    "text": "Notice of Public Hearings and comment period on state shoreline rules The Department of Ecology is proposing amendments to rules that implement the Shoreline Management Act (RCW 90.58), specifically: Chapters 173-18, 173-20, 173-22, 173-26, and 173-27 WAC. The proposed rules are open for comment through November 17, 2026, at 11:59 pm. Comments also will be accepted during the following public hearings, which include an open house from 5 to 6 pm, with the hearing starting at 6 pm: •October 15: Lacey Community Center, 6729 Pacific Ave SE, Lacey •October 22: Virtual (Zoom) hearing. Register at https://waecy-wa-gov.zoom.us/meeting/register/1Ft-oygESouVMiZGq961Lw Submit online comments at https://ecology.commentinput.com/?id=4e3Etx2WU or via regular mail to Rebecca Rothwell, WA Dept. of Ecology, PO Box 47600, Olympia, WA 98504-7600. For more information or to request an ADA accommodation, email rebecca.rothwell@ecy.wa.gov, call 360-810-0025, or dial 711 to call through the Washington Telecommunications Relay for services like text telephone (TTY). Visit Ecology.wa.gov/ADA for more accessibility information. For additional information, including about other public hearings around the state, please see our website at https://ecology.wa.gov/regulations-permits/laws-rules-rulemaking/rulemaking/wac-173-26-27-shoreline-management-act or email us at smarulemaking@ecy.wa.gov"
+  },
+  {
+   "id": "2026-11-19_stevenson-city-council_2e55bf6195d9",
+   "jurisdiction": "stevenson",
+   "body": "Stevenson City Council",
+   "kind": "bid",
+   "title": "RFQ for ON-CALL ENGINEERING SERVICES CITY OF STEVENSON The City of Stevenson is requesting statements of qualification from qualified consul",
+   "summary": "RFQ for ON-CALL ENGINEERING SERVICES CITY OF STEVENSON The City of Stevenson is requesting statements of qualification from qualified consulting engineering firms to provide on-call professional engineering services. Services may include public works planning and design, development review, construction management, grant funding assistance, and other engineering services related to the City’s infrastructure and opera…",
+   "event": null,
+   "window": {
+    "closes": "2026-11-19",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email cody@stevensonwa.gov."
+    ],
+    "email": "cody@stevensonwa.gov"
+   },
+   "subject": {
+    "text": "RFQ for ON-CALL ENGINEERING SERVICES CITY OF STEVENSON The City of Stevenson is requesting statements of qualification from qualified consul",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-14",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-14"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-21"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "2e55bf6195d9",
+    "channels": [
+     "Stevenson-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-14",
+   "text": "RFQ for ON-CALL ENGINEERING SERVICES CITY OF STEVENSON The City of Stevenson is requesting statements of qualification from qualified consulting engineering firms to provide on-call professional engineering services. Services may include public works planning and design, development review, construction management, grant funding assistance, and other engineering services related to the City’s infrastructure and operations. The selected consultant(s) will provide technical assistance, consultation, and professional engineering support to the Public Works Department, City staff, officials, and developers on an as-needed basis. The City anticipates selecting one or more firms to provide services under a multi-year on-call professional services agreement. Submittals are due by 3:00 PM on Thursday, November 19th at Stevenson City Hall. Interested firms must complete a statement of qualifications package that can be requested from the City or found on the City website. The City will be considering qualifications of key personnel, relevant experience, and previous performance on similar projects and if the firm has Washington State Certification as Minority Enterprise Participation. The City of Stevenson is an equal opportunity and affirmative action employer. Minority- and women-owned firms are encouraged to submit proposals. CONTACT: Cody Rosander (cody@stevensonwa.gov) City of Stevenson 7121 E Loop Road PO Box 371 Stevenson, WA 98648 – 0371 (509) 427-5970"
+  },
+  {
+   "id": "2026-11-19_stevenson-city-council_e5f930f757ec",
+   "jurisdiction": "stevenson",
+   "body": "Stevenson City Council",
+   "kind": "bid",
+   "title": "Rfq For On-Call Scada, Controls & Operational Support Services City Of Stevenson",
+   "summary": "RFQ FOR ON-CALL SCADA, CONTROLS & OPERATIONAL SUPPORT SERVICES CITY OF STEVENSON The City of Stevenson is requesting Statements of Qualifications from qualified firms to provide on-call SCADA, controls, instrumentation, and operational support services for the City's wastewater treatment and collection systems. This work may include; 1. SCADA system support, troubleshooting & optimization. 2. PLC programming and proc…",
+   "event": null,
+   "window": {
+    "closes": "2026-11-19",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email Cody@stevensonwa.gov."
+    ],
+    "email": "Cody@stevensonwa.gov"
+   },
+   "subject": {
+    "text": "Rfq For On-Call Scada, Controls & Operational Support Services City Of Stevenson",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-14",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-14"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-21"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "e5f930f757ec",
+    "channels": [
+     "Stevenson-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-14",
+   "text": "RFQ FOR ON-CALL SCADA, CONTROLS & OPERATIONAL SUPPORT SERVICES CITY OF STEVENSON The City of Stevenson is requesting Statements of Qualifications from qualified firms to provide on-call SCADA, controls, instrumentation, and operational support services for the City's wastewater treatment and collection systems. This work may include; 1. SCADA system support, troubleshooting & optimization. 2. PLC programming and process controls. 3. Instrumentation, telemetry, and communications. 4. Operational Support & Troubleshooting. 5. Emergency response and after-hours support. 6. System Improvement & mobile modernization. 7. IT Coordination Services. Submittals are due by 3:00 PM on Thursday, November 19th. Interested firms must complete a statement of qualifications package that can be requested from the City or found on the City website. The City of Stevenson is an equal opportunity and affirmative action employer. Minority- and women-owned firms are encouraged to submit proposals. CONTACT: Cody Rosander (Cody@stevensonwa.gov) City of Stevenson 7121 E Loop Road PO Box 371 Stevenson, WA 98648 – 0371 (509) 427-5970"
   }
  ]
 }
