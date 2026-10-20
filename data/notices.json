@@ -1,9 +1,9 @@
 {
  "_meta": {
   "about": "Notice Board seed data (M0). Every item was checked against the source named in its 'official' or 'provenance' field on 2026-09-24. Dates are Pacific local. A 'computed' deadline is worked out from the notice's own rule (e.g. '20 days from the date of this notice') and says so.",
-  "updated": "2026-10-15",
+  "updated": "2026-10-20",
   "feed": {
-   "generated": "2026-10-15T07:43:12",
+   "generated": "2026-10-20T10:50:24",
    "cards": 91,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }
@@ -4976,7 +4976,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -5034,7 +5034,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "open",
+   "status": "closed",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -5095,7 +5095,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -5153,7 +5153,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,

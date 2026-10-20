@@ -4,78 +4,8 @@ PRODID:-//Notice Board//skamaniadispatch.com//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Notice Board (Skamania and Klickitat public notices)
 BEGIN:VEVENT
-UID:2026-10-15_stevenson-city-council_18ee48691a57@notice-board
-DTSTAMP:20261015T144312Z
-DTSTART;TZID=America/Los_Angeles:20261015T190000
-SUMMARY:Stevenson City Council: Meeting notice for Home Valley Water Dist
- rict for Thursday Oct.
-DESCRIPTION:Meeting notice for Home Valley Water District for Thursday Oc
- t. 15 at 7:00 PM at the water plant on 92 Jewell Rd More: https://kate-r
- ose.github.io/notice-board/#2026-10-15_stevenson-city-council_18ee48691a
- 57
-URL:https://kate-rose.github.io/notice-board/#2026-10-15_stevenson-city-c
- ouncil_18ee48691a57
-LOCATION:00 PM at the water plant on 92 Jewell Rd
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-16_goldendale-school-district-404_59a125c44228@notice-board
-DTSTAMP:20261015T144312Z
-DTSTART;VALUE=DATE:20261016
-SUMMARY:Last day to comment: The Goldendale School District #404 is solic
- iting bids to construct a storage shed. (Goldendale School District #404
- )
-DESCRIPTION:PUBLIC NOTICE September 9\, 2026 The Goldendale School Distri
- ct #404 is soliciting bids to construct a storage shed. Firms must have 
- experience constructing steel beamed storage facilities including concer
- t work for the foundation. Construction to begin ASAP. Submit qualificat
- ions\, quote and experience by October 16\, 2026 to: Shannon Crocker-Ihr
- ig\, Business Manager. Goldendale School District #404\, More: https://k
- ate-rose.github.io/notice-board/#2026-10-16_goldendale-school-district-4
- 04_59a125c44228
-URL:https://kate-rose.github.io/notice-board/#2026-10-16_goldendale-schoo
- l-district-404_59a125c44228
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-19_port-of-skamania-county-commissioners_952af74398d4@notice-board
-DTSTAMP:20261015T144312Z
-DTSTART;TZID=America/Los_Angeles:20261019T230000
-SUMMARY:Port of Skamania County Commissioners: Budget Planning and Hearin
- g Port of Skamania County Board of Commissioners Preliminary 2027 Genera
- l Fund Budget Meeting and Final Budget Hea
-DESCRIPTION:Budget Planning and Hearing Port of Skamania County Board of 
- Commissioners Preliminary 2027 General Fund Budget Meeting and Final Bud
- get Hearing. The Port of Skamania County’s Preliminary Budget has been
-  prepared and is on file at the Port Office at 212 SW Cascade Avenue Ste
- venson\, Washington 98648. October 19\, 2026 11:00 p.m. Review Prelimina
- ry Budget with Commission November 16\, 2026 11:02 p.m.  More: https://k
- ate-rose.github.io/notice-board/#2026-10-19_port-of-skamania-county-comm
- issioners_952af74398d4
-URL:https://kate-rose.github.io/notice-board/#2026-10-19_port-of-skamania
- -county-commissioners_952af74398d4
-LOCATION:212 SW Cascade Avenue Stevenson
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-19_klickitat-county-planning-commission_27f75c77804f@notice-board
-DTSTAMP:20261015T144312Z
-DTSTART;TZID=America/Los_Angeles:20261019T180000
-SUMMARY:Klickitat County Planning Commission: PUBLIC HEARING PROPOSED AME
- NDMENT TO THE KLICKITAT COUNTY COMPREHENSIVE PLAN AND ZONING ORDINANCE R
- ELATED TO INDUSTRIAL SCALE SOLAR PROJECTS
-DESCRIPTION:NOTICE OF PUBLIC HEARING PROPOSED AMENDMENT TO THE KLICKITAT 
- COUNTY COMPREHENSIVE PLAN AND ZONING ORDINANCE RELATED TO INDUSTRIAL SCA
- LE SOLAR PROJECTS NOTICE IS HEREBY GIVEN that the Klickitat County Plann
- ing Commission will hold a public hearing at a special meeting on Octobe
- r 19\, 2026 at 6:00 p.m. The meeting will be held both in person and vir
- tually: Participation in person: The meeting will be More: https://kate-
- rose.github.io/notice-board/#2026-10-19_klickitat-county-planning-commis
- sion_27f75c77804f
-URL:https://kate-rose.github.io/notice-board/#2026-10-19_klickitat-county
- -planning-commission_27f75c77804f
-LOCATION:115 West Court St
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-21_skamania-county-homeless-housing-council_023e4f66309b@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;TZID=America/Los_Angeles:20261021T130000
 SUMMARY:Skamania County Homeless Housing Council: Skamania County Homeles
  s Housing Council Meeting
@@ -92,7 +22,7 @@ LOCATION:710 SW Rock Creek Drive
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-22_klickitat-valley-health-board_44bd7ab3d10f@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;VALUE=DATE:20261022
 SUMMARY:Last day to comment: Board Vacancy (Klickitat Valley Health board
  )
@@ -109,7 +39,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-22_klickitat-valley
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-27_north-bonneville-planning-commission_8017748e8b1d@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;TZID=America/Los_Angeles:20261027T190000
 SUMMARY:North Bonneville Planning Commission: City of North Bonneville Pl
  anning Commission NOTICE OF PUBLIC HEARING PRELIMINARY BUDGET AND PROPER
@@ -127,7 +57,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-27_north-bonneville
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-27_klickitat-county-commissioners_c2d3f18bd99b@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;TZID=America/Los_Angeles:20261027T133000
 SUMMARY:Klickitat County Commissioners: Public Hearing
 DESCRIPTION:NOTICE OF PUBLIC HEARING In accordance with Chapter 36.81.121
@@ -143,7 +73,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-27_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-27_klickitat-county-commissioners_d65b10273461@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;TZID=America/Los_Angeles:20261027T133000
 SUMMARY:Klickitat County Commissioners: Public Hearing
 DESCRIPTION:NOTICE OF PUBLIC HEARING Supplemental Budget The Klickitat Co
@@ -160,7 +90,7 @@ LOCATION:115 W Court St
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-28_klickitat-county-commissioners_671b30257901@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;VALUE=DATE:20261028
 SUMMARY:Last day to comment: Klickitat County Mitigated Determination Of 
  Non-Significance (Klickitat County Commissioners)
@@ -177,7 +107,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-28_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-02_klickitat-county-commissioners_406fd0a32d0c@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;TZID=America/Los_Angeles:20261102T083000
 SUMMARY:Klickitat County Commissioners: Election
 DESCRIPTION:NOTICE OF ELECTION Notice is hereby given that a General Elec
@@ -194,7 +124,7 @@ LOCATION:205 S. Columbus Ave
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03_county-auditor_e65e345165d1@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;VALUE=DATE:20261103
 SUMMARY:Last day to comment: The following measures will be submitted to 
  voters on the November 3\, 2026 General Election ballot (County Auditor)
@@ -210,7 +140,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-03_county-auditor_e
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10_skamania-county-commissioners_d5113f6d8bd3@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;TZID=America/Los_Angeles:20261110T150000
 SUMMARY:Skamania County Commissioners: General Election Skamania County\,
   Washington November 3\, 2026
@@ -228,7 +158,7 @@ LOCATION:240 NW Vancouver Ave Room 27 Stevenson
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17_wa-department-of-ecology_4c2b57f2a06a@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;TZID=America/Los_Angeles:20261117T235900
 SUMMARY:WA Department of Ecology: Public Hearings and comment period on s
  tate shoreline rules The Department of Ecology is proposing amendments t
@@ -247,7 +177,7 @@ LOCATION:6729 Pacific Ave SE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_2e55bf6195d9@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: RFQ for ON-CALL ENGINEERING SERVICES CITY OF
   STEVENSON The City of Stevenson is requesting statements of qualificati
@@ -265,7 +195,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_e5f930f757ec@notice-board
-DTSTAMP:20261015T144312Z
+DTSTAMP:20261020T175024Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: Rfq For On-Call Scada\, Controls & Operation
  al Support Services City Of Stevenson (Stevenson City Council)
