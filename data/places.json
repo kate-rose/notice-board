@@ -1,7 +1,8 @@
 {
  "_meta": {
   "about": "Where a reader lives -> the governments that make decisions binding on that place. M0 hand-map from the Ferric dossiers; every entry is boundary_verified:false until M5 rebuilds it from county tax-code-area data.",
-  "updated": "2026-09-24"
+  "updated": "2026-09-24",
+  "truth": "Edit here (Ferric reference/notice-board/); notice_publish.py writes the merged copy to ~/notice-board/data/."
  },
  "jurisdictions": {
   "skamania-county": {
