@@ -26,9 +26,11 @@ The plan, the data rules and the milestones live in Ferric:
 
 ## Two kinds of card
 
-- **Curated cards** are written by hand in `data/notices.json`: a plain-language
-  title, how to weigh in, the places a notice concerns. They change only when a
-  person edits them.
+- **Curated cards** are written by hand: a plain-language title, how to weigh in,
+  the places a notice concerns. They change only when a person edits them. **Their
+  truth lives in Ferric** (`~/Ferric/reference/notice-board/notices.json`, with
+  `places.json`, `sources.json` and `statutes.json` beside it); `data/` here is
+  the published copy and is overwritten on every sweep. Edit the truth, not the copy.
 - **"As printed" cards** are the legal notices as the two county newspapers printed
   them (the Skamania County Pioneer for Skamania County, the Goldendale Sentinel
   for Klickitat County), with the dates they ran. They carry an "As printed" chip
