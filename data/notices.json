@@ -5,8 +5,8 @@
   "updated": "2026-10-22",
   "copy_of": "Ferric reference/notice-board/notices.json merged with the legal-notices feed; edit the truth, not this file",
   "feed": {
-   "generated": "2026-10-22T16:12:02",
-   "cards": 91,
+   "generated": "2026-10-22T16:14:10",
+   "cards": 95,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }
  },
@@ -5514,6 +5514,123 @@
    "text": "KLICKITAT COUNTY MITIGATED DETERMINATION OF NON-SIGNIFICANCE Notice is hereby given that Klickitat County issued two Mitigated Determinations of Non-significance (MDNS) on October 9, 2026 under SEPA Rules (Chapter 197-11 WAC) and the Klickitat County Environmental Ordinance Number 121084, as amended, for the following proposals: SEPA 2026-12. Applicant: Bill & Carol Anderson. A Short Plat application requesting to subdivide 1.59 acres into two lots. The proposed short plat is located in a portion of the SWNE of Section 23, T6N, R10E, W.M. Klickitat County, WA (Trout Lake vicinity) on tax parcel 06-10-2313-0003/00. SEPA 2026-17. Applicant: Joshua & Ashley Rahberger. A Short Plat application requesting to subdivide approximately 19.9 acres into three lots. The proposed short plat is located in a portion of NW of Section 25, T5N, R15E, W.M. Klickitat County, WA (Goldendale vicinity) on tax parcel 05-15-2554-0003/00. After review of the completed environmental checklists and other information on file the Klickitat County Responsible Official has determined that these proposals will not have probable significant adverse impacts on the environment. Copies of the MDNS are available at the Klickitat County Planning Department during normal business hours. Comments on the above projects are due by 5:00 pm October 28, 2026. Appeals on the above environmental review will be accepted until 5:00 pm November 5, 2026. Appeals must be made to the Board and filed with the Klickitat County Auditor’s office. Appeals shall not be deemed complete without payment of the applicable appeal fees payable to Klickitat County Planning Department. "
   },
   {
+   "id": "2026-10-29_klickitat-county-commissioners_67717a66e6fc",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "hearing",
+   "title": "Public Hearing",
+   "summary": "NOTICE OF PUBLIC HEARING Vacation of Short Plat SP 87-04 TUESDAY, November 3, 2026 AT 1:30 P.M. In accordance with RCW 36.70.795, the Board of County Commissioners will hold two public hearings on Tuesday, October 29 starting at 1:00 p.m. Public hearing for the vacation of Short Plat SP 87-04. Applicants Western Pacific Timber and the City of Goldendale. Parcels 05162100000100 and 05162100000200; both parties will re…",
+   "event": {
+    "date": "2026-10-29",
+    "time": "1:00 pm",
+    "place": "115 West Court Street",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [
+     "Email BoCC@klickitatcounty.org, planning2@klickitatcounty.gov."
+    ],
+    "email": "BoCC@klickitatcounty.org"
+   },
+   "subject": {
+    "text": "Public Hearing",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/",
+    "label": "The The Goldendale Sentinel's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-21",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-21"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-28"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "67717a66e6fc",
+    "channels": [
+     "Klickitat-BOCC",
+     "Goldendale-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-21",
+   "text": "NOTICE OF PUBLIC HEARING Vacation of Short Plat SP 87-04 TUESDAY, November 3, 2026 AT 1:30 P.M. In accordance with RCW 36.70.795, the Board of County Commissioners will hold two public hearings on Tuesday, October 29 starting at 1:00 p.m. Public hearing for the vacation of Short Plat SP 87-04. Applicants Western Pacific Timber and the City of Goldendale. Parcels 05162100000100 and 05162100000200; both parties will retain ownership of their parcels and easements will be retained. Information can be found on the Klickitat County Planning Department website at www.klickitatcounty.org/272/Planning-Department . The public hearings will be held in the Klickitat County Services Building, 115 West Court Street, Room 200, Goldendale, Washington. Any person desiring to express their views on the matter is invited to join the hearing to provide testimony. Participation in this meeting will be offered as follows: 669-900-6833 346-248-7799 929-205-6099 253-215-8782 301-715-8592 312-626-6799 Written testimony may also be submitted to the Board of County Commissioners, 115 West Court St, Room 201, Goldendale, WA 98620, or email to BoCC@klickitatcounty.org . Please direct any questions or comments to Planning Department at 509-773-5703, or email planning2@klickitatcounty.gov BY ORDER of the Klickitat County Board of County Commissioners dated this 15 th day of October, 2026. /s/ Ron Ihrig, Chairman, Board of County Commissioners "
+  },
+  {
+   "id": "2026-10-30_goldendale-school-district-404_afb318d6e167",
+   "jurisdiction": "goldendale-school-district-404",
+   "body": "Goldendale School District #404",
+   "kind": "bid",
+   "title": "Goldendale School District #404 is soliciting bids to demo and remove the bleachers from Barthlow Field.",
+   "summary": "PUBLIC NOTICE Goldendale School District #404 is soliciting bids to demo and remove the bleachers from Barthlow Field. Firms must have experience in demo and removal. Demo to begin ASAP and completed within 90 days of start date. Submit quote by October 30, 2026 to: Steven Randall Maintenance Director. Goldendale School District #404, 604 E. Brooks St., Goldendale, WA 98620. Email: srandall@gsd404.org Selection will …",
+   "event": null,
+   "window": {
+    "closes": "2026-10-30",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email srandall@gsd404.org."
+    ],
+    "email": "srandall@gsd404.org"
+   },
+   "subject": {
+    "text": "Goldendale School District #404 is soliciting bids to demo and remove the bleachers from Barthlow Field.",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/",
+    "label": "The The Goldendale Sentinel's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-21",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-21"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-28"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "afb318d6e167",
+    "channels": [],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-21",
+   "text": "PUBLIC NOTICE Goldendale School District #404 is soliciting bids to demo and remove the bleachers from Barthlow Field. Firms must have experience in demo and removal. Demo to begin ASAP and completed within 90 days of start date. Submit quote by October 30, 2026 to: Steven Randall Maintenance Director. Goldendale School District #404, 604 E. Brooks St., Goldendale, WA 98620. Email: srandall@gsd404.org Selection will be made November 2, 2026. For further details please contact Steven Randall. "
+  },
+  {
    "id": "2026-11-02_klickitat-county-commissioners_406fd0a32d0c",
    "jurisdiction": "klickitat-county",
    "body": "Klickitat County Commissioners",
@@ -5649,6 +5766,122 @@
    },
    "first_seen": "2026-10-07",
    "text": "PUBLIC NOTICE The following measures will be submitted to voters on the November 3, 2026 General Election ballot: INITIATIVE TO THE PEOPLE IP26-645 - Initiative Measure No. IP26-645 concerns state and local taxes. This measure would repeal a 9.9% tax on annual individual income over $1,000,000; prohibit taxes measured by individual income and taxes on individual income or the receipt of individual income; and define “income.” This measure would decrease funding for public K-12 education, higher education (including universities and community colleges), and human services (primarily healthcare). INITIATIVES TO THE LEGISLATURE IL26-001 - Initiative Measure No. IL26-001 concerns parental rights relating to their children in public school. This measure would repeal amendments to a statute listing certain rights of parents and guardians of public-school children and re-enact the law as it was originally enacted by Initiative to the Legislature 2081. IL26-638 - Initiative Measure No. IL26-638 concerns participation in athletics at K-12 schools. This measure would prohibit students it defines as “biologically male” from competing in certain school athletic activities intended for female students only. It would require verification of biological sex by students’ healthcare providers"
+  },
+  {
+   "id": "2026-11-03_bingen-city-council_5cc0a4d27fe6",
+   "jurisdiction": "bingen",
+   "body": "Bingen City Council",
+   "kind": "budget-hearing",
+   "title": "Klickitat County Port District No. 1 Notice Of 2027 Budget Hearing And Notice Of Amendment Of The Comprehensive Scheme",
+   "summary": "PUBLIC NOTICE KLICKITAT COUNTY PORT DISTRICT NO. 1 NOTICE OF 2027 BUDGET HEARING AND NOTICE OF AMENDMENT OF THE COMPREHENSIVE SCHEME The Port District has prepared a preliminary budget for FY/CY 2027. Copies are on file in the Port office located at 154 E Bingen Point Way Ste. A; Bingen, Washington and available for inspection by any taxpayer. The Port Commission will meet at 4:30 P.M. November 3, 2026, in the Port o…",
+   "event": {
+    "date": "2026-11-03",
+    "time": null,
+    "place": "154 E Bingen Point Way Ste",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "Klickitat County Port District No. 1 Notice Of 2027 Budget Hearing And Notice Of Amendment Of The Comprehensive Scheme",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/",
+    "label": "The The Goldendale Sentinel's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-21",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-21"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-28"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "5cc0a4d27fe6",
+    "channels": [
+     "Bingen-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-21",
+   "text": "PUBLIC NOTICE KLICKITAT COUNTY PORT DISTRICT NO. 1 NOTICE OF 2027 BUDGET HEARING AND NOTICE OF AMENDMENT OF THE COMPREHENSIVE SCHEME The Port District has prepared a preliminary budget for FY/CY 2027. Copies are on file in the Port office located at 154 E Bingen Point Way Ste. A; Bingen, Washington and available for inspection by any taxpayer. The Port Commission will meet at 4:30 P.M. November 3, 2026, in the Port office for the purpose of holding a public hearing and receiving public comment on the Port District budget for FY/CY 2027. Furthermore, the Port District has identified certain proposed capital projects in support of its Comprehensive Scheme of Harbor Improvements and Industrial Developments. Pursuant to RCW 53.20.010 and RCW 53.25.090 the Port Commission will meet at 4:30 P.M. on November 3, 2026, in the Port office for the purpose of holding a public hearing and receiving public comment on an amendment to its Comprehensive Scheme. Attest: Lisa Cunningham Administrative Assistant/Port Auditor "
+  },
+  {
+   "id": "2026-11-04_klickitat-county-commissioners_1da6b18d3ac2",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "special-meeting",
+   "title": "Public Notification",
+   "summary": "PUBLIC NOTIFICATION The Klickitat County Lodging Tax Advisory Committee will be meeting at 2:00 P.M. on Wednesday November 4 th , 2026 at the County Services Building,115 W. Court Street, Mt. Adams Conference Room, Goldendale, WA. For more information please call (509) 773-7060. ",
+   "event": {
+    "date": "2026-11-04",
+    "time": null,
+    "place": "115 W. Court Street",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "Public Notification",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/",
+    "label": "The The Goldendale Sentinel's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-21",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-21"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-28"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "1da6b18d3ac2",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-21",
+   "text": "PUBLIC NOTIFICATION The Klickitat County Lodging Tax Advisory Committee will be meeting at 2:00 P.M. on Wednesday November 4 th , 2026 at the County Services Building,115 W. Court Street, Mt. Adams Conference Room, Goldendale, WA. For more information please call (509) 773-7060. "
   },
   {
    "id": "2026-11-10_skamania-county-commissioners_d5113f6d8bd3",

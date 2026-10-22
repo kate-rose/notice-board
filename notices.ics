@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Notice Board (Skamania and Klickitat public notices)
 BEGIN:VEVENT
 UID:2026-10-22_klickitat-valley-health-board_44bd7ab3d10f@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;VALUE=DATE:20261022
 SUMMARY:Last day to comment: Board Vacancy (Klickitat Valley Health board
  )
@@ -22,7 +22,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-22_klickitat-valley
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-27_north-bonneville-planning-commission_8017748e8b1d@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;TZID=America/Los_Angeles:20261027T190000
 SUMMARY:North Bonneville Planning Commission: City of North Bonneville Pl
  anning Commission NOTICE OF PUBLIC HEARING PRELIMINARY BUDGET AND PROPER
@@ -40,7 +40,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-27_north-bonneville
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-27_klickitat-county-commissioners_c2d3f18bd99b@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;TZID=America/Los_Angeles:20261027T133000
 SUMMARY:Klickitat County Commissioners: Public Hearing
 DESCRIPTION:NOTICE OF PUBLIC HEARING In accordance with Chapter 36.81.121
@@ -56,7 +56,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-27_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-27_klickitat-county-commissioners_d65b10273461@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;TZID=America/Los_Angeles:20261027T133000
 SUMMARY:Klickitat County Commissioners: Public Hearing
 DESCRIPTION:NOTICE OF PUBLIC HEARING Supplemental Budget The Klickitat Co
@@ -73,7 +73,7 @@ LOCATION:115 W Court St
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-28_klickitat-county-commissioners_671b30257901@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;VALUE=DATE:20261028
 SUMMARY:Last day to comment: Klickitat County Mitigated Determination Of 
  Non-Significance (Klickitat County Commissioners)
@@ -89,8 +89,43 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-28_klickitat-county
  -commissioners_671b30257901
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-10-29_klickitat-county-commissioners_67717a66e6fc@notice-board
+DTSTAMP:20261022T231410Z
+DTSTART;TZID=America/Los_Angeles:20261029T130000
+SUMMARY:Klickitat County Commissioners: Public Hearing
+DESCRIPTION:NOTICE OF PUBLIC HEARING Vacation of Short Plat SP 87-04 TUES
+ DAY\, November 3\, 2026 AT 1:30 P.M. In accordance with RCW 36.70.795\, 
+ the Board of County Commissioners will hold two public hearings on Tuesd
+ ay\, October 29 starting at 1:00 p.m. Public hearing for the vacation of
+  Short Plat SP 87-04. Applicants Western Pacific Timber and the City of 
+ Goldendale. Parcels 05162100000100 and 05162100000200\;  More: https://k
+ ate-rose.github.io/notice-board/#2026-10-29_klickitat-county-commissione
+ rs_67717a66e6fc
+URL:https://kate-rose.github.io/notice-board/#2026-10-29_klickitat-county
+ -commissioners_67717a66e6fc
+LOCATION:115 West Court Street
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-30_goldendale-school-district-404_afb318d6e167@notice-board
+DTSTAMP:20261022T231410Z
+DTSTART;VALUE=DATE:20261030
+SUMMARY:Last day to comment: Goldendale School District #404 is solicitin
+ g bids to demo and remove the bleachers from Barthlow Field. (Goldendale
+  School District #404)
+DESCRIPTION:PUBLIC NOTICE Goldendale School District #404 is soliciting b
+ ids to demo and remove the bleachers from Barthlow Field. Firms must hav
+ e experience in demo and removal. Demo to begin ASAP and completed withi
+ n 90 days of start date. Submit quote by October 30\, 2026 to: Steven Ra
+ ndall Maintenance Director. Goldendale School District #404\, 604 E. Bro
+ oks St.\, Goldendale\, WA 98620. Email: srandall@gsd404 More: https://ka
+ te-rose.github.io/notice-board/#2026-10-30_goldendale-school-district-40
+ 4_afb318d6e167
+URL:https://kate-rose.github.io/notice-board/#2026-10-30_goldendale-schoo
+ l-district-404_afb318d6e167
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-02_klickitat-county-commissioners_406fd0a32d0c@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;TZID=America/Los_Angeles:20261102T083000
 SUMMARY:Klickitat County Commissioners: Election
 DESCRIPTION:NOTICE OF ELECTION Notice is hereby given that a General Elec
@@ -107,7 +142,7 @@ LOCATION:205 S. Columbus Ave
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03_county-auditor_e65e345165d1@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;VALUE=DATE:20261103
 SUMMARY:Last day to comment: The following measures will be submitted to 
  voters on the November 3\, 2026 General Election ballot (County Auditor)
@@ -122,8 +157,42 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-03_county-auditor_e
  65e345165d1
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-03_bingen-city-council_5cc0a4d27fe6@notice-board
+DTSTAMP:20261022T231410Z
+DTSTART;VALUE=DATE:20261103
+SUMMARY:Bingen City Council: Klickitat County Port District No. 1 Notice 
+ Of 2027 Budget Hearing And Notice Of Amendment Of The Comprehensive Sche
+ me
+DESCRIPTION:PUBLIC NOTICE KLICKITAT COUNTY PORT DISTRICT NO. 1 NOTICE OF 
+ 2027 BUDGET HEARING AND NOTICE OF AMENDMENT OF THE COMPREHENSIVE SCHEME 
+ The Port District has prepared a preliminary budget for FY/CY 2027. Copi
+ es are on file in the Port office located at 154 E Bingen Point Way Ste.
+  A\; Bingen\, Washington and available for inspection by any taxpayer. T
+ he Port Commission will meet at 4:30 P.M. November 3\, More: https://kat
+ e-rose.github.io/notice-board/#2026-11-03_bingen-city-council_5cc0a4d27f
+ e6
+URL:https://kate-rose.github.io/notice-board/#2026-11-03_bingen-city-coun
+ cil_5cc0a4d27fe6
+LOCATION:154 E Bingen Point Way Ste
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-04_klickitat-county-commissioners_1da6b18d3ac2@notice-board
+DTSTAMP:20261022T231410Z
+DTSTART;VALUE=DATE:20261104
+SUMMARY:Klickitat County Commissioners: Public Notification
+DESCRIPTION:PUBLIC NOTIFICATION The Klickitat County Lodging Tax Advisory
+  Committee will be meeting at 2:00 P.M. on Wednesday November 4 th \, 20
+ 26 at the County Services Building\,115 W. Court Street\, Mt. Adams Conf
+ erence Room\, Goldendale\, WA. For more information please call (509) 77
+ 3-7060.  More: https://kate-rose.github.io/notice-board/#2026-11-04_klic
+ kitat-county-commissioners_1da6b18d3ac2
+URL:https://kate-rose.github.io/notice-board/#2026-11-04_klickitat-county
+ -commissioners_1da6b18d3ac2
+LOCATION:115 W. Court Street
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-10_skamania-county-commissioners_d5113f6d8bd3@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;TZID=America/Los_Angeles:20261110T150000
 SUMMARY:Skamania County Commissioners: General Election Skamania County\,
   Washington November 3\, 2026
@@ -141,7 +210,7 @@ LOCATION:240 NW Vancouver Ave Room 27 Stevenson
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17_wa-department-of-ecology_4c2b57f2a06a@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;TZID=America/Los_Angeles:20261117T235900
 SUMMARY:WA Department of Ecology: Public Hearings and comment period on s
  tate shoreline rules The Department of Ecology is proposing amendments t
@@ -160,7 +229,7 @@ LOCATION:6729 Pacific Ave SE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_2e55bf6195d9@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: RFQ for ON-CALL ENGINEERING SERVICES CITY OF
   STEVENSON The City of Stevenson is requesting statements of qualificati
@@ -178,7 +247,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_e5f930f757ec@notice-board
-DTSTAMP:20261022T231202Z
+DTSTAMP:20261022T231410Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: Rfq For On-Call Scada\, Controls & Operation
  al Support Services City Of Stevenson (Stevenson City Council)
