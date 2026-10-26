@@ -2,7 +2,7 @@
  "_meta": {
   "about": "Every place the board checks, and when. Shown to readers so an empty list is never mistaken for 'nothing scheduled'.",
   "truth": "Edit here (Ferric reference/notice-board/); notice_publish.py writes the merged copy to ~/notice-board/data/.",
-  "updated": "2026-10-22"
+  "updated": "2026-10-26"
  },
  "sources": [
   {
