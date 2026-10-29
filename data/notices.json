@@ -2,11 +2,11 @@
  "_meta": {
   "about": "THE TRUTH for the Notice Board's curated cards (DQ-NB-04 → A, Kate 2026-10-22): hand-written, plain-language notices. Edit HERE, never in ~/notice-board/data/, which notice_publish.py overwrites with this file merged with the legal-notices feed (legals.py --board) on every scheduled sweep. Every item was checked against the source named in its 'official' or 'provenance' field on the date in 'first_seen' or 'provenance.verified_on'. Dates are Pacific local. A 'computed' deadline is worked out from the notice's own rule and says so.",
   "schema": "drafts/2026-09-24_notice-board-plan.md § 4 (fields as built in M0: id, jurisdiction, body, kind, title, summary, event, window, how, subject, official, notice, status, provenance, first_seen)",
-  "updated": "2026-10-26",
+  "updated": "2026-10-29",
   "copy_of": "Ferric reference/notice-board/notices.json merged with the legal-notices feed; edit the truth, not this file",
   "feed": {
-   "generated": "2026-10-26T07:50:34",
-   "cards": 95,
+   "generated": "2026-10-29T07:43:19",
+   "cards": 105,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }
  },
@@ -5327,7 +5327,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -5382,12 +5382,20 @@
      {
       "where": "The Goldendale Sentinel",
       "date": "2026-10-21"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-28"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-04"
      }
     ],
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -5396,7 +5404,10 @@
     "channels": [
      "Klickitat-BOCC"
     ],
-    "as_printed": true
+    "as_printed": true,
+    "also_notice_ids": [
+     "4de7fb3ea696"
+    ]
    },
    "first_seen": "2026-10-14",
    "text": "NOTICE OF PUBLIC HEARING In accordance with Chapter 36.81.121 of the Revised Code of Washington, the Board of County Commissioners are to hold a public hearing prior to the amendment of the Six Year Transportation Improvement Program for Klickitat County. Public hearings will be held on October 27, 2026 at 1:30 p.m. in the Commissioners’ room located in the Klickitat County Services Building, Goldendale, Washington at which time any person may appear and be heard for or against the proposed revisement and extension to be made to the Klickitat County Six Year Transportation Improvement Program for 2026-2031 Zoom meeting is being provided for citizen comment: To join the Zoom meeting: type in https://us02web.zoom.us/j/586587651 in your browser or use one of the call-in numbers below and Meeting ID: 586 587 651. 669-900-6833 346-248-7799 929-205-6099 253-215-8782 301-715-8592 312-626-6799 Americans with Disabilities Act (ADA) Information The Klickitat County Public Works Dept. in accordance with Section 504 of the Rehabilitation Act (Section 504) and the Americans with Disabilities Act (ADA), commits to nondiscrimination on the basis of disability, in all of its programs and activities. This material can be made available in an alternate format by emailing Klickitat County Public Works Dept. at titlevi@klickitatcounty.org or by calling (509) 773 - 4616. Aviso a personas con dominio limitado del idioma inglés: Si usted tiene alguna dificultad en entender el idioma inglés, puede, sin costo alguno, solicitar asistencia lingüística con respecto a esta información llamando al (509) 773-4616, o envíe un mensaje de correo electrónico a: titlevi@klickitatcounty.org Title VI Statement It is Klickitat County’s policy to assure that no person shall, on the grounds of race, color, national origin, as provided by Title VI of the Civil Rights Act of 1964, be excluded from participation in, be denied benefits of, or be otherwise discriminated against under any of its programs and activities. Any person who believes his/her Title VI protection has been violated, may file a complaint with Klickitat County’s Human Resources Department. For additional information regarding Title VI complaint procedures and/or information regarding our non-discrimination obligations, please contact Klickitat County’s Title VI Coordinator at (509) 773-7171 or by email at: titlevi@klickitatcounty.org . Dated this 13th day of October, 2026. Ron Ihrig, Chairman Board of County Commissioners "
@@ -5447,7 +5458,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -5499,7 +5510,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "open",
+   "status": "closed",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -5512,6 +5523,58 @@
    },
    "first_seen": "2026-10-14",
    "text": "KLICKITAT COUNTY MITIGATED DETERMINATION OF NON-SIGNIFICANCE Notice is hereby given that Klickitat County issued two Mitigated Determinations of Non-significance (MDNS) on October 9, 2026 under SEPA Rules (Chapter 197-11 WAC) and the Klickitat County Environmental Ordinance Number 121084, as amended, for the following proposals: SEPA 2026-12. Applicant: Bill & Carol Anderson. A Short Plat application requesting to subdivide 1.59 acres into two lots. The proposed short plat is located in a portion of the SWNE of Section 23, T6N, R10E, W.M. Klickitat County, WA (Trout Lake vicinity) on tax parcel 06-10-2313-0003/00. SEPA 2026-17. Applicant: Joshua & Ashley Rahberger. A Short Plat application requesting to subdivide approximately 19.9 acres into three lots. The proposed short plat is located in a portion of NW of Section 25, T5N, R15E, W.M. Klickitat County, WA (Goldendale vicinity) on tax parcel 05-15-2554-0003/00. After review of the completed environmental checklists and other information on file the Klickitat County Responsible Official has determined that these proposals will not have probable significant adverse impacts on the environment. Copies of the MDNS are available at the Klickitat County Planning Department during normal business hours. Comments on the above projects are due by 5:00 pm October 28, 2026. Appeals on the above environmental review will be accepted until 5:00 pm November 5, 2026. Appeals must be made to the Board and filed with the Klickitat County Auditor’s office. Appeals shall not be deemed complete without payment of the applicable appeal fees payable to Klickitat County Planning Department. "
+  },
+  {
+   "id": "2026-10-28_klickitat-valley-health-board_14945b143e19",
+   "jurisdiction": "klickitat-valley-health",
+   "body": "Klickitat Valley Health board",
+   "kind": "vacancy",
+   "title": "Special Meeting A",
+   "summary": "NOTICE OF SPECIAL MEETING A Special Meeting has been called by Public Hospital District No.1 of Klickitat County Board of Commissioners for the purpose of Interviewing Candidates for vacant Position No.3 RCW42.12.080. The meeting will be held on October 28th, 2026 in KVH Conference Room A & B located at 310 S. Roosevelt, Goldendale, WA 98620 ",
+   "event": null,
+   "window": {
+    "closes": "2026-10-28",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "Special Meeting A",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/",
+    "label": "The The Goldendale Sentinel's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-28",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-10-28"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "closed",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "14945b143e19",
+    "channels": [
+     "KlickitatValleyHealth-BOC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-28",
+   "text": "NOTICE OF SPECIAL MEETING A Special Meeting has been called by Public Hospital District No.1 of Klickitat County Board of Commissioners for the purpose of Interviewing Candidates for vacant Position No.3 RCW42.12.080. The meeting will be held on October 28th, 2026 in KVH Conference Room A & B located at 310 S. Roosevelt, Goldendale, WA 98620 "
   },
   {
    "id": "2026-10-29_klickitat-county-commissioners_67717a66e6fc",
@@ -5629,6 +5692,60 @@
    },
    "first_seen": "2026-10-21",
    "text": "PUBLIC NOTICE Goldendale School District #404 is soliciting bids to demo and remove the bleachers from Barthlow Field. Firms must have experience in demo and removal. Demo to begin ASAP and completed within 90 days of start date. Submit quote by October 30, 2026 to: Steven Randall Maintenance Director. Goldendale School District #404, 604 E. Brooks St., Goldendale, WA 98620. Email: srandall@gsd404.org Selection will be made November 2, 2026. For further details please contact Steven Randall. "
+  },
+  {
+   "id": "2026-11-02_stevenson-city-council_358142169d30",
+   "jurisdiction": "stevenson",
+   "body": "Stevenson City Council",
+   "kind": "special-meeting",
+   "title": "City Of Stevenson Public Notice",
+   "summary": "CITY OF STEVENSON PUBLIC NOTICE The City Council and Planning Commission will hold a joint workshop on Monday, November 2nd, at 6:00 PM at City Hall, 7121 E Loop Rd, Stevenson, WA 98648 to discuss the 2027 work plan and priorities, review code amendments currently underway, discuss sequencing and workload and provide general direction to staff. The session is intended as a working discussion; no final decisions or ap…",
+   "event": {
+    "date": "2026-11-02",
+    "time": "6:00 pm",
+    "place": "7121 E Loop Rd",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "City Of Stevenson Public Notice",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-28",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-28"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "358142169d30",
+    "channels": [
+     "Stevenson-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-28",
+   "text": "CITY OF STEVENSON PUBLIC NOTICE The City Council and Planning Commission will hold a joint workshop on Monday, November 2nd, at 6:00 PM at City Hall, 7121 E Loop Rd, Stevenson, WA 98648 to discuss the 2027 work plan and priorities, review code amendments currently underway, discuss sequencing and workload and provide general direction to staff. The session is intended as a working discussion; no final decisions or approvals will be made. City Hall is accessible to people with disabilities. Please notify City Hall at least 24 hours in advance if you need special accommodations to attend the meeting, including handicap accessibility or interpreter services, by calling (509) 427-5970 or (800) 833-6388 for TDD"
   },
   {
    "id": "2026-11-02_klickitat-county-commissioners_406fd0a32d0c",
@@ -5768,9 +5885,127 @@
    "text": "PUBLIC NOTICE The following measures will be submitted to voters on the November 3, 2026 General Election ballot: INITIATIVE TO THE PEOPLE IP26-645 - Initiative Measure No. IP26-645 concerns state and local taxes. This measure would repeal a 9.9% tax on annual individual income over $1,000,000; prohibit taxes measured by individual income and taxes on individual income or the receipt of individual income; and define “income.” This measure would decrease funding for public K-12 education, higher education (including universities and community colleges), and human services (primarily healthcare). INITIATIVES TO THE LEGISLATURE IL26-001 - Initiative Measure No. IL26-001 concerns parental rights relating to their children in public school. This measure would repeal amendments to a statute listing certain rights of parents and guardians of public-school children and re-enact the law as it was originally enacted by Initiative to the Legislature 2081. IL26-638 - Initiative Measure No. IL26-638 concerns participation in athletics at K-12 schools. This measure would prohibit students it defines as “biologically male” from competing in certain school athletic activities intended for female students only. It would require verification of biological sex by students’ healthcare providers"
   },
   {
-   "id": "2026-11-03_bingen-city-council_5cc0a4d27fe6",
-   "jurisdiction": "bingen",
-   "body": "Bingen City Council",
+   "id": "2026-11-03_skamania-county-commissioners_725d323c23bb",
+   "jurisdiction": "skamania-county",
+   "body": "Skamania County Commissioners",
+   "kind": "budget-hearing",
+   "title": "Public Hearing",
+   "summary": "NOTICE OF PUBLIC HEARING Before the Board of Skamania County Commissioners PURPOSE: The Skamania County Board of Commissioners hereby gives notice that the 2027 Preliminary Budget has been completed and placed on file for the ensuing fiscal year. A public hearing will be held to consider adoption of the 2027 Preliminary Budget. Any taxpayer may appear and be heard for or against any part of the budget. County officia…",
+   "event": {
+    "date": "2026-11-03",
+    "time": "5:00 pm",
+    "place": "240 NW Vancouver Avenue",
+    "remote": "https://us04web.zoom.us/j/6276698258"
+   },
+   "window": null,
+   "how": {
+    "steps": [
+     "Email roni.emerson@skamaniacounty.gov.."
+    ],
+    "email": "roni.emerson@skamaniacounty.gov."
+   },
+   "subject": {
+    "text": "Public Hearing",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-21",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-21"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-28"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "725d323c23bb",
+    "channels": [
+     "Skamania-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-28",
+   "text": "NOTICE OF PUBLIC HEARING Before the Board of Skamania County Commissioners PURPOSE: The Skamania County Board of Commissioners hereby gives notice that the 2027 Preliminary Budget has been completed and placed on file for the ensuing fiscal year. A public hearing will be held to consider adoption of the 2027 Preliminary Budget. Any taxpayer may appear and be heard for or against any part of the budget. County officials in charge of departments may be questioned by the Commissioners or any taxpayer present concerning itemized estimates of revenues and expenditures for their department. Oral and written comments will be considered at the public hearing by the Board of Commissioners and must be received by the Clerk of the Board by 12:00 PM on the Monday preceding the date of the public hearing. Written comments may be sent to Skamania County Board of Commissioners, Attn: Roni Emerson, Clerk of the Board, PO Box 790, Stevenson, WA 98648 or roni.emerson@skamaniacounty.gov. Anyone interested may appear and be heard. Copies of the 2027 Preliminary Budget are available to the public in the Commissioners’ Office, Room 15, 240 NW Vancouver Avenue, Stevenson, WA or may be viewed on our website at www.skamaniacounty.gov. DATE: Tuesday, November 3rd, 2026 TIME: 5:00 p.m. PLACE: Skamania County Courthouse, Room No. 18 (lower level) 240 NW Vancouver Avenue Stevenson, WA Commissioner Meetings are open to public attendance via ZOOM or in person. ZOOM numbers are as follows: Dial: 1 346 248 7799 (US) Meeting ID: 627 669 8258 Zoom Link: https://us04web.zoom.us/j/6276698258 The Skamania County Courthouse is accessible for persons with disabilities. Please contact us if special accommodation is needed: (509) 427-3706. DATED this 13th day of October, 2026. _______________________ Heidi Penner Financial Management Administrator"
+  },
+  {
+   "id": "2026-11-03_north-bonneville-city-council_8c8a48ee023c",
+   "jurisdiction": "north-bonneville",
+   "body": "North Bonneville City Council",
+   "kind": "hearing",
+   "title": "City of North Bonneville City Council NOTICE OF PUBLIC HEARING UPCOMING STUDY SESSIONS The City of North Bonneville will hold study sessions",
+   "summary": "City of North Bonneville City Council NOTICE OF PUBLIC HEARING UPCOMING STUDY SESSIONS The City of North Bonneville will hold study sessions on the following dates and times: • Tuesday, October 20, 2026 at 7:00 pm at City Hall to review rate increases. • Tuesday, November 3, 2026 at 7:00 pm at City Hall to review the 2027 Budget. • Monday, November 16, 2026, at 7:00 pm at City Hall to review the Council Rules of Proc…",
+   "event": {
+    "date": "2026-11-03",
+    "time": "7:00 pm",
+    "place": null,
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "City of North Bonneville City Council NOTICE OF PUBLIC HEARING UPCOMING STUDY SESSIONS The City of North Bonneville will hold study sessions",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-21",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-21"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-28"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "8c8a48ee023c",
+    "channels": [
+     "NorthBonneville-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-28",
+   "text": "City of North Bonneville City Council NOTICE OF PUBLIC HEARING UPCOMING STUDY SESSIONS The City of North Bonneville will hold study sessions on the following dates and times: • Tuesday, October 20, 2026 at 7:00 pm at City Hall to review rate increases. • Tuesday, November 3, 2026 at 7:00 pm at City Hall to review the 2027 Budget. • Monday, November 16, 2026, at 7:00 pm at City Hall to review the Council Rules of Procedure. These meetings will all be open to the public. No final action will be taken during any of these meetings; therefore no public comment will be heard during these meetings. For more information contact Chief Administrative Officer, Taylor Chambers at (509) 427-8182. City Hall is accessible to persons with disabilities"
+  },
+  {
+   "id": "2026-11-03_skamania-county-commissioners_5cc0a4d27fe6",
+   "jurisdiction": "skamania-county",
+   "body": "Skamania County Commissioners",
    "kind": "budget-hearing",
    "title": "Klickitat County Port District No. 1 Notice Of 2027 Budget Hearing And Notice Of Amendment Of The Comprehensive Scheme",
    "summary": "PUBLIC NOTICE KLICKITAT COUNTY PORT DISTRICT NO. 1 NOTICE OF 2027 BUDGET HEARING AND NOTICE OF AMENDMENT OF THE COMPREHENSIVE SCHEME The Port District has prepared a preliminary budget for FY/CY 2027. Copies are on file in the Port office located at 154 E Bingen Point Way Ste. A; Bingen, Washington and available for inspection by any taxpayer. The Port Commission will meet at 4:30 P.M. November 3, 2026, in the Port o…",
@@ -5790,7 +6025,7 @@
     "file_no": null,
     "location": null,
     "places": [],
-    "countywide": false
+    "countywide": true
    },
    "official": {
     "url": "https://www.goldendalesentinel.com/legals/",
@@ -5818,12 +6053,70 @@
     "source": "legals.py",
     "notice_id": "5cc0a4d27fe6",
     "channels": [
-     "Bingen-CityCouncil"
+     "Skamania-BOCC"
     ],
     "as_printed": true
    },
    "first_seen": "2026-10-21",
    "text": "PUBLIC NOTICE KLICKITAT COUNTY PORT DISTRICT NO. 1 NOTICE OF 2027 BUDGET HEARING AND NOTICE OF AMENDMENT OF THE COMPREHENSIVE SCHEME The Port District has prepared a preliminary budget for FY/CY 2027. Copies are on file in the Port office located at 154 E Bingen Point Way Ste. A; Bingen, Washington and available for inspection by any taxpayer. The Port Commission will meet at 4:30 P.M. November 3, 2026, in the Port office for the purpose of holding a public hearing and receiving public comment on the Port District budget for FY/CY 2027. Furthermore, the Port District has identified certain proposed capital projects in support of its Comprehensive Scheme of Harbor Improvements and Industrial Developments. Pursuant to RCW 53.20.010 and RCW 53.25.090 the Port Commission will meet at 4:30 P.M. on November 3, 2026, in the Port office for the purpose of holding a public hearing and receiving public comment on an amendment to its Comprehensive Scheme. Attest: Lisa Cunningham Administrative Assistant/Port Auditor "
+  },
+  {
+   "id": "2026-11-04_klickitat-county-commissioners_052fb0e14963",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "budget-hearing",
+   "title": "The Skamania County Mosquito Control District will hold a public Budget Hearing on Wednesday, November 4, 2026.",
+   "summary": "The Skamania County Mosquito Control District will hold a public Budget Hearing on Wednesday, November 4, 2026. The meeting will be held at the North Bonneville Fire Station in its meeting room located at 33 E. Cascade Drive, North Bonneville, Washington. The meeting will start at 5:45 PM.\"",
+   "event": {
+    "date": "2026-11-04",
+    "time": null,
+    "place": "33 E. Cascade Drive",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "The Skamania County Mosquito Control District will hold a public Budget Hearing on Wednesday, November 4, 2026.",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-28",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-28"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-04"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "052fb0e14963",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-28",
+   "text": "The Skamania County Mosquito Control District will hold a public Budget Hearing on Wednesday, November 4, 2026. The meeting will be held at the North Bonneville Fire Station in its meeting room located at 33 E. Cascade Drive, North Bonneville, Washington. The meeting will start at 5:45 PM.\""
   },
   {
    "id": "2026-11-04_klickitat-county-commissioners_1da6b18d3ac2",
@@ -5884,6 +6177,64 @@
    "text": "PUBLIC NOTIFICATION The Klickitat County Lodging Tax Advisory Committee will be meeting at 2:00 P.M. on Wednesday November 4 th , 2026 at the County Services Building,115 W. Court Street, Mt. Adams Conference Room, Goldendale, WA. For more information please call (509) 773-7060. "
   },
   {
+   "id": "2026-11-09_stevenson-city-council_380b7b39937c",
+   "jurisdiction": "stevenson",
+   "body": "Stevenson City Council",
+   "kind": "hearing",
+   "title": "City Of Stevenson Public Hearing",
+   "summary": "CITY OF STEVENSON PUBLIC HEARING Notice is hereby given that the City of Stevenson will hold a public hearing during the Planning Commission meeting on Monday, November 9, 2026, at 6 PM at City Hall, 7121 E Loop Rd, Stevenson, WA 98648 and via online video conference: stevensonwa.gov/PCmeet on the state-required periodic update to the Critical Areas Ordinance which regulates wetlands, fish and wildlife habitat, geolo…",
+   "event": {
+    "date": "2026-11-09",
+    "time": "6:00 pm",
+    "place": "7121 E Loop Rd",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "City Of Stevenson Public Hearing",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-28",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-28"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-04"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "380b7b39937c",
+    "channels": [
+     "Stevenson-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-28",
+   "text": "CITY OF STEVENSON PUBLIC HEARING Notice is hereby given that the City of Stevenson will hold a public hearing during the Planning Commission meeting on Monday, November 9, 2026, at 6 PM at City Hall, 7121 E Loop Rd, Stevenson, WA 98648 and via online video conference: stevensonwa.gov/PCmeet on the state-required periodic update to the Critical Areas Ordinance which regulates wetlands, fish and wildlife habitat, geological hazardous areas, critical aquifer recharge areas, frequently flooded areas, and associated buffers. Information regarding the above is available at stevensonwa.gov/cao Oral and written statements from the public will be welcomed and made part of the official record. City Hall is accessible to people with disabilities. Please notify City Hall at least 24 hours in advance if you need special accommodations to attend the meeting, including handicap accessibility or interpreter services, by calling (509) 427-5970 or (800) 833-6388 for TDD"
+  },
+  {
    "id": "2026-11-10_skamania-county-commissioners_d5113f6d8bd3",
    "jurisdiction": "skamania-county",
    "body": "Skamania County Commissioners",
@@ -5936,6 +6287,174 @@
    },
    "first_seen": "2026-10-14",
    "text": "NOTICE OF GENERAL ELECTION SKAMANIA COUNTY, WASHINGTON NOVEMBER 3, 2026 Legal Notice NOTICE IS HEREBY GIVEN THAT on Tuesday, November 3, 2026, in Skamania County, State of Washington, in all precincts thereof, there will be held a General Election. Voter Registration Deadlines: October 26, 2026 – Deadline for mail and online new voter registrations, updates, and transfers. November 3, 2026 – Deadline for in-person new voter registrations and voter updates. Registering to vote: • By mail – form may be obtained by calling the Skamania County Auditor’s Office at (509) 427-3730. • In person – Skamania County Auditor’s Office 240 NW Vancouver Ave Room 27 Stevenson, WA 98648 – Office hours: Monday - Thursday 7:30 AM – 5:30 PM. • Online – www.votewa.gov Assistance with voter registration and voting is available for elderly and disabled voters at the Skamania County Auditor’s Office. Ballots will be mailed to all active registered voters in participating districts by October 16, 2026. Voters may obtain a replacement ballot by calling the Skamania County Auditor’s Office at (509) 427-3730. The Skamania County Courthouse, 240 NW Vancouver Ave Stevenson, WA 98648 is accessible for voters needing assistance with registration or casting a ballot. The logic and accuracy test of the ballot tabulation system was conducted in the Auditor’s Office on October 1, 2026 at 10:00am. The Skamania County Canvassing Board shall meet in the Commissioners Meeting Room on these dates: • November 10, 2026 – 3:00 PM • November 24, 2026 – 8:00 AM The Auditor’s Office and Commissioner’s Meeting Room are accessible for persons with disabilities. Please let us know if you will need any special accommodations in order to attend the meeting. Call (509) 427-3730. DATED THIS 12th DAY OF OCTOBER, 2026. Robert J. Waymire, Skamania County Auditor and Ex-Officio Supervisor of Elections"
+  },
+  {
+   "id": "2026-11-10_north-bonneville-city-council_936685a179fb",
+   "jurisdiction": "north-bonneville",
+   "body": "North Bonneville City Council",
+   "kind": "budget-hearing",
+   "title": "City of North Bonneville City Council NOTICE OF PUBLIC HEARING BUDGET HEARING The City of North Bonneville will hold a second public hearing",
+   "summary": "City of North Bonneville City Council NOTICE OF PUBLIC HEARING BUDGET HEARING The City of North Bonneville will hold a second public hearing to review the 2027 City budget on Tuesday, November 10, 2026, at 7:00 p.m. at City Hall during the City Council’s regularly scheduled meeting. The City of North Bonneville will hold a final hearing for possible adoption of the 2027 City Budget on Tuesday, November 24, 2026, at 7…",
+   "event": {
+    "date": "2026-11-10",
+    "time": "7:00 pm",
+    "place": null,
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [],
+    "email": null
+   },
+   "subject": {
+    "text": "City of North Bonneville City Council NOTICE OF PUBLIC HEARING BUDGET HEARING The City of North Bonneville will hold a second public hearing",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-28",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-28"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-04"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "936685a179fb",
+    "channels": [
+     "NorthBonneville-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-28",
+   "text": "City of North Bonneville City Council NOTICE OF PUBLIC HEARING BUDGET HEARING The City of North Bonneville will hold a second public hearing to review the 2027 City budget on Tuesday, November 10, 2026, at 7:00 p.m. at City Hall during the City Council’s regularly scheduled meeting. The City of North Bonneville will hold a final hearing for possible adoption of the 2027 City Budget on Tuesday, November 24, 2026, at 7:00 p.m. at City Hall during the City Council’s regularly scheduled meeting. All interested parties are invited to submit comments and attend the hearing. For more information contact Chief Administrative Officer, Taylor Chambers at (509) 427-8182. City Hall is accessible to persons with disabilities"
+  },
+  {
+   "id": "2026-10-28_stevenson-city-council_939aea149888",
+   "jurisdiction": "stevenson",
+   "body": "Stevenson City Council",
+   "kind": "application",
+   "title": "Determination Of Nonsignificance Publication Date",
+   "summary": "DETERMINATION OF NONSIGNIFICANCE PUBLICATION DATE: October 28, 2026 PROJECT NAME: Backwoods Brewing Company industrial wastewater discharge APPLICANT Backwoods Brewing Company DESCRIPTION OF PROPOSAL: This proposal relates to a state waste discharge permit for the existing industrial wastewater discharge from the Stevenson Backwoods brewery to the City of Stevenson POTW PROJECT LOCATION: 40 SW Cascade Ave, Stevenson …",
+   "event": null,
+   "window": {
+    "closes": "2026-11-11",
+    "basis": "stated on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email josh.neblock@skamaniacounty.gov."
+    ],
+    "email": "josh.neblock@skamaniacounty.gov"
+   },
+   "subject": {
+    "text": "Determination Of Nonsignificance Publication Date",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-28",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-28"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "939aea149888",
+    "channels": [
+     "Stevenson-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-28",
+   "text": "DETERMINATION OF NONSIGNIFICANCE PUBLICATION DATE: October 28, 2026 PROJECT NAME: Backwoods Brewing Company industrial wastewater discharge APPLICANT Backwoods Brewing Company DESCRIPTION OF PROPOSAL: This proposal relates to a state waste discharge permit for the existing industrial wastewater discharge from the Stevenson Backwoods brewery to the City of Stevenson POTW PROJECT LOCATION: 40 SW Cascade Ave, Stevenson WA, 98648 CONTACT PERSON: Josh Neblock, Lead Land Use Planner josh.neblock@skamaniacounty.gov (509)427-3906 LEAD AGENCY: City of Stevenson, Washington RESPONSIBLE OFFICIAL Josh Neblock Description of Proposal: — State Waste Discharge Permit for the existing industrial wastewater discharge from the Stevenson brewery to the City of Stevenson POTW. The applicant operates an existing craft brewery at 40 SW Cascade Ave, Stevenson. Industrial wastewater from brewing — tank/equipment cleaning (CIP), packaging-line washing, floor washdown, and non-contact equipment cooling water — is discharged to the City of Stevenson sanitary sewer for treatment at the City’s POTW. This discharge was historically overseen by the City; the City and Ecology have jointly determined it will now be permitted by Ecology under a State Waste Discharge Permit. Threshold Determination: The City of Stevenson, acting as lead agency for this proposal, has determined this proposal will not have a probable significant adverse impact on the environment. An environmental impact statement (EIS) is not required under RCW 43.21C.030 (2)(c). This decision was made after review of a completed environmental checklist and other information on file with the lead agency. This information is available to the public on request. This DNS is issued under WAC 197-11-340(2); the lead agency will not act on this proposal for 14 days from the date of issuance. The full checklist and materials can be found online at: https://www.stevensonwa.gov/m/newsflash Comments on Threshold Determination: If you would like to comment on this Threshold Determination, your written comments should be sent to the address below by 5:00 PM on November 11, 2026. All comments on this proposal are to be directed to Josh Neblock, Lead Land Use Planner, City Hall, 7121 E Loop Road, PO Box 371, Stevenson, Washington 98648"
+  },
+  {
+   "id": "2026-11-13_mill-a-school-district-31_4879af84c029",
+   "jurisdiction": "mill-a-school-district-31",
+   "body": "Mill A School District #31",
+   "kind": "bid",
+   "title": "Mill A School District Request for Proposal (RFP).",
+   "summary": "Mill A School District Request for Proposal (RFP). The Mill A School District is soliciting responses from contractors interested in conducting a Slash Pile Abatement via Mastication Project on approximately 4 acres of a recently thinned forest parcel at 1142 Jessup Road, Mill A, Washington. Responses to this RFP will be received only at the District Office at 1142 Jessup Road on or before November 13, 2026, at 4 pm.…",
+   "event": null,
+   "window": {
+    "closes": "2026-11-13",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email Kelly.Stickel@millasd.org."
+    ],
+    "email": "Kelly.Stickel@millasd.org"
+   },
+   "subject": {
+    "text": "Mill A School District Request for Proposal (RFP).",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-28",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-28"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-04"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "4879af84c029",
+    "channels": [],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-28",
+   "text": "Mill A School District Request for Proposal (RFP). The Mill A School District is soliciting responses from contractors interested in conducting a Slash Pile Abatement via Mastication Project on approximately 4 acres of a recently thinned forest parcel at 1142 Jessup Road, Mill A, Washington. Responses to this RFP will be received only at the District Office at 1142 Jessup Road on or before November 13, 2026, at 4 pm. Interested contractors should request the District’s RFP Response Project Description, Scope of Work, and Submission Requirements document by contacting Principal/Superintendent Kelly Stickel at: Kelly.Stickel@millasd.org"
   },
   {
    "id": "2026-11-17_wa-department-of-ecology_4c2b57f2a06a",
@@ -6132,6 +6651,74 @@
    },
    "first_seen": "2026-10-14",
    "text": "RFQ FOR ON-CALL SCADA, CONTROLS & OPERATIONAL SUPPORT SERVICES CITY OF STEVENSON The City of Stevenson is requesting Statements of Qualifications from qualified firms to provide on-call SCADA, controls, instrumentation, and operational support services for the City's wastewater treatment and collection systems. This work may include; 1. SCADA system support, troubleshooting & optimization. 2. PLC programming and process controls. 3. Instrumentation, telemetry, and communications. 4. Operational Support & Troubleshooting. 5. Emergency response and after-hours support. 6. System Improvement & mobile modernization. 7. IT Coordination Services. Submittals are due by 3:00 PM on Thursday, November 19th. Interested firms must complete a statement of qualifications package that can be requested from the City or found on the City website. The City of Stevenson is an equal opportunity and affirmative action employer. Minority- and women-owned firms are encouraged to submit proposals. CONTACT: Cody Rosander (Cody@stevensonwa.gov) City of Stevenson 7121 E Loop Road PO Box 371 Stevenson, WA 98648 – 0371 (509) 427-5970"
+  },
+  {
+   "id": "2026-11-19_wsdot_1ca167b91675",
+   "jurisdiction": "washington-state",
+   "body": "WSDOT",
+   "kind": "bid",
+   "title": "Federal Aid# STBGR-Z930(005) CRP #2025-02 Countywide Bridge Scour Project Skamania County (COUNTY) is seeking qualifications from consulting",
+   "summary": "Federal Aid# STBGR-Z930(005) CRP #2025-02 Countywide Bridge Scour Project Skamania County (COUNTY) is seeking qualifications from consulting firms with expertise in hydraulic / structural engineering to complete a scour appraisal and analysis for bridges crossing a waterway per FHWA and WSDOT Bridge Inspection Manual. Planning (PL) / Preliminary Engineering (PE): •Scour Appraisals o Conduct appraisals for Skamania Co…",
+   "event": null,
+   "window": {
+    "closes": "2026-11-19",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email sadi@co.skamania.wa.us, sadi@co.skamania.wa.us.."
+    ],
+    "email": "sadi@co.skamania.wa.us"
+   },
+   "subject": {
+    "text": "Federal Aid# STBGR-Z930(005) CRP #2025-02 Countywide Bridge Scour Project Skamania County (COUNTY) is seeking qualifications from consulting",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "notice": {
+    "dated": "2026-10-21",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-21"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-10-28"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-04"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-11"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-18"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "1ca167b91675",
+    "channels": [],
+    "as_printed": true
+   },
+   "first_seen": "2026-10-28",
+   "text": "Federal Aid# STBGR-Z930(005) CRP #2025-02 Countywide Bridge Scour Project Skamania County (COUNTY) is seeking qualifications from consulting firms with expertise in hydraulic / structural engineering to complete a scour appraisal and analysis for bridges crossing a waterway per FHWA and WSDOT Bridge Inspection Manual. Planning (PL) / Preliminary Engineering (PE): •Scour Appraisals o Conduct appraisals for Skamania County National Bridge Inventory (NBI) bridge structures. •Scour Analysis o Perform in-depth analysis on bridge structures identified during appraisals as requiring further evaluation. •Data Entry & Compliance o Complete WSBIM (Bridgeworks) SNBI scour data entry and perform compliance reviews. •Documentation o Update Plan of Action (POA) documentation based on results from scour appraisals and analyses. The anticipated timeline for the project is from December 2026 through December 2028. Additional information for this request for qualifications (RFQ) is available online at Request for Qualifications ǀ Skamania County https://www.skamaniacounty.org/departments-offices/public-works/request-for-qualifications The contract type is Local Agency Professional Service Negotiated Hourly Rate Consultant Agreement. There is no FSBE goal established for this project. A voluntary 10% SBE is included in the project. Submittals are due no later than 10:00 A.M. Thursday, November 19, 2026. Submittals will not be accepted after that time and date. Consultant qualifications requirements, special provisions, how the consultant submittals will be evaluated, and schedule for the procurement process are available at the agency’s website link above. Any questions regarding this project should be directed to Sadi’ Stouder-Pettenger at 509-427-3910 or sadi@co.skamania.wa.us. Skamania County, in accordance with the provisions of Title VI of the Civil Rights Act of 1964 (78 Stat. 252,42 U.S.C. 2000d to 2000d-4) and the Regulations, hereby notifies all bidders that will affirmatively ensure that any contract entered into pursuant to this advertisement, disadvantaged business enterprises will be afforded full and fair opportunity to submit bids in response to this invitation and will not be discriminated against on the grounds of race, color, or national origin in consideration for an award. Skamania County in accordance with Section 504 of the Rehabilitation Act (Section 504) and the Americans with the Americans with Disabilities Act (ADA), commits to nondiscrimination on the basis of disability, in all of its programs and activities. This material can be made available in an alternate format by emailing Sadi’ Stouder- Pettenger at sadi@co.skamania.wa.us or by calling 509.427.3910"
   }
  ]
 }

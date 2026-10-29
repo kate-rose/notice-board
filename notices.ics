@@ -4,76 +4,8 @@ PRODID:-//Notice Board//skamaniadispatch.com//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Notice Board (Skamania and Klickitat public notices)
 BEGIN:VEVENT
-UID:2026-10-27_north-bonneville-planning-commission_8017748e8b1d@notice-board
-DTSTAMP:20261026T145034Z
-DTSTART;TZID=America/Los_Angeles:20261027T190000
-SUMMARY:North Bonneville Planning Commission: City of North Bonneville Pl
- anning Commission NOTICE OF PUBLIC HEARING PRELIMINARY BUDGET AND PROPER
- TY TAX HEARING The City of North Bonnevil
-DESCRIPTION:City of North Bonneville Planning Commission NOTICE OF PUBLIC
-  HEARING PRELIMINARY BUDGET AND PROPERTY TAX HEARING The City of North B
- onneville will hold a public hearing to review the 2027 property tax lev
- y and preliminary 2027 City budget on Tuesday\, October 27\, 2026\, at 7
- :00 p.m. at City Hall during the City Council’s regularly scheduled me
- eting. All interested parties are invited to submit comm More: https://k
- ate-rose.github.io/notice-board/#2026-10-27_north-bonneville-planning-co
- mmission_8017748e8b1d
-URL:https://kate-rose.github.io/notice-board/#2026-10-27_north-bonneville
- -planning-commission_8017748e8b1d
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-27_klickitat-county-commissioners_c2d3f18bd99b@notice-board
-DTSTAMP:20261026T145034Z
-DTSTART;TZID=America/Los_Angeles:20261027T133000
-SUMMARY:Klickitat County Commissioners: Public Hearing
-DESCRIPTION:NOTICE OF PUBLIC HEARING In accordance with Chapter 36.81.121
-  of the Revised Code of Washington\, the Board of County Commissioners a
- re to hold a public hearing prior to the amendment of the Six Year Trans
- portation Improvement Program for Klickitat County. Public hearings will
-  be held on October 27\, 2026 at 1:30 p.m. in the Commissioners’ room 
- located in the Klickitat County Services Building\, Gold More: https://k
- ate-rose.github.io/notice-board/#2026-10-27_klickitat-county-commissione
- rs_c2d3f18bd99b
-URL:https://kate-rose.github.io/notice-board/#2026-10-27_klickitat-county
- -commissioners_c2d3f18bd99b
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-27_klickitat-county-commissioners_d65b10273461@notice-board
-DTSTAMP:20261026T145034Z
-DTSTART;TZID=America/Los_Angeles:20261027T133000
-SUMMARY:Klickitat County Commissioners: Public Hearing
-DESCRIPTION:NOTICE OF PUBLIC HEARING Supplemental Budget The Klickitat Co
- unty Board of Commissioners will meet on October 27th\, 2026\, at 1:30 p
- m. Please join the meeting at the Klickitat County Services Building in 
- the Chambers of the Board of County Commissioners\, or virtually via Zoo
- m\, meeting ID 586587651. They will hold a Public Hearing and consider a
- mendments to the 2026 budget as summarized below. Infor More: https://ka
- te-rose.github.io/notice-board/#2026-10-27_klickitat-county-commissioner
- s_d65b10273461
-URL:https://kate-rose.github.io/notice-board/#2026-10-27_klickitat-county
- -commissioners_d65b10273461
-LOCATION:115 W Court St
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-10-28_klickitat-county-commissioners_671b30257901@notice-board
-DTSTAMP:20261026T145034Z
-DTSTART;VALUE=DATE:20261028
-SUMMARY:Last day to comment: Klickitat County Mitigated Determination Of 
- Non-Significance (Klickitat County Commissioners)
-DESCRIPTION:KLICKITAT COUNTY MITIGATED DETERMINATION OF NON-SIGNIFICANCE 
- Notice is hereby given that Klickitat County issued two Mitigated Determ
- inations of Non-significance (MDNS) on October 9\, 2026 under SEPA Rules
-  (Chapter 197-11 WAC) and the Klickitat County Environmental Ordinance N
- umber 121084\, as amended\, for the following proposals: SEPA 2026-12. A
- pplicant: Bill & Carol Anderson. A Short Plat applicat More: https://kat
- e-rose.github.io/notice-board/#2026-10-28_klickitat-county-commissioners
- _671b30257901
-URL:https://kate-rose.github.io/notice-board/#2026-10-28_klickitat-county
- -commissioners_671b30257901
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-10-29_klickitat-county-commissioners_67717a66e6fc@notice-board
-DTSTAMP:20261026T145034Z
+DTSTAMP:20261029T144319Z
 DTSTART;TZID=America/Los_Angeles:20261029T130000
 SUMMARY:Klickitat County Commissioners: Public Hearing
 DESCRIPTION:NOTICE OF PUBLIC HEARING Vacation of Short Plat SP 87-04 TUES
@@ -90,7 +22,7 @@ LOCATION:115 West Court Street
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-10-30_goldendale-school-district-404_afb318d6e167@notice-board
-DTSTAMP:20261026T145034Z
+DTSTAMP:20261029T144319Z
 DTSTART;VALUE=DATE:20261030
 SUMMARY:Last day to comment: Goldendale School District #404 is solicitin
  g bids to demo and remove the bleachers from Barthlow Field. (Goldendale
@@ -107,8 +39,25 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-30_goldendale-schoo
  l-district-404_afb318d6e167
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-02_stevenson-city-council_358142169d30@notice-board
+DTSTAMP:20261029T144319Z
+DTSTART;TZID=America/Los_Angeles:20261102T180000
+SUMMARY:Stevenson City Council: City Of Stevenson Public Notice
+DESCRIPTION:CITY OF STEVENSON PUBLIC NOTICE The City Council and Planning
+  Commission will hold a joint workshop on Monday\, November 2nd\, at 6:0
+ 0 PM at City Hall\, 7121 E Loop Rd\, Stevenson\, WA 98648 to discuss the
+  2027 work plan and priorities\, review code amendments currently underw
+ ay\, discuss sequencing and workload and provide general direction to st
+ aff. The session is intended as a working discussion\; no f More: https:
+ //kate-rose.github.io/notice-board/#2026-11-02_stevenson-city-council_35
+ 8142169d30
+URL:https://kate-rose.github.io/notice-board/#2026-11-02_stevenson-city-c
+ ouncil_358142169d30
+LOCATION:7121 E Loop Rd
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-02_klickitat-county-commissioners_406fd0a32d0c@notice-board
-DTSTAMP:20261026T145034Z
+DTSTAMP:20261029T144319Z
 DTSTART;TZID=America/Los_Angeles:20261102T083000
 SUMMARY:Klickitat County Commissioners: Election
 DESCRIPTION:NOTICE OF ELECTION Notice is hereby given that a General Elec
@@ -125,7 +74,7 @@ LOCATION:205 S. Columbus Ave
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-03_county-auditor_e65e345165d1@notice-board
-DTSTAMP:20261026T145034Z
+DTSTAMP:20261029T144319Z
 DTSTART;VALUE=DATE:20261103
 SUMMARY:Last day to comment: The following measures will be submitted to 
  voters on the November 3\, 2026 General Election ballot (County Auditor)
@@ -140,27 +89,79 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-03_county-auditor_e
  65e345165d1
 END:VEVENT
 BEGIN:VEVENT
-UID:2026-11-03_bingen-city-council_5cc0a4d27fe6@notice-board
-DTSTAMP:20261026T145034Z
+UID:2026-11-03_skamania-county-commissioners_725d323c23bb@notice-board
+DTSTAMP:20261029T144319Z
+DTSTART;TZID=America/Los_Angeles:20261103T170000
+SUMMARY:Skamania County Commissioners: Public Hearing
+DESCRIPTION:NOTICE OF PUBLIC HEARING Before the Board of Skamania County 
+ Commissioners PURPOSE: The Skamania County Board of Commissioners hereby
+  gives notice that the 2027 Preliminary Budget has been completed and pl
+ aced on file for the ensuing fiscal year. A public hearing will be held 
+ to consider adoption of the 2027 Preliminary Budget. Any taxpayer may ap
+ pear and be heard for or against any part of the bu More: https://kate-r
+ ose.github.io/notice-board/#2026-11-03_skamania-county-commissioners_725
+ d323c23bb
+URL:https://kate-rose.github.io/notice-board/#2026-11-03_skamania-county-
+ commissioners_725d323c23bb
+LOCATION:240 NW Vancouver Avenue
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03_north-bonneville-city-council_8c8a48ee023c@notice-board
+DTSTAMP:20261029T144319Z
+DTSTART;TZID=America/Los_Angeles:20261103T190000
+SUMMARY:North Bonneville City Council: City of North Bonneville City Coun
+ cil NOTICE OF PUBLIC HEARING UPCOMING STUDY SESSIONS The City of North B
+ onneville will hold study sessions
+DESCRIPTION:City of North Bonneville City Council NOTICE OF PUBLIC HEARIN
+ G UPCOMING STUDY SESSIONS The City of North Bonneville will hold study s
+ essions on the following dates and times: • Tuesday\, October 20\, 202
+ 6 at 7:00 pm at City Hall to review rate increases. • Tuesday\, Novemb
+ er 3\, 2026 at 7:00 pm at City Hall to review the 2027 Budget. • Monda
+ y\, November 16\, 2026\, at 7:00 pm at City Hall to review the C More: h
+ ttps://kate-rose.github.io/notice-board/#2026-11-03_north-bonneville-cit
+ y-council_8c8a48ee023c
+URL:https://kate-rose.github.io/notice-board/#2026-11-03_north-bonneville
+ -city-council_8c8a48ee023c
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-03_skamania-county-commissioners_5cc0a4d27fe6@notice-board
+DTSTAMP:20261029T144319Z
 DTSTART;VALUE=DATE:20261103
-SUMMARY:Bingen City Council: Klickitat County Port District No. 1 Notice 
- Of 2027 Budget Hearing And Notice Of Amendment Of The Comprehensive Sche
- me
+SUMMARY:Skamania County Commissioners: Klickitat County Port District No.
+  1 Notice Of 2027 Budget Hearing And Notice Of Amendment Of The Comprehe
+ nsive Scheme
 DESCRIPTION:PUBLIC NOTICE KLICKITAT COUNTY PORT DISTRICT NO. 1 NOTICE OF 
  2027 BUDGET HEARING AND NOTICE OF AMENDMENT OF THE COMPREHENSIVE SCHEME 
  The Port District has prepared a preliminary budget for FY/CY 2027. Copi
  es are on file in the Port office located at 154 E Bingen Point Way Ste.
   A\; Bingen\, Washington and available for inspection by any taxpayer. T
  he Port Commission will meet at 4:30 P.M. November 3\, More: https://kat
- e-rose.github.io/notice-board/#2026-11-03_bingen-city-council_5cc0a4d27f
- e6
-URL:https://kate-rose.github.io/notice-board/#2026-11-03_bingen-city-coun
- cil_5cc0a4d27fe6
+ e-rose.github.io/notice-board/#2026-11-03_skamania-county-commissioners_
+ 5cc0a4d27fe6
+URL:https://kate-rose.github.io/notice-board/#2026-11-03_skamania-county-
+ commissioners_5cc0a4d27fe6
 LOCATION:154 E Bingen Point Way Ste
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-04_klickitat-county-commissioners_052fb0e14963@notice-board
+DTSTAMP:20261029T144319Z
+DTSTART;VALUE=DATE:20261104
+SUMMARY:Klickitat County Commissioners: The Skamania County Mosquito Cont
+ rol District will hold a public Budget Hearing on Wednesday\, November 4
+ \, 2026.
+DESCRIPTION:The Skamania County Mosquito Control District will hold a pub
+ lic Budget Hearing on Wednesday\, November 4\, 2026. The meeting will be
+  held at the North Bonneville Fire Station in its meeting room located a
+ t 33 E. Cascade Drive\, North Bonneville\, Washington. The meeting will 
+ start at 5:45 PM." More: https://kate-rose.github.io/notice-board/#2026-
+ 11-04_klickitat-county-commissioners_052fb0e14963
+URL:https://kate-rose.github.io/notice-board/#2026-11-04_klickitat-county
+ -commissioners_052fb0e14963
+LOCATION:33 E. Cascade Drive
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-04_klickitat-county-commissioners_1da6b18d3ac2@notice-board
-DTSTAMP:20261026T145034Z
+DTSTAMP:20261029T144319Z
 DTSTART;VALUE=DATE:20261104
 SUMMARY:Klickitat County Commissioners: Public Notification
 DESCRIPTION:PUBLIC NOTIFICATION The Klickitat County Lodging Tax Advisory
@@ -174,8 +175,25 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-04_klickitat-county
 LOCATION:115 W. Court Street
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-09_stevenson-city-council_380b7b39937c@notice-board
+DTSTAMP:20261029T144319Z
+DTSTART;TZID=America/Los_Angeles:20261109T180000
+SUMMARY:Stevenson City Council: City Of Stevenson Public Hearing
+DESCRIPTION:CITY OF STEVENSON PUBLIC HEARING Notice is hereby given that 
+ the City of Stevenson will hold a public hearing during the Planning Com
+ mission meeting on Monday\, November 9\, 2026\, at 6 PM at City Hall\, 7
+ 121 E Loop Rd\, Stevenson\, WA 98648 and via online video conference: st
+ evensonwa.gov/PCmeet on the state-required periodic update to the Critic
+ al Areas Ordinance which regulates wetlands\, fish and wil More: https:/
+ /kate-rose.github.io/notice-board/#2026-11-09_stevenson-city-council_380
+ b7b39937c
+URL:https://kate-rose.github.io/notice-board/#2026-11-09_stevenson-city-c
+ ouncil_380b7b39937c
+LOCATION:7121 E Loop Rd
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-10_skamania-county-commissioners_d5113f6d8bd3@notice-board
-DTSTAMP:20261026T145034Z
+DTSTAMP:20261029T144319Z
 DTSTART;TZID=America/Los_Angeles:20261110T150000
 SUMMARY:Skamania County Commissioners: General Election Skamania County\,
   Washington November 3\, 2026
@@ -192,8 +210,60 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-10_skamania-county-
 LOCATION:240 NW Vancouver Ave Room 27 Stevenson
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-10_north-bonneville-city-council_936685a179fb@notice-board
+DTSTAMP:20261029T144319Z
+DTSTART;TZID=America/Los_Angeles:20261110T190000
+SUMMARY:North Bonneville City Council: City of North Bonneville City Coun
+ cil NOTICE OF PUBLIC HEARING BUDGET HEARING The City of North Bonneville
+  will hold a second public hearing
+DESCRIPTION:City of North Bonneville City Council NOTICE OF PUBLIC HEARIN
+ G BUDGET HEARING The City of North Bonneville will hold a second public 
+ hearing to review the 2027 City budget on Tuesday\, November 10\, 2026\,
+  at 7:00 p.m. at City Hall during the City Council’s regularly schedul
+ ed meeting. The City of North Bonneville will hold a final hearing for p
+ ossible adoption of the 2027 City Budget on Tuesday\, Nov More: https://
+ kate-rose.github.io/notice-board/#2026-11-10_north-bonneville-city-counc
+ il_936685a179fb
+URL:https://kate-rose.github.io/notice-board/#2026-11-10_north-bonneville
+ -city-council_936685a179fb
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-28_stevenson-city-council_939aea149888@notice-board
+DTSTAMP:20261029T144319Z
+DTSTART;VALUE=DATE:20261111
+SUMMARY:Last day to comment: Determination Of Nonsignificance Publication
+  Date (Stevenson City Council)
+DESCRIPTION:DETERMINATION OF NONSIGNIFICANCE PUBLICATION DATE: October 28
+ \, 2026 PROJECT NAME: Backwoods Brewing Company industrial wastewater di
+ scharge APPLICANT Backwoods Brewing Company DESCRIPTION OF PROPOSAL: Thi
+ s proposal relates to a state waste discharge permit for the existing in
+ dustrial wastewater discharge from the Stevenson Backwoods brewery to th
+ e City of Stevenson POTW PROJECT LOCATION: 40 SW Cas More: https://kate-
+ rose.github.io/notice-board/#2026-10-28_stevenson-city-council_939aea149
+ 888
+URL:https://kate-rose.github.io/notice-board/#2026-10-28_stevenson-city-c
+ ouncil_939aea149888
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13_mill-a-school-district-31_4879af84c029@notice-board
+DTSTAMP:20261029T144319Z
+DTSTART;VALUE=DATE:20261113
+SUMMARY:Last day to comment: Mill A School District Request for Proposal 
+ (RFP). (Mill A School District #31)
+DESCRIPTION:Mill A School District Request for Proposal (RFP). The Mill A
+  School District is soliciting responses from contractors interested in 
+ conducting a Slash Pile Abatement via Mastication Project on approximate
+ ly 4 acres of a recently thinned forest parcel at 1142 Jessup Road\, Mil
+ l A\, Washington. Responses to this RFP will be received only at the Dis
+ trict Office at 1142 Jessup Road on or before Novembe More: https://kate
+ -rose.github.io/notice-board/#2026-11-13_mill-a-school-district-31_4879a
+ f84c029
+URL:https://kate-rose.github.io/notice-board/#2026-11-13_mill-a-school-di
+ strict-31_4879af84c029
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-17_wa-department-of-ecology_4c2b57f2a06a@notice-board
-DTSTAMP:20261026T145034Z
+DTSTAMP:20261029T144319Z
 DTSTART;TZID=America/Los_Angeles:20261117T235900
 SUMMARY:WA Department of Ecology: Public Hearings and comment period on s
  tate shoreline rules The Department of Ecology is proposing amendments t
@@ -212,7 +282,7 @@ LOCATION:6729 Pacific Ave SE
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_2e55bf6195d9@notice-board
-DTSTAMP:20261026T145034Z
+DTSTAMP:20261029T144319Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: RFQ for ON-CALL ENGINEERING SERVICES CITY OF
   STEVENSON The City of Stevenson is requesting statements of qualificati
@@ -230,7 +300,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_e5f930f757ec@notice-board
-DTSTAMP:20261026T145034Z
+DTSTAMP:20261029T144319Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: Rfq For On-Call Scada\, Controls & Operation
  al Support Services City Of Stevenson (Stevenson City Council)
@@ -244,5 +314,22 @@ DESCRIPTION:RFQ FOR ON-CALL SCADA\, CONTROLS & OPERATIONAL SUPPORT SERVIC
  30f757ec
 URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
  ouncil_e5f930f757ec
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19_wsdot_1ca167b91675@notice-board
+DTSTAMP:20261029T144319Z
+DTSTART;VALUE=DATE:20261119
+SUMMARY:Last day to comment: Federal Aid# STBGR-Z930(005) CRP #2025-02 Co
+ untywide Bridge Scour Project Skamania County (COUNTY) is seeking qualif
+ ications from consulting (WSDOT)
+DESCRIPTION:Federal Aid# STBGR-Z930(005) CRP #2025-02 Countywide Bridge S
+ cour Project Skamania County (COUNTY) is seeking qualifications from con
+ sulting firms with expertise in hydraulic / structural engineering to co
+ mplete a scour appraisal and analysis for bridges crossing a waterway pe
+ r FHWA and WSDOT Bridge Inspection Manual. Planning (PL) / Preliminary E
+ ngineering (PE): •Scour Appraisals o Conduct apprai More: https://kate
+ -rose.github.io/notice-board/#2026-11-19_wsdot_1ca167b91675
+URL:https://kate-rose.github.io/notice-board/#2026-11-19_wsdot_1ca167b916
+ 75
 END:VEVENT
 END:VCALENDAR

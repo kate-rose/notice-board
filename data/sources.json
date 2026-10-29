@@ -2,7 +2,7 @@
  "_meta": {
   "about": "Every place the board checks, and when. Shown to readers so an empty list is never mistaken for 'nothing scheduled'.",
   "truth": "Edit here (Ferric reference/notice-board/); notice_publish.py writes the merged copy to ~/notice-board/data/.",
-  "updated": "2026-10-26"
+  "updated": "2026-10-29"
  },
  "sources": [
   {
@@ -31,14 +31,14 @@
    "label": "Skamania County Pioneer legal notices (as printed)",
    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
    "how": "captured twice a week by legals.py; every notice shown with its printed dates",
-   "last_checked": "2026-10-22"
+   "last_checked": "2026-10-29"
   },
   {
    "id": "legals-sentinel",
    "label": "The Goldendale Sentinel legal notices (as printed)",
    "url": "https://www.goldendalesentinel.com/legals/",
    "how": "captured twice a week by legals.py; every notice shown with its printed dates",
-   "last_checked": "2026-10-22"
+   "last_checked": "2026-10-29"
   }
  ],
  "newspapers": [
