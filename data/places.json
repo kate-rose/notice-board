@@ -35,28 +35,43 @@
    "label": "Columbia River Gorge Commission",
    "covers": "The National Scenic Area"
   },
-  "area-agency-on-aging-disabilities-of-southwest-w": {
-   "label": "Area Agency On Aging Disabilities Of Southwest W"
+  "aaadsw": {
+   "label": "Area Agency on Aging & Disabilities of Southwest Washington"
   },
-  "bickleton-school-district": {
+  "bickleton-sd": {
    "label": "Bickleton School District"
   },
-  "centerville-school-district": {
+  "centerville-sd": {
    "label": "Centerville School District"
+  },
+  "central-klickitat-parks": {
+   "label": "Central Klickitat County Park and Recreation District"
   },
   "efsec": {
    "label": "EFSEC (state energy siting council)"
   },
-  "glenwood-school-district": {
+  "glenwood-sd": {
    "label": "Glenwood School District"
   },
-  "goldendale-school-district-404": {
-   "label": "Goldendale School District 404"
+  "goldendale-sd": {
+   "label": "Goldendale School District"
+  },
+  "home-valley-water": {
+   "label": "Home Valley Water District"
+  },
+  "klickitat-fire-5": {
+   "label": "Klickitat County Fire District #5"
+  },
+  "klickitat-fire-6": {
+   "label": "Klickitat County Fire District #6"
+  },
+  "klickitat-fire-7": {
+   "label": "Klickitat County Rural 7 Fire & Rescue"
   },
   "klickitat-pud": {
    "label": "Klickitat PUD"
   },
-  "klickitat-school-district": {
+  "klickitat-sd": {
    "label": "Klickitat School District"
   },
   "klickitat-valley-health": {
@@ -65,34 +80,34 @@
   "mcedd": {
    "label": "MCEDD"
   },
-  "mill-a-school-district-31": {
-   "label": "Mill A School District 31"
+  "mill-a-sd": {
+   "label": "Mill A School District"
   },
-  "mt-pleasant-school-district": {
-   "label": "Mt Pleasant School District"
+  "mt-pleasant-sd": {
+   "label": "Mt. Pleasant School District"
   },
   "north-bonneville": {
    "label": "City of North Bonneville"
   },
-  "skamania-county-fire-district-4": {
-   "label": "Skamania County Fire District 4"
+  "port-of-klickitat": {
+   "label": "Port of Klickitat"
   },
-  "skamania-county-homeless-housing-council": {
-   "label": "Skamania County Homeless Housing Council"
+  "rtc": {
+   "label": "SW Washington Regional Transportation Council"
+  },
+  "skamania-fire-4": {
+   "label": "Skamania County Fire District #4"
   },
   "skamania-klickitat-dd": {
    "label": "Skamania-Klickitat Developmental Disabilities Advisory Board"
   },
-  "south-central-workforce-development-council": {
+  "south-central-workforce": {
    "label": "South Central Workforce Development Council"
-  },
-  "sw-washington-regional-transportation-council": {
-   "label": "Sw Washington Regional Transportation Council"
   },
   "washington-state": {
    "label": "Washington state agencies"
   },
-  "wishram-school-district": {
+  "wishram-sd": {
    "label": "Wishram School District"
   }
  },
