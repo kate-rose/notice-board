@@ -74,7 +74,16 @@ Then open http://localhost:5192/ (try `?place=underwood`, `?theme=amber`).
 - `?place=<id>`: preselect a place (ids in `data/places.json`).
 - `?theme=amber`: the amber CRT look. Light is the default for legibility.
 - `?embed=1`: hides the page's own title (use inside Ghost, which has one).
-- `?view=list`: open in Quick list (one line per notice, tap to open the full card). Full cards are the default.
+- `?view=list` / `?view=cards`: Quick list (one line per notice, tap to open the full card) or Full cards. Phones open in Quick list, wider screens in Full cards; a reader's own choice is remembered.
+- `?topic=<budget|land|apply|vote|other>`: open on one kind of notice (the chip row under the summary).
+
+## How the page sorts notices (2026-11-03)
+
+- **Open for comment**: a comment window that is still open (not a bid, not an election).
+- **Hearings and meetings coming up**: a dated hearing or meeting with no open window.
+- **On the horizon**: talked about, not scheduled (curated cards only); hidden when empty.
+- **Bids, contracts and board seats** and **Elections**: their own sections, so they never inflate "open for comment".
+- **Choosing a place** shows the governments `places.json` binds to it, plus any district no place lists yet, in its county, tagged "Area not mapped yet" (nothing is silently dropped). **"Only my town and county-wide notices"** keeps the town's own governments, districts bound to it and state notices; from the county government it keeps county-wide notices and ones that name the place.
 
 ## Ghost embed
 

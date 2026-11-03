@@ -21,6 +21,8 @@
     --soon-bg: #fde7e4;   --soon-fg: #8a1c10;
     --exp-bg:  #fff3d1;   --exp-fg:  #6b4800;
     --past-bg: #eeeeee;   --past-fg: #3d3d3d;
+    --bid-bg:  #f1ece4;   --bid-fg:  #4a3a1f;
+    --vote-bg: #ece6f5;   --vote-fg: #3d2a63;
     --new-bg:  #1a1a1a;   --new-fg:  #ffffff;
     --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
@@ -32,6 +34,8 @@
     --soon-bg: #3a1610; --soon-fg: #ffb1a3;
     --exp-bg:  #33260c; --exp-fg:  #ffd98a;
     --past-bg: #221c14; --past-fg: #cdb89a;
+    --bid-bg:  #2a2010; --bid-fg:  #f0c890;
+    --vote-bg: #241a2e; --vote-fg: #d9c2ff;
     --new-bg:  #ffb347; --new-fg:  #0c0906;
     --font: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
   }
@@ -41,7 +45,7 @@
     margin: 0; background: var(--bg); color: var(--text);
     font-family: var(--font); font-size: 18px; line-height: 1.55;
   }
-  .wrap { max-width: 760px; margin: 0 auto; padding: 20px 16px 48px; }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 20px 16px 48px; }
   a { color: var(--link); text-underline-offset: 3px; }
   :focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
   h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 6px; }
@@ -56,38 +60,70 @@
   }
   .check { display: flex; gap: 10px; align-items: flex-start; margin-top: 12px; font-size: 1rem; }
   .check input { width: 22px; height: 22px; margin-top: 3px; flex: none; }
-  .summary { margin: 0 0 8px; font-size: 1.1rem; font-weight: 600; }
+  .summary { margin: 0 0 4px; font-size: 1.1rem; font-weight: 600; }
+  .filternote { margin: 0 0 8px; font-size: .98rem; color: var(--muted); }
 
-  section { margin-top: 28px; }
-  h2 { font-size: 1.4rem; margin: 0 0 4px; }
+  .controls { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin: 10px 0 4px; }
+  .viewtoggle { display: inline-flex; border: 2px solid var(--text); border-radius: 10px; overflow: hidden; }
+  .viewtoggle button {
+    font: inherit; font-size: 1rem; font-weight: 600; min-height: 44px; padding: 6px 16px;
+    border: 0; background: var(--card); color: var(--text); cursor: pointer;
+  }
+  .viewtoggle button + button { border-left: 2px solid var(--text); }
+  .viewtoggle button[aria-pressed="true"] { background: var(--text); color: var(--bg); }
+  .topics { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; padding: 0; list-style: none; }
+  .topics button {
+    font: inherit; font-size: .95rem; font-weight: 600; min-height: 40px; padding: 4px 14px; cursor: pointer;
+    border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--text);
+  }
+  .topics button[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .topics .n { font-weight: 400; opacity: .8; margin-left: 4px; }
+
+  section { margin-top: 30px; }
+  h2 { font-size: 1.4rem; margin: 0 0 2px; }
+  h2 .count { color: var(--muted); font-weight: 400; }
   .section-note { margin: 0 0 14px; color: var(--muted); font-size: 1rem; }
   .empty { background: var(--soft); border: 1px dashed var(--line); border-radius: 12px; padding: 14px 16px; color: var(--muted); }
 
-  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; margin: 0 0 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 14px 16px; margin: 0 0 14px; }
   .card.soon { border-left: 6px solid var(--soon-fg); }
-  .when { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; margin-bottom: 8px; }
-  .when strong { font-size: 1.3rem; line-height: 1.3; }
-  .chip { display: inline-block; font-size: .9rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; white-space: nowrap; }
-  .chip.open { background: var(--open-bg); color: var(--open-fg); }
-  .chip.hear { background: var(--hear-bg); color: var(--hear-fg); }
-  .chip.soon { background: var(--soon-bg); color: var(--soon-fg); }
-  .chip.exp  { background: var(--exp-bg);  color: var(--exp-fg); }
-  .chip.past { background: var(--past-bg); color: var(--past-fg); }
-  .chip.new  { background: var(--new-bg);  color: var(--new-fg); }
-  .chip.near { background: var(--soft); color: var(--text); border: 1px solid var(--line); }
-  .chip.printed { background: transparent; color: var(--muted, var(--text)); border: 1px dashed var(--line); font-weight: 600; }
-  .card h3 { font-size: 1.2rem; line-height: 1.35; margin: 4px 0 6px; }
-  .meta { color: var(--muted); font-size: .98rem; margin: 0 0 10px; }
-  .card p.sum { margin: 0 0 10px; }
+  .card-top { display: grid; grid-template-columns: 4.1rem 1fr; gap: 14px; align-items: start; }
+  .datebox {
+    display: flex; flex-direction: column; align-items: center; text-align: center; line-height: 1.1;
+    border: 1px solid var(--line); border-radius: 10px; padding: 7px 2px 6px; background: var(--soft);
+  }
+  .datebox .mon { font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  .datebox .day { font-size: 1.7rem; font-weight: 800; margin: 2px 0; }
+  .datebox .dow { font-size: .78rem; color: var(--muted); }
+  .datebox.none .day { font-size: 1.2rem; }
+  .body-label { margin: 0 0 2px; font-size: .92rem; font-weight: 600; color: var(--muted); }
+  .card h3 { font-size: 1.15rem; line-height: 1.35; margin: 0 0 6px; }
+  .whenline { margin: 0 0 6px; font-size: 1rem; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 6px; }
+  .chip { display: inline-block; font-size: .85rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; white-space: nowrap; }
+  .chip.open   { background: var(--open-bg); color: var(--open-fg); }
+  .chip.hear   { background: var(--hear-bg); color: var(--hear-fg); }
+  .chip.urgent { background: var(--soon-bg); color: var(--soon-fg); }
+  .chip.exp    { background: var(--exp-bg);  color: var(--exp-fg); }
+  .chip.past   { background: var(--past-bg); color: var(--past-fg); }
+  .chip.bid    { background: var(--bid-bg);  color: var(--bid-fg); }
+  .chip.vote   { background: var(--vote-bg); color: var(--vote-fg); }
+  .chip.new    { background: var(--new-bg);  color: var(--new-fg); }
+  .chip.near   { background: var(--soft); color: var(--text); border: 1px solid var(--line); }
+  .chip.paper, .chip.unmapped { background: var(--soft); color: var(--muted); font-weight: 600; border: 1px solid var(--line); }
+  .meta { color: var(--muted); font-size: .98rem; margin: 0; }
+  .card p.sum { margin: 12px 0 10px; }
   .note { font-size: .95rem; background: var(--soft); border-radius: 8px; padding: 8px 12px; margin: 0 0 12px; }
-  .actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; margin: 12px 0 2px; }
   .btn {
     font: inherit; font-size: 1rem; font-weight: 600; cursor: pointer; text-decoration: none;
     display: inline-flex; align-items: center; min-height: 44px; padding: 8px 14px;
     border-radius: 8px; border: 2px solid var(--text); background: var(--card); color: var(--text);
   }
   .btn.primary { background: var(--text); color: var(--bg); }
-  details { margin-top: 10px; }
+  .btn.small { min-height: 38px; padding: 4px 12px; font-size: .95rem; }
+  a.textlink { font-weight: 600; display: inline-block; padding: 10px 0; }
+  details { margin-top: 6px; }
   details > summary {
     cursor: pointer; font-weight: 600; min-height: 44px; display: flex; align-items: center; gap: 10px;
     list-style: none; color: var(--link); text-decoration: underline; text-underline-offset: 3px;
@@ -99,7 +135,7 @@
     font-weight: 700; text-decoration: none; line-height: 1;
   }
   details[open] > summary::before { content: "−"; }
-  details.past-group > summary { color: var(--text); text-decoration: none; }
+  details.past-group > summary { color: var(--text); text-decoration: none; font-size: 1.2rem; }
   details .inner { padding: 4px 0 4px 4px; font-size: .98rem; }
   details .inner ol, details .inner ul { margin: 6px 0; padding-left: 22px; }
   details .inner li { margin-bottom: 6px; }
@@ -108,16 +144,8 @@
   dl.words dd { margin: 0 0 8px; }
   .facts { margin: 6px 0; padding-left: 20px; }
   .facts li { margin-bottom: 4px; }
-
-  details.past-group > summary { font-size: 1.2rem; }
-
-  .viewtoggle { display: inline-flex; border: 2px solid var(--text); border-radius: 10px; overflow: hidden; margin: 6px 0 4px; }
-  .viewtoggle button {
-    font: inherit; font-size: 1rem; font-weight: 600; min-height: 44px; padding: 6px 16px;
-    border: 0; background: var(--card); color: var(--text); cursor: pointer;
-  }
-  .viewtoggle button + button { border-left: 2px solid var(--text); }
-  .viewtoggle button[aria-pressed="true"] { background: var(--text); color: var(--bg); }
+  .fulltext { margin: 10px 0; padding: 10px 12px; border-left: 3px solid var(--line); background: var(--soft); font-size: .95rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .fulltext-label { font-weight: 700; margin: 12px 0 0; }
 
   ul.rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
   ul.rows > li { border-bottom: 1px solid var(--line); }
@@ -126,22 +154,26 @@
     color: var(--text); text-decoration: none; align-items: flex-start; padding: 10px 2px; gap: 12px;
   }
   details.row > summary::before { margin-top: 2px; }
-  .row-date { flex: none; width: 5.2em; font-weight: 700; }
+  .row-date { flex: none; width: 4.4em; font-weight: 700; }
   .row-main { flex: 1; min-width: 0; }
   .row-title { display: block; font-weight: 600; }
   .row-sub { display: block; font-weight: 400; font-size: .95rem; color: var(--muted); }
+  .row-sub .urgent { color: var(--soon-fg); font-weight: 700; }
   details.row .inner { padding: 0 0 12px; }
   details.row .card { margin-bottom: 4px; }
+
   footer.honest { margin-top: 36px; border-top: 2px solid var(--line); padding-top: 18px; font-size: .98rem; }
   footer.honest h2 { font-size: 1.15rem; }
-  footer.honest ul { padding-left: 20px; }
-  .status { position: absolute; left: -9999px; }
+  footer.honest h3 { font-size: 1rem; margin: 14px 0 4px; }
+  footer.honest ul { padding-left: 20px; margin-top: 4px; }
   @media (max-width: 420px) {
-    body { font-size: 17px; } .when strong { font-size: 1.2rem; }
+    body { font-size: 17px; }
+    .card-top { grid-template-columns: 3.4rem 1fr; gap: 10px; }
+    .datebox .day { font-size: 1.45rem; }
     .row-date { width: 3.6em; } details.row > summary { gap: 8px; }
   }
   @media print {
-    .picker, .actions, footer .noprint, .check { display: none !important; }
+    .picker, .actions, .controls, footer .noprint, .check { display: none !important; }
     details { display: block; } details > summary { display: none; }
     details .inner, details[open] .inner { display: block !important; }
     body { background: #fff; color: #000; font-size: 12pt; }
@@ -161,15 +193,19 @@
     <select id="place"></select>
     <div class="check">
       <input type="checkbox" id="nearonly">
-      <label for="nearonly">Only show things planned for my area (hide the rest of the county)</label>
+      <label for="nearonly">Only my town and county-wide notices (hide other towns, and districts we have not mapped yet)</label>
     </div>
   </div>
 
   <p class="summary" id="summary" aria-live="polite"></p>
-  <div class="viewtoggle" role="group" aria-label="How to show notices">
-    <button type="button" data-view="cards" aria-pressed="true">Full cards</button>
-    <button type="button" data-view="list" aria-pressed="false">Quick list</button>
+  <p class="filternote" id="filternote" hidden></p>
+  <div class="controls">
+    <div class="viewtoggle" role="group" aria-label="How to show notices">
+      <button type="button" data-view="list" aria-pressed="false">Quick list</button>
+      <button type="button" data-view="cards" aria-pressed="true">Full cards</button>
+    </div>
   </div>
+  <ul class="topics" id="topics" aria-label="Show one kind of notice"></ul>
 
   <main id="board">
     <p>Loading notices…</p>
@@ -203,13 +239,9 @@
   const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
   function longDate(s) { const d = parseDay(s); return d ? `${DAYS[d.getDay()]}, ${MONTHS[d.getMonth()]} ${d.getDate()}` : ""; }
   function shortDate(s) { const d = parseDay(s); return d ? `${MONTHS[d.getMonth()]} ${d.getDate()}${d.getFullYear() !== today().getFullYear() ? ", " + d.getFullYear() : ""}` : ""; }
-  function inWords(n) {
-    if (n === 0) return "today";
-    if (n === 1) return "tomorrow";
-    if (n > 1) return `in ${n} days`;
-    if (n === -1) return "yesterday";
-    return `${-n} days ago`;
-  }
+  function shortNoYear(s) { const d = parseDay(s); return d ? `${MONTHS[d.getMonth()].slice(0, 3)} ${d.getDate()}` : ""; }
+  function leftWords(n) { return n === 0 ? "Last day today" : n === 1 ? "1 day left" : `${n} days left`; }
+  function aheadWords(n) { return n === 0 ? "Today" : n === 1 ? "Tomorrow" : `In ${n} days`; }
 
   // ---------- plain-language glossary ----------
   const GLOSSARY = [
@@ -226,7 +258,9 @@
     { re: /\blev(y|ies)\b/i, term: "Levy", def: "The property tax a government collects each year." },
     { re: /administrative review use|\bARU\b/i, term: "Administrative review use", def: "A use staff can approve without a hearing, after neighbors get a chance to comment." },
     { re: /\bappeal/i, term: "Appeal", def: "Asking a higher body to overturn a decision. Usually you can only appeal if you commented in time." },
-    { re: /re-?notice/i, term: "Re-notice", def: "Posting and mailing a fresh notice with a new date. It usually opens a new chance to comment." }
+    { re: /re-?notice/i, term: "Re-notice", def: "Posting and mailing a fresh notice with a new date. It usually opens a new chance to comment." },
+    { re: /\bRFQ\b|statements? of qualifications?/i, term: "RFQ", def: "Request for qualifications: a government asks firms to describe their experience so it can pick one to hire." },
+    { re: /\bRFP\b|request for proposals?/i, term: "RFP", def: "Request for proposals: a government asks businesses to say how they would do a job, and at what price." }
   ];
   // The notice-timing line (DQ-NB-03): two numbers and the statute, no verdict.
   // Renders only for a statute a person has read and vouched, and only when both
@@ -238,51 +272,305 @@
     if (!st || !n.notice.dated || !n.event || !n.event.date) return null;
     const lead = Math.round((parseDay(n.event.date) - parseDay(n.notice.dated)) / 86400000);
     if (!(lead >= 0)) return null;
-    return `This notice was dated ${lead} days before the ${n.kind === "hearing" || n.kind === "budget-hearing" ? "hearing" : "meeting"}. ` +
+    return `This notice was dated ${lead} days before the ${isHearing(n) ? "hearing" : "meeting"}. ` +
       `State law asks for at least ${esc(st.minimum.days)} days. (<a href="${esc(st.url)}">${esc(st.cite)}</a>)`;
   }
-
   function wordsFor(n) {
     const hay = [n.title, n.summary, n.subject && n.subject.text, n.subject && n.subject.file_no, n.body].join(" ");
     return GLOSSARY.filter(g => g.re.test(hay));
   }
 
-  // ---------- classify each notice for the reader ----------
-  // returns {group: 'now'|'horizon'|'past', sortKey, headline, chips[], soon}
+  // ---------- what the reader can do with each notice ----------
+  // groups: comment (send a comment before a deadline), meet (a hearing or meeting
+  // coming up), horizon (talked about, not scheduled), apply (bids, contracts, board
+  // seats), vote (election notices), past.
+  const isHearing = n => n.kind === "hearing" || n.kind === "budget-hearing";
+  const isPrinted = n => !!(n.provenance && n.provenance.as_printed);
   function view(n) {
     const w = n.window, e = n.event;
-    const deadline = w && (w.send_by || w.closes);
-    const dDays = deadline ? daysUntil(deadline) : null;
+    const dl = w && (w.send_by || w.closes);
+    const dDays = dl ? daysUntil(dl) : null;
     const eDays = e && e.date ? daysUntil(e.date) : null;
+    const evWord = isHearing(n) ? "Hearing" : "Meeting";
+    const evText = e && e.date ? `${evWord}: ${longDate(e.date)}${e.time ? ", " + e.time : ""}` : "";
 
     if (n.status === "cancelled") {
-      return { group: "past", sortKey: -(parseDay(e && e.date) || 0), headline: `Cancelled: ${longDate(e && e.date)}`, chips: [["past", "■ Cancelled"]] };
+      return { group: "past", date: e && e.date, sortKey: -(parseDay(e && e.date) || 0), headline: `Cancelled: ${longDate(e && e.date)}`, chips: [["past", "Cancelled"]], short: "Cancelled" };
     }
     if (n.status === "expected" || n.status === "continued") {
-      const label = n.status === "continued" ? "▲ Postponed, new date coming" : "▲ Expected, not scheduled yet";
-      return { group: "horizon", sortKey: 0, headline: (e && e.expected_text) || "Not scheduled yet", chips: [["exp", label]] };
+      const label = n.status === "continued" ? "Postponed, new date coming" : "Expected, not scheduled yet";
+      return { group: "horizon", date: null, sortKey: 0, headline: (e && e.expected_text) || "Not scheduled yet", chips: [["exp", label]], short: label };
     }
-    // Open comment window
     if (dDays != null && dDays >= 0) {
+      if (n.kind === "election") {
+        return { group: "vote", date: dl, sortKey: dDays, headline: `Election day: ${longDate(dl)}`, chips: [["vote", aheadWords(dDays)]], short: `Election day · ${aheadWords(dDays).toLowerCase()}` };
+      }
+      if (n.kind === "bid" || n.kind === "vacancy") {
+        const what = n.kind === "vacancy" ? "Applications due" : "Bids due";
+        return { group: "apply", date: dl, sortKey: dDays, headline: `${what}: ${longDate(dl)}${w.closes_time ? ", " + w.closes_time : ""}`, chips: [["bid", leftWords(dDays)]], short: `${what} · ${leftWords(dDays).toLowerCase()}` };
+      }
       const soon = dDays <= 3;
       const head = w.send_by && w.send_by !== w.closes
-        ? `Last day to comment, to be safe: ${longDate(w.send_by)}`
-        : `Last day to comment: ${longDate(w.closes)}${w.closes_time ? ", " + w.closes_time : ""}`;
-      return { group: "now", sortKey: dDays, soon, headline: head,
-        chips: [[soon ? "soon" : "open", (soon ? "! " : "● ") + (dDays === 0 ? "Last day today" : dDays + (dDays === 1 ? " day left" : " days left"))]] };
+        ? `Send comments by ${longDate(w.send_by)}, to be safe`
+        : `Comments close ${longDate(w.closes)}${w.closes_time ? ", " + w.closes_time : ""}`;
+      return { group: "comment", date: dl, sortKey: dDays, soon, headline: head,
+        also: eDays != null && eDays >= 0 && e.date !== dl ? evText : "",
+        chips: [[soon ? "urgent" : "open", (soon ? "! " : "") + leftWords(dDays)]],
+        short: `Comments close · ${leftWords(dDays).toLowerCase()}` };
     }
-    // Upcoming hearing or meeting
     if (eDays != null && eDays >= 0) {
-      const soon = eDays <= 3;
-      return { group: "now", sortKey: eDays, soon, headline: `${n.kind === "hearing" || n.kind === "budget-hearing" ? "Hearing" : "Meeting"} ${longDate(e.date)}${e.time ? ", " + e.time : ""}`,
-        chips: [[soon ? "soon" : "hear", (soon ? "! " : "◆ ") + inWords(eDays).replace(/^in /, "In ")]] };
+      return { group: "meet", date: e.date, sortKey: eDays, headline: evText, chips: [["hear", aheadWords(eDays)]], short: `${evWord} · ${aheadWords(eDays).toLowerCase()}` };
     }
-    // Past
-    const pastDate = (e && e.date) || deadline;
+    const pastDate = (e && e.date) || dl;
     let head = "";
-    if (e && e.date) head = `${n.kind === "hearing" || n.kind === "budget-hearing" ? "Hearing held" : "Held"} ${shortDate(e.date)}`;
-    else if (deadline) head = `Comments closed ${shortDate(w.closes)}`;
-    return { group: "past", sortKey: -(parseDay(pastDate) || 0), headline: head, chips: [["past", "■ " + (e && e.date ? "Already happened" : "Closed")]] };
+    if (e && e.date) head = `${isHearing(n) ? "Hearing held" : "Held"} ${shortDate(e.date)}`;
+    else if (dl) head = `${n.kind === "bid" ? "Bids closed" : n.kind === "election" ? "Election held" : "Comments closed"} ${shortDate(w.closes)}`;
+    const pchip = e && e.date ? "Already happened" : "Closed";
+    return { group: "past", date: pastDate, sortKey: -(parseDay(pastDate) || 0), headline: head, chips: [["past", pchip]], short: pchip };
+  }
+
+  // ---------- topics (the filter row) ----------
+  const TOPICS = [["all", "Everything"], ["budget", "Budgets & taxes"], ["land", "Land use & permits"],
+                  ["apply", "Bids & board seats"], ["vote", "Elections"], ["other", "Other"]];
+  const LAND = /\b(zon(?:e|es|ing)|plats?|subdivi\w*|permits?|sepa|determination of|non-?significance|variance|conditional use|critical areas?|shoreline|comprehensive plan|land use|annex\w*|accessory dwelling|adus?|overlay|cell tower|house|duplex|venue|site plan|wastewater discharge|stormwater|gravel|water rights?|scenic area|lot split|short plat)\b/i;
+  const BUDGET = /\b(budgets?|levy|levies|property[- ]tax\w*|rate increases?|rates)\b/i;
+  function topicOf(n) {
+    if (n.kind === "election") return "vote";
+    if (n.kind === "bid" || n.kind === "vacancy") return "apply";
+    const hay = [n.title, n.subject && n.subject.text].join(" ");
+    if (n.kind === "budget-hearing" || BUDGET.test(hay)) return "budget";
+    if (["sepa", "application", "appeal", "permit", "comment-period"].includes(n.kind) || LAND.test(hay + " " + (n.summary || "").slice(0, 200))) return "land";
+    return "other";
+  }
+
+  // ---------- places ----------
+  let DATA = null, PLACES = null, SOURCES = null, prevVisit = null, MAPPED = new Set();
+  let VIEW = "cards", TOPIC = "all";
+  function placeById(id) { return PLACES.places.find(p => p.id === id) || null; }
+  function jCounty(n) { const j = PLACES.jurisdictions[n.jurisdiction]; return (j && j.county) || n.county || null; }
+  // "bound": a government the place's own list names. "unmapped": a district no place
+  // lists yet, shown in its whole county rather than dropped. null: not for this place.
+  function placeMatch(n, place) {
+    if (place.jurisdictions.includes(n.jurisdiction)) return "bound";
+    if (!MAPPED.has(n.jurisdiction)) {
+      const c = jCounty(n);
+      if (!c || c === "both" || c === place.county) return "unmapped";
+    }
+    return null;
+  }
+  function isNear(n, place) { return !!(place && n.subject && (n.subject.places || []).includes(place.id)); }
+  // "Only my town": keep the town's own governments, districts bound to it, and state
+  // notices; from the county government keep what is county-wide or names this place.
+  // Hide districts not mapped yet and county notices about other places.
+  const COUNTY_GOVS = new Set(["skamania-county", "klickitat-county"]);
+  function matchesPlace(n, place, nearOnly) {
+    if (!place) return true;
+    const pm = placeMatch(n, place);
+    if (!pm) return false;
+    if (!nearOnly) return true;
+    if (pm !== "bound") return false;
+    if (n.subject && n.subject.countywide) return true;
+    const named = (n.subject && n.subject.places) || [];
+    if (named.length) return named.includes(place.id);
+    return !COUNTY_GOVS.has(n.jurisdiction);
+  }
+  function isNew(n) {
+    if (!n.first_seen) return false;
+    if (prevVisit) return n.first_seen > prevVisit;
+    return daysUntil(n.first_seen) >= -7;
+  }
+  function placeName(place) { return place.label.split(" (")[0]; }
+
+  // ---------- the card ----------
+  const PAPERS = { "Skamania County Pioneer": "Pioneer", "The Skamania County Pioneer": "Pioneer", "Goldendale Sentinel": "Sentinel", "The Goldendale Sentinel": "Sentinel" };
+  function paperChip(n) {
+    const ps = [...new Set(((n.notice && n.notice.published) || []).map(p => PAPERS[p.where]).filter(Boolean))];
+    return ps.length ? `From the ${ps.join(" and ")}` : "As printed";
+  }
+  function basisNote(w) {
+    if (!w || !w.basis) return null;
+    if (/^(stated on the notice|election day, as printed)$/i.test(w.basis)) return null;
+    if (w.basis === "the date printed on the notice") return "This is the date printed in the notice. Its full text, under About this notice, has the details.";
+    return w.basis;
+  }
+  function dateBox(v) {
+    const d = v.date ? parseDay(v.date) : null;
+    if (!d) return `<div class="datebox none" aria-hidden="true"><span class="mon">Date</span><span class="day">TBD</span><span class="dow">&nbsp;</span></div>`;
+    return `<div class="datebox" aria-hidden="true"><span class="mon">${MONTHS[d.getMonth()].slice(0, 3)}</span><span class="day">${d.getDate()}</span><span class="dow">${DAYS[d.getDay()].slice(0, 3)}</span></div>`;
+  }
+
+  function card(n, place) {
+    const v = view(n);
+    const live = v.group !== "past";
+    const chips = v.chips.map(([cls, t]) => `<span class="chip ${cls}">${esc(t)}</span>`);
+    if (isNew(n) && live) chips.push(`<span class="chip new">New</span>`);
+    if (isNear(n, place)) chips.push(`<span class="chip near">In ${esc(placeName(place))}</span>`);
+    if (place && placeMatch(n, place) === "unmapped") chips.push(`<span class="chip unmapped" title="We have not worked out which towns this district covers yet, so it shows for every place in the county.">Area not mapped yet</span>`);
+    const printed = isPrinted(n);
+    if (printed) chips.push(`<span class="chip paper" title="The notice as the newspaper printed it, not rewritten. The agency's own posting is the record.">${esc(paperChip(n))}</span>`);
+
+    const w = n.window;
+    const where = [];
+    if (n.event && n.event.place && v.group !== "horizon") where.push(`Where: ${esc(n.event.place)}`);
+    if (n.event && n.event.remote && live) where.push(`<a href="${esc(n.event.remote)}">Join online</a>`);
+    if (n.subject && n.subject.location) where.push(esc(n.subject.location));
+
+    const notes = [];
+    if (live && basisNote(w)) notes.push(esc(basisNote(w)));
+    if (live && w && w.send_by_note) notes.push(esc(w.send_by_note));
+    if (live && w && w.appeal_closes) notes.push(`Appeals are accepted until ${esc(longDate(w.appeal_closes))}${w.appeal_time ? ", " + esc(w.appeal_time) : ""}. ${esc(w.appeal_note || "")}`);
+    if (v.group === "horizon" && n.provenance && n.provenance.note) notes.push(esc(n.provenance.note));
+
+    const steps = n.how && n.how.steps && n.how.steps.length ? n.how.steps : null;
+    const how = steps && live
+      ? `<details><summary>How to weigh in</summary><div class="inner"><ol>${steps.map(s => `<li>${esc(s).replace(/([\w.+-]+@[\w-]+\.[\w.]+)/g, '<a href="mailto:$1">$1</a>')}</li>`).join("")}</ol>${
+          n.event && n.event.remote ? `<p><a href="${esc(n.event.remote)}">Join on Zoom</a>${n.event.remote_note ? ". " + esc(n.event.remote_note) : ""}</p>` : ""}</div></details>` : "";
+
+    const words = wordsFor(n);
+    const wordsHtml = words.length ? `<details><summary>What do these words mean?</summary><div class="inner"><dl class="words">${words.map(g => `<dt>${esc(g.term)}</dt><dd>${esc(g.def)}</dd>`).join("")}</dl></div></details>` : "";
+
+    const facts = [];
+    if (printed) facts.push("This card is the notice as the newspaper printed it. We have not rewritten or checked it; the agency's own posting is the record.");
+    if (n.first_seen) facts.push(`We first found this notice on ${esc(longDate(n.first_seen))}, ${esc(parseDay(n.first_seen).getFullYear())}.`);
+    const law = lawLine(n);
+    if (law) facts.push(law);
+    if (n.subject && n.subject.file_no) facts.push(`File number: ${esc(n.subject.file_no)}${n.subject.file_no_note ? ". " + esc(n.subject.file_no_note) : ""}`);
+    if (n.notice && n.notice.dated) facts.push(`Notice dated ${esc(longDate(n.notice.dated))}, ${esc(parseDay(n.notice.dated).getFullYear())}.`);
+    const pubs = (n.notice && n.notice.published) || [];
+    if (pubs.length) facts.push(`Printed in ${pubs.map(p => `${esc(p.where)}${p.date ? " (" + esc(shortDate(p.date)) + ")" : ""}`).join(", ")}.`);
+    if (n.notice && n.notice.note) facts.push(esc(n.notice.note));
+    if (n.subject && n.subject.place_note) facts.push(esc(n.subject.place_note));
+    if (n.provenance && n.provenance.note && v.group !== "horizon") facts.push(esc(n.provenance.note));
+    const full = printed && n.text ? `<p class="fulltext-label">Full text as printed</p><div class="fulltext">${esc(n.text)}</div>` : "";
+    const about = `<details><summary>About this notice</summary><div class="inner">${facts.length ? `<ul class="facts">${facts.map(f => `<li>${f}</li>`).join("")}</ul>` : ""}${full}
+      <p><button type="button" class="btn small" data-share="${esc(n.id)}">Copy link to this notice</button></p></div></details>`;
+
+    const canCal = live && v.group !== "horizon";
+    const actions = (canCal || n.official) ? `<div class="actions">
+      ${canCal ? `<button type="button" class="btn primary" data-ics="${esc(n.id)}">Add to calendar</button>` : ""}
+      ${n.official ? `<a class="textlink" href="${esc(n.official.url)}" target="_blank" rel="noopener">${esc(n.official.label)}<span aria-hidden="true">&nbsp;→</span></a>` : ""}
+    </div>` : "";
+
+    return `<article class="card${v.soon ? " soon" : ""}" id="${esc(n.id)}" aria-labelledby="t-${esc(n.id)}">
+      <div class="card-top">
+        ${dateBox(v)}
+        <div>
+          <p class="body-label">${esc(n.body)}</p>
+          <h3 id="t-${esc(n.id)}">${esc(n.title)}</h3>
+          <p class="whenline"><strong>${esc(v.headline)}</strong>${v.also ? `<br>${esc(v.also)}` : ""}</p>
+          <div class="chips">${chips.join("")}</div>
+          ${where.length ? `<p class="meta">${where.join(" · ")}</p>` : ""}
+        </div>
+      </div>
+      ${n.summary ? `<p class="sum">${esc(n.summary)}</p>` : ""}
+      ${notes.map(t => `<p class="note">${t}</p>`).join("")}
+      ${how}${wordsHtml}${about}
+      ${actions}
+    </article>`;
+  }
+
+  // Quick list: one line per notice; tapping it opens the full card in place.
+  function row(n, v, place) {
+    const flags = [];
+    if (isNew(n) && v.group !== "past") flags.push("new");
+    if (isNear(n, place)) flags.push("in " + placeName(place));
+    const date = v.date ? shortNoYear(v.date) : "Not set";
+    const sub = `<span class="${v.soon ? "urgent" : ""}">${esc(v.short)}</span> · ${esc(n.body)}${flags.length ? " · " + esc(flags.join(" · ")) : ""}`;
+    return `<details class="row" data-row="${esc(n.id)}"><summary>
+        <span class="row-date">${esc(date)}</span>
+        <span class="row-main"><span class="row-title">${esc(n.title)}</span>
+        <span class="row-sub">${sub}</span></span>
+      </summary><div class="inner">${card(n, place)}</div></details>`;
+  }
+
+  // ---------- the page ----------
+  const SECTIONS = [
+    { g: "comment", h: "Open for comment", note: "Send a comment or testify before these deadlines. Soonest first.", always: true },
+    { g: "meet", h: "Hearings and meetings coming up", note: "Hearings take testimony, and many meetings have a public comment period. Soonest first.", always: true },
+    { g: "horizon", h: "On the horizon", note: "Talked about in public meetings but not officially scheduled yet. These move up when a notice is posted." },
+    { g: "apply", h: "Bids, contracts and board seats", note: "For businesses bidding on public work, and for people applying to serve." },
+    { g: "vote", h: "Elections", note: "Election notices from the county auditors." }
+  ];
+
+  function render() {
+    const place = placeById($("#place").value);
+    const nearOnly = $("#nearonly").checked && !!place;
+    $("#nearonly").closest(".check").hidden = !place;
+
+    const inPlace = DATA.notices.filter(n => matchesPlace(n, place, false)).map(n => ({ n, v: view(n), t: topicOf(n) }));
+    const shownPlace = inPlace.filter(x => matchesPlace(x.n, place, nearOnly));
+
+    // topic chips, counted over what is live for this place
+    const liveCounts = {};
+    shownPlace.filter(x => x.v.group !== "past").forEach(x => { liveCounts[x.t] = (liveCounts[x.t] || 0) + 1; });
+    if (TOPIC !== "all" && !liveCounts[TOPIC]) TOPIC = "all";
+    const totalLive = Object.values(liveCounts).reduce((a, b) => a + b, 0);
+    $("#topics").innerHTML = TOPICS.filter(([k]) => k === "all" || liveCounts[k]).map(([k, label]) =>
+      `<li><button type="button" data-topic="${k}" aria-pressed="${TOPIC === k}">${esc(label)}<span class="n">${k === "all" ? totalLive : liveCounts[k]}</span></button></li>`).join("");
+
+    const items = shownPlace.filter(x => TOPIC === "all" || x.t === TOPIC);
+    const by = g => items.filter(x => x.v.group === g).sort((a, b) => a.v.sortKey - b.v.sortKey);
+    const groups = {}; ["comment", "meet", "horizon", "apply", "vote", "past"].forEach(g => (groups[g] = by(g)));
+    const newCount = items.filter(x => x.v.group !== "past" && isNew(x.n)).length;
+
+    const who = place ? `For ${placeName(place)}` : "Across both counties";
+    const nC = groups.comment.length, nM = groups.meet.length;
+    const cText = nC ? `${nC} open for comment` : "nothing open for comment";
+    const mText = nM ? `${nM} ${nM === 1 ? "hearing or meeting" : "hearings and meetings"} coming up` : "no hearings or meetings announced";
+    let line = `${who}: ${cText} and ${mText}.`;
+    if (newCount) line += ` ${newCount} new ${prevVisit ? "since your last visit" : "this week"}.`;
+    $("#summary").textContent = line;
+
+    const fn = $("#filternote");
+    const hiddenLive = inPlace.filter(x => x.v.group !== "past").length - shownPlace.filter(x => x.v.group !== "past").length;
+    if (nearOnly && hiddenLive > 0) {
+      fn.hidden = false;
+      fn.textContent = `${hiddenLive} more upcoming ${hiddenLive === 1 ? "notice is" : "notices are"} hidden: for other towns, or for districts we have not mapped to towns yet. Untick the box to see ${hiddenLive === 1 ? "it" : "them"}.`;
+    } else fn.hidden = true;
+
+    const lastChecked = SOURCES.sources.filter(s => s.mode !== "hand").map(s => s.last_checked).sort().pop()
+      || SOURCES.sources.map(s => s.last_checked).sort().pop();
+    const list = xs => VIEW === "list"
+      ? `<ul class="rows">${xs.map(x => `<li>${row(x.n, x.v, place)}</li>`).join("")}</ul>`
+      : xs.map(x => card(x.n, place)).join("");
+    const emptyFor = g => g === "comment"
+      ? `<p class="empty">Nothing is open for comment ${place ? "for " + esc(placeName(place)) + " " : ""}in the notices we check (last checked ${esc(longDate(lastChecked))}). That is not the same as nothing planned. See "Where this comes from" below.</p>`
+      : `<p class="empty">No hearings or meetings announced ${place ? "for " + esc(placeName(place)) + " " : ""}in the notices we check.</p>`;
+
+    let html = "";
+    SECTIONS.forEach(s => {
+      const xs = groups[s.g];
+      if (!xs.length && !(s.always && TOPIC === "all")) return;
+      html += `<section aria-labelledby="h-${s.g}">
+        <h2 id="h-${s.g}">${esc(s.h)}${xs.length ? ` <span class="count">(${xs.length})</span>` : ""}</h2>
+        <p class="section-note">${esc(s.note)}</p>
+        ${xs.length ? list(xs) : emptyFor(s.g)}
+      </section>`;
+    });
+    html += `<section aria-labelledby="h-past">
+        <details class="past-group">
+          <summary><h2 id="h-past" style="display:inline;font-size:inherit">Already happened or closed (${groups.past.length})</h2></summary>
+          <div class="inner">${groups.past.length ? list(groups.past) : '<p class="empty">Nothing here yet.</p>'}</div>
+        </details>
+      </section>`;
+    $("#board").innerHTML = html;
+    postHeight();
+  }
+
+  function renderFooter() {
+    const s = SOURCES;
+    const src = x => `<li>${x.url ? `<a href="${esc(x.url)}">${esc(x.label)}</a>` : esc(x.label)}: ${esc(x.how)}. Last checked ${esc(longDate(x.last_checked))}.</li>`;
+    const auto = s.sources.filter(x => x.mode !== "hand"), hand = s.sources.filter(x => x.mode === "hand");
+    $("#honest").innerHTML = `
+      <h2>This is not the official notice</h2>
+      <p>The Notice Board is a plain-language guide to notices posted by local governments. It is not a legal notice. Always check the official notice linked on each card.</p>
+      <p>Legal notices are printed in each county's official newspaper: ${s.newspapers.map(p => `<strong>${esc(p.name)}</strong> for ${esc(p.county)} County (${esc(p.note)})`).join("; ")}. Copies of printed notices are free to search at <a href="${esc(s.statewide.url)}">${esc(s.statewide.label)}</a>.</p>
+      <h2>Where this comes from</h2>
+      ${auto.length ? `<h3>Checked automatically, twice a week</h3><ul>${auto.map(src).join("")}</ul>` : ""}
+      ${hand.length ? `<h3>Checked by hand, less often</h3><ul>${hand.map(src).join("")}</ul>` : ""}
+      <p>If a place has no cards, it means we found no notice in these sources. It does not mean nothing is planned. Boundaries between places are approximate for now: a district we have not mapped to towns yet shows for every place in its county.</p>
+      <p class="noprint"><button type="button" class="btn" onclick="window.print()">Print this list</button></p>
+      <p>From <a href="https://skamania-dispatch.ghost.io/">The Skamania Dispatch</a>.</p>`;
   }
 
   // ---------- calendar file for one notice ----------
@@ -297,7 +585,7 @@
     const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+Z$/, "Z");
     const url = location.origin + location.pathname + "#" + n.id;
     const w0 = n.window || {};
-    const extra = [w0.basis !== "stated on the notice" ? w0.basis : null, w0.send_by_note].filter(Boolean).join(" ");
+    const extra = [basisNote(w0), w0.send_by_note].filter(Boolean).join(" ");
     const desc = [n.summary, extra, n.official ? "Official notice: " + n.official.url : null, url]
       .filter(Boolean).join("\n\n").replace(/[\\,;]/g, m => "\\" + m).replace(/\n/g, "\\n");
     function ev(uid, date, time, title) {
@@ -314,8 +602,10 @@
       lines.push("END:VEVENT");
     }
     const w = n.window, e = n.event;
-    if (w && (w.send_by || w.closes) && daysUntil(w.send_by || w.closes) >= 0) ev(n.id + "-deadline", w.send_by || w.closes, null, (w.send_by && w.send_by !== w.closes ? "Send comment (to be safe): " : "Comment deadline: ") + n.title);
-    if (e && e.date && daysUntil(e.date) >= 0) ev(n.id + "-event", e.date, e.time, "Hearing: " + n.title);
+    const dlWord = n.kind === "election" ? "Election day: " : n.kind === "bid" ? "Bids due: " : n.kind === "vacancy" ? "Applications due: "
+      : (w && w.send_by && w.send_by !== w.closes ? "Send comment (to be safe): " : "Comment deadline: ");
+    if (w && (w.send_by || w.closes) && daysUntil(w.send_by || w.closes) >= 0) ev(n.id + "-deadline", w.send_by || w.closes, null, dlWord + n.title);
+    if (e && e.date && daysUntil(e.date) >= 0) ev(n.id + "-event", e.date, e.time, (isHearing(n) ? "Hearing: " : "Meeting: ") + n.title);
     lines.push("END:VCALENDAR");
     // RFC 5545: fold lines longer than 75 octets.
     const fold = l => { const out = []; while (new TextEncoder().encode(l).length > 75) { let i = 74; while (new TextEncoder().encode(l.slice(0, i)).length > 74) i--; out.push(l.slice(0, i)); l = " " + l.slice(i); } out.push(l); return out.join("\r\n"); };
@@ -329,159 +619,6 @@
     setTimeout(() => URL.revokeObjectURL(a.href), 2000);
   }
 
-  // ---------- rendering ----------
-  let DATA = null, PLACES = null, SOURCES = null, prevVisit = null;
-
-  function placeById(id) { return PLACES.places.find(p => p.id === id) || null; }
-  function isNear(n, place) { return !!(place && n.subject && (n.subject.places || []).includes(place.id)); }
-  function matches(n, place, nearOnly) {
-    if (!place) return true;
-    if (!place.jurisdictions.includes(n.jurisdiction)) return false;
-    if (!nearOnly) return true;
-    return isNear(n, place) || (n.subject && n.subject.countywide);
-  }
-  function isNew(n) {
-    if (!n.first_seen) return false;
-    if (prevVisit) return n.first_seen > prevVisit;
-    return daysUntil(n.first_seen) >= -14;
-  }
-
-  function card(n, place) {
-    const v = view(n);
-    const chips = v.chips.map(([cls, t]) => `<span class="chip ${cls}">${esc(t)}</span>`);
-    if (isNew(n) && v.group !== "past") chips.push(`<span class="chip new">New</span>`);
-    if (isNear(n, place)) chips.push(`<span class="chip near">In ${esc(place.label.split(" (")[0])}</span>`);
-    const printed = !!(n.provenance && n.provenance.as_printed);
-    if (printed) chips.push(`<span class="chip printed" title="The notice as the newspaper printed it, not rewritten">As printed</span>`);
-    const jl = PLACES.jurisdictions[n.jurisdiction];
-    const where = n.subject && n.subject.location ? ` · ${esc(n.subject.location)}` : "";
-    const w = n.window;
-    const notes = [];
-    if (v.group !== "past" && w && w.basis && w.basis !== "stated on the notice") notes.push(esc(w.basis));
-    if (v.group !== "past" && w && w.send_by_note) notes.push(esc(w.send_by_note));
-    if (v.group !== "past" && w && w.appeal_closes) notes.push(`Appeals are accepted until ${esc(longDate(w.appeal_closes))}${w.appeal_time ? ", " + esc(w.appeal_time) : ""}. ${esc(w.appeal_note || "")}`);
-    if (v.group === "horizon" && n.provenance && n.provenance.note) notes.push(esc(n.provenance.note));
-
-    const how = n.how && n.how.steps && v.group !== "past"
-      ? `<details><summary>How to weigh in</summary><div class="inner"><ol>${n.how.steps.map(s => `<li>${esc(s).replace(/([\w.+-]+@[\w-]+\.[\w.]+)/g, '<a href="mailto:$1">$1</a>')}</li>`).join("")}</ol>${
-          n.event && n.event.remote ? `<p><a href="${esc(n.event.remote)}">Join on Zoom</a>${n.event.remote_note ? ". " + esc(n.event.remote_note) : ""}</p>` : ""}</div></details>` : "";
-
-    const words = wordsFor(n);
-    const wordsHtml = words.length ? `<details><summary>What do these words mean?</summary><div class="inner"><dl class="words">${words.map(g => `<dt>${esc(g.term)}</dt><dd>${esc(g.def)}</dd>`).join("")}</dl></div></details>` : "";
-
-    const facts = [];
-    if (printed) facts.push("This card is the notice as the newspaper printed it. We have not rewritten or checked it; the agency's own posting is the record.");
-    if (n.first_seen) facts.push(`We first found this notice on ${esc(longDate(n.first_seen))}, ${esc(parseDay(n.first_seen).getFullYear())}.`);
-    const law = lawLine(n);
-    if (law) facts.push(law);
-    if (n.subject && n.subject.file_no) facts.push(`File number: ${esc(n.subject.file_no)}${n.subject.file_no_note ? ". " + esc(n.subject.file_no_note) : ""}`);
-    if (n.notice && n.notice.dated) facts.push(`Notice dated ${esc(longDate(n.notice.dated))}, ${esc(parseDay(n.notice.dated).getFullYear())}.`);
-    (n.notice && n.notice.published || []).forEach(p => facts.push(`Posted: ${esc(p.where)}${p.date ? ", " + esc(shortDate(p.date)) : ""}.`));
-    if (n.notice && n.notice.note) facts.push(esc(n.notice.note));
-    if (n.subject && n.subject.place_note) facts.push(esc(n.subject.place_note));
-    if (n.provenance && n.provenance.note && v.group !== "horizon") facts.push(esc(n.provenance.note));
-    if (n.event && n.event.place && v.group !== "horizon") facts.push(`Where: ${esc(n.event.place)}.`);
-    const factsHtml = facts.length ? `<details><summary>About this notice</summary><div class="inner"><ul class="facts">${facts.map(f => `<li>${f}</li>`).join("")}</ul></div></details>` : "";
-
-    const canCal = v.group === "now";
-    const actions = `<div class="actions">
-      ${canCal ? `<button type="button" class="btn primary" data-ics="${esc(n.id)}">Add to my calendar</button>` : ""}
-      ${n.official ? `<a class="btn" href="${esc(n.official.url)}" target="_blank" rel="noopener">${esc(n.official.label)}</a>` : ""}
-      <button type="button" class="btn" data-share="${esc(n.id)}">Copy link</button>
-    </div>`;
-
-    return `<article class="card${v.soon ? " soon" : ""}" id="${esc(n.id)}" aria-labelledby="t-${esc(n.id)}">
-      <div class="when"><strong>${esc(v.headline)}</strong> ${chips.join(" ")}</div>
-      <h3 id="t-${esc(n.id)}">${esc(n.title)}</h3>
-      <p class="meta">${esc(n.body)}${jl ? "" : ""}${where}</p>
-      <p class="sum">${esc(n.summary)}</p>
-      ${notes.map(t => `<p class="note">${t}</p>`).join("")}
-      ${how}${wordsHtml}${factsHtml}
-      ${actions}
-    </article>`;
-  }
-
-  // Quick list: one line per notice; tapping it opens the full card in place.
-  let VIEW = "cards";
-  function shortNoYear(sd) { const d = parseDay(sd); return d ? `${MONTHS[d.getMonth()].slice(0, 3)} ${d.getDate()}` : ""; }
-  function row(n, v, place) {
-    const w = n.window, e = n.event;
-    let date = "", sub = "";
-    if (v.group === "horizon") { date = "Not set"; sub = n.status === "continued" ? "Postponed, new date coming" : "Expected, not scheduled yet"; }
-    else if (v.group === "now" && w && daysUntil(w.send_by || w.closes) >= 0) {
-      const dl = w.send_by || w.closes, dd = daysUntil(dl);
-      date = shortNoYear(dl); sub = `Last day to comment${w.send_by && w.send_by !== w.closes ? " (to be safe)" : ""} · ${dd === 0 ? "today" : dd + (dd === 1 ? " day left" : " days left")}`;
-    } else if (v.group === "now") { date = shortNoYear(e.date); sub = `Hearing · ${inWords(daysUntil(e.date))}`; }
-    else { date = shortNoYear((e && e.date) || (w && w.closes)); sub = v.chips[0][1].replace(/^\S+ /, ""); }
-    const flags = [];
-    if (v.soon) flags.push("soon");
-    if (isNew(n) && v.group !== "past") flags.push("new");
-    if (n.provenance && n.provenance.as_printed) flags.push("as printed");
-    if (isNear(n, place)) flags.push("in " + place.label.split(" (")[0]);
-    return `<details class="row" data-row="${esc(n.id)}"><summary>
-        <span class="row-date">${esc(date)}</span>
-        <span class="row-main"><span class="row-title">${esc(n.title)}</span>
-        <span class="row-sub">${esc(sub)}${flags.length ? " · " + esc(flags.join(" · ")) : ""}</span></span>
-      </summary><div class="inner">${card(n, place)}</div></details>`;
-  }
-
-  function render() {
-    const placeId = $("#place").value;
-    const place = placeById(placeId);
-    const nearOnly = $("#nearonly").checked;
-    $("#nearonly").closest(".check").hidden = !place;
-
-    const items = DATA.notices.filter(n => matches(n, place, nearOnly)).map(n => ({ n, v: view(n) }));
-    const now = items.filter(x => x.v.group === "now").sort((a, b) => a.v.sortKey - b.v.sortKey);
-    const horizon = items.filter(x => x.v.group === "horizon");
-    const past = items.filter(x => x.v.group === "past").sort((a, b) => a.v.sortKey - b.v.sortKey);
-    const newCount = items.filter(x => x.v.group !== "past" && isNew(x.n)).length;
-
-    const who = place ? `For ${place.label.split(" (")[0]}` : "Across both counties";
-    const parts = [`${now.length} ${now.length === 1 ? "thing" : "things"} you can speak up on now`];
-    if (newCount) parts.push(prevVisit ? `${newCount} new since your last visit` : `${newCount} new in the last two weeks`);
-    $("#summary").textContent = `${who}: ${parts.join(", ")}.`;
-
-    const lastChecked = SOURCES.sources.map(s => s.last_checked).sort().pop();
-    const emptyNow = `<p class="empty">Nothing is open for comment ${place ? "for " + esc(place.label.split(" (")[0]) + " " : ""}right now in the sources we check (last checked ${esc(longDate(lastChecked))}). That is not the same as nothing planned. See "Where this comes from" below.</p>`;
-
-    const list = xs => VIEW === "list"
-      ? `<ul class="rows">${xs.map(x => `<li>${row(x.n, x.v, place)}</li>`).join("")}</ul>`
-      : xs.map(x => card(x.n, place)).join("");
-
-    $("#board").innerHTML = `
-      <section aria-labelledby="h-now">
-        <h2 id="h-now">Speak up now</h2>
-        <p class="section-note">Open comment periods and upcoming hearings, soonest deadline first.</p>
-        ${now.length ? list(now) : emptyNow}
-      </section>
-      <section aria-labelledby="h-hz">
-        <h2 id="h-hz">On the horizon</h2>
-        <p class="section-note">Talked about in public meetings but not officially scheduled yet. These move up when a notice is posted.</p>
-        ${horizon.length ? list(horizon) : `<p class="empty">Nothing on the horizon here in the records we hold.</p>`}
-      </section>
-      <section aria-labelledby="h-past">
-        <details class="past-group">
-          <summary><h2 id="h-past" style="display:inline;font-size:inherit">Already happened or closed (${past.length})</h2></summary>
-          <div class="inner">${past.length ? list(past) : '<p class="empty">Nothing here yet.</p>'}</div>
-        </details>
-      </section>`;
-    postHeight();
-  }
-
-  function renderFooter() {
-    const s = SOURCES;
-    $("#honest").innerHTML = `
-      <h2>This is not the official notice</h2>
-      <p>The Notice Board is a plain-language guide to notices posted by local governments. It is not a legal notice. Always check the official notice linked on each card.</p>
-      <p>Legal notices are printed in each county's official newspaper: ${s.newspapers.map(p => `<strong>${esc(p.name)}</strong> for ${esc(p.county)} County (${esc(p.note)})`).join("; ")}. Copies of printed notices are free to search at <a href="${esc(s.statewide.url)}">${esc(s.statewide.label)}</a>.</p>
-      <h2>Where this comes from</h2>
-      <ul>${s.sources.map(x => `<li>${x.url ? `<a href="${esc(x.url)}">${esc(x.label)}</a>` : esc(x.label)}: ${esc(x.how)}. Last checked ${esc(longDate(x.last_checked))}.</li>`).join("")}</ul>
-      <p>If a place has no cards, it means we found no notice in these sources. It does not mean nothing is planned. Boundaries between places are approximate for now.</p>
-      <p class="noprint"><button type="button" class="btn" onclick="window.print()">Print this list</button></p>
-      <p>From <a href="https://skamania-dispatch.ghost.io/">The Skamania Dispatch</a>.</p>`;
-  }
-
   // Tell a parent page (the Ghost embed) how tall we are.
   function postHeight() {
     if (window.parent === window) return;
@@ -491,13 +628,28 @@
   document.addEventListener("toggle", postHeight, true);
 
   function setupView() {
-    const want = params.get("view") || store.get("nb_view") || "cards";
+    // Phones open in the Quick list; a reader's own choice is remembered.
+    const narrow = window.matchMedia && window.matchMedia("(max-width: 600px)").matches;
+    const want = params.get("view") || store.get("nb_view") || (narrow ? "list" : "cards");
     VIEW = want === "list" ? "list" : "cards";
     const sync = () => document.querySelectorAll(".viewtoggle button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === VIEW)));
     sync();
     document.querySelector(".viewtoggle").addEventListener("click", e => {
       const b = e.target.closest("button[data-view]"); if (!b) return;
       VIEW = b.dataset.view; store.set("nb_view", VIEW); sync(); render();
+    });
+  }
+
+  function setupTopics() {
+    const want = params.get("topic");
+    TOPIC = TOPICS.some(([k]) => k === want) ? want : "all";
+    $("#topics").addEventListener("click", e => {
+      const b = e.target.closest("button[data-topic]"); if (!b) return;
+      TOPIC = b.dataset.topic;
+      const u = new URL(location.href);
+      if (TOPIC !== "all") u.searchParams.set("topic", TOPIC); else u.searchParams.delete("topic");
+      history.replaceState(null, "", u);
+      render();
     });
   }
 
@@ -541,15 +693,19 @@
       store.sset("nb_prev", prev);
       store.set("nb_visit", todayStr);
     }
-    prevVisit = prev || null;       // null = first visit ever: "new" means the last 14 days
+    prevVisit = prev || null;       // null = first visit ever: "new" means the last 7 days
   }
 
   const statutesP = fetch("data/statutes.json", { cache: "no-cache" }).then(r => r.ok ? r.json() : { statutes: [] }).catch(() => ({ statutes: [] }));
   Promise.all(["data/notices.json", "data/places.json", "data/sources.json"].map(u => fetch(u, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(u); return r.json(); })).concat([statutesP]))
     .then(([n, p, s, st]) => {
       DATA = n; PLACES = p; SOURCES = s; STATUTES = st;
-      setupVisit(); setupView(); setupPicker(); renderFooter(); render();
-      if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) { const d = el.closest("details.past-group"); if (d) d.open = true; const r = el.closest("details.row"); if (r) r.open = true; el.scrollIntoView(); } }
+      PLACES.places.forEach(pl => pl.jurisdictions.forEach(j => MAPPED.add(j)));
+      setupVisit(); setupView(); setupTopics(); setupPicker(); renderFooter(); render();
+      if (location.hash) {
+        const el = document.getElementById(location.hash.slice(1));
+        if (el) { const d = el.closest("details.past-group"); if (d) d.open = true; const r = el.closest("details.row"); if (r) r.open = true; el.scrollIntoView(); }
+      }
     })
     .catch(() => { $("#board").innerHTML = `<p class="empty">The notices could not be loaded. Please try again in a minute.</p>`; });
 })();
