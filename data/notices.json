@@ -5,7 +5,7 @@
   "updated": "2026-11-03",
   "copy_of": "Ferric reference/notice-board/notices.json merged with the legal-notices feed; edit the truth, not this file",
   "feed": {
-   "generated": "2026-11-03T14:31:10",
+   "generated": "2026-11-03T14:43:48",
    "cards": 112,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }
