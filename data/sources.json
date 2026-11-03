@@ -10,27 +10,31 @@
    "label": "Skamania County Community Development — Public Notices page",
    "url": "https://www.skamaniacounty.gov/departments-offices/community-development/application-notices",
    "how": "checked by hand in a browser (the site blocks automated requests)",
-   "last_checked": "2026-09-24"
+   "last_checked": "2026-09-24",
+   "mode": "hand"
   },
   {
    "id": "klickitat-planning",
    "label": "Klickitat County Planning — Public Notices page",
    "url": "https://www.klickitatcounty.gov/931/Public-Notice",
    "how": "checked by hand",
-   "last_checked": "2026-09-24"
+   "last_checked": "2026-09-24",
+   "mode": "hand"
   },
   {
    "id": "ferric",
-   "label": "The Open Gorge meeting archive (agendas, packets, minutes and recordings from 39 local bodies)",
+   "label": "The Open Gorge meeting archive (agendas, packets, minutes and recordings from 46 local bodies)",
    "url": null,
    "how": "searched by hand for M0",
-   "last_checked": "2026-09-24"
+   "last_checked": "2026-09-24",
+   "mode": "hand"
   },
   {
    "id": "legals-pioneer",
    "label": "Skamania County Pioneer legal notices (as printed)",
    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
    "how": "captured twice a week by legals.py; every notice shown with its printed dates",
+   "mode": "auto",
    "last_checked": "2026-11-03"
   },
   {
@@ -38,6 +42,7 @@
    "label": "The Goldendale Sentinel legal notices (as printed)",
    "url": "https://www.goldendalesentinel.com/legals/",
    "how": "captured twice a week by legals.py; every notice shown with its printed dates",
+   "mode": "auto",
    "last_checked": "2026-11-03"
   }
  ],
