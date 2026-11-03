@@ -91,10 +91,10 @@ Then open http://localhost:5192/ (try `?place=underwood`, `?theme=amber`).
 
 ## Ghost embed
 
-On the Ghost page (slug `notice-board`), add an **HTML card** and paste this. The frame
+Live at https://skamania-dispatch.ghost.io/speak-up-public-comment-notice-board/ (2026-11-03). skamaniadispatch.com redirects every path to the ghost.io home page, so link the ghost.io address until the custom domain is connected in Ghost. On the Ghost page, an **HTML card** holds this: The frame
 grows to fit the board, so readers never scroll inside a box, and `?place=`, `?topic=`
 and `?view=` on the Ghost page's address are passed through, so
-`skamaniadispatch.com/notice-board/?place=bingen` opens on Bingen:
+`…/speak-up-public-comment-notice-board/?place=bingen` opens on Bingen:
 
 ```html
 <iframe id="notice-board" title="Notice Board" loading="lazy"
