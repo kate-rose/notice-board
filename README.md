@@ -91,19 +91,34 @@ Then open http://localhost:5192/ (try `?place=underwood`, `?theme=amber`).
 
 ## Ghost embed
 
-On the Ghost page, add an **HTML card**. The script lets the frame grow to fit
-the page, so readers never scroll inside a box:
+On the Ghost page (slug `notice-board`), add an **HTML card** and paste this. The frame
+grows to fit the board, so readers never scroll inside a box, and `?place=`, `?topic=`
+and `?view=` on the Ghost page's address are passed through, so
+`skamaniadispatch.com/notice-board/?place=bingen` opens on Bingen:
 
 ```html
-<iframe id="notice-board" src="https://kate-rose.github.io/notice-board/?embed=1"
-        style="width:100%; height:1400px; border:0; background:#ffffff"
-        loading="lazy" title="Notice Board"></iframe>
+<iframe id="notice-board" title="Notice Board" loading="lazy"
+        style="width:100%; height:1600px; border:0; background:#ffffff"></iframe>
+<noscript><p><a href="https://kate-rose.github.io/notice-board/">Open the Notice Board</a></p></noscript>
 <script>
+(function () {
+  var frame = document.getElementById("notice-board");
+  var src = new URL("https://kate-rose.github.io/notice-board/?embed=1");
+  // Pass ?place=, ?topic= and ?view= from this page's address to the board,
+  // so skamaniadispatch.com/notice-board/?place=bingen opens on Bingen.
+  var here = new URLSearchParams(window.location.search);
+  ["place", "topic", "view"].forEach(function (k) {
+    if (here.get(k)) src.searchParams.set(k, here.get(k));
+  });
+  if (window.location.hash) src.hash = window.location.hash;
+  frame.src = src.toString();
+  // The board reports its height, so the frame grows to fit and readers never scroll inside a box.
   window.addEventListener("message", function (e) {
     if (e.origin !== "https://kate-rose.github.io") return;
     var h = e.data && e.data.noticeBoardHeight;
-    if (h) document.getElementById("notice-board").style.height = (h + 20) + "px";
+    if (h) frame.style.height = (h + 20) + "px";
   });
+})();
 </script>
 ```
 
