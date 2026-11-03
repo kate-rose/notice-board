@@ -40,6 +40,10 @@ The plan, the data rules and the milestones live in Ferric:
   card when the papers ran the same notice. `notices.ics` (subscribe in a
   calendar) and `feed.xml` (RSS) are written at the same time.
 
+## Weekly email digest (feeds for an RSS-to-email service)
+
+`digest.xml` (both counties), `digest-skamania.xml` and `digest-klickitat.xml` carry ONE item per week, built on the first sweep of the week (normally Monday) and never edited afterwards, so an RSS-to-email service sends each subscriber one email a week and what it sent stays what the feed says. Each item lists what is open for comment, hearings and meetings in the next two weeks, bids and board seats, elections, and the horizon, with absolute dates and a link to each card. Eight weeks are kept. Point Buttondown's RSS-to-email, follow.it, Blogtrottr or any feed reader at one of these URLs.
+
 ## Data rules that matter
 
 - A date shows as scheduled only if it comes from the agency's own notice or a
