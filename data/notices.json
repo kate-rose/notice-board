@@ -2,11 +2,11 @@
  "_meta": {
   "about": "THE TRUTH for the Notice Board's curated cards (DQ-NB-04 → A, Kate 2026-10-22): hand-written, plain-language notices. Edit HERE, never in ~/notice-board/data/, which notice_publish.py overwrites with this file merged with the legal-notices feed (legals.py --board) on every scheduled sweep. Every item was checked against the source named in its 'official' or 'provenance' field on the date in 'first_seen' or 'provenance.verified_on'. Dates are Pacific local. A 'computed' deadline is worked out from the notice's own rule and says so.",
   "schema": "drafts/2026-09-24_notice-board-plan.md § 4 (fields as built in M0: id, jurisdiction, body, kind, title, summary, event, window, how, subject, official, notice, status, provenance, first_seen)",
-  "updated": "2026-11-03",
+  "updated": "2026-11-05",
   "copy_of": "Ferric reference/notice-board/notices.json merged with the legal-notices feed; edit the truth, not this file",
   "feed": {
-   "generated": "2026-11-03T14:43:48",
-   "cards": 112,
+   "generated": "2026-11-05T07:48:04",
+   "cards": 117,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }
  },
@@ -5876,7 +5876,7 @@
     "note": "Text as printed in the Skamania County Pioneer and The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "open",
+   "status": "closed",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -5927,7 +5927,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "open",
+   "status": "closed",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -5986,7 +5986,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -6042,7 +6042,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -6097,7 +6097,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "open",
+   "status": "closed",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -6151,7 +6151,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -6207,7 +6207,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -6261,7 +6261,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -6354,8 +6354,8 @@
     "countywide": false
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-october-28-2026/article_2a71f71c-006f-4b5c-929b-5231183c8fe0.html",
-    "label": "The Goldendale Sentinel, October 28 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-4-2026/article_0a9d7e12-b4a3-445d-96be-60d67eb76a8e.html",
+    "label": "The Goldendale Sentinel, November 4 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -6384,10 +6384,65 @@
     "source": "legals.py",
     "notice_id": "9e05b238fdd7",
     "channels": [],
-    "as_printed": true
+    "as_printed": true,
+    "also_notice_ids": [
+     "42bd19c65de9"
+    ]
    },
    "first_seen": "2026-10-21",
    "text": "PUBLIC NOTICE Klickitat County Fire District #5 Commissioners Meeting The Klickitat County Fire Protection District #5 Commissioners will consider and approve the 2027 Budget and Levy at its regularly scheduled Board of Commissioners meeting on Monday, November 9, 2026 at 7:00 pm. The meeting will take place at the Centerville Fire Hall at 2297 Centerville Highway in Centerville. For the record, Board of Commissioners meetings are held on the 2nd Monday of every month at 7:00 pm at the Centerville Fire Hall and are open to the public. "
+  },
+  {
+   "id": "2026-11-09_klickitat-valley-health-board_03cf0825e7fe",
+   "jurisdiction": "klickitat-valley-health",
+   "body": "Klickitat Valley Health board",
+   "kind": "budget-hearing",
+   "title": "A Public Budget hearing has been called by Public Hospital District No.1 of Klickitat County Board of Commissioners",
+   "summary": "A Public Budget hearing has been called by Public Hospital District No.1 of Klickitat County Board of Commissioners for the purpose of reviewing and commenting on the proposed 2027 budget before the hospital finalizes it. The meeting will be held on November 9th, 2026 in KVH Conference Room A & B…",
+   "event": {
+    "date": "2026-11-09",
+    "time": null,
+    "place": null,
+    "remote": null
+   },
+   "window": null,
+   "how": null,
+   "subject": {
+    "text": "A Public Budget hearing has been called by Public Hospital District No.1 of Klickitat County Board of Commissioners",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-4-2026/article_0a9d7e12-b4a3-445d-96be-60d67eb76a8e.html",
+    "label": "The Goldendale Sentinel, November 4 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-04",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-04"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "03cf0825e7fe",
+    "channels": [
+     "KlickitatValleyHealth-BOC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-04",
+   "text": "NOTICE OF MEETING A Public Budget hearing has been called by Public Hospital District No.1 of Klickitat County Board of Commissioners for the purpose of reviewing and commenting on the proposed 2027 budget before the hospital finalizes it. The meeting will be held on November 9th, 2026 in KVH Conference Room A & B located at 310 S. Roosevelt, Goldendale, WA 98620 "
   },
   {
    "id": "2026-11-10_north-bonneville-city-council_936685a179fb",
@@ -6444,6 +6499,63 @@
    },
    "first_seen": "2026-10-28",
    "text": "City of North Bonneville City Council NOTICE OF PUBLIC HEARING BUDGET HEARING The City of North Bonneville will hold a second public hearing to review the 2027 City budget on Tuesday, November 10, 2026, at 7:00 p.m. at City Hall during the City Council’s regularly scheduled meeting. The City of North Bonneville will hold a final hearing for possible adoption of the 2027 City Budget on Tuesday, November 24, 2026, at 7:00 p.m. at City Hall during the City Council’s regularly scheduled meeting. All interested parties are invited to submit comments and attend the hearing. For more information contact Chief Administrative Officer, Taylor Chambers at (509) 427-8182. City Hall is accessible to persons with disabilities"
+  },
+  {
+   "id": "2026-11-10_south-central-workforce-development-council_993d34513b7b",
+   "jurisdiction": "south-central-workforce",
+   "body": "South Central Workforce Development Council",
+   "kind": "special-meeting",
+   "title": "South Central Workforce Full Board of Directors Meeting",
+   "summary": "The South Central Workforce Full Board of Directors Meeting is scheduled for Tuesday, November 10, 2026, at 4:00 p.m. via Zoom; https://us02web.zoom.us/j/88385649195?pwd=JiOcMPLDKTLyXiwDY10vqiURfKOUpu.1",
+   "event": {
+    "date": "2026-11-10",
+    "time": "4:00 pm",
+    "place": null,
+    "remote": "https://us02web.zoom.us/j/88385649195?pwd=JiOcMPLDKTLyXiwDY10vqiURfKOUpu.1"
+   },
+   "window": null,
+   "how": null,
+   "subject": {
+    "text": "South Central Workforce Full Board of Directors Meeting",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "county": "both",
+   "notice": {
+    "dated": "2026-11-04",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-04"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-04"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer and The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "993d34513b7b",
+    "channels": [],
+    "as_printed": true,
+    "also_notice_ids": [
+     "4a4374b7bc48"
+    ]
+   },
+   "first_seen": "2026-11-04",
+   "text": "The South Central Workforce Full Board of Directors Meeting is scheduled for Tuesday, November 10, 2026, at 4:00 p.m. via Zoom; https://us02web.zoom.us/j/88385649195?pwd=JiOcMPLDKTLyXiwDY10vqiURfKOUpu.1"
   },
   {
    "id": "2026-10-28_stevenson-city-council_939aea149888",
@@ -6523,8 +6635,8 @@
     "countywide": false
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-october-28-2026/article_2a71f71c-006f-4b5c-929b-5231183c8fe0.html",
-    "label": "The Goldendale Sentinel, October 28 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-4-2026/article_0a9d7e12-b4a3-445d-96be-60d67eb76a8e.html",
+    "label": "The Goldendale Sentinel, November 4 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -6577,8 +6689,8 @@
     "countywide": false
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-october-28-2026/article_2a71f71c-006f-4b5c-929b-5231183c8fe0.html",
-    "label": "The Goldendale Sentinel, October 28 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-4-2026/article_0a9d7e12-b4a3-445d-96be-60d67eb76a8e.html",
+    "label": "The Goldendale Sentinel, November 4 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -6666,6 +6778,67 @@
    "text": "Mill A School District Request for Proposal (RFP). The Mill A School District is soliciting responses from contractors interested in conducting a Slash Pile Abatement via Mastication Project on approximately 4 acres of a recently thinned forest parcel at 1142 Jessup Road, Mill A, Washington. Responses to this RFP will be received only at the District Office at 1142 Jessup Road on or before November 13, 2026, at 4 pm. Interested contractors should request the District’s RFP Response Project Description, Scope of Work, and Submission Requirements document by contacting Principal/Superintendent Kelly Stickel at: Kelly.Stickel@millasd.org"
   },
   {
+   "id": "2026-11-16_port-of-skamania-county-commissioners_fcede8872def",
+   "jurisdiction": "port-of-skamania",
+   "body": "Port of Skamania County Commissioners",
+   "kind": "budget-hearing",
+   "title": "Budget Planning and Hearing 2027 Final Budget Hearing",
+   "summary": "Budget Planning and Hearing Port of Skamania County Board of Commissioners 2027 Final Budget Hearing. November 16, 2026 11:02 a.m. Hearing and Adoption of Final Budget Port Commission meetings are open, and the public is encouraged to attend.",
+   "event": {
+    "date": "2026-11-16",
+    "time": "11:02 am",
+    "place": "212 SW Cascade Avenue Stevenson",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [
+     "Email pat@portofskamania.org."
+    ],
+    "email": "pat@portofskamania.org"
+   },
+   "subject": {
+    "text": "Budget Planning and Hearing 2027 Final Budget Hearing",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "county": "Skamania",
+   "notice": {
+    "dated": "2026-11-04",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-04"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-11"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "fcede8872def",
+    "channels": [
+     "PortofSkamania"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-04",
+   "text": "NOTICE: Legal Notice Budget Planning and Hearing Port of Skamania County Board of Commissioners 2027 Final Budget Hearing. November 16, 2026 11:02 a.m. Hearing and Adoption of Final Budget Port Commission meetings are open, and the public is encouraged to attend. The Port holds one regularly scheduled meeting per month, every 3rd Monday 11:00 a.m. at the Port Office at 212 SW Cascade Avenue Stevenson, Washington 98648. Contact Pat Albaugh, Executive Director pat@portofskamania.org 509-427-5484"
+  },
+  {
    "id": "2026-11-17_wa-department-of-ecology_4c2b57f2a06a",
    "jurisdiction": "washington-state",
    "body": "WA Department of Ecology",
@@ -6745,6 +6918,67 @@
    },
    "first_seen": "2026-10-07",
    "text": "Notice of Public Hearings and comment period on state shoreline rules The Department of Ecology is proposing amendments to rules that implement the Shoreline Management Act (RCW 90.58), specifically: Chapters 173-18, 173-20, 173-22, 173-26, and 173-27 WAC. The proposed rules are open for comment through November 17, 2026, at 11:59 pm. Comments also will be accepted during the following public hearings, which include an open house from 5 to 6 pm, with the hearing starting at 6 pm: •October 15: Lacey Community Center, 6729 Pacific Ave SE, Lacey •October 22: Virtual (Zoom) hearing. Register at https://waecy-wa-gov.zoom.us/meeting/register/1Ft-oygESouVMiZGq961Lw Submit online comments at https://ecology.commentinput.com/?id=4e3Etx2WU or via regular mail to Rebecca Rothwell, WA Dept. of Ecology, PO Box 47600, Olympia, WA 98504-7600. For more information or to request an ADA accommodation, email rebecca.rothwell@ecy.wa.gov, call 360-810-0025, or dial 711 to call through the Washington Telecommunications Relay for services like text telephone (TTY). Visit Ecology.wa.gov/ADA for more accessibility information. For additional information, including about other public hearings around the state, please see our website at https://ecology.wa.gov/regulations-permits/laws-rules-rulemaking/rulemaking/wac-173-26-27-shoreline-management-act or email us at smarulemaking@ecy.wa.gov"
+  },
+  {
+   "id": "2026-11-17_underwood-conservation-district-board_bb85ee1339cb",
+   "jurisdiction": "underwood-conservation-district",
+   "body": "Underwood Conservation District board",
+   "kind": "budget-hearing",
+   "title": "Skamania County Fire District #3 will hold a Public Hearing to consider public comment regarding the FY2027 Budget",
+   "summary": "Notice: Skamania County Fire District #3 will hold a Public Hearing on Tuesday, November 17, 2026 at 5:00 pm to consider public comment regarding the FY2027 Budget, with regular business meeting to start immediately after. The hearing will be held at Station 3-1, 962 School House Road, Underwood…",
+   "event": {
+    "date": "2026-11-17",
+    "time": "5:00 pm",
+    "place": "962 School House Road",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [
+     "Email info@skamaniafire3.com."
+    ],
+    "email": "info@skamaniafire3.com"
+   },
+   "subject": {
+    "text": "Skamania County Fire District #3 will hold a Public Hearing to consider public comment regarding the FY2027 Budget",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "county": "Skamania",
+   "notice": {
+    "dated": "2026-11-04",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-04"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-11"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "bb85ee1339cb",
+    "channels": [
+     "Underwood-ConservationDistrict"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-04",
+   "text": "Notice: Skamania County Fire District #3 will hold a Public Hearing on Tuesday, November 17, 2026 at 5:00 pm to consider public comment regarding the FY2027 Budget, with regular business meeting to start immediately after. The hearing will be held at Station 3-1, 962 School House Road, Underwood, WA. The Board will discuss and consider items related to their budget including staffing alternatives, administrative and operational expenses. ADA access and remote online access are available, please contact the district for additional information. Further information is available by emailing: info@skamaniafire3.com"
   },
   {
    "id": "2026-11-19_stevenson-city-council_2e55bf6195d9",
@@ -6936,6 +7170,69 @@
    "text": "Federal Aid# STBGR-Z930(005) CRP #2025-02 Countywide Bridge Scour Project Skamania County (COUNTY) is seeking qualifications from consulting firms with expertise in hydraulic / structural engineering to complete a scour appraisal and analysis for bridges crossing a waterway per FHWA and WSDOT Bridge Inspection Manual. Planning (PL) / Preliminary Engineering (PE): •Scour Appraisals o Conduct appraisals for Skamania County National Bridge Inventory (NBI) bridge structures. •Scour Analysis o Perform in-depth analysis on bridge structures identified during appraisals as requiring further evaluation. •Data Entry & Compliance o Complete WSBIM (Bridgeworks) SNBI scour data entry and perform compliance reviews. •Documentation o Update Plan of Action (POA) documentation based on results from scour appraisals and analyses. The anticipated timeline for the project is from December 2026 through December 2028. Additional information for this request for qualifications (RFQ) is available online at Request for Qualifications ǀ Skamania County https://www.skamaniacounty.org/departments-offices/public-works/request-for-qualifications The contract type is Local Agency Professional Service Negotiated Hourly Rate Consultant Agreement. There is no FSBE goal established for this project. A voluntary 10% SBE is included in the project. Submittals are due no later than 10:00 A.M. Thursday, November 19, 2026. Submittals will not be accepted after that time and date. Consultant qualifications requirements, special provisions, how the consultant submittals will be evaluated, and schedule for the procurement process are available at the agency’s website link above. Any questions regarding this project should be directed to Sadi’ Stouder-Pettenger at 509-427-3910 or sadi@co.skamania.wa.us. Skamania County, in accordance with the provisions of Title VI of the Civil Rights Act of 1964 (78 Stat. 252,42 U.S.C. 2000d to 2000d-4) and the Regulations, hereby notifies all bidders that will affirmatively ensure that any contract entered into pursuant to this advertisement, disadvantaged business enterprises will be afforded full and fair opportunity to submit bids in response to this invitation and will not be discriminated against on the grounds of race, color, or national origin in consideration for an award. Skamania County in accordance with Section 504 of the Rehabilitation Act (Section 504) and the Americans with the Americans with Disabilities Act (ADA), commits to nondiscrimination on the basis of disability, in all of its programs and activities. This material can be made available in an alternate format by emailing Sadi’ Stouder- Pettenger at sadi@co.skamania.wa.us or by calling 509.427.3910"
   },
   {
+   "id": "2026-11-25_skamania-pud_d291d1174982",
+   "jurisdiction": "skamania-pud",
+   "body": "Skamania PUD",
+   "kind": "bid",
+   "title": "Call for Bids",
+   "summary": "Sealed bids will be received at the oﬃce of the Skamania County PUD No. 1 (“PUD” or “Owner”) 1492 Wind River Highway, Carson, Washington 98610 until 2:00 P.M., local time, according to the time clock and document stamp at PUD headquarters on Tuesday, December 15, 2026 for the Cape Horn Upgrades…",
+   "event": null,
+   "window": {
+    "closes": "2026-11-25",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email support.procurement@eunasolutions.com."
+    ],
+    "email": "support.procurement@eunasolutions.com"
+   },
+   "subject": {
+    "text": "Call for Bids",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "county": "Skamania",
+   "notice": {
+    "dated": "2026-11-04",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-04"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-11"
+     },
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-18"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "d291d1174982",
+    "channels": [
+     "Skamania-PUD"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-04",
+   "text": "Call for Bids NOTICE IS HEREBY GIVEN that sealed bids will be received at the oﬃce of the Skamania County PUD No. 1 (“PUD” or “Owner”) 1492 Wind River Highway, Carson, Washington 98610 until 2:00 P.M., local time, according to the time clock and document stamp at PUD headquarters on Tuesday, December 15, 2026 for the Cape Horn Upgrades Project No. 240146; and then publicly opened and read as soon thereafter as possible. This project consists of the expansion and renovation of an existing 115kV to 12.47kV substation, Cape Horn Substation, located at 682 Canyon Creek Rd., Washougal, WA. The project consists of a two-phase construction approach to be performed without extended outage of existing feeders. The scope of contractor supply and construction are outlined in the Contract Documents. The Board of Commissioners reserves the right to waive informalities in the bidding, accept a proposal of the lowest responsible bidder, reject any or all bids, republish the call for bids, revise or cancel the work, or require the work to be done in another way if the best interest of the PUD is served. Contract documents and bid proposal forms must be obtained electronically through MRSC Rosters Bonfire Hub at https://mrscrosters.bonfirehub.com. Free vendor registration is required to use this platform. Registered members may view documents by entering Cape Horn Substation Upgrades under the “Open Public Opportunities” tab. Contact Euna Bonfire Procurement Support Team at support.procurement@eunasolutions.com for assistance in membership registration or downloading this digital project information. All bid proposals shall be accompanied by a bid proposal deposit in cash, certiﬁed check, cashier's check, or surety bond in an amount equal to ﬁve percent (5%) of the amount of such proposal. Should the successful bidder fail to enter into such contract and furnish a satisfactory performance bond within the time stated in the speciﬁcations, the bid proposal deposit shall be forfeited to the PUD. The PUD is an Equal Opportunity and Affirmative Action Employer. All work performed on this project will be subject to state prevailing wage rates. A mandatory pre-bid meeting will be held on Wednesday, November 25th, 2026 @ 9:00 AM PDT at the Public Utility District No. 1 of Skamania County located at 1492 Wind River Highway, Carson, WA, 98610, to be followed by a mandatory Cape Horn Substation site visit, located at 682 Canyon Creek Rd., Washougal, WA 98671"
+  },
+  {
    "id": "2026-12-09_klickitat-county-rural-7-fire-rescue_bfa3a0832b0d",
    "jurisdiction": "klickitat-fire-7",
    "body": "Klickitat County Rural 7 Fire & Rescue",
@@ -6956,8 +7253,8 @@
     "countywide": false
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-october-28-2026/article_2a71f71c-006f-4b5c-929b-5231183c8fe0.html",
-    "label": "The Goldendale Sentinel, October 28 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-4-2026/article_0a9d7e12-b4a3-445d-96be-60d67eb76a8e.html",
+    "label": "The Goldendale Sentinel, November 4 issue"
    },
    "county": "Klickitat",
    "notice": {

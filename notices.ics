@@ -4,126 +4,8 @@ PRODID:-//Notice Board//skamaniadispatch.com//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Notice Board (Skamania and Klickitat public notices)
 BEGIN:VEVENT
-UID:2026-11-03_county-auditor_e65e345165d1@notice-board
-DTSTAMP:20261103T224348Z
-DTSTART;VALUE=DATE:20261103
-SUMMARY:Last day to comment: Ballot measures\, November 3\, 2026 General 
- Election (Skamania and Klickitat county auditors)
-DESCRIPTION:The following measures will be submitted to voters on the Nov
- ember 3\, 2026 General Election ballot: INITIATIVE TO THE PEOPLE IP26-64
- 5 - Initiative Measure No. IP26-645 concerns state and local taxes. This
-  measure would repeal a 9.9% tax on annual individual income over $1\,00
- 0\,000\; prohibit taxes… More: https://kate-rose.github.io/notice-boar
- d/#2026-11-03_county-auditor_e65e345165d1
-URL:https://kate-rose.github.io/notice-board/#2026-11-03_county-auditor_e
- 65e345165d1
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-10_skamania-county-auditor_d5113f6d8bd3@notice-board
-DTSTAMP:20261103T224348Z
-DTSTART;VALUE=DATE:20261103
-SUMMARY:Last day to comment: General Election\, November 3\, 2026 (Skaman
- ia County Auditor)
-DESCRIPTION:On Tuesday\, November 3\, 2026\, in Skamania County\, State o
- f Washington\, in all precincts thereof\, there will be held a General E
- lection. Voter Registration Deadlines: October 26\, 2026 – Deadline fo
- r mail and online new voter registrations\, updates\, and transfers. Mor
- e: https://kate-rose.github.io/notice-board/#2026-11-10_skamania-county-
- auditor_d5113f6d8bd3
-URL:https://kate-rose.github.io/notice-board/#2026-11-10_skamania-county-
- auditor_d5113f6d8bd3
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-03_skamania-county-commissioners_725d323c23bb@notice-board
-DTSTAMP:20261103T224348Z
-DTSTART;TZID=America/Los_Angeles:20261103T170000
-SUMMARY:Skamania County Commissioners: Public hearing to consider adoptio
- n of the 2027 Preliminary Budget
-DESCRIPTION:The 2027 Preliminary Budget has been completed and placed on 
- file for the ensuing fiscal year. A public hearing will be held to consi
- der adoption of the 2027 Preliminary Budget. More: https://kate-rose.git
- hub.io/notice-board/#2026-11-03_skamania-county-commissioners_725d323c23
- bb
-URL:https://kate-rose.github.io/notice-board/#2026-11-03_skamania-county-
- commissioners_725d323c23bb
-LOCATION:240 NW Vancouver Avenue
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-03_north-bonneville-city-council_8c8a48ee023c@notice-board
-DTSTAMP:20261103T224348Z
-DTSTART;TZID=America/Los_Angeles:20261103T190000
-SUMMARY:North Bonneville City Council: Upcoming study sessions
-DESCRIPTION:The City of North Bonneville will hold study sessions on the 
- following dates and times: • Tuesday\, October 20\, 2026 at 7:00 pm at
-  City Hall to review rate increases. • Tuesday\, November 3\, 2026 at 
- 7:00 pm at City Hall to review the 2027 Budget. More: https://kate-rose.
- github.io/notice-board/#2026-11-03_north-bonneville-city-council_8c8a48e
- e023c
-URL:https://kate-rose.github.io/notice-board/#2026-11-03_north-bonneville
- -city-council_8c8a48ee023c
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-02_klickitat-county-auditor_406fd0a32d0c@notice-board
-DTSTAMP:20261103T224348Z
-DTSTART;VALUE=DATE:20261103
-SUMMARY:Last day to comment: General Election\, November 3\, 2026 (Klicki
- tat County Auditor)
-DESCRIPTION:A General Election will be held in Klickitat County\, Washing
- ton\, November 3\, 2026\, in all precincts within Klickitat County. The 
- election will be conducted by mail ballot. More: https://kate-rose.githu
- b.io/notice-board/#2026-11-02_klickitat-county-auditor_406fd0a32d0c
-URL:https://kate-rose.github.io/notice-board/#2026-11-02_klickitat-county
- -auditor_406fd0a32d0c
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-03_port-of-klickitat-commissioners_5cc0a4d27fe6@notice-board
-DTSTAMP:20261103T224348Z
-DTSTART;VALUE=DATE:20261103
-SUMMARY:Port of Klickitat Commissioners: 2027 budget hearing and amendmen
- t of the comprehensive scheme
-DESCRIPTION:The Port District has prepared a preliminary budget for FY/CY
-  2027. The Port Commission will meet at 4:30 P.M. November 3\, 2026\, in
-  the Port office for the purpose of holding a public hearing and receivi
- ng public comment on the Port District budget for FY/CY 2027. More: http
- s://kate-rose.github.io/notice-board/#2026-11-03_port-of-klickitat-commi
- ssioners_5cc0a4d27fe6
-URL:https://kate-rose.github.io/notice-board/#2026-11-03_port-of-klickita
- t-commissioners_5cc0a4d27fe6
-LOCATION:154 E Bingen Point Way
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-04_skamania-county-mosquito-control-district_052fb0e14963@notice-board
-DTSTAMP:20261103T224348Z
-DTSTART;VALUE=DATE:20261104
-SUMMARY:Skamania County Mosquito Control District: Public Budget Hearing
-DESCRIPTION:The Skamania County Mosquito Control District will hold a pub
- lic Budget Hearing on Wednesday\, November 4\, 2026. The meeting will be
-  held at the North Bonneville Fire Station in its meeting room located a
- t 33 E. Cascade Drive\, North Bonneville\, Washington. More: https://kat
- e-rose.github.io/notice-board/#2026-11-04_skamania-county-mosquito-contr
- ol-district_052fb0e14963
-URL:https://kate-rose.github.io/notice-board/#2026-11-04_skamania-county-
- mosquito-control-district_052fb0e14963
-LOCATION:33 E. Cascade Drive
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-04_klickitat-county-lodging-tax-advisory-committee_1da6b18d3ac2@notice-board
-DTSTAMP:20261103T224348Z
-DTSTART;VALUE=DATE:20261104
-SUMMARY:Klickitat County Lodging Tax Advisory Committee: Lodging Tax Advi
- sory Committee meeting
-DESCRIPTION:The Klickitat County Lodging Tax Advisory Committee will be m
- eeting at 2:00 P.M. on Wednesday November 4 th \, 2026 at the County Ser
- vices Building\,115 W. Court Street\, Mt. Adams Conference Room\, Golden
- dale\, WA. More: https://kate-rose.github.io/notice-board/#2026-11-04_kl
- ickitat-county-lodging-tax-advisory-committee_1da6b18d3ac2
-URL:https://kate-rose.github.io/notice-board/#2026-11-04_klickitat-county
- -lodging-tax-advisory-committee_1da6b18d3ac2
-LOCATION:115 W. Court Street
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-09_stevenson-city-council_380b7b39937c@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;TZID=America/Los_Angeles:20261109T180000
 SUMMARY:Stevenson City Council: Public hearing during the Planning Commis
  sion meeting on the state-required periodic update to the Critical Areas
@@ -140,7 +22,7 @@ LOCATION:7121 E Loop Rd
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09_klickitat-county-fire-district-5_9e05b238fdd7@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;TZID=America/Los_Angeles:20261109T190000
 SUMMARY:Klickitat County Fire District #5: Meeting to consider and approv
  e the 2027 Budget and Levy
@@ -155,8 +37,24 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-09_klickitat-county
 LOCATION:2297 Centerville Highway in Centerville
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-09_klickitat-valley-health-board_03cf0825e7fe@notice-board
+DTSTAMP:20261105T154804Z
+DTSTART;VALUE=DATE:20261109
+SUMMARY:Klickitat Valley Health board: A Public Budget hearing has been c
+ alled by Public Hospital District No.1 of Klickitat County Board of Comm
+ issioners
+DESCRIPTION:A Public Budget hearing has been called by Public Hospital Di
+ strict No.1 of Klickitat County Board of Commissioners for the purpose o
+ f reviewing and commenting on the proposed 2027 budget before the hospit
+ al finalizes it. The meeting will be held on November 9th\, 2026 in KVH 
+ Conference Room A & B… More: https://kate-rose.github.io/notice-board/
+ #2026-11-09_klickitat-valley-health-board_03cf0825e7fe
+URL:https://kate-rose.github.io/notice-board/#2026-11-09_klickitat-valley
+ -health-board_03cf0825e7fe
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-10_north-bonneville-city-council_936685a179fb@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;TZID=America/Los_Angeles:20261110T190000
 SUMMARY:North Bonneville City Council: Second public hearing to review th
  e 2027 City budget
@@ -170,8 +68,22 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-10_north-bonneville
  -city-council_936685a179fb
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-10_south-central-workforce-development-council_993d34513b7b@notice-board
+DTSTAMP:20261105T154804Z
+DTSTART;TZID=America/Los_Angeles:20261110T160000
+SUMMARY:South Central Workforce Development Council: South Central Workfo
+ rce Full Board of Directors Meeting
+DESCRIPTION:The South Central Workforce Full Board of Directors Meeting i
+ s scheduled for Tuesday\, November 10\, 2026\, at 4:00 p.m. via Zoom\; h
+ ttps://us02web.zoom.us/j/88385649195?pwd=JiOcMPLDKTLyXiwDY10vqiURfKOUpu.
+ 1 More: https://kate-rose.github.io/notice-board/#2026-11-10_south-centr
+ al-workforce-development-council_993d34513b7b
+URL:https://kate-rose.github.io/notice-board/#2026-11-10_south-central-wo
+ rkforce-development-council_993d34513b7b
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-10-28_stevenson-city-council_939aea149888@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;VALUE=DATE:20261111
 SUMMARY:Last day to comment: Determination of nonsignificance: Backwoods 
  Brewing Company industrial wastewater discharge (Stevenson City Council)
@@ -185,7 +97,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-10-28_stevenson-city-c
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11_central-klickitat-county-park-and-recreation-dis_3a41876fae12@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;TZID=America/Los_Angeles:20261111T173000
 SUMMARY:Central Klickitat County Park and Recreation District: Hearing to
   consider the 2027 budget
@@ -201,7 +113,7 @@ LOCATION:401 N. King St
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11_klickitat-county-rural-7-fire-rescue_afec8ce7844a@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;TZID=America/Los_Angeles:20261111T190000
 SUMMARY:Klickitat County Rural 7 Fire & Rescue: Meeting to review and app
  rove the 2027 Budget
@@ -216,7 +128,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-11_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-13_mill-a-school-district-31_4879af84c029@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;VALUE=DATE:20261113
 SUMMARY:Last day to comment: Seeking responses from contractors intereste
  d in conducting a Slash Pile Abatement via Mastication Project (Mill A S
@@ -231,8 +143,24 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-13_mill-a-school-di
  strict-31_4879af84c029
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-16_port-of-skamania-county-commissioners_fcede8872def@notice-board
+DTSTAMP:20261105T154804Z
+DTSTART;TZID=America/Los_Angeles:20261116T110200
+SUMMARY:Port of Skamania County Commissioners: Budget Planning and Hearin
+ g 2027 Final Budget Hearing
+DESCRIPTION:Budget Planning and Hearing Port of Skamania County Board of 
+ Commissioners 2027 Final Budget Hearing. November 16\, 2026 11:02 a.m. H
+ earing and Adoption of Final Budget Port Commission meetings are open\, 
+ and the public is encouraged to attend. More: https://kate-rose.github.i
+ o/notice-board/#2026-11-16_port-of-skamania-county-commissioners_fcede88
+ 72def
+URL:https://kate-rose.github.io/notice-board/#2026-11-16_port-of-skamania
+ -county-commissioners_fcede8872def
+LOCATION:212 SW Cascade Avenue Stevenson
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-17_wa-department-of-ecology_4c2b57f2a06a@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;TZID=America/Los_Angeles:20261117T235900
 SUMMARY:WA Department of Ecology: Public Hearings and comment period on s
  tate shoreline rules
@@ -246,8 +174,25 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-17_wa-department-of
  -ecology_4c2b57f2a06a
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-17_underwood-conservation-district-board_bb85ee1339cb@notice-board
+DTSTAMP:20261105T154804Z
+DTSTART;TZID=America/Los_Angeles:20261117T170000
+SUMMARY:Underwood Conservation District board: Skamania County Fire Distr
+ ict #3 will hold a Public Hearing to consider public comment regarding t
+ he FY2027 Budget
+DESCRIPTION:Notice: Skamania County Fire District #3 will hold a Public H
+ earing on Tuesday\, November 17\, 2026 at 5:00 pm to consider public com
+ ment regarding the FY2027 Budget\, with regular business meeting to star
+ t immediately after. The hearing will be held at Station 3-1\, 962 Schoo
+ l House Road\, Underwood… More: https://kate-rose.github.io/notice-boa
+ rd/#2026-11-17_underwood-conservation-district-board_bb85ee1339cb
+URL:https://kate-rose.github.io/notice-board/#2026-11-17_underwood-conser
+ vation-district-board_bb85ee1339cb
+LOCATION:962 School House Road
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_2e55bf6195d9@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: RFQ for on-call engineering services (Steven
  son City Council)
@@ -262,7 +207,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_e5f930f757ec@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: RFQ for on-call SCADA\, controls & operation
  al support services (Stevenson City Council)
@@ -277,7 +222,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_skamania-county-commissioners_1ca167b91675@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: Countywide Bridge Scour Project: seeking qua
  lifications from consulting firms (Skamania County Commissioners)
@@ -291,8 +236,22 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_skamania-county-
  commissioners_1ca167b91675
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-25_skamania-pud_d291d1174982@notice-board
+DTSTAMP:20261105T154804Z
+DTSTART;VALUE=DATE:20261125
+SUMMARY:Last day to comment: Call for Bids (Skamania PUD)
+DESCRIPTION:Sealed bids will be received at the oﬃce of the Skamania Co
+ unty PUD No. 1 (“PUD” or “Owner”) 1492 Wind River Highway\, Cars
+ on\, Washington 98610 until 2:00 P.M.\, local time\, according to the ti
+ me clock and document stamp at PUD headquarters on Tuesday\, December 15
+ \, 2026 for the Cape Horn Upgrades… More: https://kate-rose.github.io/
+ notice-board/#2026-11-25_skamania-pud_d291d1174982
+URL:https://kate-rose.github.io/notice-board/#2026-11-25_skamania-pud_d29
+ 1d1174982
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-09_klickitat-county-rural-7-fire-rescue_bfa3a0832b0d@notice-board
-DTSTAMP:20261103T224348Z
+DTSTAMP:20261105T154804Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:Last day to comment: Sealed bids on surplus property (Klickitat C
  ounty Rural 7 Fire & Rescue)
