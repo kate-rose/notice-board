@@ -171,6 +171,10 @@
    "label": "Skamania County Mosquito Control District",
    "county": "Skamania"
   },
+  "skamania-school-district": {
+   "label": "Skamania School District No. 2",
+   "county": "Skamania"
+  },
   "south-central-workforce": {
    "label": "South Central Workforce Development Council",
    "county": "both"
@@ -182,6 +186,10 @@
   "washington-state": {
    "label": "Washington state agencies",
    "county": "both"
+  },
+  "whitesalmon-pooldistrict": {
+   "label": "Whitesalmon Pooldistrict",
+   "county": "Klickitat"
   },
   "wishram-sd": {
    "label": "Wishram School District",
@@ -199,8 +207,8 @@
     "skamania-pud",
     "port-of-skamania",
     "crgc",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -214,8 +222,8 @@
     "skamania-pud",
     "port-of-skamania",
     "crgc",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -228,8 +236,8 @@
     "skamania-pud",
     "port-of-skamania",
     "crgc",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -243,8 +251,8 @@
     "port-of-skamania",
     "crgc",
     "underwood",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -257,8 +265,8 @@
     "skamania-pud",
     "port-of-skamania",
     "crgc",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -270,8 +278,8 @@
     "skamania-county",
     "skamania-pud",
     "port-of-skamania",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -285,8 +293,8 @@
     "crgc",
     "white-salmon-sd",
     "klickitat-pud",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -300,8 +308,8 @@
     "crgc",
     "white-salmon-sd",
     "klickitat-pud",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -314,8 +322,8 @@
     "crgc",
     "white-salmon-sd",
     "klickitat-pud",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -328,8 +336,8 @@
     "trout-lake-sd",
     "trout-lake",
     "klickitat-pud",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -343,8 +351,8 @@
     "lyle-sd",
     "lyle",
     "klickitat-pud",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -356,8 +364,8 @@
     "klickitat-county",
     "dallesport-water-district",
     "klickitat-pud",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   },
@@ -370,8 +378,8 @@
     "goldendale",
     "goldendale-sd",
     "klickitat-pud",
-    "both-counties",
-    "washington-state"
+    "washington-state",
+    "both-counties"
    ],
    "boundary_verified": false
   }
