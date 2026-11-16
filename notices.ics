@@ -4,40 +4,8 @@ PRODID:-//Notice Board//skamaniadispatch.com//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Notice Board (Skamania and Klickitat public notices)
 BEGIN:VEVENT
-UID:2026-11-12_skamania-county-fire-district-4_c8372d1795df@notice-board
-DTSTAMP:20261112T154316Z
-DTSTART;TZID=America/Los_Angeles:20261112T173000
-SUMMARY:Skamania County Fire District #4: Yearly Budget Hearing with thei
- r monthly Commissioner Meeting following
-DESCRIPTION:Skamania Co. Fire Dist. #4 will hold their yearly Budget Hear
- ing on November 12th at 5:30pm\, with their monthly Commissioner Meeting
-  following at 6:00pm. You may join in-person at 10042 Washougal River Rd
- .\, or virtually through Zoom: ID #624 041 5920\, Passcode #068268. More
- : https://kate-rose.github.io/notice-board/#2026-11-12_skamania-county-f
- ire-district-4_c8372d1795df
-URL:https://kate-rose.github.io/notice-board/#2026-11-12_skamania-county-
- fire-district-4_c8372d1795df
-LOCATION:10042 Washougal River Rd
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-13_mill-a-school-district-31_4879af84c029@notice-board
-DTSTAMP:20261112T154316Z
-DTSTART;VALUE=DATE:20261113
-SUMMARY:Last day to comment: Seeking responses from contractors intereste
- d in conducting a Slash Pile Abatement via Mastication Project (Mill A S
- chool District #31)
-DESCRIPTION:The Mill A School District is soliciting responses from contr
- actors interested in conducting a Slash Pile Abatement via Mastication P
- roject on approximately 4 acres of a recently thinned forest parcel at 1
- 142 Jessup Road\, Mill A\, Washington. Responses to this RFP will be rec
- eived only at the… More: https://kate-rose.github.io/notice-board/#202
- 6-11-13_mill-a-school-district-31_4879af84c029
-URL:https://kate-rose.github.io/notice-board/#2026-11-13_mill-a-school-di
- strict-31_4879af84c029
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-16_port-of-skamania-county-commissioners_fcede8872def@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;TZID=America/Los_Angeles:20261116T110200
 SUMMARY:Port of Skamania County Commissioners: Budget Planning and Hearin
  g 2027 Final Budget Hearing
@@ -53,7 +21,7 @@ LOCATION:212 SW Cascade Avenue Stevenson
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16_efsec-state-energy-siting-council_34cb794d6a9d@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261116
 SUMMARY:EFSEC (state energy siting council): Cascade Renewable Transmissi
  on NOTICE OF PUBLIC HEARINGS 17\, and 18\, 2026
@@ -68,7 +36,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-16_efsec-state-ener
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16_goldendale-city-council_ab37a4bb9005@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;TZID=America/Los_Angeles:20261116T180000
 SUMMARY:Goldendale City Council: 2027 budget revenue sources
 DESCRIPTION:Shelly Enderby Clerk-Treasurer More: https://kate-rose.github
@@ -79,7 +47,7 @@ LOCATION:1103 S Columbus Ave Goldendale
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16_goldendale-city-council_cec82fcc914e@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;TZID=America/Los_Angeles:20261116T180000
 SUMMARY:Goldendale City Council: Public hearing to consider the Final 202
  7 budget
@@ -95,7 +63,7 @@ LOCATION:1103 S Columbus Ave
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17_wa-department-of-ecology_4c2b57f2a06a@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;TZID=America/Los_Angeles:20261117T235900
 SUMMARY:WA Department of Ecology: Public Hearings and comment period on s
  tate shoreline rules
@@ -110,7 +78,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-17_wa-department-of
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-17_underwood-conservation-district-board_bb85ee1339cb@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;TZID=America/Los_Angeles:20261117T170000
 SUMMARY:Underwood Conservation District board: Skamania County Fire Distr
  ict #3 will hold a Public Hearing to consider public comment regarding t
@@ -127,7 +95,7 @@ LOCATION:962 School House Road
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18_mt-pleasant-school-district_23d93859e03a@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Mt. Pleasant School District: Meeting to adopt the ASB Budget for
   the2026-2027 school year
@@ -142,7 +110,7 @@ LOCATION:152 Marble Rd
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18_skamania-school-district-board_8defec97da78@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;TZID=America/Los_Angeles:20261118T180000
 SUMMARY:Skamania School District board: Annual budget meeting Located Bud
  get meeting starts
@@ -158,7 +126,7 @@ LOCATION:802 Metzger Road
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18_skamania-county-homeless-housing-council_af53ebe015d2@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;TZID=America/Los_Angeles:20261118T130000
 SUMMARY:Skamania County Homeless Housing Council: Homeless Housing Counci
  l meeting
@@ -174,7 +142,7 @@ LOCATION:710 SW Rock Creek Drive
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18_white-salmon-pool-district_e23e0965c4f5@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;TZID=America/Los_Angeles:20261118T140000
 SUMMARY:White Salmon Pool District: Hearing to consider the District’s 
  2027 budget
@@ -190,7 +158,7 @@ LOCATION:1350 N. Main Ave
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_2e55bf6195d9@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: RFQ for on-call engineering services (Steven
  son City Council)
@@ -205,7 +173,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_e5f930f757ec@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: RFQ for on-call SCADA\, controls & operation
  al support services (Stevenson City Council)
@@ -220,7 +188,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_skamania-county-commissioners_1ca167b91675@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: Countywide Bridge Scour Project: seeking qua
  lifications from consulting firms (Skamania County Commissioners)
@@ -235,7 +203,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_skamania-county-
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_f4772bd2ce47@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Stevenson City Council: Public Hearing during the regular Council
   meeting and remotely via phone at 253-215-8782
@@ -251,7 +219,7 @@ LOCATION:7121 E. Loop Road
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-23_klickitat-county-commissioners_38639a98f80a@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Last day to comment: Request for qualifications on-call materials
   testing (Klickitat County Commissioners)
@@ -266,7 +234,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-23_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25_skamania-pud_d291d1174982@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:Last day to comment: Call for Bids (Skamania PUD)
 DESCRIPTION:Sealed bids will be received at the oﬃce of the Skamania Co
@@ -280,7 +248,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-25_skamania-pud_d29
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25_klickitat-county-commissioners_a62a062770f0@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:Last day to comment: Klickitat County mitigated determination of 
  non-significance\, SEPA 2026-18 (Klickitat County Commissioners)
@@ -295,7 +263,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-25_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_goldendale-city-council_6c1a890e9211@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for proposals tourism information an
  d promotion services (Goldendale City Council)
@@ -310,7 +278,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_goldendale-city-
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09_klickitat-county-rural-7-fire-rescue_bfa3a0832b0d@notice-board
-DTSTAMP:20261112T154316Z
+DTSTAMP:20261116T154313Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:Last day to comment: Sealed bids on surplus property (Klickitat C
  ounty Rural 7 Fire & Rescue)
