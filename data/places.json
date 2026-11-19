@@ -207,8 +207,8 @@
     "skamania-pud",
     "port-of-skamania",
     "crgc",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -222,8 +222,8 @@
     "skamania-pud",
     "port-of-skamania",
     "crgc",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -236,8 +236,8 @@
     "skamania-pud",
     "port-of-skamania",
     "crgc",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -251,8 +251,8 @@
     "port-of-skamania",
     "crgc",
     "underwood",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -265,8 +265,8 @@
     "skamania-pud",
     "port-of-skamania",
     "crgc",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -278,8 +278,8 @@
     "skamania-county",
     "skamania-pud",
     "port-of-skamania",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -293,8 +293,8 @@
     "crgc",
     "white-salmon-sd",
     "klickitat-pud",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -308,8 +308,8 @@
     "crgc",
     "white-salmon-sd",
     "klickitat-pud",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -322,8 +322,8 @@
     "crgc",
     "white-salmon-sd",
     "klickitat-pud",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -336,8 +336,8 @@
     "trout-lake-sd",
     "trout-lake",
     "klickitat-pud",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -351,8 +351,8 @@
     "lyle-sd",
     "lyle",
     "klickitat-pud",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -364,8 +364,8 @@
     "klickitat-county",
     "dallesport-water-district",
     "klickitat-pud",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   },
@@ -378,8 +378,8 @@
     "goldendale",
     "goldendale-sd",
     "klickitat-pud",
-    "washington-state",
-    "both-counties"
+    "both-counties",
+    "washington-state"
    ],
    "boundary_verified": false
   }

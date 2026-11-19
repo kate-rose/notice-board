@@ -2,15 +2,81 @@
  "_meta": {
   "about": "THE TRUTH for the Notice Board's curated cards (DQ-NB-04 → A, Kate 2026-10-22): hand-written, plain-language notices. Edit HERE, never in ~/notice-board/data/, which notice_publish.py overwrites with this file merged with the legal-notices feed (legals.py --board) on every scheduled sweep. Every item was checked against the source named in its 'official' or 'provenance' field on the date in 'first_seen' or 'provenance.verified_on'. Dates are Pacific local. A 'computed' deadline is worked out from the notice's own rule and says so.",
   "schema": "drafts/2026-09-24_notice-board-plan.md § 4 (fields as built in M0: id, jurisdiction, body, kind, title, summary, event, window, how, subject, official, notice, status, provenance, first_seen)",
-  "updated": "2026-11-16",
+  "updated": "2026-11-18",
   "copy_of": "Ferric reference/notice-board/notices.json merged with the legal-notices feed; edit the truth, not this file",
   "feed": {
-   "generated": "2026-11-16T07:43:13",
-   "cards": 130,
+   "generated": "2026-11-18T16:23:11",
+   "cards": 129,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }
  },
  "notices": [
+  {
+   "id": "2026-11-18_efsec_crt-land-use-hearings",
+   "jurisdiction": "efsec",
+   "body": "EFSEC (state energy siting council)",
+   "kind": "hearing",
+   "title": "Comment on the Cascade Renewable Transmission line planned for the bed of the Columbia River",
+   "summary": "EFSEC, the state's energy siting council, scheduled three hearings on the proposed Cascade Renewable Transmission line, one in each county it would cross: Washougal on November 16, Stevenson on November 17 and White Salmon on November 18. The Council asks whether the project fit local land-use plans and zoning when it applied, and takes comment on any other part of the project too. The line would run about 40 miles through Clark, Skamania and Klickitat counties, mostly in the bed of the river.",
+   "event": {
+    "date": "2026-11-18",
+    "time": "4:30 pm",
+    "place": "Mountain View Grange #98, 1085 N Main Avenue, White Salmon",
+    "remote": "https://bit.ly/CRT_LU_Klickitat",
+    "remote_note": "Microsoft Teams; by phone (833) 322-1218, conference ID 575 566 128#"
+   },
+   "window": {
+    "closes": "2026-11-18",
+    "closes_time": "11:59 pm",
+    "basis": "EFSEC's comment page gives the comment period as Monday, November 16, 4:30 p.m. to Wednesday, November 18, 11:59 p.m. The Klickitat County hearing on November 18 opens with an open house at 4:30 p.m., then public comment."
+   },
+   "how": {
+    "steps": [
+     "Type a comment, or upload a document or picture, on EFSEC's comment page (the link below) by 11:59 p.m. Wednesday, November 18.",
+     "Or speak at the Klickitat County hearing on Wednesday, November 18 at the Mountain View Grange #98, 1085 N Main Avenue, White Salmon, or join on Microsoft Teams. The open house starts at 4:30 p.m. and public comment follows. EFSEC asks speakers to register ahead at (360) 664-1345 or efsec@efsec.wa.gov; speaking time may be limited.",
+     "Or email your comment to efsec@efsec.wa.gov."
+    ],
+    "email": "efsec@efsec.wa.gov"
+   },
+   "subject": {
+    "text": "Cascade Renewable Transmission land use consistency hearings",
+    "file_no": null,
+    "location": "The Columbia River from Washougal to the Klickitat County line, with buried cable around Bonneville Dam",
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://comments.efsec.wa.gov/cascade-renewable-transmission-2026-land-use-hearing-series",
+    "label": "EFSEC's comment page"
+   },
+   "notice": {
+    "dated": "2026-11-11",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-11"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-11"
+     }
+    ],
+    "requirement": null,
+    "note": "The comment period and its deadline are from EFSEC's comment page, read November 18. The hearing dates, places and Teams links are from EFSEC's notice as printed in the Skamania County Pioneer and the Goldendale Sentinel on November 11. Project materials: https://efsec.wa.gov/facilities/cascade-renewable-transmission Printed in the Skamania County Pioneer and The Goldendale Sentinel."
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "claims_notice_ids": [
+     "34cb794d6a9d"
+    ],
+    "printed_notice_ids": [
+     "34cb794d6a9d"
+    ]
+   },
+   "first_seen": "2026-11-11"
+  },
   {
    "id": "2026-09-28_klickitat-pc_energy-overlay-zone",
    "jurisdiction": "klickitat-county",
@@ -6874,7 +6940,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -6887,70 +6953,6 @@
    },
    "first_seen": "2026-11-04",
    "text": "NOTICE: Legal Notice Budget Planning and Hearing Port of Skamania County Board of Commissioners 2027 Final Budget Hearing. November 16, 2026 11:02 a.m. Hearing and Adoption of Final Budget Port Commission meetings are open, and the public is encouraged to attend. The Port holds one regularly scheduled meeting per month, every 3rd Monday 11:00 a.m. at the Port Office at 212 SW Cascade Avenue Stevenson, Washington 98648. Contact Pat Albaugh, Executive Director pat@portofskamania.org 509-427-5484"
-  },
-  {
-   "id": "2026-11-16_efsec-state-energy-siting-council_34cb794d6a9d",
-   "jurisdiction": "efsec",
-   "body": "EFSEC (state energy siting council)",
-   "kind": "hearing",
-   "title": "Cascade Renewable Transmission NOTICE OF PUBLIC HEARINGS 17, and 18, 2026",
-   "summary": "Energy Facility Site Evaluation Council Cascade Renewable Transmission NOTICE OF PUBLIC HEARINGS NOVEMBER 16, 17, and 18, 2026 The Energy Facility Site Evaluation Council (EFSEC) will hold three public hearings to receive comments on the proposed Cascade Renewable Transmission project submitted by…",
-   "event": {
-    "date": "2026-11-16",
-    "time": null,
-    "place": null,
-    "remote": null
-   },
-   "window": null,
-   "how": {
-    "steps": [
-     "Email efsec@efsec.wa.gov, efsec@efsec.wa.gov., maria.belkina@efsec.wa.gov."
-    ],
-    "email": "efsec@efsec.wa.gov"
-   },
-   "subject": {
-    "text": "Cascade Renewable Transmission NOTICE OF PUBLIC HEARINGS 17, and 18, 2026",
-    "file_no": null,
-    "location": null,
-    "places": [],
-    "countywide": false
-   },
-   "official": {
-    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
-    "label": "The Skamania County Pioneer's legal notices page"
-   },
-   "county": "both",
-   "notice": {
-    "dated": "2026-11-11",
-    "published": [
-     {
-      "where": "Skamania County Pioneer",
-      "date": "2026-11-11"
-     },
-     {
-      "where": "The Goldendale Sentinel",
-      "date": "2026-11-11"
-     }
-    ],
-    "note": "Text as printed in the Skamania County Pioneer and The Goldendale Sentinel. Not yet checked against the agency's own posting.",
-    "requirement": null
-   },
-   "status": "scheduled",
-   "provenance": {
-    "tier": "official",
-    "note": null,
-    "source": "legals.py",
-    "notice_id": "34cb794d6a9d",
-    "channels": [
-     "EFSEC"
-    ],
-    "as_printed": true,
-    "also_notice_ids": [
-     "432e7b72c1e0"
-    ]
-   },
-   "first_seen": "2026-11-11",
-   "text": "Energy Facility Site Evaluation Council Cascade Renewable Transmission NOTICE OF PUBLIC HEARINGS NOVEMBER 16, 17, and 18, 2026 The Energy Facility Site Evaluation Council (EFSEC) will hold three public hearings to receive comments on the proposed Cascade Renewable Transmission project submitted by Cascade Renewable Transmission, LLC (the applicant). One hearing will be held in each affected county: Clark, Skamania, and Klickitat. Purpose of the hearings: The hearings will begin with an open house at 4:30 p.m. for general questions about the EFSEC process and the proposal followed by an opportunity for members of the public to comment on: •whether, at the time of application, the proposed site was consistent and in compliance with applicable city, county, or regional land use plans and zoning ordinances, and •any other aspects of the proposed project. The planned hearings will supplement the public informational meetings and land use consistency hearings held in November 2025. EFSEC will conduct the hearings under RCW 80.50.090(6), allowing additional hearings as the Council finds appropriate. Accessing the hearings: Each hearing will be held as an in-person hearing with an option to join remotely through Microsoft Teams. •November 16, 2026 — Clark County Black Pearl on the Columbia, 56 S 1st Street, Washougal, WA Teams: https://bit.ly/CRT_LU_Clark Dial-in: (833) 322-1218 Conference ID: 541 023 28# •November 17, 2026 — Skamania County Hegewald Center, 710 SW Rock Creek Drive, Stevenson, WA Teams: https://bit.ly/CRT_LU_Skamania Dial-in: (833) 322-1218 Conference ID: 574 161 870# •November 18, 2026 — Klickitat County Mountain View Grange #98, 1085 N Main Avenue, White Salmon, WA Teams: https://bit.ly/CRT_LU_Klickitat Dial-in: (833) 322-1218 Conference ID: 575 566 128# Comment and speaker registration: Anyone may comment on any aspect of the proposed project, including whether the proposed project would be consistent and in compliance with applicable land use plans and zoning ordinances. Speakers are encouraged to register in advance by calling (360) 664-1345 or emailing efsec@efsec.wa.gov before 5:00 p.m. on the day before the hearing at which they wish to speak. Speaking time may be limited depending on the number of speakers. Duration of speaking time will be announced at the hearing. If you are unable to attend the hearings but wish to comment, please send your comment via email to efsec@efsec.wa.gov or in writing to the EFSEC office mailing address found at the top of the notice. An online database will also be open during the hearing at https://comments.efsec.wa.gov/ for submission of written comments. Accessibility and language services: If you need an accommodation or language interpretation service to participate, please contact EFSEC at (360) 664-1345 or efsec@efsec.wa.gov. Project materials: The application, maps, and other materials are available at https://efsec.wa.gov/facilities/cascade-renewable-transmission. Project contact: For additional information about the project, contact Maria Belkina, EFSEC Siting Specialist, at maria.belkina@efsec.wa.gov"
   },
   {
    "id": "2026-11-16_goldendale-city-council_ab37a4bb9005",
@@ -6990,7 +6992,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -7042,7 +7044,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -7122,7 +7124,7 @@
     "note": "Text as printed in the Skamania County Pioneer and The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "open",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -7184,7 +7186,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
