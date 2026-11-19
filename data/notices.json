@@ -2,11 +2,11 @@
  "_meta": {
   "about": "THE TRUTH for the Notice Board's curated cards (DQ-NB-04 → A, Kate 2026-10-22): hand-written, plain-language notices. Edit HERE, never in ~/notice-board/data/, which notice_publish.py overwrites with this file merged with the legal-notices feed (legals.py --board) on every scheduled sweep. Every item was checked against the source named in its 'official' or 'provenance' field on the date in 'first_seen' or 'provenance.verified_on'. Dates are Pacific local. A 'computed' deadline is worked out from the notice's own rule and says so.",
   "schema": "drafts/2026-09-24_notice-board-plan.md § 4 (fields as built in M0: id, jurisdiction, body, kind, title, summary, event, window, how, subject, official, notice, status, provenance, first_seen)",
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "copy_of": "Ferric reference/notice-board/notices.json merged with the legal-notices feed; edit the truth, not this file",
   "feed": {
-   "generated": "2026-11-18T16:23:11",
-   "cards": 129,
+   "generated": "2026-11-19T07:45:52",
+   "cards": 142,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }
  },
@@ -7223,8 +7223,8 @@
     "countywide": true
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-11-2026/article_945b005d-b948-4ab8-bb6f-4b48b02cfe9e.html",
-    "label": "The Goldendale Sentinel, November 11 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -7298,7 +7298,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -7353,7 +7353,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -7405,7 +7405,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -7440,8 +7440,8 @@
     "countywide": false
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-11-2026/article_945b005d-b948-4ab8-bb6f-4b48b02cfe9e.html",
-    "label": "The Goldendale Sentinel, November 11 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -7459,7 +7459,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "scheduled",
+   "status": "held",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -7472,6 +7472,60 @@
    },
    "first_seen": "2026-11-11",
    "text": "PUBLIC HEARING NOTICE The Klickitat County EMS District No. 1 Board of Commissioners will hold a public hearing on Wednesday, November 18, 2026, at approximately 2:00 p.m. at the White Salmon Station, located at 1350 N. Main Ave., White Salmon, Washington. The purpose of the hearing is to consider the District’s 2027 budget. The public is welcome to attend and provide testimony. "
+  },
+  {
+   "id": "2026-11-18_wa-department-of-ecology_5b959804d673",
+   "jurisdiction": "washington-state",
+   "body": "WA Department of Ecology",
+   "kind": "application",
+   "title": "M.A. Mortenson Company seeks coverage under the Construction Stormwater NPDES and State Waste Discharge General Permit",
+   "summary": "Mortenson Company, Jesse Canzler, 700 Meadow Ln N Minneapolis, MN 55422, is seeking coverage under the Washington State Department of Ecology’s Construction Stormwater NPDES and State Waste Discharge General Permit. The proposed project, Big Horn Wind Upgrade, is located at the intersection of Van…",
+   "event": null,
+   "window": null,
+   "how": {
+    "steps": [
+     "Email ecyrewqianoi@ecy.wa.gov."
+    ],
+    "email": "ecyrewqianoi@ecy.wa.gov"
+   },
+   "subject": {
+    "text": "M.A. Mortenson Company seeks coverage under the Construction Stormwater NPDES and State Waste Discharge General Permit",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-18"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "closed",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "5b959804d673",
+    "channels": [],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "PUBLIC NOTICE M.A. Mortenson Company, Jesse Canzler, 700 Meadow Ln N Minneapolis, MN 55422, is seeking coverage under the Washington State Department of Ecology’s Construction Stormwater NPDES and State Waste Discharge General Permit. The proposed project, Big Horn Wind Upgrade, is located at the intersection of Van Nostern Rd and Schrantz Rd in Bickleton in Klickitat County. This project involves 1230 acres of soil disturbance for commercial construction activities. The receiving waters are Pine Creek and Wood Creek. Any persons desiring to present their views to the Washington State Department of Ecology regarding this Application, or interested in Ecology’s action on this Application, may notify Ecology in writing no later than 30 days of the last date of publication of this notice. Ecology reviews public comments and considers whether discharges from this project would cause a measurable change in receiving water quality, and, if so, whether the project is necessary and in the overriding public interest according to Tier II anti-degradation requirements under WAC 173-201A-320. Comments can be submitted to: ecyrewqianoi@ecy.wa.gov , or ATTN: Water Quality Program, Construction SW GP Washington State Department of Ecology P.O. Box 47696 Olympia, WA 98504-7696 "
   },
   {
    "id": "2026-11-19_stevenson-city-council_2e55bf6195d9",
@@ -7727,6 +7781,108 @@
    "text": "CITY OF STEVENSON NOTICE OF PUBLIC HEARING Stevenson City Council will hold Public Hearing during the regular Council meeting at 6 pm Thursday, November 19th, 2026, in Stevenson City Hall at 7121 E. Loop Road, Stevenson, WA and remotely via phone at 253-215-8782, 346-248-7799 or 669-900-6833 and video conference at stevensonwa.gov/CCmeet. Public comments may also be submitted in writing no later than 12:00 pm on Thursday, November 19th, 2026 to info@stevensonwa.gov, mailed to City Hall at PO Box 371, Stevenson, WA 98648, or dropped off at City Hall. Preliminary Budget Hearing for Fiscal Year 2027 Public Hearing on 2027 Property Tax Levy Visit the City website at stevensonwa.gov for updated information on the hearing ahead of the meeting. City Hall is accessible to people with disabilities. Please notify City Hall 24 hours in advance if you will need special accommodations to attend the hearing, including handicap accessibility or interpreter services, by calling (509) 427-5970 or (800) 833-6388 for TDD"
   },
   {
+   "id": "2026-11-19_home-valley-water-district_ab2c3cd9ca73",
+   "jurisdiction": "home-valley-water",
+   "body": "Home Valley Water District",
+   "kind": "special-meeting",
+   "title": "Home Valley Water District meeting",
+   "summary": "Meeting notice for Home Valley Water District for Thursday Nov. 19 at 7:00 PM at the water plant on 92 Jewell Rd",
+   "event": {
+    "date": "2026-11-19",
+    "time": "7:00 pm",
+    "place": "00 PM at the water plant on 92 Jewell Rd",
+    "remote": null
+   },
+   "window": null,
+   "how": null,
+   "subject": {
+    "text": "Home Valley Water District meeting",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "county": "Skamania",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-18"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "ab2c3cd9ca73",
+    "channels": [],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "Meeting notice for Home Valley Water District for Thursday Nov. 19 at 7:00 PM at the water plant on 92 Jewell Rd"
+  },
+  {
+   "id": "2026-11-19_north-bonneville-city-council_c145b86aa3cf",
+   "jurisdiction": "north-bonneville",
+   "body": "North Bonneville City Council",
+   "kind": "special-meeting",
+   "title": "Special meeting to interview and possibly appoint a candidate for Council seat #1",
+   "summary": "The City of North Bonneville will hold a special meeting to interview and possibly appoint a candidate for Council seat #1 on Thursday, November 19, 2026, at 6:00 pm at City Hall. All interested parties are invited to submit comments and attend the meeting.",
+   "event": {
+    "date": "2026-11-19",
+    "time": "6:00 pm",
+    "place": null,
+    "remote": null
+   },
+   "window": null,
+   "how": null,
+   "subject": {
+    "text": "Special meeting to interview and possibly appoint a candidate for Council seat #1",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "county": "Skamania",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-18"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "c145b86aa3cf",
+    "channels": [
+     "NorthBonneville-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "City of North Bonneville City Council NOTICE OF SPECIAL MEETING The City of North Bonneville will hold a special meeting to interview and possibly appoint a candidate for Council seat #1 on Thursday, November 19, 2026, at 6:00 pm at City Hall. All interested parties are invited to submit comments and attend the meeting. For more information contact Chief Administrative Officer, Taylor Chambers at (509) 427-8182. City Hall is accessible to persons with disabilities"
+  },
+  {
    "id": "2026-11-23_klickitat-county-commissioners_38639a98f80a",
    "jurisdiction": "klickitat-county",
    "body": "Klickitat County Commissioners",
@@ -7752,8 +7908,8 @@
     "countywide": true
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-11-2026/article_945b005d-b948-4ab8-bb6f-4b48b02cfe9e.html",
-    "label": "The Goldendale Sentinel, November 11 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -7924,8 +8080,8 @@
     "countywide": false
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-11-2026/article_945b005d-b948-4ab8-bb6f-4b48b02cfe9e.html",
-    "label": "The Goldendale Sentinel, November 11 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -7956,6 +8112,573 @@
    },
    "first_seen": "2026-11-11",
    "text": "REQUEST FOR PROPOSALS CITY OF GOLDENDALE TOURISM INFORMATION AND PROMOTION SERVICES The City of Goldendale is requesting proposals from public agencies or non-profit organizations that wish to enter into a contract or agreement with the City of Goldendale for tourism information and promotion services. The selected applicant(s) will provide services or products for the benefit of the Tourism industry in Goldendale. The City of Goldendale is expected to appropriate about $80,000 for tourism information and promotion services for the fiscal year 2027, from Lodging Tax revenues. The Event Committee will consider the submitted application request for funding and make their recommendation to the City Council for a final decision. All applicants will be notified in writing of the City Councils final decision. The application and guidelines are available at City Hall at 1103 South Columbus, Goldendale, WA 98620, or you may request the document by email at tgunnyon@ci.goldendale.wa.us Applications are due by 5:00 pm on Tuesday December 1, 2026. Please mail or email (1) copy of your proposal to the following address: Traci Gunnyon, Administration Assistant III City of Goldendale 1103 South Columbus Goldendale, WA 98620 Email: tgunnyon@ci.goldendale.wa.us "
+  },
+  {
+   "id": "2026-12-01_klickitat-county-commissioners_5937440ef1f1",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "bid",
+   "title": "Request for qualifications on-call archaeological/historical investigation services",
+   "summary": "Klickitat County intends to set up one on-call, negotiated hourly rate agreement for Archaeological Services with companies that specialize in performing on-site reconnaissance surveys, consultations with local tribes, and preparing in depth technical survey reports, all in accordance with the…",
+   "event": null,
+   "window": {
+    "closes": "2026-12-01",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email kristinad@klickitatcounty.gov, titlevi@klickitatcounty.gov."
+    ],
+    "email": "kristinad@klickitatcounty.gov"
+   },
+   "subject": {
+    "text": "Request for qualifications on-call archaeological/historical investigation services",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-18"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "5937440ef1f1",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true,
+    "also_notice_ids": [
+     "b7a8a8670c50",
+     "f8926c91f942"
+    ]
+   },
+   "first_seen": "2026-11-18",
+   "text": "REQUEST FOR QUALIFICATIONS ON-CALL ARCHAEOLOGICAL/HISTORICAL INVESTIGATION SERVICES Klickitat County intends to set up one on-call, negotiated hourly rate agreement for Archaeological Services with companies that specialize in performing on-site reconnaissance surveys, consultations with local tribes, and preparing in depth technical survey reports, all in accordance with the Department of Archaeology and Historic Preservation (DAHP). Projects are located throughout Klickitat County and consist of proposed roadway, bridge reconstruction projects, and rock quarry sites. Sealed proposals will be received by: Kristina Duncan Klickitat County Public Works Department Mailing Address: 115 West Court Street, MS-303 Goldendale, WA 98620 Physical Address: 115 West Court Street, Room 302 Goldendale, WA 98620 Email: kristinad@klickitatcounty.gov Fax: (509) 773-5713 until 2:00 p.m. on December 01, 2026 at which time proposals will be opened and evaluated by the County. Proposal documents may be found on the Klickitat County Public Works Department’s website at http://www.klickitatcounty.gov/1230/Goods-Services-Bidding-and-Bid-Results or by going to http://bxwa.com and clicking on: Posted Projects; Goods & Services; Klickitat County Goods & Services; and Projects Bidding. Bidders are encouraged to “Register” in order to receive automatic email notification of future addenda and to place themselves on the self registered “Bidders List.” This on-line plan room provides Bidders with fully usable on-line documents; with the ability to: download, print to your own printer, order full / partial plan sets from numerous reprographic sources (on-line print order form), and a free on-line digitizer / take-off tool. Contact Builders Exchange of Washington at 425-258-1303 should you require assistance. The Klickitat County Public Works Dept. in accordance with Section 504 of the Rehabilitation Act (Section 504) and the Americans with Disabilities Act (ADA), commits to nondiscrimination on the basis of disability, in all of its programs and activities. This material can be made available in an alternate format by emailing Klickitat County Public Works Dept. at titlevi@klickitatcounty.gov or by calling (509) 773 - 4616. Aviso a personas con dominio limitado del idioma inglés: Si usted tiene alguna dificultad en entender el idioma inglés, puede, sin costo alguno, solicitar asistencia lingüística con respecto a esta información llamando al (509) 773-4616, o envíe un mensaje de correo electrónico a: titlevi@klickitatcounty.gov Title VI Statement It is Klickitat County’s policy to assure that no person shall, on the grounds of race, color, national origin, as provided by Title VI of the Civil Rights Act of 1964, be excluded from participation in, be denied benefits of, or be otherwise discriminated against under any of its programs and activities. Any person who believes his/her Title VI protection has been violated, may file a complaint with Klickitat County’s Human Resources Department. For additional information regarding Title VI complaint procedures and/or information regarding our non-discrimination obligations, please contact Klickitat County’s Title VI Coordinator at (509) 773-7171 or by email at: titlevi@klickitatcounty. gov. "
+  },
+  {
+   "id": "2026-12-01_klickitat-county-commissioners_9376bc504c72",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "bid",
+   "title": "Request for qualifications on-call environmental services",
+   "summary": "Klickitat County intends to set up one on-call, negotiated hourly rate, agreement for environmental services with companies that specialize in environmental permitting, performing on-site surveys and studies, wetland identification and mitigation, completing reports or biological assessments and…",
+   "event": null,
+   "window": {
+    "closes": "2026-12-01",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email kristinad@klickitatcounty.gov, titlevi@klickitatcounty.go, titlevi@klickitatcounty.gov."
+    ],
+    "email": "kristinad@klickitatcounty.gov"
+   },
+   "subject": {
+    "text": "Request for qualifications on-call environmental services",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-18"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "9376bc504c72",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "REQUEST FOR QUALIFICATIONS ON-CALL ENVIRONMENTAL SERVICES Klickitat County intends to set up one on-call, negotiated hourly rate, agreement for environmental services with companies that specialize in environmental permitting, performing on-site surveys and studies, wetland identification and mitigation, completing reports or biological assessments and peer review of transportation project designs in regards to environmental engineering and permitting. Sealed proposals will be received by: Kristina Duncan Klickitat County Public Works Department Mailing Address: 115 West Court Street, Box 303 Goldendale, WA 98620 Physical Address: 115 West Court Street, Room 302 Goldendale, WA 98620 Email: kristinad@klickitatcounty.gov Fax: (509) 773-5713 until 2:00 p.m. on December 01, 2026 at which time proposals will be opened and evaluated by the County. Proposal documents may be found on the Klickitat County Public Works Department’s website at https://www.klickitatcounty.gov/1230/Goods-Services-Bidding-and-Bid-Results or by going to http://bxwa.com and clicking on: Posted Projects; Goods & Services; Klickitat County Goods & Services; and Projects Bidding. Bidders are encouraged to “Register” in order to receive automatic email notification of future addenda and to place themselves on the self registered “Bidders List.” This on-line plan room provides Bidders with fully usable on-line documents; with the ability to: download, print to your own printer, order full / partial plan sets from numerous reprographic sources (on-line print order form), and a free on-line digitizer / take-off tool. Contact Builders Exchange of Washington at 425-258-1303 should you require assistance. The Klickitat County Public Works Dept. in accordance with Section 504 of the Rehabilitation Act (Section 504) and the Americans with Disabilities Act (ADA), commits to nondiscrimination on the basis of disability, in all of its programs and activities. This material can be made available in an alternate format by emailing Klickitat County Public Works Dept. at titlevi@klickitatcounty.gov or by calling (509) 773 - 4616. Aviso a personas con dominio limitado del idioma inglés: Si usted tiene alguna dificultad en entender el idioma inglés, puede, sin costo alguno, solicitar asistencia lingüística con respecto a esta información llamando al (509) 773-4616, o envíe un mensaje de correo electrónico a: titlevi@klickitatcounty.gov Title VI Statement It is Klickitat County’s policy to assure that no person shall, on the grounds of race, color, national origin, as provided by Title VI of the Civil Rights Act of 1964, be excluded from participation in, be denied benefits of, or be otherwise discriminated against under any of its programs and activities. Any person who believes his/her Title VI protection has been violated, may file a complaint with Klickitat County’s Human Resources Department. For additional information regarding Title VI complaint procedures and/or information regarding our non-discrimination obligations, please contact Klickitat County’s Title VI Coordinator at (509) 773-7171 or by email at: titlevi@klickitatcounty.go v. "
+  },
+  {
+   "id": "2026-12-01_klickitat-county-commissioners_9a3fb37b3c39",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "bid",
+   "title": "Request for qualifications on-call geotechnical services",
+   "summary": "Klickitat County intends to set up two on-call, negotiated hourly rate, agreement for Geotechnical Services with companies that specialize in performing geotechnical peer review and geotechnical design. The geotechnical firm must have a strong ability to provide complete geotechnical services…",
+   "event": null,
+   "window": {
+    "closes": "2026-12-01",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email kristinad@klickitatcounty.gov, titlevi@klickitatcounty.gov."
+    ],
+    "email": "kristinad@klickitatcounty.gov"
+   },
+   "subject": {
+    "text": "Request for qualifications on-call geotechnical services",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-18"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "9a3fb37b3c39",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "REQUEST FOR QUALIFICATIONS ON-CALL GEOTECHNICAL SERVICES Klickitat County intends to set up two on-call, negotiated hourly rate, agreement for Geotechnical Services with companies that specialize in performing geotechnical peer review and geotechnical design. The geotechnical firm must have a strong ability to provide complete geotechnical services beginning at scoping and conceptual levels; have the ability to provide field exploration services through their company or appropriate sub-consultants. The firm must be able to perform non-destructive roadway subgrade/pavement analysis of existing paved and graveled County Roads and conduct peer review of development proposals and their impact on County Roads. Sealed proposals will be received by: Kristina Duncan Klickitat County Public Works Department Mailing Address: 115 West Court Street, MS-303 Goldendale, WA 98620 Physical Address: 115 West Court Street, Room 302 Goldendale, WA 98620 Email: kristinad@klickitatcounty.gov Fax: (509) 773-5713 until 2:00 p.m. on December 01, 2026 at which time proposals will be opened and evaluated by the County. Proposal documents may be found on the Klickitat County Public Works Department’s website at http://www.klickitatcounty.gov/1230/Goods-Services-Bidding-and-Bid-Results or by going to http://bxwa.com and clicking on: Posted Projects; Goods & Services; Klickitat County Goods & Services; and Projects Bidding. Bidders are encouraged to “Register” in order to receive automatic email notification of future addenda and to place themselves on the self registered “Bidders List.” This on-line plan room provides Bidders with fully usable on-line documents; with the ability to: download, print to your own printer, order full / partial plan sets from numerous reprographic sources (on-line print order form), and a free on-line digitizer / take-off tool. Contact Builders Exchange of Washington at 425-258-1303 should you require assistance. The Klickitat County Public Works Dept. in accordance with Section 504 of the Rehabilitation Act (Section 504) and the Americans with Disabilities Act (ADA), commits to nondiscrimination on the basis of disability, in all of its programs and activities. This material can be made available in an alternate format by emailing Klickitat County Public Works Dept. at titlevi@klickitatcounty.gov or by calling (509) 773 - 4616. Aviso a personas con dominio limitado del idioma inglés: Si usted tiene alguna dificultad en entender el idioma inglés, puede, sin costo alguno, solicitar asistencia lingüística con respecto a esta información llamando al (509) 773-4616, o envíe un mensaje de correo electrónico a: titlevi@klickitatcounty.gov Title VI Statement It is Klickitat County’s policy to assure that no person shall, on the grounds of race, color, national origin, as provided by Title VI of the Civil Rights Act of 1964, be excluded from participation in, be denied benefits of, or be otherwise discriminated against under any of its programs and activities. Any person who believes his/her Title VI protection has been violated, may file a complaint with Klickitat County’s Human Resources Department. For additional information regarding Title VI complaint procedures and/or information regarding our non-discrimination obligations, please contact Klickitat County’s Title VI Coordinator at (509) 773-7171 or by email at: titlevi@klickitatcounty. gov. "
+  },
+  {
+   "id": "2026-12-01_klickitat-county-commissioners_a13c84af9736",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "bid",
+   "title": "Request for qualifications on-call real estate services",
+   "summary": "Klickitat County intends to set up one on-call, negotiated hourly rate, agreement for Real Estate Services with companies that specialize in performing real estate acquisitions for public agencies. The firm performing real estate services must have a strong ability to provide complete real estate…",
+   "event": null,
+   "window": {
+    "closes": "2026-12-01",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email Kristinad@klickitatcounty.gov, titlevi@klickitatcounty.gov."
+    ],
+    "email": "Kristinad@klickitatcounty.gov"
+   },
+   "subject": {
+    "text": "Request for qualifications on-call real estate services",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-18"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "a13c84af9736",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "REQUEST FOR QUALIFICATIONS ON-CALL REAL ESTATE SERVICES Klickitat County intends to set up one on-call, negotiated hourly rate, agreement for Real Estate Services with companies that specialize in performing real estate acquisitions for public agencies. The firm performing real estate services must have a strong ability to provide complete real estate services beginning at scoping and conceptual levels, to appraisals, through negotiations up to submission of the final documentation. Sealed proposals will be received by: Kristina Duncan Klickitat County Public Works Department Mailing Address: 115 West Court Street, Box 303 Goldendale, WA 98620 Physical Address: 115 West Court Street, Room 302 Goldendale, WA 98620 Email: Kristinad@klickitatcounty.gov Fax: (509) 773-5713 until 2:00 p.m. on December 01, 2026 at which time proposals will be opened and evaluated by the County. Proposal documents may be found on the Klickitat County Public Works Department’s website at http://www.klickitatcounty.gov/1230/Goods-Services-Bidding-and-Bid-Results or by going to http://bxwa.com and clicking on: Posted Projects; Goods & Services; Klickitat County Goods & Services; and Projects Bidding. Bidders are encouraged to “Register” in order to receive automatic email notification of future addenda and to place themselves on the self registered “Bidders List.” This on-line plan room provides Bidders with fully usable on-line documents; with the ability to: download, print to your own printer, order full / partial plan sets from numerous reprographic sources (on-line print order form), and a free on-line digitizer / take-off tool. Contact Builders Exchange of Washington at 425-258-1303 should you require assistance. The Klickitat County Public Works Dept. in accordance with Section 504 of the Rehabilitation Act (Section 504) and the Americans with Disabilities Act (ADA), commits to nondiscrimination on the basis of disability, in all of its programs and activities. This material can be made available in an alternate format by emailing Klickitat County Public Works Dept. at titlevi@klickitatcounty.gov or by calling (509) 773 - 4616. Aviso a personas con dominio limitado del idioma inglés: Si usted tiene alguna dificultad en entender el idioma inglés, puede, sin costo alguno, solicitar asistencia lingüística con respecto a esta información llamando al (509) 773-4616, o envíe un mensaje de correo electrónico a: titlevi@klickitatcounty.gov Title VI Statement It is Klickitat County’s policy to assure that no person shall, on the grounds of race, color, national origin, as provided by Title VI of the Civil Rights Act of 1964, be excluded from participation in, be denied benefits of, or be otherwise discriminated against under any of its programs and activities. Any person who believes his/her Title VI protection has been violated, may file a complaint with Klickitat County’s Human Resources Department. For additional information regarding Title VI complaint procedures and/or information regarding our non-discrimination obligations, please contact Klickitat County’s Title VI Coordinator at (509) 773-7171 or by email at: titlevi@klickitatcounty. gov. "
+  },
+  {
+   "id": "2026-12-04_area-agency-on-aging-disabilities-of-southwest-w_5e0c18d7fb19",
+   "jurisdiction": "aaadsw",
+   "body": "Area Agency on Aging & Disabilities of Southwest Washington",
+   "kind": "special-meeting",
+   "title": "Bi-monthly Meeting of the Council of Governments",
+   "summary": "The Area Agency on Aging & Disabilities of Southwest Washington Bi-monthly Meeting of the Council of Governments Friday December 4, 2026 at 1:00 p.m. 201 NE 73rd Street, Vancouver WA 98665",
+   "event": {
+    "date": "2026-12-04",
+    "time": "1:00 pm",
+    "place": "201 NE 73rd Street",
+    "remote": null
+   },
+   "window": null,
+   "how": null,
+   "subject": {
+    "text": "Bi-monthly Meeting of the Council of Governments",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "county": "Skamania",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-18"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "5e0c18d7fb19",
+    "channels": [],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "The Area Agency on Aging & Disabilities of Southwest Washington Bi-monthly Meeting of the Council of Governments Friday December 4, 2026 at 1:00 p.m. 201 NE 73rd Street, Vancouver WA 98665 Persons with a disability should call (360) 735-5721 three days before the meeting to discuss accommodation"
+  },
+  {
+   "id": "2026-12-04_area-agency-on-aging-disabilities-of-southwest-w_e71dd185503d",
+   "jurisdiction": "aaadsw",
+   "body": "Area Agency on Aging & Disabilities of Southwest Washington",
+   "kind": "special-meeting",
+   "title": "Bi-monthly Meeting of the Council of Governments",
+   "summary": "The Area Agency on Aging & Disabilities of Southwest Washington Bi-monthly Meeting of the Council of Governments Friday December 4, 2026 at 1:00 p.m. 201 NE 73 rd Street, Vancouver WA 98665",
+   "event": {
+    "date": "2026-12-04",
+    "time": "1:00 pm",
+    "place": "201 NE 73 rd Street",
+    "remote": null
+   },
+   "window": null,
+   "how": null,
+   "subject": {
+    "text": "Bi-monthly Meeting of the Council of Governments",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-18"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "e71dd185503d",
+    "channels": [],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "NOTICE OF MEETING The Area Agency on Aging & Disabilities of Southwest Washington Bi-monthly Meeting of the Council of Governments Friday December 4, 2026 at 1:00 p.m. 201 NE 73 rd Street, Vancouver WA 98665 Persons with a disability should call (360) 735-5721 three days before the meeting to discuss accommodation. "
+  },
+  {
+   "id": "2026-12-04_klickitat-county-commissioners_f2879469b3d7",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "bid",
+   "title": "Request for Proposals Tourism Promotion Klickitat County is accepting proposals",
+   "summary": "Request for Proposals Tourism Promotion Klickitat County is accepting proposals for Non-profit 501(c)(3) tourism promotion services to be provided during the calendar year 2027 and funded by revenue from the County’s lodging tax. The proposals need to be for tourism promotion and marketing.",
+   "event": null,
+   "window": {
+    "closes": "2026-12-04",
+    "basis": "stated on the notice"
+   },
+   "how": null,
+   "subject": {
+    "text": "Request for Proposals Tourism Promotion Klickitat County is accepting proposals",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-18"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "f2879469b3d7",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "PUBLIC NOTIFICATION Request for Proposals Tourism Promotion Klickitat County is accepting proposals for Non-profit 501(c)(3) tourism promotion services to be provided during the calendar year 2027 and funded by revenue from the County’s lodging tax. The proposals need to be for tourism promotion and marketing. Selected proposals will be based on their emphasis and ability to create events and activities that will result in positive user impacts on lodging, restaurants, and retail markets in Klickitat County. The application form is available on the Klickitat County website at https://www.klickitatcounty.gov/216/Economic-Development To be considered, an application must be complete and submitted by Friday, December 4, 2026. If you have questions, please call 509-773-7060. "
+  },
+  {
+   "id": "2026-12-08_klickitat-county-commissioners_7d55d16155c1",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "hearing",
+   "title": "County Commissioners hearings",
+   "summary": "Short Term Rental Ordinance TUESDAY, December 8, 2026 AT 1:30 P.M. In accordance with RCW 36.70.795, the Board of County Commissioners will hold a public hearing on Tuesday December 8, 2026 at 1:30pm Public hearing for the adoption of an ordinance regulating Short Term Rentals (STR) in…",
+   "event": {
+    "date": "2026-12-08",
+    "time": "1:30 pm",
+    "place": "115 West Court Street",
+    "remote": null
+   },
+   "window": null,
+   "how": {
+    "steps": [
+     "Email BoCC@klickitatcounty.gov, planning2@klickitatcounty.gov."
+    ],
+    "email": "BoCC@klickitatcounty.gov"
+   },
+   "subject": {
+    "text": "County Commissioners hearings",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-18"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "7d55d16155c1",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "NOTICE OF PUBLIC HEARING Short Term Rental Ordinance TUESDAY, December 8, 2026 AT 1:30 P.M. In accordance with RCW 36.70.795, the Board of County Commissioners will hold a public hearing on Tuesday December 8, 2026 at 1:30pm Public hearing for the adoption of an ordinance regulating Short Term Rentals (STR) in unincorporate Klickitat County, Washington. Information can be found on the Klickitat County Planning Department website at www.klickitatcounty.gov/272/Planning-Department . The public hearings will be held in the Klickitat County Services Building, 115 West Court Street, Room 200, Goldendale, Washington. Any person desiring to express their views on the matter is invited to join the hearing to provide testimony. Participation in this meeting will be offered as follows: 669-900-6833 346-248-7799 929-205-6099 253-215-8782 301-715-8592 312-626-6799 Written testimony may also be submitted to the Board of County Commissioners, 115 West Court St, Room 201, Goldendale, WA 98620, or email to BoCC@klickitatcounty.gov . Please direct any questions or comments to Planning Department at 509-773-5703, or email planning2@klickitatcounty.gov BY ORDER of the Klickitat County Board of County Commissioners dated this 12th day of November, 2026. /s/ Ron Ihrig, Chairman, Board of County Commissioners "
+  },
+  {
+   "id": "2026-12-08_klickitat-pud_861b12d14208",
+   "jurisdiction": "klickitat-pud",
+   "body": "Klickitat PUD",
+   "kind": "budget-hearing",
+   "title": "Kpud board of commissioners 2027 Klickitat PUD operating budget hearing",
+   "summary": "December 8, 2026 TIME: 3:00 pm LOCATION: Klickitat PUD Meeting Room. 1313 S. Columbus Ave. Goldendale, WA. The Commission will hold a hearing on the proposed 2027 KPUD Operating Budget at 3:00 p.m. on December 8, 2026.",
+   "event": {
+    "date": "2026-12-08",
+    "time": "3:00 pm",
+    "place": "1313 S. Columbus Ave",
+    "remote": null
+   },
+   "window": null,
+   "how": null,
+   "subject": {
+    "text": "Kpud board of commissioners 2027 Klickitat PUD operating budget hearing",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-18"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "861b12d14208",
+    "channels": [
+     "Klickitat-PUD"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "PUBLIC NOTICE KPUD BOARD OF COMMISSIONERS 2027 KLICKITAT PUD OPERATING BUDGET HEARING DATE: December 8, 2026 TIME: 3:00 pm LOCATION: Klickitat PUD Meeting Room. 1313 S. Columbus Ave. Goldendale, WA. The Commission will hold a hearing on the proposed 2027 KPUD Operating Budget at 3:00 p.m. on December 8, 2026. Concurrent with this hearing, the Commission will also hold a hearing on the proposed 2027 KPUD Electric Rate adjustments. A public comment period will follow these presentations. For those unable to attend in person, the meeting can be accessed via teleconference by dialing (844) 621-3956, with the Access Code: 2491 410 6300. If you participate by phone, please provide your name and area you are joining from for the meeting record. After public comment and discussion, the Board may vote to adopt the 2027 Klickitat PUD Operating Budget. Contact for More Information: Barbara Bostick, Executive Assistant Phone: (509) 773-5891 or (800) 548-8357 "
+  },
+  {
+   "id": "2026-12-08_klickitat-pud_fab07cfefa17",
+   "jurisdiction": "klickitat-pud",
+   "body": "Klickitat PUD",
+   "kind": "budget-hearing",
+   "title": "Kpud board of commissioners 2027 Klickitat PUD electric rate adjustment hearing",
+   "summary": "December 8, 2026 TIME: 3:00 pm LOCATION: Klickitat PUD Meeting Room. 1313 S. Columbus Ave. Goldendale, WA. The Commission will hold a hearing on the proposed 2027 KPUD Electric Rate adjustments at 3:00 p.m. on December 8, 2026.",
+   "event": {
+    "date": "2026-12-08",
+    "time": "3:00 pm",
+    "place": "1313 S. Columbus Ave",
+    "remote": null
+   },
+   "window": null,
+   "how": null,
+   "subject": {
+    "text": "Kpud board of commissioners 2027 Klickitat PUD electric rate adjustment hearing",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
+    "label": "The Goldendale Sentinel, November 18 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-18",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-18"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "scheduled",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "fab07cfefa17",
+    "channels": [
+     "Klickitat-PUD"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-18",
+   "text": "PUBLIC NOTICE KPUD BOARD OF COMMISSIONERS 2027 KLICKITAT PUD ELECTRIC RATE ADJUSTMENT HEARING DATE: December 8, 2026 TIME: 3:00 pm LOCATION: Klickitat PUD Meeting Room. 1313 S. Columbus Ave. Goldendale, WA. The Commission will hold a hearing on the proposed 2027 KPUD Electric Rate adjustments at 3:00 p.m. on December 8, 2026. Concurrent with this hearing, the Commission will also hold a hearing on the proposed 2027 KPUD Operating Budget. A public comment period will follow these presentations. For those unable to attend in person, the meeting can be accessed via teleconference by dialing (844) 621-3956 , with the Access Code: 2491 410 6300 . If you participate by phone, please provide your name and area you are joining from for the meeting record. After public comment and discussion, the Board may vote to adopt the 2027 Klickitat PUD Electric Rate Adjustments. Contact for More Information: Barbara Bostick, Executive Assistant Phone: (509) 773-5891 or (800) 548-8357 "
   },
   {
    "id": "2026-12-09_klickitat-county-rural-7-fire-rescue_bfa3a0832b0d",

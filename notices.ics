@@ -4,88 +4,8 @@ PRODID:-//Notice Board//skamaniadispatch.com//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Notice Board (Skamania and Klickitat public notices)
 BEGIN:VEVENT
-UID:2026-11-18_efsec_crt-land-use-hearings@notice-board
-DTSTAMP:20261119T002311Z
-DTSTART;TZID=America/Los_Angeles:20261118T163000
-SUMMARY:EFSEC (state energy siting council): Comment on the Cascade Renew
- able Transmission line planned for the bed of the Columbia River
-DESCRIPTION:EFSEC\, the state's energy siting council\, scheduled three h
- earings on the proposed Cascade Renewable Transmission line\, one in eac
- h county it would cross: Washougal on November 16\, Stevenson on Novembe
- r 17 and White Salmon on November 18. The Council asks whether the proje
- ct fit local land-use plans and zoning when it applied\, and takes comme
- nt on any other part of the project too. The line would  More: https://k
- ate-rose.github.io/notice-board/#2026-11-18_efsec_crt-land-use-hearings
-URL:https://kate-rose.github.io/notice-board/#2026-11-18_efsec_crt-land-u
- se-hearings
-LOCATION:Mountain View Grange #98\, 1085 N Main Avenue\, White Salmon
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-18_mt-pleasant-school-district_23d93859e03a@notice-board
-DTSTAMP:20261119T002311Z
-DTSTART;VALUE=DATE:20261118
-SUMMARY:Mt. Pleasant School District: Meeting to adopt the ASB Budget for
-  the2026-2027 school year
-DESCRIPTION:The Mt. Pleasant School District will hold a meeting on Novem
- ber 18\, 2026\, to adopt the ASB Budget for the2026-2027 school year. Th
- e meeting will be held at 5:00 pm at the district office located at 152 
- Marble Rd.\, Washougal\, WA More: https://kate-rose.github.io/notice-boa
- rd/#2026-11-18_mt-pleasant-school-district_23d93859e03a
-URL:https://kate-rose.github.io/notice-board/#2026-11-18_mt-pleasant-scho
- ol-district_23d93859e03a
-LOCATION:152 Marble Rd
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-18_skamania-school-district-board_8defec97da78@notice-board
-DTSTAMP:20261119T002311Z
-DTSTART;TZID=America/Los_Angeles:20261118T180000
-SUMMARY:Skamania School District board: Annual budget meeting Located Bud
- get meeting starts
-DESCRIPTION:Notice of annual budget meeting Located at the District offic
- e\, 802 Metzger Road\, Carson\, WA 98671 November 18\, 2026 Budget meeti
- ng starts at 6pm. Also: our regular monthly meeting\, usually the last W
- ednesday of the month\, will commence directly after the budget meeting.
-  More: https://kate-rose.github.io/notice-board/#2026-11-18_skamania-sch
- ool-district-board_8defec97da78
-URL:https://kate-rose.github.io/notice-board/#2026-11-18_skamania-school-
- district-board_8defec97da78
-LOCATION:802 Metzger Road
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-18_skamania-county-homeless-housing-council_af53ebe015d2@notice-board
-DTSTAMP:20261119T002311Z
-DTSTART;TZID=America/Los_Angeles:20261118T130000
-SUMMARY:Skamania County Homeless Housing Council: Homeless Housing Counci
- l meeting
-DESCRIPTION:Wednesday\, November 18th \, 2026 From 1:00 to 2:00 p.m. Part
- icipation-Hybrid (in person AND via zoom) Hegewald Center/West Meeting R
- m #B142/B144 710 SW Rock Creek Drive\, Stevenson\, WA 98648 The Council 
- is actively seeking members for the Government & Ministerial positions. 
- More: https://kate-rose.github.io/notice-board/#2026-11-18_skamania-coun
- ty-homeless-housing-council_af53ebe015d2
-URL:https://kate-rose.github.io/notice-board/#2026-11-18_skamania-county-
- homeless-housing-council_af53ebe015d2
-LOCATION:710 SW Rock Creek Drive
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-18_white-salmon-pool-district_e23e0965c4f5@notice-board
-DTSTAMP:20261119T002311Z
-DTSTART;TZID=America/Los_Angeles:20261118T140000
-SUMMARY:White Salmon Pool District: Hearing to consider the District’s 
- 2027 budget
-DESCRIPTION:The Klickitat County EMS District No. 1 Board of Commissioner
- s will hold a public hearing on Wednesday\, November 18\, 2026\, at appr
- oximately 2:00 p.m. at the White Salmon Station\, located at 1350 N. Mai
- n Ave.\, White Salmon\, Washington. The purpose of the hearing is to con
- sider the District’s 2027… More: https://kate-rose.github.io/notice-
- board/#2026-11-18_white-salmon-pool-district_e23e0965c4f5
-URL:https://kate-rose.github.io/notice-board/#2026-11-18_white-salmon-poo
- l-district_e23e0965c4f5
-LOCATION:1350 N. Main Ave
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_2e55bf6195d9@notice-board
-DTSTAMP:20261119T002311Z
+DTSTAMP:20261119T154552Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: RFQ for on-call engineering services (Steven
  son City Council)
@@ -100,7 +20,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_e5f930f757ec@notice-board
-DTSTAMP:20261119T002311Z
+DTSTAMP:20261119T154552Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: RFQ for on-call SCADA\, controls & operation
  al support services (Stevenson City Council)
@@ -115,7 +35,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_skamania-county-commissioners_1ca167b91675@notice-board
-DTSTAMP:20261119T002311Z
+DTSTAMP:20261119T154552Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Last day to comment: Countywide Bridge Scour Project: seeking qua
  lifications from consulting firms (Skamania County Commissioners)
@@ -130,7 +50,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_skamania-county-
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-19_stevenson-city-council_f4772bd2ce47@notice-board
-DTSTAMP:20261119T002311Z
+DTSTAMP:20261119T154552Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Stevenson City Council: Public Hearing during the regular Council
   meeting and remotely via phone at 253-215-8782
@@ -145,8 +65,36 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
 LOCATION:7121 E. Loop Road
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-19_home-valley-water-district_ab2c3cd9ca73@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;TZID=America/Los_Angeles:20261119T190000
+SUMMARY:Home Valley Water District: Home Valley Water District meeting
+DESCRIPTION:Meeting notice for Home Valley Water District for Thursday No
+ v. 19 at 7:00 PM at the water plant on 92 Jewell Rd More: https://kate-r
+ ose.github.io/notice-board/#2026-11-19_home-valley-water-district_ab2c3c
+ d9ca73
+URL:https://kate-rose.github.io/notice-board/#2026-11-19_home-valley-wate
+ r-district_ab2c3cd9ca73
+LOCATION:00 PM at the water plant on 92 Jewell Rd
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-19_north-bonneville-city-council_c145b86aa3cf@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;TZID=America/Los_Angeles:20261119T180000
+SUMMARY:North Bonneville City Council: Special meeting to interview and p
+ ossibly appoint a candidate for Council seat #1
+DESCRIPTION:The City of North Bonneville will hold a special meeting to i
+ nterview and possibly appoint a candidate for Council seat #1 on Thursda
+ y\, November 19\, 2026\, at 6:00 pm at City Hall. All interested parties
+  are invited to submit comments and attend the meeting. More: https://ka
+ te-rose.github.io/notice-board/#2026-11-19_north-bonneville-city-council
+ _c145b86aa3cf
+URL:https://kate-rose.github.io/notice-board/#2026-11-19_north-bonneville
+ -city-council_c145b86aa3cf
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-23_klickitat-county-commissioners_38639a98f80a@notice-board
-DTSTAMP:20261119T002311Z
+DTSTAMP:20261119T154552Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Last day to comment: Request for qualifications on-call materials
   testing (Klickitat County Commissioners)
@@ -161,7 +109,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-23_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25_skamania-pud_d291d1174982@notice-board
-DTSTAMP:20261119T002311Z
+DTSTAMP:20261119T154552Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:Last day to comment: Call for Bids (Skamania PUD)
 DESCRIPTION:Sealed bids will be received at the oﬃce of the Skamania Co
@@ -175,7 +123,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-25_skamania-pud_d29
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25_klickitat-county-commissioners_a62a062770f0@notice-board
-DTSTAMP:20261119T002311Z
+DTSTAMP:20261119T154552Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:Last day to comment: Klickitat County mitigated determination of 
  non-significance\, SEPA 2026-18 (Klickitat County Commissioners)
@@ -190,7 +138,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-25_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_goldendale-city-council_6c1a890e9211@notice-board
-DTSTAMP:20261119T002311Z
+DTSTAMP:20261119T154552Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for proposals tourism information an
  d promotion services (Goldendale City Council)
@@ -204,8 +152,158 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_goldendale-city-
  council_6c1a890e9211
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-01_klickitat-county-commissioners_5937440ef1f1@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Last day to comment: Request for qualifications on-call archaeolo
+ gical/historical investigation services (Klickitat County Commissioners)
+DESCRIPTION:Klickitat County intends to set up one on-call\, negotiated h
+ ourly rate agreement for Archaeological Services with companies that spe
+ cialize in performing on-site reconnaissance surveys\, consultations wit
+ h local tribes\, and preparing in depth technical survey reports\, all i
+ n accordance with the… More: https://kate-rose.github.io/notice-board/
+ #2026-12-01_klickitat-county-commissioners_5937440ef1f1
+URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
+ -commissioners_5937440ef1f1
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-01_klickitat-county-commissioners_9376bc504c72@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Last day to comment: Request for qualifications on-call environme
+ ntal services (Klickitat County Commissioners)
+DESCRIPTION:Klickitat County intends to set up one on-call\, negotiated h
+ ourly rate\, agreement for environmental services with companies that sp
+ ecialize in environmental permitting\, performing on-site surveys and st
+ udies\, wetland identification and mitigation\, completing reports or bi
+ ological assessments and… More: https://kate-rose.github.io/notice-boa
+ rd/#2026-12-01_klickitat-county-commissioners_9376bc504c72
+URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
+ -commissioners_9376bc504c72
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-01_klickitat-county-commissioners_9a3fb37b3c39@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Last day to comment: Request for qualifications on-call geotechni
+ cal services (Klickitat County Commissioners)
+DESCRIPTION:Klickitat County intends to set up two on-call\, negotiated h
+ ourly rate\, agreement for Geotechnical Services with companies that spe
+ cialize in performing geotechnical peer review and geotechnical design. 
+ The geotechnical firm must have a strong ability to provide complete geo
+ technical services… More: https://kate-rose.github.io/notice-board/#20
+ 26-12-01_klickitat-county-commissioners_9a3fb37b3c39
+URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
+ -commissioners_9a3fb37b3c39
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-01_klickitat-county-commissioners_a13c84af9736@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;VALUE=DATE:20261201
+SUMMARY:Last day to comment: Request for qualifications on-call real esta
+ te services (Klickitat County Commissioners)
+DESCRIPTION:Klickitat County intends to set up one on-call\, negotiated h
+ ourly rate\, agreement for Real Estate Services with companies that spec
+ ialize in performing real estate acquisitions for public agencies. The f
+ irm performing real estate services must have a strong ability to provid
+ e complete real estate… More: https://kate-rose.github.io/notice-board
+ /#2026-12-01_klickitat-county-commissioners_a13c84af9736
+URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
+ -commissioners_a13c84af9736
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04_area-agency-on-aging-disabilities-of-southwest-w_5e0c18d7fb19@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;TZID=America/Los_Angeles:20261204T130000
+SUMMARY:Area Agency on Aging & Disabilities of Southwest Washington: Bi-m
+ onthly Meeting of the Council of Governments
+DESCRIPTION:The Area Agency on Aging & Disabilities of Southwest Washingt
+ on Bi-monthly Meeting of the Council of Governments Friday December 4\, 
+ 2026 at 1:00 p.m. 201 NE 73rd Street\, Vancouver WA 98665 More: https://
+ kate-rose.github.io/notice-board/#2026-12-04_area-agency-on-aging-disabi
+ lities-of-southwest-w_5e0c18d7fb19
+URL:https://kate-rose.github.io/notice-board/#2026-12-04_area-agency-on-a
+ ging-disabilities-of-southwest-w_5e0c18d7fb19
+LOCATION:201 NE 73rd Street
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04_area-agency-on-aging-disabilities-of-southwest-w_e71dd185503d@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;TZID=America/Los_Angeles:20261204T130000
+SUMMARY:Area Agency on Aging & Disabilities of Southwest Washington: Bi-m
+ onthly Meeting of the Council of Governments
+DESCRIPTION:The Area Agency on Aging & Disabilities of Southwest Washingt
+ on Bi-monthly Meeting of the Council of Governments Friday December 4\, 
+ 2026 at 1:00 p.m. 201 NE 73 rd Street\, Vancouver WA 98665 More: https:/
+ /kate-rose.github.io/notice-board/#2026-12-04_area-agency-on-aging-disab
+ ilities-of-southwest-w_e71dd185503d
+URL:https://kate-rose.github.io/notice-board/#2026-12-04_area-agency-on-a
+ ging-disabilities-of-southwest-w_e71dd185503d
+LOCATION:201 NE 73 rd Street
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-04_klickitat-county-commissioners_f2879469b3d7@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;VALUE=DATE:20261204
+SUMMARY:Last day to comment: Request for Proposals Tourism Promotion Klic
+ kitat County is accepting proposals (Klickitat County Commissioners)
+DESCRIPTION:Request for Proposals Tourism Promotion Klickitat County is a
+ ccepting proposals for Non-profit 501(c)(3) tourism promotion services t
+ o be provided during the calendar year 2027 and funded by revenue from t
+ he County’s lodging tax. The proposals need to be for tourism promotio
+ n and marketing. More: https://kate-rose.github.io/notice-board/#2026-12
+ -04_klickitat-county-commissioners_f2879469b3d7
+URL:https://kate-rose.github.io/notice-board/#2026-12-04_klickitat-county
+ -commissioners_f2879469b3d7
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-08_klickitat-county-commissioners_7d55d16155c1@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;TZID=America/Los_Angeles:20261208T133000
+SUMMARY:Klickitat County Commissioners: County Commissioners hearings
+DESCRIPTION:Short Term Rental Ordinance TUESDAY\, December 8\, 2026 AT 1:
+ 30 P.M. In accordance with RCW 36.70.795\, the Board of County Commissio
+ ners will hold a public hearing on Tuesday December 8\, 2026 at 1:30pm P
+ ublic hearing for the adoption of an ordinance regulating Short Term Ren
+ tals (STR) in… More: https://kate-rose.github.io/notice-board/#2026-12
+ -08_klickitat-county-commissioners_7d55d16155c1
+URL:https://kate-rose.github.io/notice-board/#2026-12-08_klickitat-county
+ -commissioners_7d55d16155c1
+LOCATION:115 West Court Street
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-08_klickitat-pud_861b12d14208@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;TZID=America/Los_Angeles:20261208T150000
+SUMMARY:Klickitat PUD: Kpud board of commissioners 2027 Klickitat PUD ope
+ rating budget hearing
+DESCRIPTION:December 8\, 2026 TIME: 3:00 pm LOCATION: Klickitat PUD Meeti
+ ng Room. 1313 S. Columbus Ave. Goldendale\, WA. The Commission will hold
+  a hearing on the proposed 2027 KPUD Operating Budget at 3:00 p.m. on De
+ cember 8\, 2026. More: https://kate-rose.github.io/notice-board/#2026-12
+ -08_klickitat-pud_861b12d14208
+URL:https://kate-rose.github.io/notice-board/#2026-12-08_klickitat-pud_86
+ 1b12d14208
+LOCATION:1313 S. Columbus Ave
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-08_klickitat-pud_fab07cfefa17@notice-board
+DTSTAMP:20261119T154552Z
+DTSTART;TZID=America/Los_Angeles:20261208T150000
+SUMMARY:Klickitat PUD: Kpud board of commissioners 2027 Klickitat PUD ele
+ ctric rate adjustment hearing
+DESCRIPTION:December 8\, 2026 TIME: 3:00 pm LOCATION: Klickitat PUD Meeti
+ ng Room. 1313 S. Columbus Ave. Goldendale\, WA. The Commission will hold
+  a hearing on the proposed 2027 KPUD Electric Rate adjustments at 3:00 p
+ .m. on December 8\, 2026. More: https://kate-rose.github.io/notice-board
+ /#2026-12-08_klickitat-pud_fab07cfefa17
+URL:https://kate-rose.github.io/notice-board/#2026-12-08_klickitat-pud_fa
+ b07cfefa17
+LOCATION:1313 S. Columbus Ave
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-09_klickitat-county-rural-7-fire-rescue_bfa3a0832b0d@notice-board
-DTSTAMP:20261119T002311Z
+DTSTAMP:20261119T154552Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:Last day to comment: Sealed bids on surplus property (Klickitat C
  ounty Rural 7 Fire & Rescue)
