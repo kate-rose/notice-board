@@ -4,97 +4,8 @@ PRODID:-//Notice Board//skamaniadispatch.com//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Notice Board (Skamania and Klickitat public notices)
 BEGIN:VEVENT
-UID:2026-11-19_stevenson-city-council_2e55bf6195d9@notice-board
-DTSTAMP:20261119T154552Z
-DTSTART;VALUE=DATE:20261119
-SUMMARY:Last day to comment: RFQ for on-call engineering services (Steven
- son City Council)
-DESCRIPTION:The City of Stevenson is requesting statements of qualificati
- on from qualified consulting engineering firms to provide on-call profes
- sional engineering services. Services may include public works planning 
- and design\, development review\, construction management\, grant fundin
- g assistance\, and other… More: https://kate-rose.github.io/notice-boa
- rd/#2026-11-19_stevenson-city-council_2e55bf6195d9
-URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
- ouncil_2e55bf6195d9
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-19_stevenson-city-council_e5f930f757ec@notice-board
-DTSTAMP:20261119T154552Z
-DTSTART;VALUE=DATE:20261119
-SUMMARY:Last day to comment: RFQ for on-call SCADA\, controls & operation
- al support services (Stevenson City Council)
-DESCRIPTION:The City of Stevenson is requesting Statements of Qualificati
- ons from qualified firms to provide on-call SCADA\, controls\, instrumen
- tation\, and operational support services for the City's wastewater trea
- tment and collection systems. SCADA system support\, troubleshooting & o
- ptimization. More: https://kate-rose.github.io/notice-board/#2026-11-19_
- stevenson-city-council_e5f930f757ec
-URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
- ouncil_e5f930f757ec
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-19_skamania-county-commissioners_1ca167b91675@notice-board
-DTSTAMP:20261119T154552Z
-DTSTART;VALUE=DATE:20261119
-SUMMARY:Last day to comment: Countywide Bridge Scour Project: seeking qua
- lifications from consulting firms (Skamania County Commissioners)
-DESCRIPTION:Countywide Bridge Scour Project Skamania County (COUNTY) is s
- eeking qualifications from consulting firms with expertise in hydraulic 
- / structural engineering to complete a scour appraisal and analysis for 
- bridges crossing a waterway per FHWA and WSDOT Bridge Inspection Manual.
-  Planning (PL) /… More: https://kate-rose.github.io/notice-board/#2026
- -11-19_skamania-county-commissioners_1ca167b91675
-URL:https://kate-rose.github.io/notice-board/#2026-11-19_skamania-county-
- commissioners_1ca167b91675
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-19_stevenson-city-council_f4772bd2ce47@notice-board
-DTSTAMP:20261119T154552Z
-DTSTART;VALUE=DATE:20261119
-SUMMARY:Stevenson City Council: Public Hearing during the regular Council
-  meeting and remotely via phone at 253-215-8782
-DESCRIPTION:Stevenson City Council will hold Public Hearing during the re
- gular Council meeting at 6 pm Thursday\, November 19th\, 2026\, in Steve
- nson City Hall at 7121 E. Loop Road\, Stevenson\, WA and remotely via ph
- one at 253-215-8782\, 346-248-7799 or 669-900-6833 and video conference 
- at stevensonwa.gov/CCmeet.… More: https://kate-rose.github.io/notice-b
- oard/#2026-11-19_stevenson-city-council_f4772bd2ce47
-URL:https://kate-rose.github.io/notice-board/#2026-11-19_stevenson-city-c
- ouncil_f4772bd2ce47
-LOCATION:7121 E. Loop Road
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-19_home-valley-water-district_ab2c3cd9ca73@notice-board
-DTSTAMP:20261119T154552Z
-DTSTART;TZID=America/Los_Angeles:20261119T190000
-SUMMARY:Home Valley Water District: Home Valley Water District meeting
-DESCRIPTION:Meeting notice for Home Valley Water District for Thursday No
- v. 19 at 7:00 PM at the water plant on 92 Jewell Rd More: https://kate-r
- ose.github.io/notice-board/#2026-11-19_home-valley-water-district_ab2c3c
- d9ca73
-URL:https://kate-rose.github.io/notice-board/#2026-11-19_home-valley-wate
- r-district_ab2c3cd9ca73
-LOCATION:00 PM at the water plant on 92 Jewell Rd
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-19_north-bonneville-city-council_c145b86aa3cf@notice-board
-DTSTAMP:20261119T154552Z
-DTSTART;TZID=America/Los_Angeles:20261119T180000
-SUMMARY:North Bonneville City Council: Special meeting to interview and p
- ossibly appoint a candidate for Council seat #1
-DESCRIPTION:The City of North Bonneville will hold a special meeting to i
- nterview and possibly appoint a candidate for Council seat #1 on Thursda
- y\, November 19\, 2026\, at 6:00 pm at City Hall. All interested parties
-  are invited to submit comments and attend the meeting. More: https://ka
- te-rose.github.io/notice-board/#2026-11-19_north-bonneville-city-council
- _c145b86aa3cf
-URL:https://kate-rose.github.io/notice-board/#2026-11-19_north-bonneville
- -city-council_c145b86aa3cf
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-11-23_klickitat-county-commissioners_38639a98f80a@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Last day to comment: Request for qualifications on-call materials
   testing (Klickitat County Commissioners)
@@ -109,7 +20,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-23_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25_skamania-pud_d291d1174982@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:Last day to comment: Call for Bids (Skamania PUD)
 DESCRIPTION:Sealed bids will be received at the oﬃce of the Skamania Co
@@ -123,7 +34,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-25_skamania-pud_d29
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-25_klickitat-county-commissioners_a62a062770f0@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:Last day to comment: Klickitat County mitigated determination of 
  non-significance\, SEPA 2026-18 (Klickitat County Commissioners)
@@ -138,7 +49,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-11-25_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_goldendale-city-council_6c1a890e9211@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for proposals tourism information an
  d promotion services (Goldendale City Council)
@@ -153,7 +64,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_goldendale-city-
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_klickitat-county-commissioners_5937440ef1f1@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for qualifications on-call archaeolo
  gical/historical investigation services (Klickitat County Commissioners)
@@ -168,7 +79,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_klickitat-county-commissioners_9376bc504c72@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for qualifications on-call environme
  ntal services (Klickitat County Commissioners)
@@ -183,7 +94,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_klickitat-county-commissioners_9a3fb37b3c39@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for qualifications on-call geotechni
  cal services (Klickitat County Commissioners)
@@ -198,7 +109,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_klickitat-county-commissioners_a13c84af9736@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for qualifications on-call real esta
  te services (Klickitat County Commissioners)
@@ -213,7 +124,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04_area-agency-on-aging-disabilities-of-southwest-w_5e0c18d7fb19@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;TZID=America/Los_Angeles:20261204T130000
 SUMMARY:Area Agency on Aging & Disabilities of Southwest Washington: Bi-m
  onthly Meeting of the Council of Governments
@@ -228,7 +139,7 @@ LOCATION:201 NE 73rd Street
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04_area-agency-on-aging-disabilities-of-southwest-w_e71dd185503d@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;TZID=America/Los_Angeles:20261204T130000
 SUMMARY:Area Agency on Aging & Disabilities of Southwest Washington: Bi-m
  onthly Meeting of the Council of Governments
@@ -243,7 +154,7 @@ LOCATION:201 NE 73 rd Street
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04_klickitat-county-commissioners_f2879469b3d7@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;VALUE=DATE:20261204
 SUMMARY:Last day to comment: Request for Proposals Tourism Promotion Klic
  kitat County is accepting proposals (Klickitat County Commissioners)
@@ -258,7 +169,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-04_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08_klickitat-county-commissioners_7d55d16155c1@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;TZID=America/Los_Angeles:20261208T133000
 SUMMARY:Klickitat County Commissioners: County Commissioners hearings
 DESCRIPTION:Short Term Rental Ordinance TUESDAY\, December 8\, 2026 AT 1:
@@ -273,7 +184,7 @@ LOCATION:115 West Court Street
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08_klickitat-pud_861b12d14208@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;TZID=America/Los_Angeles:20261208T150000
 SUMMARY:Klickitat PUD: Kpud board of commissioners 2027 Klickitat PUD ope
  rating budget hearing
@@ -288,7 +199,7 @@ LOCATION:1313 S. Columbus Ave
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08_klickitat-pud_fab07cfefa17@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;TZID=America/Los_Angeles:20261208T150000
 SUMMARY:Klickitat PUD: Kpud board of commissioners 2027 Klickitat PUD ele
  ctric rate adjustment hearing
@@ -303,7 +214,7 @@ LOCATION:1313 S. Columbus Ave
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09_klickitat-county-rural-7-fire-rescue_bfa3a0832b0d@notice-board
-DTSTAMP:20261119T154552Z
+DTSTAMP:20261123T155538Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:Last day to comment: Sealed bids on surplus property (Klickitat C
  ounty Rural 7 Fire & Rescue)
