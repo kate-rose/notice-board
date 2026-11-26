@@ -2,11 +2,11 @@
  "_meta": {
   "about": "THE TRUTH for the Notice Board's curated cards (DQ-NB-04 → A, Kate 2026-10-22): hand-written, plain-language notices. Edit HERE, never in ~/notice-board/data/, which notice_publish.py overwrites with this file merged with the legal-notices feed (legals.py --board) on every scheduled sweep. Every item was checked against the source named in its 'official' or 'provenance' field on the date in 'first_seen' or 'provenance.verified_on'. Dates are Pacific local. A 'computed' deadline is worked out from the notice's own rule and says so.",
   "schema": "drafts/2026-09-24_notice-board-plan.md § 4 (fields as built in M0: id, jurisdiction, body, kind, title, summary, event, window, how, subject, official, notice, status, provenance, first_seen)",
-  "updated": "2026-11-23",
+  "updated": "2026-11-26",
   "copy_of": "Ferric reference/notice-board/notices.json merged with the legal-notices feed; edit the truth, not this file",
   "feed": {
-   "generated": "2026-11-23T07:55:38",
-   "cards": 142,
+   "generated": "2026-11-26T07:58:30",
+   "cards": 146,
    "about": "Notices as printed in the county legal newspapers, built mechanically by legals.py from its snapshot series. Titles and summaries are the notices' own words. notice_publish.py merges this into the board's curated notices.json."
   }
  },
@@ -7496,8 +7496,8 @@
     "countywide": false
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
-    "label": "The Goldendale Sentinel, November 18 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -7883,6 +7883,58 @@
    "text": "City of North Bonneville City Council NOTICE OF SPECIAL MEETING The City of North Bonneville will hold a special meeting to interview and possibly appoint a candidate for Council seat #1 on Thursday, November 19, 2026, at 6:00 pm at City Hall. All interested parties are invited to submit comments and attend the meeting. For more information contact Chief Administrative Officer, Taylor Chambers at (509) 427-8182. City Hall is accessible to persons with disabilities"
   },
   {
+   "id": "2026-11-19_stevenson-city-council_1ed994077a0f",
+   "jurisdiction": "stevenson",
+   "body": "Stevenson City Council",
+   "kind": "hearing",
+   "title": "After a proper public hearing the Stevenson City Council did pass Ordinance No. 2026-1236 Fixing the amount",
+   "summary": "After a proper public hearing the Stevenson City Council did pass Ordinance No. 2026-1236 Fixing the amount to be raised by ad valorem taxes and levied for fiscal year 2027. This ordinance was passed by the Stevenson City Council November 19, 2026, and shall take effect five days after publication.",
+   "event": {
+    "date": "2026-11-19",
+    "time": null,
+    "place": null,
+    "remote": null
+   },
+   "window": null,
+   "how": null,
+   "subject": {
+    "text": "After a proper public hearing the Stevenson City Council did pass Ordinance No. 2026-1236 Fixing the amount",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.devaulpublishing.com/Skamania/skalegal.html",
+    "label": "The Skamania County Pioneer's legal notices page"
+   },
+   "county": "Skamania",
+   "notice": {
+    "dated": "2026-11-25",
+    "published": [
+     {
+      "where": "Skamania County Pioneer",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "held",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "1ed994077a0f",
+    "channels": [
+     "Stevenson-CityCouncil"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-25",
+   "text": "CITY OF STEVENSON PUBLIC NOTICE Notice is hereby given that after a proper public hearing the Stevenson City Council did pass Ordinance No. 2026-1236 Fixing the amount to be raised by ad valorem taxes and levied for fiscal year 2027. This ordinance was passed by the Stevenson City Council November 19, 2026, and shall take effect five days after publication. The full text of the ordinances will be mailed upon request by calling City Hall at (509) 427-5970"
+  },
+  {
    "id": "2026-11-23_klickitat-county-commissioners_38639a98f80a",
    "jurisdiction": "klickitat-county",
    "body": "Klickitat County Commissioners",
@@ -7927,7 +7979,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "open",
+   "status": "closed",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -7990,7 +8042,7 @@
     "note": "Text as printed in the Skamania County Pioneer. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "open",
+   "status": "closed",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -8040,7 +8092,7 @@
     "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
     "requirement": null
    },
-   "status": "open",
+   "status": "closed",
    "provenance": {
     "tier": "official",
     "note": null,
@@ -8053,6 +8105,60 @@
    },
    "first_seen": "2026-11-11",
    "text": "KLICKITAT COUNTY MITIGATED DETERMINATION OF NON-SIGNIFICANCE Notice is hereby given that Klickitat County issued a Mitigated Determination of Non-significance (MDNS) on November under SEPA Rules (Chapter 197-11 WAC) and the Klickitat County Environmental Ordinance Number 121084, as amended, for the following proposal: SEPA 2026-18. Applicant: Ricky & Melvin Howard. A Short Plat application requesting to subdivide 8.6 acres into two lots. The proposed short plat is located in a portion of the SWSW of Section 36, T4N, R10E, W.M. Klickitat County, WA (Husum vicinity) on tax parcel 04-10-3633-0002/00. After review of the completed environmental checklists and other information on file the Klickitat County Responsible Official has determined that this proposal will not have probable significant adverse impacts on the environment. Copies of the MDNS are available at the Klickitat County Planning Department during normal business hours. Comments on the above project is due by 5:00 pm November 25, 2026. Appeals on the above environmental review will be accepted until 5:00 pm December 4, 2026. Appeals must be made to the Board and filed with the Klickitat County Auditor’s office. Appeals shall not be deemed complete without payment of the applicable appeal fees payable to Klickitat County Planning Department. "
+  },
+  {
+   "id": "2026-11-25_wa-department-of-ecology_34fe7f611914",
+   "jurisdiction": "washington-state",
+   "body": "WA Department of Ecology",
+   "kind": "application",
+   "title": "Kirby Nagelhout Construction Co. seeks coverage under the Construction Stormwater NPDES and State Waste Discharge General Permit",
+   "summary": "Kirby Nagelhout Construction Co., Riley Ollero, 20635 Brinson Blvd Bend, OR 97701-8506, is seeking coverage under the Washington State Department of Ecology’s Construction Stormwater NPDES and State Waste Discharge General Permit. The proposed project, White Salmon Valley Pool, is located at Parcel…",
+   "event": null,
+   "window": null,
+   "how": {
+    "steps": [
+     "Email ecyrewqianoi@ecy.wa.gov."
+    ],
+    "email": "ecyrewqianoi@ecy.wa.gov"
+   },
+   "subject": {
+    "text": "Kirby Nagelhout Construction Co. seeks coverage under the Construction Stormwater NPDES and State Waste Discharge General Permit",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-25",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-12-02"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "closed",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "34fe7f611914",
+    "channels": [],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-25",
+   "text": "PUBLIC NOTICE Kirby Nagelhout Construction Co., Riley Ollero, 20635 Brinson Blvd Bend, OR 97701-8506, is seeking coverage under the Washington State Department of Ecology’s Construction Stormwater NPDES and State Waste Discharge General Permit. The proposed project, White Salmon Valley Pool, is located at Parcel 03101309120100 (Klickitat County) in in Klickitat County. This project involves 2 acres of soil disturbance for Commercial, construction activities. All discharges and runoff goes to ground water. Any persons desiring to present their views to the Washington State Department of Ecology regarding this Application, or interested in Ecology’s action on this Application, may notify Ecology in writing no later than 30 days of the last date of publication of this notice. Ecology reviews public comments and considers whether discharges from this project would cause a measurable change in receiving water quality, and, if so, whether the project is necessary and in the overriding public interest according to Tier II anti-degradation requirements under WAC 173-201A-320. Comments can be submitted to: ecyrewqianoi@ecy.wa.gov , or ATTN: Water Quality Program, Construction SW GP Washington State Department of Ecology P.O. Box 47696 Olympia, WA 98504-7696 "
   },
   {
    "id": "2026-12-01_goldendale-city-council_6c1a890e9211",
@@ -8139,8 +8245,8 @@
     "countywide": true
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
-    "label": "The Goldendale Sentinel, November 18 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -8202,8 +8308,8 @@
     "countywide": true
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
-    "label": "The Goldendale Sentinel, November 18 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -8261,8 +8367,8 @@
     "countywide": true
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
-    "label": "The Goldendale Sentinel, November 18 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -8320,8 +8426,8 @@
     "countywide": true
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
-    "label": "The Goldendale Sentinel, November 18 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -8352,6 +8458,61 @@
    },
    "first_seen": "2026-11-18",
    "text": "REQUEST FOR QUALIFICATIONS ON-CALL REAL ESTATE SERVICES Klickitat County intends to set up one on-call, negotiated hourly rate, agreement for Real Estate Services with companies that specialize in performing real estate acquisitions for public agencies. The firm performing real estate services must have a strong ability to provide complete real estate services beginning at scoping and conceptual levels, to appraisals, through negotiations up to submission of the final documentation. Sealed proposals will be received by: Kristina Duncan Klickitat County Public Works Department Mailing Address: 115 West Court Street, Box 303 Goldendale, WA 98620 Physical Address: 115 West Court Street, Room 302 Goldendale, WA 98620 Email: Kristinad@klickitatcounty.gov Fax: (509) 773-5713 until 2:00 p.m. on December 01, 2026 at which time proposals will be opened and evaluated by the County. Proposal documents may be found on the Klickitat County Public Works Department’s website at http://www.klickitatcounty.gov/1230/Goods-Services-Bidding-and-Bid-Results or by going to http://bxwa.com and clicking on: Posted Projects; Goods & Services; Klickitat County Goods & Services; and Projects Bidding. Bidders are encouraged to “Register” in order to receive automatic email notification of future addenda and to place themselves on the self registered “Bidders List.” This on-line plan room provides Bidders with fully usable on-line documents; with the ability to: download, print to your own printer, order full / partial plan sets from numerous reprographic sources (on-line print order form), and a free on-line digitizer / take-off tool. Contact Builders Exchange of Washington at 425-258-1303 should you require assistance. The Klickitat County Public Works Dept. in accordance with Section 504 of the Rehabilitation Act (Section 504) and the Americans with Disabilities Act (ADA), commits to nondiscrimination on the basis of disability, in all of its programs and activities. This material can be made available in an alternate format by emailing Klickitat County Public Works Dept. at titlevi@klickitatcounty.gov or by calling (509) 773 - 4616. Aviso a personas con dominio limitado del idioma inglés: Si usted tiene alguna dificultad en entender el idioma inglés, puede, sin costo alguno, solicitar asistencia lingüística con respecto a esta información llamando al (509) 773-4616, o envíe un mensaje de correo electrónico a: titlevi@klickitatcounty.gov Title VI Statement It is Klickitat County’s policy to assure that no person shall, on the grounds of race, color, national origin, as provided by Title VI of the Civil Rights Act of 1964, be excluded from participation in, be denied benefits of, or be otherwise discriminated against under any of its programs and activities. Any person who believes his/her Title VI protection has been violated, may file a complaint with Klickitat County’s Human Resources Department. For additional information regarding Title VI complaint procedures and/or information regarding our non-discrimination obligations, please contact Klickitat County’s Title VI Coordinator at (509) 773-7171 or by email at: titlevi@klickitatcounty. gov. "
+  },
+  {
+   "id": "2026-12-03_klickitat-county-commissioners_70e1355c17f7",
+   "jurisdiction": "klickitat-county",
+   "body": "Klickitat County Commissioners",
+   "kind": "application",
+   "title": "Klickitat County determination of significance (Ds) and request for comments on scope of EIS, SEPA 2026-15",
+   "summary": "The Project would be located adjacent to several existing wind and solar facilities: Big Horn Wind Facility located adjacent to the Project; Juniper Canyon Wind Facility to the southeast; White Creek and Harvest Wind to the southwest; Lund Hill Solar to the east; and Bluebird Solar to the west. The…",
+   "event": null,
+   "window": {
+    "closes": "2026-12-03",
+    "basis": "the date printed on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email planning2@klickitatcounty.gov."
+    ],
+    "email": "planning2@klickitatcounty.gov"
+   },
+   "subject": {
+    "text": "Klickitat County determination of significance (Ds) and request for comments on scope of EIS, SEPA 2026-15",
+    "file_no": "CUP 2026-06",
+    "location": null,
+    "places": [],
+    "countywide": true
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-25",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "70e1355c17f7",
+    "channels": [
+     "Klickitat-BOCC"
+    ],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-25",
+   "text": "KLICKITAT COUNTY DETERMINATION OF SIGNIFICANCE (DS) AND REQUEST FOR COMMENTS ON SCOPE OF EIS Bluebird 2 Solar Project CUP 2026-06, EOZ 2026-01, SEPA 2026-15 November 19, 2026 Name of Proposal: Bluebird 2 Solar Project Description of proposal Aurora Solar, LLC (the Applicant), a wholly-owned subsidiary of Avangrid Power, LLC, proposes to construct and operate a 125-megawatt (MW) solar energy facility (the Project) in Klickitat County near the town of Bickleton, about 25 miles east of Goldendale, and 9 miles north of State Highway 14. The Project would be located adjacent to several existing wind and solar facilities: Big Horn Wind Facility located adjacent to the Project; Juniper Canyon Wind Facility to the southeast; White Creek and Harvest Wind to the southwest; Lund Hill Solar to the east; and Bluebird Solar to the west. The Bluebird 2 Solar Project (Project) is proposed to be constructed entirely on private lands within a 4,440-acre Permit Boundary. and the solar facility would be sited within a 3,020-acre Solar Facility Siting Area. The project would include solar array and inverters, collector substation, O&M building, access roads, DC and AC cabling, and an AC gen-tie line that would connect the collector substation on the existing Big Horn gen-tie line located just east of Big Horn Road. No on-site battery energy storage system is proposed in the submitted application. The Project will consist of the following components: The final solar module configuration would be sited in accordance with industry standards and safety measures, as well as environmental constraints identified during this Environmental Impact Statement (EIS) process. Proponent Aurora Solar, LLC, a wholly-owned subsidiary of Avangrid Power, LLC Location of proposal The Project area would be located in Klickitat County near the town of Bickleton, about 25 miles east of Goldendale, Washington, and about 9 miles north of State Highway 14. The Project is located within Sections 2,10, 14, 15, 21, 22, 23, 26, 27, 28, 34, and 35, Township 5 North, Range 20 East; Section 3, Township 4 North, Range 20 East, Klickitat County, Washington. Lead agency Klickitat County Planning Department An EIS is being prepared in keeping with the requirements of the Revised Code of Washington 43.21C.030 (2)(c). Two alternatives are being addressed in this EIS: 1) A No Action alternative will address the effects of no government action, under which the proposed Project would not occur, and 2) An Action alternative will address the effects of the Project as proposed by the Applicant. The following topics will be analyzed in the EIS: noise, air quality, vegetation and wildlife, wetland and water resources, geologic and flood hazards, cultural resources, visual resources, public safety, transportation, recreation and housing, land use, public service and utilities, socioeconomics, and cumulative impacts. The Project will also address the development standards outlined in Chapter 19.39 of the Klickitat County Code. Scoping. Agencies, affected tribes, and members of the public are invited to comment on the scope of the EIS. You may comment on alternatives, mitigation measures, probable significant adverse impacts, and licenses or other approvals that may be required. Comments on the scope of the EIS will be accepted until 5:00 p.m. January 8, 2027. Comments shall be submitted to the Klickitat County Planning Department, 115 West Court St #302, Goldendale, WA 98620 or via email to planning2@klickitatcounty.gov Community Meeting. Aurora Solar, LLC will be hosting an in-person only community meeting on Thursday, December 3, 2026, from 4:00 to 6:00 p.m. at the Bickleton Grange Hall (304 E Market Street, Bickleton, WA). At the meeting, the applicant will provide information on the proposed project, and answer questions from the public. Responsible official: Scott Edelman Position/title: Klickitat CountyCommunity Development Director Phone: 509.773.5703 Address: 115 West Court Street #302, Goldendale, WA 98620 Date: November 19, 2026 Signature // D. Scott Edelman // You may appeal this decision: Appeals on the Determination of Significance (DS) will be accepted until 5:00 p.m. January 8, 2027. Appeals must be filed with the Board of County Commissioners and the Klickitat County Auditor. Appeals shall not be deemed complete without payment of the appeal fee, payable to the Klickitat County Planning Department. Appeals shall be in writing and state with specificity the basis for the appeal and the errors to be asserted. "
   },
   {
    "id": "2026-12-04_area-agency-on-aging-disabilities-of-southwest-w_5e0c18d7fb19",
@@ -8474,8 +8635,8 @@
     "countywide": true
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
-    "label": "The Goldendale Sentinel, November 18 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -8535,8 +8696,8 @@
     "countywide": true
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
-    "label": "The Goldendale Sentinel, November 18 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -8591,8 +8752,8 @@
     "countywide": false
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
-    "label": "The Goldendale Sentinel, November 18 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -8647,8 +8808,8 @@
     "countywide": false
    },
    "official": {
-    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-18-2026/article_e909a9a4-0a3d-472d-a79d-5557dc6e95ac.html",
-    "label": "The Goldendale Sentinel, November 18 issue"
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
    },
    "county": "Klickitat",
    "notice": {
@@ -8735,6 +8896,63 @@
    },
    "first_seen": "2026-10-21",
    "text": "PUBLIC NOTICE Rural 7 Fire has deemed surplus and is accepting sealed bids on the item listed. Bids must include your name, the amount of your bid (minimum bid is $10,000) and contact information. Bids can be mailed to or placed in the drop box at 327 W Brooks St Goldendale, WA 98620. The drop box is located on the north wall of the main entrance. Please indicate on the envelope that it is a sealed bid. Bids will be opened at the December 9th, 2026 Commissioners Meeting held at 7:00pm; you do not need to be present during the bid opening. If no bids are received, the truck will be sold first come, first served to the highest reasonable offer. Vehicle is as-is with no warranty and must be paid for by cash or cashier’s check and picked up within 10 business days of the end of the sale. Truck can be viewed on our website, Facebook or at our main station. 1991 Chevy K3500 4x4 Pickup "
+  },
+  {
+   "id": "2027-01-11_wa-department-of-ecology_65b5b451f505",
+   "jurisdiction": "washington-state",
+   "body": "WA Department of Ecology",
+   "kind": "application",
+   "title": "Applications to change",
+   "summary": "A water right creation of A trust water right; applications to appropriate public waters; and SEPA determination of non-SIGNIFICANCE TAKE NOTICE: That on June 10, 2026, Farmland Reserve, Inc. of Tri-Cities, Washington filed the following applications: Applications for changes to existing water…",
+   "event": null,
+   "window": {
+    "closes": "2027-01-11",
+    "basis": "stated on the notice"
+   },
+   "how": {
+    "steps": [
+     "Email Scott.Turner@ecy.wa.gov."
+    ],
+    "email": "Scott.Turner@ecy.wa.gov"
+   },
+   "subject": {
+    "text": "Applications to change",
+    "file_no": null,
+    "location": null,
+    "places": [],
+    "countywide": false
+   },
+   "official": {
+    "url": "https://www.goldendalesentinel.com/legals/legal-notices-for-november-25-2026/article_941235a9-22af-41e4-ba0a-e96d13499081.html",
+    "label": "The Goldendale Sentinel, November 25 issue"
+   },
+   "county": "Klickitat",
+   "notice": {
+    "dated": "2026-11-25",
+    "published": [
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-11-25"
+     },
+     {
+      "where": "The Goldendale Sentinel",
+      "date": "2026-12-02"
+     }
+    ],
+    "note": "Text as printed in The Goldendale Sentinel. Not yet checked against the agency's own posting.",
+    "requirement": null
+   },
+   "status": "open",
+   "provenance": {
+    "tier": "official",
+    "note": null,
+    "source": "legals.py",
+    "notice_id": "65b5b451f505",
+    "channels": [],
+    "as_printed": true
+   },
+   "first_seen": "2026-11-25",
+   "text": "PUBLIC NOTICE OF: APPLICATIONS TO CHANGE A WATER RIGHT CREATION OF A TRUST WATER RIGHT; APPLICATIONS TO APPROPRIATE PUBLIC WATERS; and SEPA DETERMINATION OF NON-SIGNIFICANCE TAKE NOTICE: That on June 10, 2026, Farmland Reserve, Inc. of Tri-Cities, Washington filed the following applications: Applications for changes to existing water rights, resulting in creation of trust water rights : (1) CS4-16571(A1)@8: To change surface water certificate S4-16571(A1) with a priority date of February 4, 1971. Certificated quantities are for seasonal use from the Columbia River in the amount of 348.95 cubic feet per second (cfs) and 71,186.28 acre-feet per year (ac-ft/yr) for the irrigation of 18,895 acres from 2/15-10/31 each year. The proposed changes include: Change place of use: The certificated place of use is located within: In T. 6 N., R. 26 E.W.M.: Portions of Sections 3, 4, 5, 9, 10, 11, 13, 14, 15, 17, 23, 24, 25, 26, 32 and 36; AND In T. 5 N., R. 26 E.W.M.: Section 4; AND In T. 6 N., R. 27 E.W.M.: Section 1, and that portion of Section 2 lying east of Bing Canyon, that portion of Section 11 lying east of Bing Canyon, Section 12 except the N½NW¼ of said Section 12, and including Sections 13, 14, that portion of Section 15 lying east of Bing Canyon, the SE¼ of Section 22, Section 23 except the N½NW¼ and the NW¼NE¼ of said Section 23, and including Section 24; NW¼ of Section 25; N½ of Section 26; NE¼ of Section 27, AND In T. 7 N., R. 27 E.W.M.: Portions of Sections 20, 21, 22, 23, 25, 26, 27, 28, 34, and 35; AND In T. 7 N., R. 28 E.W.M.: All of Sections 19 and 20; S½ of Section 25; Section 26; S½ of Section 27; Sections 28, 29, 30, 31, 32, 33, 34, 35, AND In T. 6 N., R. 28 E.W.M.: Sections 1, 2, 3, 4, 5, E½ Section 6, 7, 18, 19, and 30, AND In T. 7 N., R. 29 E.W.M.: Section 31, SW¼ of Section 32, AND In T. 6 N., R. 29 E.W.M.: Section 6 The proposed place of use is in the Columbia River from the McNary Pool downstream to Bonneville Dam. Change purpose of use: The certificated purpose of use is irrigation. The proposed purpose of use is instream flow for mitigation of new beneficial uses of water. (2) CS4-01335(A)C@1: To change surface water certificate S4-01335(A)C with a priority date of April 25, 1966. Certificated quantities are for seasonal use from the Columbia River in the amount of 5.62 cfs and 814.9 ac-ft/yr for the irrigation of 281 acres from 4/1-10/31 each year. The proposed changes include: Change place of use: The certificated place of use is located within NE¼, N½SE¼, and SE¼SE¼ Sec. 25 T. 6 N., R. 27 E.W.M., within Benton County. The proposed place of use is instream in the Columbia River from the John Day Pool downstream to Bonneville Dam. Change purpose of use: The certificated purpose of use is irrigation. The proposed purpose of use is instream flow for mitigation of new beneficial uses of water. (3) CS4-01351(L)C@4: To change surface water certificate S4-01351(L)C@4 with a priority date of February 4, 1971. Certificated quantities are for seasonal use from the Columbia River in the amount of 1.05 cubic feet per second (cfs) and 185 acre-feet per year (ac-ft/yr) for the irrigation of 63 acres from 4/1-10/31 each year. The proposed changes include: Change place of use: The certificated place of use is located within N½NW¼ Sec. 12, T. 6 N., R. 27 E.W.M., within Benton County. The proposed place of use is in the Columbia River from the John Day Pool downstream to Bonneville Dam. Change purpose of use: The certificated purpose of use is irrigation. The proposed purpose of use is instream flow for mitigation of new beneficial uses of water. The trust water rights created by said changes will be attributed to the following reaches of the Columbia River: (1) Trust Water Right Created by the CS4-16571(A1)@8 Change: Primary Reach: No primary reach. Secondary Reach: The secondary reach begins at the McNary Pool (River Mile 352, as defined in WAC 173-531A-020) and continues down the Columbia River to Bonneville Dam. (2) Trust Water Right Created by the CS4-01335(A)C@1 Change: Primary Reach: No primary reach. Secondary Reach: The secondary reach begins at the McNary Pool (River Mile 352) and continues down the Columbia River to Bonneville Dam. (3) Trust Water Right Created by the CS4-01351(L)C@4 Change: Primary Reach: No primary reach. Secondary Reach: The secondary reach begins at the McNary Pool (River Mile 352) and continues down the Columbia River to Bonneville Dam. Applications for mitigated permits to appropriate public waters, subject to existing rights : (1) S4-36278: Proposed Quantity and Purpose: Year-round use in the amount of 10 cfs and 2,000 ac-ft/yr for industrial use. Proposed Points of Diversions: Two existing surface water diversions located within the NW¼NW¼ of Sec. 15, T. 5 N., R. 27 E.W.M., and the SW¼NE¼ of Sec. 2, T. 5 N., R. 28 E.W.M., all within Benton County. Proposed Place of Use: In T. 5 N., R. 27 E.W.M. : Portions of Sections 1, 2, 11 and 12; AND In T. 5 N., R. 28 E.W.M. : Portions of Sections 5, 6, and 7 Proposed Mitigation: Water rights placed in trust as a result of the above-described proposed water rights. (2) G4-36303: Proposed Quantity and Purpose: Seasonal use from 3/1-11/15 each year in the amount of 5,071.44 gpm (11.30 cfs) and 1,520.86 ac-ft/yr for the irrigation of 2,177 acres and dust control. Proposed Points of Withdrawal: 4 existing and 1 proposed groundwater well located within the SE¼NE¼ of Sec. 20, T. 7 N., R. 31 E.W.M. (Well #1), NE¼ SE¼ of Sec. 20, T. 7 N., R. 31 E.W.M. (Well #2), NE¼SE¼ of Sec. 20, T. 7 N., R. 31 E.W.M. (Wells #3, #4, and proposed), all within Benton County. Proposed Place of Use: In T. 7 N., R. 30 E.W.M.: NE¼, S½NW¼, and S½ of Section 11; SW¼ Section 12; Section 13; Section 14; Section 23; NE¼, NW¼, SW¼ of Section 24; NW¼NW¼ Section 25; NE¼, NW¼, N½SW¼ of Section 26; AND In T. 7 N., R. 31 E.W.M.: Section 18; Section 19; and portion of Section 20. Proposed Mitigation: Water rights placed in trust as a result of the above-described proposed water rights. (3) S4-36304: Proposed Quantity and Purpose: Seasonal use from 3/1-11/15 each year in the amount of 271.11 cfs and 50,700 ac-ft/yr for the irrigation of 20,280.10 acres and dust control. Proposed Points of Diversions: Two existing surface water diversions located within the NW¼NW¼ of Sec. 15, T. 5 N., R. 27 E.W.M., and the SW¼NE¼ of Sec. 2, T. 5 N., R. 28 E.W.M., all within Benton County. Proposed Place of Use: In T. 6 N., R. 26 E.W.M.: Portions of Sections 3, 4, 5, 8, 9, 10, 11, 13, 14, 15, 22, 23, 24, 25, 26 and 27; AND In T. 7 N., R. 27 E.W.M.: Portions of Sections 20, 21, 22, 23, 24, 25, 26, 27, 28, 34, and 35; AND In T. 6 N., R. 27 E.W.M.: Portions of Sections 1, 2, 11, 12, 13, 14, 15, 22, 23, 24, 25, 26, 27, 29, and 33; AND In T. 5 N., R. 27 E.W.M.: Portions of Sections 4 and 11; AND In T. 7 N., R. 28 E.W.M.: NW¼, SW¼, and SE¼ of Section 19; SW¼ of Section 20; SW¼ of Section 25; Section 26; S½ of Section 27; Section 28; Section 29; Section 30; Section 31; Section 32; Section 33; Section 34; Section 35; AND In T. 6 N., R. 28 E.W.M.: Section 1; Section 2; Section 3; Section 4; Section 5; E½ of Section 6; Section 7; Section 18; Section 19; the SW¼NE¼ of Section 24; Section 30; W½ of Section 32; AND In T. 6 N., R. 29 E.W.M.: SW¼NE¼, NW¼NW¼, SW¼NW¼, SE¼NW¼, SW¼, W½SE¼ of Section 6; E½E½ of Section 21; NE¼, NW¼, N½SW¼ of Section 22. Proposed Mitigation: Water rights placed in trust as a result of the above-described proposed water rights. To view the above-described applications as well as the underlying certificate documentation for the proposed changes as well as the source of the proposed appropriation and place of use, visit our Water Right Search application and web map search here: https://appswr.ecology.wa.gov/waterrighttrackingsystem/WaterRights/default.aspx Protests to this application must include a detailed statement of the basis for the objections. Protests must be accompanied with a fifty dollar ($50.00) non-refundable recording fee. We accept check or money order only. Do not send cash. Send your protest with the $50.00 fee to the Department of Ecology at the address below within 30 days from December 10 th , 2026: Department of Ecology Cashiering Office PO Box 47611 Olympia, WA 98504-7611 November 24 th , 2026 The Washington State Department of Ecology seeks comments on a State Environmental Policy Act Determination of Nonsignificance issued under WAC 197-11-340(2) for the Farmland Reserve Water Bank. To request more information contact: Scott Turner at Scott.Turner@ecy.wa.gov or call (509) 454-4238. Submit Comments to Scott Turner at Scott.Turner@ecy.wa.gov or Department of Ecology, Office of Columbia River, 1250 W. Alder Steet, Union Gap, WA 98903-0009. Comments must be submitted by January 11 th , 2027 by 5:00 PM. "
   }
  ]
 }

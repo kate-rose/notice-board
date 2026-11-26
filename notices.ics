@@ -4,52 +4,8 @@ PRODID:-//Notice Board//skamaniadispatch.com//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Notice Board (Skamania and Klickitat public notices)
 BEGIN:VEVENT
-UID:2026-11-23_klickitat-county-commissioners_38639a98f80a@notice-board
-DTSTAMP:20261123T155538Z
-DTSTART;VALUE=DATE:20261123
-SUMMARY:Last day to comment: Request for qualifications on-call materials
-  testing (Klickitat County Commissioners)
-DESCRIPTION:Klickitat County intends to set up one On-call Personal Servi
- ce Agreement for Materials Testing Services with companies that speciali
- ze in performing such services for the years 2027\, and 2028. The testin
- g firm must have the ability to provide complete testing services\, by b
- oth qualified personnel… More: https://kate-rose.github.io/notice-boar
- d/#2026-11-23_klickitat-county-commissioners_38639a98f80a
-URL:https://kate-rose.github.io/notice-board/#2026-11-23_klickitat-county
- -commissioners_38639a98f80a
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-25_skamania-pud_d291d1174982@notice-board
-DTSTAMP:20261123T155538Z
-DTSTART;VALUE=DATE:20261125
-SUMMARY:Last day to comment: Call for Bids (Skamania PUD)
-DESCRIPTION:Sealed bids will be received at the oﬃce of the Skamania Co
- unty PUD No. 1 (“PUD” or “Owner”) 1492 Wind River Highway\, Cars
- on\, Washington 98610 until 2:00 P.M.\, local time\, according to the ti
- me clock and document stamp at PUD headquarters on Tuesday\, December 15
- \, 2026 for the Cape Horn Upgrades… More: https://kate-rose.github.io/
- notice-board/#2026-11-25_skamania-pud_d291d1174982
-URL:https://kate-rose.github.io/notice-board/#2026-11-25_skamania-pud_d29
- 1d1174982
-END:VEVENT
-BEGIN:VEVENT
-UID:2026-11-25_klickitat-county-commissioners_a62a062770f0@notice-board
-DTSTAMP:20261123T155538Z
-DTSTART;VALUE=DATE:20261125
-SUMMARY:Last day to comment: Klickitat County mitigated determination of 
- non-significance\, SEPA 2026-18 (Klickitat County Commissioners)
-DESCRIPTION:Klickitat County issued a Mitigated Determination of Non-sign
- ificance (MDNS) on November under SEPA Rules (Chapter 197-11 WAC) and th
- e Klickitat County Environmental Ordinance Number 121084\, as amended\, 
- for the following Applicant: Ricky & Melvin Howard. More: https://kate-r
- ose.github.io/notice-board/#2026-11-25_klickitat-county-commissioners_a6
- 2a062770f0
-URL:https://kate-rose.github.io/notice-board/#2026-11-25_klickitat-county
- -commissioners_a62a062770f0
-END:VEVENT
-BEGIN:VEVENT
 UID:2026-12-01_goldendale-city-council_6c1a890e9211@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for proposals tourism information an
  d promotion services (Goldendale City Council)
@@ -64,7 +20,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_goldendale-city-
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_klickitat-county-commissioners_5937440ef1f1@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for qualifications on-call archaeolo
  gical/historical investigation services (Klickitat County Commissioners)
@@ -79,7 +35,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_klickitat-county-commissioners_9376bc504c72@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for qualifications on-call environme
  ntal services (Klickitat County Commissioners)
@@ -94,7 +50,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_klickitat-county-commissioners_9a3fb37b3c39@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for qualifications on-call geotechni
  cal services (Klickitat County Commissioners)
@@ -109,7 +65,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-01_klickitat-county-commissioners_a13c84af9736@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;VALUE=DATE:20261201
 SUMMARY:Last day to comment: Request for qualifications on-call real esta
  te services (Klickitat County Commissioners)
@@ -123,8 +79,24 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-01_klickitat-county
  -commissioners_a13c84af9736
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-12-03_klickitat-county-commissioners_70e1355c17f7@notice-board
+DTSTAMP:20261126T155830Z
+DTSTART;VALUE=DATE:20261203
+SUMMARY:Last day to comment: Klickitat County determination of significan
+ ce (Ds) and request for comments on scope of EIS\, SEPA 2026-15 (Klickit
+ at County Commissioners)
+DESCRIPTION:The Project would be located adjacent to several existing win
+ d and solar facilities: Big Horn Wind Facility located adjacent to the P
+ roject\; Juniper Canyon Wind Facility to the southeast\; White Creek and
+  Harvest Wind to the southwest\; Lund Hill Solar to the east\; and Blueb
+ ird Solar to the west. The… More: https://kate-rose.github.io/notice-b
+ oard/#2026-12-03_klickitat-county-commissioners_70e1355c17f7
+URL:https://kate-rose.github.io/notice-board/#2026-12-03_klickitat-county
+ -commissioners_70e1355c17f7
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-12-04_area-agency-on-aging-disabilities-of-southwest-w_5e0c18d7fb19@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;TZID=America/Los_Angeles:20261204T130000
 SUMMARY:Area Agency on Aging & Disabilities of Southwest Washington: Bi-m
  onthly Meeting of the Council of Governments
@@ -139,7 +111,7 @@ LOCATION:201 NE 73rd Street
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04_area-agency-on-aging-disabilities-of-southwest-w_e71dd185503d@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;TZID=America/Los_Angeles:20261204T130000
 SUMMARY:Area Agency on Aging & Disabilities of Southwest Washington: Bi-m
  onthly Meeting of the Council of Governments
@@ -154,7 +126,7 @@ LOCATION:201 NE 73 rd Street
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-04_klickitat-county-commissioners_f2879469b3d7@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;VALUE=DATE:20261204
 SUMMARY:Last day to comment: Request for Proposals Tourism Promotion Klic
  kitat County is accepting proposals (Klickitat County Commissioners)
@@ -169,7 +141,7 @@ URL:https://kate-rose.github.io/notice-board/#2026-12-04_klickitat-county
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08_klickitat-county-commissioners_7d55d16155c1@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;TZID=America/Los_Angeles:20261208T133000
 SUMMARY:Klickitat County Commissioners: County Commissioners hearings
 DESCRIPTION:Short Term Rental Ordinance TUESDAY\, December 8\, 2026 AT 1:
@@ -184,7 +156,7 @@ LOCATION:115 West Court Street
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08_klickitat-pud_861b12d14208@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;TZID=America/Los_Angeles:20261208T150000
 SUMMARY:Klickitat PUD: Kpud board of commissioners 2027 Klickitat PUD ope
  rating budget hearing
@@ -199,7 +171,7 @@ LOCATION:1313 S. Columbus Ave
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-08_klickitat-pud_fab07cfefa17@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;TZID=America/Los_Angeles:20261208T150000
 SUMMARY:Klickitat PUD: Kpud board of commissioners 2027 Klickitat PUD ele
  ctric rate adjustment hearing
@@ -214,7 +186,7 @@ LOCATION:1313 S. Columbus Ave
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-09_klickitat-county-rural-7-fire-rescue_bfa3a0832b0d@notice-board
-DTSTAMP:20261123T155538Z
+DTSTAMP:20261126T155830Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:Last day to comment: Sealed bids on surplus property (Klickitat C
  ounty Rural 7 Fire & Rescue)
@@ -225,5 +197,20 @@ DESCRIPTION:Rural 7 Fire has deemed surplus and is accepting sealed bids
  cue_bfa3a0832b0d
 URL:https://kate-rose.github.io/notice-board/#2026-12-09_klickitat-county
  -rural-7-fire-rescue_bfa3a0832b0d
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-11_wa-department-of-ecology_65b5b451f505@notice-board
+DTSTAMP:20261126T155830Z
+DTSTART;VALUE=DATE:20270111
+SUMMARY:Last day to comment: Applications to change (WA Department of Eco
+ logy)
+DESCRIPTION:A water right creation of A trust water right\; applications 
+ to appropriate public waters\; and SEPA determination of non-SIGNIFICANC
+ E TAKE NOTICE: That on June 10\, 2026\, Farmland Reserve\, Inc. of Tri-C
+ ities\, Washington filed the following applications: Applications for ch
+ anges to existing water… More: https://kate-rose.github.io/notice-boar
+ d/#2027-01-11_wa-department-of-ecology_65b5b451f505
+URL:https://kate-rose.github.io/notice-board/#2027-01-11_wa-department-of
+ -ecology_65b5b451f505
 END:VEVENT
 END:VCALENDAR
